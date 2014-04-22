@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VASSAL.build.module.ModuleExtension version="0.1" module="VASL" moduleVersion="5.1" vassalVersion="2.3.2">
+    <VASSAL.build.module.ExtensionElement target="">
+        <scottgreenman.asl.obaflowchart.ObaFlowchartVaslExtension/>
+    </VASSAL.build.module.ExtensionElement>
+</VASSAL.build.module.ModuleExtension>
+

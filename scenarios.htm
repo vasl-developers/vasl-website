@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+<title>VASL - Download Scenarios</title>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link href="/vasl_styles.css" rel="stylesheet">
+</head>
+<body>
+<div id="navbar"></div>
+<div class="container-fluid" style="margin-top:170px;">
+  <div class="row">
+    <div class="col-md-2">
+      <table width="100%" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+          <td class="quoteHead" align="center">Questions on VASL 6.0?</td>
+        </tr>
+        <tr>
+          <td align="center" class="quoteSource">Send questions to <br><a href="mailto:vasl@vasl.info">Sam Tyson</a></td>
+        </tr>
+        <tr>
+          <td align="center">
+            <h5>VASL Downloads</h5>
+       		  <span class="sidebar"> <a href="boards.htm">Standard Boards</a><br>
+       		  <a href="other.htm">Other Boards & CG Maps</a><br>
+            <a href="overlays.htm">Overlays</a><br>
+            <a href="scenarios.htm">Scenario Setups</a><br>
+            <a href="extensions.htm">Extensions</a></span>
+          </td>
+  		  </tr>
+      </table>
+    </div>
+    <div class="main-content col-md-10">
+
+      <div class="userHeader">
+      <h1 align=right>VASL Scenario Setups</h1>
+      </div>
+
+      <div id="boards"></div>
+
+    </div>
+  </div>
+</div>
+
+<footer></footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#navbar").load("/include/navbar.htm", function() {
+    $("ul.navbar-nav li.download").addClass("active");
+	});
+	$("footer").load("/include/copyright.htm");
+});
+</script>
+</body>
+</html>
