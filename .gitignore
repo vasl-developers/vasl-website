@@ -1,2 +1,3 @@
 .ftpquota
 credentials.yaml
+modules/*.zip
