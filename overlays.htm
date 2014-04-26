@@ -15,26 +15,7 @@
 <div id="navbar"></div>
 <div class="container-fluid" style="margin-top:170px;">
   <div class="row">
-    <div class="col-md-2">
-      <table width="100%" border="0" cellspacing="10" cellpadding="0">
-        <tr>
-          <td class="quoteHead" align="center">Questions on VASL 6.0?</td>
-        </tr>
-        <tr>
-          <td align="center" class="quoteSource">Send questions to <br><a href="mailto:vasl@vasl.info">Sam Tyson</a></td>
-        </tr>
-        <tr>
-          <td align="center">
-            <h5>VASL Downloads</h5>
-       		  <span class="sidebar"> <a href="boards.htm">Standard Boards</a><br>
-       		  <a href="other.htm">Other Boards & CG Maps</a><br>
-            <a href="overlays.htm">Overlays</a><br>
-            <a href="scenarios.htm">Scenario Setups</a><br>
-            <a href="extensions.htm">Extensions</a></span>
-          </td>
-  		  </tr>
-      </table>
-    </div>
+    <div class="col-md-2 sidebar"></div>
     <div class="main-content col-md-10">
 
       <div class="userHeader">
@@ -82,6 +63,7 @@ $(document).ready(function() {
 	$("#navbar").load("/include/navbar.htm", function() {
     $("ul.navbar-nav li.download").addClass("active");
 	});
+	$("div.sidebar").load("/include/sidebar.htm");
 	$("footer").load("/include/copyright.htm");
 	$("<script>").load("/include/tracking.js").appendTo("head");
 });
