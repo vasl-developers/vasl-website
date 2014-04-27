@@ -40,3 +40,8 @@ div.copyright ul li {
 div.panel-heading {
   cursor: pointer;
 }
+div.navbar-fixed-top {
+  background-image: url(/images/header_bg.jpg);
+  background-position: 169px 0;
+  height: 93px;
+}
