@@ -37,3 +37,6 @@ div.copyright ul li {
 .main-content img {
   margin: 5px;
 }
+div.panel-heading {
+  cursor: pointer;
+}
