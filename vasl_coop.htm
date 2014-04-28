@@ -6,6 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 <title>VASL - VASL Cooperative</title>
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -18,16 +21,7 @@ div.main-content img { width: 30%; }
 <div id="navbar"></div>
 <div class="container-fluid" style="margin-top:170px;">
   <div class="row">
-    <div class="col-md-2">
-      <table width="100%" border="0" cellspacing="10" cellpadding="0">
-        <tr>
-          <td class="quoteHead" align="center">Got a contribution for VASL Info?</td>
-        </tr>
-        <tr>
-          <td align="center" class="quoteSource">Send files to<br> <a href="mailto:vasl@vasl.info">Sam Tyson</a></td>
-        </tr>
-      </table>
-    </div>
+    <div class="col-md-2 sidebar"></div>
     <div class="main-content col-md-9">
 
       <h1 align="right">VASL Cooperative</h1>
@@ -73,10 +67,11 @@ div.main-content img { width: 30%; }
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	$("#navbar").load("include/navbar.htm", function() {
+	$("#navbar").load("/include/navbar.htm", function() {
     $("ul.navbar-nav li.coop").addClass("active");
 	});
-	$("footer").load("include/copyright.htm");
+	$("div.sidebar").load("/include/contact.htm");
+	$("footer").load("/include/copyright.htm");
 	$("<script>").load("/include/tracking.js").appendTo("head");
 });
 </script>
