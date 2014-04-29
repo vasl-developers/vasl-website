@@ -20,6 +20,9 @@ ul.clean { list-style-type: none;padding: 4px 0px;margin: 0px; }
 
 div.quotes p { text-align: center; }
 
+div.container-fluid {
+  margin-top: 170px;
+}
 div.copyright {
   text-align: center;
   padding-top: 10px;
