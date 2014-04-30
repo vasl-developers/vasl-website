@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
+<meta name="description" content="VASL is used to play Advanced Squad Leader (ASL) over the internet against anyone, anywhere in the world.">
 <meta name="author" content="">
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Pragma" content="no-cache">
@@ -33,9 +33,9 @@
       <p><i>&quot;Has tripled my ASL play...&quot;</i></p>
       <p><i>&quot;My play of VASL resulted in me purchasing 6 modules that I probably never would have purchased due to lack of opponents. &quot;</i></p>
     </div>
-    <div class="main-content col-md-10">
+    <div class="main-content col-md-8">
 
-      <table width="90%" border="0" cellspacing="20" cellpadding="0" align="center">
+      <table width="100%" border="0" cellspacing="20" cellpadding="0" align="center">
         <tr>
           <td valign="top">
             <h1 align="right">ASL Over the Internet!</h1>
@@ -55,12 +55,13 @@
             server, where you can view other games being played, share information, chat, and compete in online tournaments.
             It's a club for those without a club, and it's changing the hobby. </p>
 
-            <div align="center"><img src="images/vasl4_action.gif" width="500" height="600"></div>
+            <div align="center"><img src="images/vasl4_action.gif" width="500" height="600" alt="The VASL interface looks just like playing FtF on the real boards!"></div>
           </td>
         </tr>
       </table>
 
     </div>
+    <div id="links" class="col-md-2"></div>
   </div>
 </div>
 
@@ -72,6 +73,7 @@ $(document).ready(function() {
 	$("#navbar").load("/include/navbar.htm", function() {
     $("ul.navbar-nav li.about").addClass("active");
 	});
+	$("#links").load("/include/links.htm");
 	$("footer").load("/include/copyright.htm");
 	$("<script>").load("/include/tracking.js").appendTo("head");
 });
