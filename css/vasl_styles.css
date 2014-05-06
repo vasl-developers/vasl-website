@@ -60,3 +60,6 @@ div.navbar-fixed-top {
 .main-content table td.top {
   vertical-align: top;
 }
+.main-content h1.pull-right + * {
+  clear: both;
+}
