@@ -48,3 +48,15 @@ div.navbar-fixed-top {
   background-position: 169px 0;
   height: 93px;
 }
+
+.main-content table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+.main-content table td {
+  padding: 1px;
+}
+.main-content table td.top {
+  vertical-align: top;
+}
