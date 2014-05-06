@@ -32,7 +32,7 @@ div.copyright ul li {
   line-height: 12px;
 }
 .userHeader {
-  width:90%;margin-top:-20px;margin-bottom:20px;
+  width: 90%;margin-top: -20px;margin-bottom: 20px;
 }
 .main-content {
   padding-bottom: 60px;
@@ -47,6 +47,12 @@ div.navbar-fixed-top {
   background-image: url(/images/header.jpg);
   background-position: 169px 0;
   height: 93px;
+}
+div.navbar-fixed-top div.container {
+  margin-top: 92px;
+  margin-right: 0;
+  background-color: white;
+  padding-right: 10px;
 }
 
 .main-content table {
