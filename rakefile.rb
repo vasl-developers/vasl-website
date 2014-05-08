@@ -4,6 +4,8 @@
 
 require "net/ftp"
 require "yaml"
+require "rubygems"
+require "zip"
 
 class FTPClient
   attr_reader :remote_path
@@ -41,6 +43,34 @@ class FTPClient
   end
 end
 
+class Boards
+  def self.zip(cwd)
+    FileUtils.mkdir_p cwd + "/zip/"
+    Zip.continue_on_exists_proc = true
+    Zip.default_compression = Zlib::BEST_COMPRESSION
+    Dir.chdir("/vasl/boards/src/")
+    Dir.glob("*").each do |folder|
+      zipfile_name = folder + ".z"
+      puts zipfile_name
+      Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
+        Dir[File.join(folder, '**', '**')].each do |file|
+          file_extension = File.extname(file)
+          if file_extension != ".psd"
+            puts ".. " + file.sub(folder+'/', '')
+            zipfile.add(file.sub(folder+'/', ''), file)
+          end
+        end
+      end
+      filename = folder + ".zip"
+      Zip::File.open(filename, Zip::File::CREATE) do |zipfile|
+        zipfile.add(zipfile_name.sub('.z', ''), zipfile_name)
+      end
+      FileUtils.rm zipfile_name
+      FileUtils.mv filename, cwd + "/zip/"
+    end
+  end
+end
+
 class Deployer
   def self.run(local, remote)
     ftp_client = FTPClient.new(remote)
@@ -64,4 +94,9 @@ end
 desc "deploy via ftp"
 task :deploy do
   Deployer.run(".", "public_html/vasl.info")
+end
+
+desc "zip board files and deploy via ftp"
+task :boards do
+  Boards.zip(Dir.pwd)
 end
