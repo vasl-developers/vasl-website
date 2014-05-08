@@ -38,6 +38,11 @@ class FTPClient
     end
   end
 
+  def copy(file, target)
+    puts "copying file #{file}"
+    ftp.putbinaryfile(file, target)
+  end
+
   def credentials
     @credentials ||= YAML.load_file("credentials.yaml")
   end
@@ -68,6 +73,7 @@ class Boards
       FileUtils.rm zipfile_name
       FileUtils.mv filename, cwd + "/zip/"
     end
+    Dir.chdir(cwd)
   end
 end
 
@@ -85,6 +91,12 @@ class Deployer
     ftp_client.copy_recursive("./include", local + "/")
     ftp_client.copy_recursive("./js", local + "/")
     ftp_client.copy_recursive("./users_guide", local + "/")
+
+    Dir.chdir("zip")
+    Dir.glob("*.zip").each do |entry|
+      ftp_client.copy(entry, local + "/boards/" + entry)
+    end
+
   ensure
     ftp_client.ftp.close
   end
@@ -93,6 +105,7 @@ end
 # copy all entries in local public directory to remote www directory
 desc "deploy via ftp"
 task :deploy do
+  #Boards.zip(Dir.pwd)
   Deployer.run(".", "public_html/vasl.info")
 end
 
