@@ -29,210 +29,164 @@ ga('send', 'pageview');
         <h1 class="pull-right">VASL Downloads</h1>
       </div>
 
-      <table>
-        <tr>
-          <td>
-            <h5 class="pull-left"><br/>Click the buttons below to download<br/>the VASL module of your choice.</h5>
+      <h5 class="">Click the buttons below to download<br/>the VASL module of your choice.</h5>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-target="#collapseOne" title="click to open">
+            <h4 class="panel-title">VASL Installation Notes
+              <span class="glyphicon glyphicon-circle-arrow-down pull-left">&nbsp;</span>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <h4>To install VASL:</h4>
+              <ol>
+                <li>Download the VASL module by clicking on the button above. Open the VASL ZIP file and save the enclosed module (.vmod) file to a known location.</li>
+                <li>Download Vassal (<a href="http://www.Vassalengine.org/" target="_blank">http://www.Vassalengine.org/</a>) and install it on your machine.</li>
+                <li>Start Vassal. Select the File->Open module... menu option in Vassal and navigate to and select the saved VASL module file.</li>
+                <li>You'll see a dialog box showing that Vassal is tiling the VASL images. This makes the images more efficient while using VASL.</li>
+              </ol>
 
-            <table>
-              <tr>
-                <td>
-                  <a id="download610" class="track btn btn-large btn-primary" href="modules/VASLv610.zip">VASL 6.1</a>
-                  <a href="/boards.htm" class="track btn btn-large btn-success">Get the new version 6 boards</a>
-                </td>
-                <td><h2 class="pull-right">Updated April 26, 2014</h2></td>
-              </tr>
-            </table>
+              <p>VASL 6.1 requires Vassal 3.2.8 or later and VASL 5.9.3 only works with Vassal 3.1.20. If you save a module, game, or log in VASL 6.1, you will NOT be able to open it afterwards with VASL 5.9. We recommend finishing your 5.9 games with that version of VASL and starting new ones with 6.1.</p>
 
-            <span class="btn btn-small btn-warning pull-right">Board 67 updated to v6 on 5/4/15</span>
-            <h3>New in version 6.1:</h3>
-            <ul>
+              <p>Vassal 3.2.x and 3.1.20 can happily coexist on the same machine. Just make sure to install each version to a different location.</p>
 
-              <li>LOS support has been added for v6 boards. Boards 1-67 <i>[EXC: 25]</i> now contain LOS data with other boards
-              soon to follow. Get all of the <a href="boards/v6boards1-67.zip" rel="nofollow">updated boards</a>, and unzip the
-              file into your boards folder.</li>
-
-              <li>The hindrance trait has been added to FFE counters so they will appear on the map during LOS checks.</li>
-              <li>The new American 2-6 LMG from Rising Sun was added.</li>
-              <li>The red-on-white berserk counters are now HIP-able.</li>
-              <li>A bug where you could not move multiple fortification counters was fixed.</li>
-              <li>A bug where notes were not appearing in the notes window was fixed.</li>
-              <li>An issue where "missing 'al' type images" displayed an error message on the console has been resolved.</li>
-              <li>Pin counters are now place on the selected unit, not the top of the stack.</li>
-            </ul>
-
-            <div class="panel-group" id="accordion">
-              <div class="panel panel-default">
-                <div class="panel-heading" data-toggle="collapse" data-target="#collapseOne" title="click to open">
-                  <h4 class="panel-title">VASL Installation Notes
-                    <span class="glyphicon glyphicon-circle-arrow-down pull-left">&nbsp;</span>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <h4>To install VASL:</h4>
-                    <ol>
-                      <li>Download the VASL module by clicking on the button above. Open the VASL ZIP file and save the enclosed module (.vmod) file to a known location.</li>
-                      <li>Download Vassal (<a href="http://www.Vassalengine.org/" target="_blank">http://www.Vassalengine.org/</a>) and install it on your machine.</li>
-                      <li>Start Vassal. Select the File->Open module... menu option in Vassal and navigate to and select the saved VASL module file.</li>
-                      <li>You'll see a dialog box showing that Vassal is tiling the VASL images. This makes the images more efficient while using VASL.</li>
-                    </ol>
-
-                    <p>VASL 6.1 requires Vassal 3.2.8 or later and VASL 5.9.3 only works with Vassal 3.1.20. If you save a module, game, or log in VASL 6.1, you will NOT be able to open it afterwards with VASL 5.9. We recommend finishing your 5.9 games with that version of VASL and starting new ones with 6.1.</p>
-
-                    <p>Vassal 3.2.x and 3.1.20 can happily coexist on the same machine. Just make sure to install each version to a different location.</p>
-
-                    <p>Vassal 3.2.11 requires Java Runtime Envionment (JRE) 5 or later.</p>
-                  </div>
-                </div>
-              </div>
+              <p>Vassal 3.2.11 requires Java Runtime Envionment (JRE) 5 or later.</p>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <hr/>
+      <div class="well table">
+        <a id="download610" class="track btn btn-large btn-primary" href="modules/VASLv610.zip">VASL 6.1</a>
+        <a href="/boards.htm" class="track btn btn-large btn-success">Get the new version 6 boards</a>
+        <h2 class="pull-right">Updated April 26, 2014</h2>
+        <h3>New in version 6.1:</h3>
+        <ul>
+          <li>LOS support has been added for v6 boards. Boards 1-67 <i>[EXC: 25]</i> now contain LOS data with other boards
+          soon to follow. Get all of the <a href="boards/v6boards1-67.zip" rel="nofollow">updated boards</a>, and unzip the
+          file into your boards folder.</li>
 
-            <table>
-              <tr>
-                <td><a id="download603" class="track btn btn-large btn-info" href="modules/VASLv603.zip">VASL 6.0.3</a></td>
-                <td><h2 class="pull-right">Released February 2, 2014</h2></td>
-              </tr>
-            </table>
+          <li>The hindrance trait has been added to FFE counters so they will appear on the map during LOS checks.</li>
+          <li>The new American 2-6 LMG from Rising Sun was added.</li>
+          <li>The red-on-white berserk counters are now HIP-able.</li>
+          <li>A bug where you could not move multiple fortification counters was fixed.</li>
+          <li>A bug where notes were not appearing in the notes window was fixed.</li>
+          <li>An issue where "missing 'al' type images" displayed an error message on the console has been resolved.</li>
+          <li>Pin counters are now place on the selected unit, not the top of the stack.</li>
+        </ul>
+      </div>
 
-            <h3>New in version 6.0.3:</h3>
-            <h5>(still available until 6.1 has been released for a while)</h5>
-            <ul>
-              <li>Fixed a problem with reversed boards</li>
-              <li>Boards no longer tile when you open VASL but when you use the board</li>
-              <li>Added HOB to Allied squads, which was missing</li>
-              <li>Fixed a problem with the board picker where selecting multiple transformations did not work</li>
-              <li>Morris CS9 AAMG value corrected</li>
-              <li>Axis Minor and Hungarian L3/35 side armor now has the white circle</li>
-              <li>Counters on board-edge half hexes no longer disappear</li>
-              <li>Ctrl+R now changes the rank of SMC POW counter</li>
-              <li>Wound shortcut key was missing from some SMC</li>
-            </ul>
+      <div class="well table">
+        <a id="download603" class="track btn btn-large btn-info" href="modules/VASLv603.zip">VASL 6.0.3</a>
+        <h2 class="pull-right">Released February 2, 2014</h2>
+        <h3>New in version 6.0.3:</h3>
+        <h5>(still available until 6.1 has been released for a while)</h5>
+        <ul>
+          <li>Fixed a problem with reversed boards</li>
+          <li>Boards no longer tile when you open VASL but when you use the board</li>
+          <li>Added HOB to Allied squads, which was missing</li>
+          <li>Fixed a problem with the board picker where selecting multiple transformations did not work</li>
+          <li>Morris CS9 AAMG value corrected</li>
+          <li>Axis Minor and Hungarian L3/35 side armor now has the white circle</li>
+          <li>Counters on board-edge half hexes no longer disappear</li>
+          <li>Ctrl+R now changes the rank of SMC POW counter</li>
+          <li>Wound shortcut key was missing from some SMC</li>
+        </ul>
+      </div>
 
-            <hr/>
+      <div class="well table">
+        <button disabled class="btn btn-large btn-default">VASL 6.0.1</button>
+        <h2 class="pull-right">Released November 21, 2013</h2>
+        <h3>New in version 6.0.1:</h3>
+        <h5>(get full details <a href="https://sites.google.com/site/vaslmapbazaar/vasl-6-0">here</a>)</h5>
+        <ul>
+          <li>Code! Code! Code!</li>
+          <li>Counter! Counters! Counters!</li>
+          <li>Draggable Overlays</li>
+          <li>Charts!</li>
+        </ul>
+      </div>
 
-            <table>
-              <tr>
-                <td><button disabled class="btn btn-large btn-default">VASL 6.0.1</button></td>
-                <td><h2 class="pull-right">Released November 21, 2013</h2></td>
-              </tr>
-            </table>
+      <div class="well table">
+        <a id="download593" class="track btn btn-large btn-warning" href="modules/VASLv593.zip">VASL 5.9.3</a>
+        <h2 class="pull-right">Released February 13, 2013</h2>
+        <h3>New in version 5.9.3:</h3>
+        <h5>(get full details <a href="https://sites.google.com/site/vaslmapbazaar/vasl-5-9-3">here</a>)</h5>
+        <ul>
+          <li>The Infamous Marsh Fix</li>
+          <li>Sunken/Elevated Roads</li>
+          <li>Other Terrain Transformation Goodness</li>
+          <li>Counter! Counters! Counters!</li>
+          <li>Code! Code! Code!</li>
+          <li>Draggable Overlay Mania</li>
+        </ul>
+      </div>
 
-            <h3>New in version 6.0.1:</h3>
-            <h5>(get full details <a href="https://sites.google.com/site/vaslmapbazaar/vasl-6-0">here</a>)</h5>
-            <ul>
-              <li>Code! Code! Code!</li>
-              <li>Counter! Counters! Counters!</li>
-              <li>Draggable Overlays</li>
-              <li>Charts!</li>
-            </ul>
+      <div class="well table">
+        <a id="download592" class="track btn btn-large btn-warning" href="modules/VASLv592.zip">VASL 5.9.2</a>
+        <h2 class="pull-right">Released July 14, 2010</h2>
+        <h4><a href="http://www.vassalengine.org/releases/VASSAL-3.1.20-other.zip">VASSAL 3.1.20</a> required</h4>
+        <h5>Useful if necessary to get a good working copy of 5.9.2 when/if playing a scenario like Bloody Red Beach.</h5>
+        <h3>New in version 5.9.2:</h3>
+        <ul>
+          <li>Restored turret-marker offsets</li>
+          <li>Fixed map prob (non-reporting of bypass locations) in HASL maps that use a 'data' file to adjust the grid origin</li>
+          <li>Added Label-able Blank markers in a new Unit > Blank tray</li>
+          <li>Added Label-ability to the Trailbreak marker</li>
+          <li>Added RMG malf/disabled marker to the Unit > Fire > Malfunction tray</li>
+          <li>Fixed MG FP for the Axis Minor PzIB</li>
+          <li>Revised the 'Starshell Attempt' markers to give them PFPh & DFPh names & added them to the Remover thing, they'll Remove on the Remove All > Prep Fire / Def Fire command as appropriate.</li>
+          <li>Added the 'new' 3.2-inch/81mm mortars per Journal 7 p. 36 (Chinese 81* MTR, pre & post S42 British 81* MTRs, Carrier 3.2", & IP Carrier 3.2" w/ & w/o the BMG), the 'old' 76* MTRs/Vehicles were *not* deleted from the trays.</li>
+        </ul>
+      </div>
 
-            <hr/>
+      <div class="well table">
+        <button disabled class="btn btn-large btn-default">VASL 5.7</button>
+        <h2 class="pull-right">Released November 26th, 2007</h2>
+        <h3>New in version 5.7:</h3>
+        <ul>
+          <li>Broken unit inventory window for easy RPh resolution. (See "Malf/Broken Units" in the Help menu)</li>
+          <li>New counters to support MMP-published campaign games</li>
+          <li>New CG permieter markers</li>
+          <li>Counter fixes: Russian tanks, US 7-4-7 and 1-2-7, German trucks</li>
+        </ul>
+      </div>
 
-            <table>
-              <tr>
-                <td><a id="download593" class="track btn btn-large btn-warning" href="modules/VASLv593.zip">VASL 5.9.3</a></td>
-                <td><h2 class="pull-right">Released February 13, 2013</h2></td>
-              </tr>
-            </table>
+      <div class="well table">
+        <button disabled class="btn btn-large btn-default">VASL 5.6</button>
+        <h2 class="pull-right">Released June, 2007</h2>
+        <h3>New in version 5.6:</h3>
+        <ul>
+          <li>Broken unit inventory window for easy RPh resolution. (See "Malf/Broken Units" in the Help menu)</li>
+          <li>New counters to support MMP-published campaign games</li>
+          <li>New CG permieter markers</li>
+          <li>Counter fixes: Russian tanks, US 7-4-7 and 1-2-7, German trucks</li>
+        </ul>
+      </div>
 
-            <h3>New in version 5.9.3:</h3>
-            <h5>(get full details <a href="https://sites.google.com/site/vaslmapbazaar/vasl-5-9-3">here</a>)</h5>
-            <ul>
-              <li>The Infamous Marsh Fix</li>
-              <li>Sunken/Elevated Roads</li>
-              <li>Other Terrain Transformation Goodness</li>
-              <li>Counter! Counters! Counters!</li>
-              <li>Code! Code! Code!</li>
-              <li>Draggable Overlay Mania</li>
-            </ul>
+      <div class="well table">
+        <h2>Boards and Overlays</h2>
 
-            <hr/>
+        <p>If you don't have them already, you will also need the <a href="boards.htm">boards</a> and <a
+        href="overlays.htm">overlays</a>.</p>
 
-            <table>
-              <tr>
-                <td><a id="download592" class="track btn btn-large btn-warning" href="modules/VASLv592.zip">VASL 5.9.2</a></td>
-                <td><h2 class="pull-right">Released July 14, 2010</h2></td>
-              </tr>
-            </table>
+        <h2>Scenarios</h2>
 
-            <h4><a href="http://www.vassalengine.org/releases/VASSAL-3.1.20-other.zip">VASSAL 3.1.20</a> required</h4>
-            <h5>Useful if necessary to get a good working copy of 5.9.2 when/if playing a scenario like Bloody Red Beach.</h5>
+        <p>The <a href="scenarios.htm">Scenario Setup Archive</a> is a collection of setup files containing the board
+        configuration and initial forces of published scenarios. Note that information about Victory Conditions, SSR, etc.,
+        have been left out, so you still need the printed scenario card to play.</p>
 
-            <h3>New in version 5.9.2:</h3>
-            <ul>
-              <li>Restored turret-marker offsets</li>
-              <li>Fixed map prob (non-reporting of bypass locations) in HASL maps that use a 'data' file to adjust the grid origin</li>
-              <li>Added Label-able Blank markers in a new Unit > Blank tray</li>
-              <li>Added Label-ability to the Trailbreak marker</li>
-              <li>Added RMG malf/disabled marker to the Unit > Fire > Malfunction tray</li>
-              <li>Fixed MG FP for the Axis Minor PzIB</li>
-              <li>Revised the 'Starshell Attempt' markers to give them PFPh & DFPh names & added them to the Remover thing, they'll Remove on the Remove All > Prep Fire / Def Fire command as appropriate.</li>
-              <li>Added the 'new' 3.2-inch/81mm mortars per Journal 7 p. 36 (Chinese 81* MTR, pre & post S42 British 81* MTRs, Carrier 3.2", & IP Carrier 3.2" w/ & w/o the BMG), the 'old' 76* MTRs/Vehicles were *not* deleted from the trays.</li>
-            </ul>
+        <h2 id="extensions">Extensions</h2>
 
-            <hr/>
+        <p>A wide variety of optional <a href="extensions.htm">here</a> have been created by enterprising users to enhance
+        VASL in one way or another. To install, simply place the extension files (unzip first if necessary) into the
+        Extensions folder specified in the VASL preferences.</p>
 
-            <table>
-              <tr>
-                <td><button disabled class="btn btn-large btn-default">VASL 5.7</button></td>
-                <td><h2 class="pull-right">Released November 26th, 2007</h2></td>
-              </tr>
-            </table>
+        <h2 id="systemRequirements">System Requirements</h2>
 
-            <h3>New in version 5.7:</h3>
-            <ul>
-              <li>Broken unit inventory window for easy RPh resolution. (See "Malf/Broken Units" in the Help menu)</li>
-              <li>New counters to support MMP-published campaign games</li>
-              <li>New CG permieter markers</li>
-              <li>Counter fixes: Russian tanks, US 7-4-7 and 1-2-7, German trucks</li>
-            </ul>
-
-            <hr/>
-
-            <table>
-              <tr>
-                <td><button disabled class="btn btn-large btn-default">VASL 5.6</button></td>
-                <td><h2 class="pull-right">Released June, 2007</h2></td>
-              </tr>
-            </table>
-
-            <h3>New in version 5.6:</h3>
-            <ul>
-              <li>Broken unit inventory window for easy RPh resolution. (See "Malf/Broken Units" in the Help menu)</li>
-              <li>New counters to support MMP-published campaign games</li>
-              <li>New CG permieter markers</li>
-              <li>Counter fixes: Russian tanks, US 7-4-7 and 1-2-7, German trucks</li>
-            </ul>
-
-            <hr/>
-
-            <h2>Boards and Overlays</h2>
-
-            <p>If you don't have them already, you will also need the <a href="boards.htm">boards</a> and <a
-            href="overlays.htm">overlays</a>.</p>
-
-            <h2>Scenarios</h2>
-
-            <p>The <a href="scenarios.htm">Scenario Setup Archive</a> is a collection of setup files containing the board
-            configuration and initial forces of published scenarios. Note that information about Victory Conditions, SSR, etc.,
-            have been left out, so you still need the printed scenario card to play.</p>
-
-            <h2 id="extensions">Extensions</h2>
-
-            <p>A wide variety of optional <a href="extensions.htm">here</a> have been created by enterprising users to enhance
-            VASL in one way or another. To install, simply place the extension files (unzip first if necessary) into the
-            Extensions folder specified in the VASL preferences.</p>
-
-            <h2 id="systemRequirements">System Requirements</h2>
-
-            <p>VASL runs on platforms that support version 1.4+ of the JRE:  Windows 98+, MacOS 10.3+, and various Linux</p>
-
-          </td>
-        </tr>
-      </table>
+        <p>VASL runs on platforms that support version 1.4+ of the JRE:  Windows 98+, MacOS 10.3+, and various Linux</p>
+      </div>
     </div>
   </div>
 </div>

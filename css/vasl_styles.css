@@ -66,6 +66,6 @@ div.navbar-fixed-top div.container {
 .main-content table td.top {
   vertical-align: top;
 }
-.main-content h1.pull-right + * {
+div.userHeader + * {
   clear: both;
 }
