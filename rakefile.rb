@@ -77,6 +77,34 @@ class Boards
   end
 end
 
+class Packages
+  def self.zip(cwd, boardList, targetFileName)
+    FileUtils.mkdir_p cwd + "/zip/"
+    Zip.continue_on_exists_proc = true
+    Zip.default_compression = Zlib::BEST_COMPRESSION
+    Dir.chdir("/vasl/boards/src/")
+    Zip::File.open(targetFileName, Zip::File::CREATE) do |targetZipfile|
+      Dir[boardList].each do |folder|
+        zipfile_name = folder + ".z"
+        puts zipfile_name
+        Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
+          Dir[File.join(folder, '**', '**')].each do |file|
+            file_extension = File.extname(file)
+            if file_extension != ".psd" && file_extension != ".xcf"
+              puts ".. " + file.sub(folder+'/', '')
+              zipfile.add(file.sub(folder+'/', ''), file)
+            end
+          end
+        end
+        targetZipfile.add(zipfile_name.sub('.z', ''), zipfile_name)
+      end
+    end
+    FileUtils.rm Dir.glob('*.z')
+    FileUtils.mv targetFileName, cwd + "/zip/"
+    Dir.chdir(cwd)
+  end
+end
+
 class Deployer
   def self.run(local, remote)
     ftp_client = FTPClient.new(remote)
@@ -110,4 +138,19 @@ end
 desc "zip board files"
 task :boards do
   Boards.zip(Dir.pwd)
+end
+
+desc "package board files together in groups"
+task :package do
+  Packages.zip(Dir.pwd, "bd[1-9][a,b]", "bds1a-9a.zip")
+  Packages.zip(Dir.pwd, "bd[p-z]", "v6bdsp-z.zip")
+  Packages.zip(Dir.pwd, "bd[a-h]", "DASLbdsa-h.zip")
+  Packages.zip(Dir.pwd, "bd0[0-9]", "v6bds00-09.zip")
+  Packages.zip(Dir.pwd, "bd1[0-9]", "v6bds10-19.zip")
+  Packages.zip(Dir.pwd, "bd2[0-9]", "v6bds20-29.zip")
+  Packages.zip(Dir.pwd, "bd3[0-9]", "v6bds30-39.zip")
+  Packages.zip(Dir.pwd, "bd4[0-9]", "v6bds40-49.zip")
+  Packages.zip(Dir.pwd, "bd5[0-9]", "v6bds50-59.zip")
+  Packages.zip(Dir.pwd, "bd6[0-9]", "v6bds60-69.zip")
+  Packages.zip(Dir.pwd, "bd[0-6][0-9]", "v6boards1-67.zip")
 end
