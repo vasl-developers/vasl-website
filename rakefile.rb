@@ -60,7 +60,7 @@ class Boards
       Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
         Dir[File.join(folder, '**', '**')].each do |file|
           file_extension = File.extname(file)
-          if file_extension != ".psd"
+          if file_extension != ".psd" && file_extension != ".xcf"
             puts ".. " + file.sub(folder+'/', '')
             zipfile.add(file.sub(folder+'/', ''), file)
           end
@@ -102,14 +102,12 @@ class Deployer
   end
 end
 
-# copy all entries in local public directory to remote www directory
 desc "deploy via ftp"
 task :deploy do
-  #Boards.zip(Dir.pwd)
   Deployer.run(".", "public_html/vasl.info")
 end
 
-desc "zip board files and deploy via ftp"
+desc "zip board files"
 task :boards do
   Boards.zip(Dir.pwd)
 end
