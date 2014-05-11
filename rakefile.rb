@@ -154,3 +154,10 @@ task :package do
   Packages.zip(Dir.pwd, "bd6[0-9]", "v6bds60-69.zip")
   Packages.zip(Dir.pwd, "bd[0-6][0-9]", "v6boards1-67.zip")
 end
+
+task :rename do
+  Dir.chdir("/tmp/ov/")
+  Dir.glob("*").each do |entry|
+    FileUtils.mv entry, entry + ".zip"
+  end
+end
