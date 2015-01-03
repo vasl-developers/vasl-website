@@ -122,7 +122,11 @@ class Deployer
 
     Dir.chdir("zip")
     Dir.glob("*.zip").each do |entry|
-      ftp_client.copy(entry, local + "/boards/" + entry)
+      if entry[0,5] == "bdBFP" || entry[0,3] == "BFP"
+        ftp_client.copy(entry, local + "/boards/bfp/" + entry)
+      else
+        ftp_client.copy(entry, local + "/boards/" + entry)
+      end
     end
 
   ensure
@@ -152,7 +156,10 @@ task :package do
   Packages.zip(Dir.pwd, "bd4[0-9]", "v6bds40-49.zip")
   Packages.zip(Dir.pwd, "bd5[0-9]", "v6bds50-59.zip")
   Packages.zip(Dir.pwd, "bd6[0-9]", "v6bds60-69.zip")
-  Packages.zip(Dir.pwd, "bd[0-6][0-9]", "v6boards1-67.zip")
+  Packages.zip(Dir.pwd, "bd[0-6][0-9]", "v6boardsAll.zip")
+
+  Packages.zip(Dir.pwd, "bdBFP[A-Z]", "BFP_SingleWide.zip")
+  Packages.zip(Dir.pwd, "bdBFPDW[0-9][a,b]", "BFP_DoubleWide.zip")
 end
 
 task :rename do
