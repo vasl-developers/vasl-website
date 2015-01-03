@@ -3,3 +3,4 @@ credentials.yaml
 modules/*.zip
 zip
 zip/*.*
+boards/.dropbox.attr
