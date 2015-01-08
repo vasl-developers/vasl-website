@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-us" lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="LOS checking configuration"/>
+<meta name="abstract" content="Several configurations options are available for configuring LOS checking."/>
+<meta name="description" content="Several configurations options are available for configuring LOS checking."/>
+<meta name="DC.Relation" scheme="URI" content="../src/c_about_los_checking.html"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="LOSCheckingConfiguration"/>
+<link rel="stylesheet" type="text/css" href="../commonltr.css"/>
+<title>LOS checking configuration</title>
+</head>
+<body>
+
+
+<div class="nested0" id="LOSCheckingConfiguration">
+<h1 class="title topictitle1">LOS checking configuration</h1>
+
+
+<div class="body conbody"><p class="shortdesc">
+Several configurations options are available for configuring LOS checking. 
+</p>
+
+<p class="p">LOS configuration options are available on the <span class="ph uicontrol">LOS</span> tab of the <span class="ph uicontrol">Preferences</span> dialog (<span class="ph menucascade"><span class="ph uicontrol">File</span> &gt; <span class="ph uicontrol">Preferences</span></span>.</p>
+
+<div class="p">The following configuration options are available:
+<ul class="ul">
+<li class="li">Changing thread color
+<div class="p">The default thread colors are:
+<ul class="ul">
+<li class="li">Clear:  black</li>
+
+<li class="li">Hindered: red</li>
+
+<li class="li">Blocked: blue</li>
+
+</ul>
+
+You can change the thread color for each condition.  Click the button for the condition for which you want to change the color.  VASL displays a color picker. Pick the new color you want to use for the condition. 
+</div>
+
+</li>
+
+<li class="li">Counter LOS hindrances
+<div class="p">By default, all counters are removed from the board when you click a LOS button.  Check the <span class="ph uicontrol">Retain LOS-hindrance counters</span> box to retain counters that affect LOS on board when checking LOS.  Counters that affect LOS include 
+<ul class="ul">
+<li class="li">SMOKE counters, including Smoke Grenades</li>
+
+<li class="li">blazes</li>
+
+<li class="li">OBA counters</li>
+
+<li class="li">Vehicles, wrecks, and burning wrecks</li>
+
+<li class="li">rubble counters</li>
+
+</ul>
+
+</div>
+
+</li>
+
+<li class="li">Snap to grid
+<p class="p">By default, the thread snaps to the nearest hex center dot or hex vertex.  Check the 
+<span class="ph uicontrol">Snap Thread to grid?</span> box to disable this behavior. When you uncheck this box, the thread stays at the drag point, and does not snap to the nearest center dot or hex vertex.</p>
+
+</li>
+
+<li class="li">Enable and disable LOS checking behavior
+<p class="p">Checking this box enables LOS checking behavior.  When this box is unchecked, you can still click the LOS buttons to draw LOS, but the color of the thread does not change to indicate condition of the LOS, and range and other information is not reported in the VASL interface.</p>
+
+</li>
+
+<li class="li">Verbose LOS checking
+<div class="p">By default, LOS checking only reports the range and displays different threat colors depending on whether LOS is clear, hindered, or blocked.  When you check the <span class="ph uicontrol">Verbose LOS mode</span> box, LOS checking also reports:
+<ul class="ul">
+<li class="li">hex coordinates of the source hex and the target hex</li>
+
+<li class="li">level of the source hex and target hex for which LOS is being checked</li>
+
+<li class="li">range from the source hex to the target hex</li>
+
+</ul>
+
+</div>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../src/c_about_los_checking.html" title="VASL provides an integrated tool you can use to check line of sight (LOS)">About LOS Checking</a></div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

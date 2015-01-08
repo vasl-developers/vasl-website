@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-us" lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="About LOS Checking"/>
+<meta name="abstract" content="VASL provides an integrated tool you can use to check line of sight (LOS)"/>
+<meta name="description" content="VASL provides an integrated tool you can use to check line of sight (LOS)"/>
+<meta name="DC.Relation" scheme="URI" content="../src/t_checking_los.html"/>
+<meta name="DC.Relation" scheme="URI" content="../src/c_los_checking_configuration.html"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="AboutLOSChecking"/>
+<link rel="stylesheet" type="text/css" href="../commonltr.css"/>
+<title>About LOS Checking</title>
+</head>
+<body>
+
+
+<div class="nested0" id="AboutLOSChecking">
+<h1 class="title topictitle1">About LOS Checking</h1>
+
+
+<div class="body conbody"><p class="shortdesc">
+VASL provides an integrated tool you can use to check line of sight (LOS)
+</p>
+
+
+<p class="p">Version 6 and later boards support LOS checking.  Check the release notes for a list of boards supported in the version.  You can flip and crop boards, but boards must be cropped to half-hexes for LOS checking to work.</p>
+  
+<div class="p">LOS checking can apply ETO terrain rules or PTO terrain rules.  DTO terrain rules do not apply.  ETO terrain transformations available in the board picker apply with the following exceptions
+<ul class="ul">
+<li class="li">Orchard to Crag</li>
+
+<li class="li">Orchard to Shellholes</li>
+
+<li class="li">Shellholes to Crag</li>
+
+<li class="li">Shellholes to Orchard</li>
+
+</ul>
+</div>
+
+<div class="p">PTO terrain rules are applied when you choose and apply the <kbd class="ph userinput">PTO Transformations</kbd> option in the <span class="ph uicontrol">Terrain Transformations</span> dialog.  The following transformations are available:
+<ul class="ul">
+<li class="li">Dense Jungle</li>
+
+<li class="li">Bamboo</li>
+
+<li class="li">Palm Trees</li>
+
+<li class="li">Swamp</li>
+
+</ul>
+
+The following transformation is not available:
+<ul class="ul">
+<li class="li">Wooden building to huts</li>
+
+</ul>
+
+</div>
+
+<p class="p">If the <span class="ph uicontrol">Dense Jungle</span> box is not checked when other boxes in the PTO Transformations are checked, woods are treated as Light Jungle.</p>
+
+<p class="p">LOS checking does not apply to overlays, but does apply to certain counters.  LOS checking also does not detect hindrances along a Continuous Slope.  LOS checking does not work correctly in board edge half-hexes where abutting half-hexes have different terrain types.</p>
+
+<p class="p">The LOS engine does not enforce the rule that terrain must be visible on both sides of the thread to affect LOS.  If the thread touches an obstacle or hindrance, LOS will be affected.</p>
+
+</div>
+
+<div class="related-links">
+<ul class="ullinks">
+<li class="link ulchildlink"><strong><a href="../src/t_checking_los.html">Checking Line of sight (LOS)</a></strong><br/>
+</li>
+<li class="link ulchildlink"><strong><a href="../src/c_los_checking_configuration.html">LOS checking configuration</a></strong><br/>
+ Several configurations options are available for configuring LOS checking.  </li>
+</ul>
+</div>
+</div>
+
+
+</body>
+</html>
