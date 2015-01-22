@@ -146,7 +146,7 @@ end
 
 desc "package board files together in groups"
 task :package do
-  Packages.zip(Dir.pwd, "bd[1-9][a,b]", "bds1a-9a.zip")
+  Packages.zip(Dir.pwd, "bd[1-9][a,b]", "bds1a-9b.zip")
   Packages.zip(Dir.pwd, "bd[p-z]", "v6bdsp-z.zip")
   Packages.zip(Dir.pwd, "bd[a-h]", "DASLbdsa-h.zip")
   Packages.zip(Dir.pwd, "bd0[0-9]", "v6bds00-09.zip")
