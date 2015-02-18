@@ -7,7 +7,7 @@
 <meta name="author" content="">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<title>VASL 4.0 User's Guide - Preferences</title>
+<title>VASL User's Guide - Preferences</title>
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link href="/css/vasl_styles.css" rel="stylesheet">
 <script type="text/javascript">
@@ -26,19 +26,16 @@ ga('send', 'pageview');
     <div class="main-content col-md-12">
 
       <div class="userHeader">
-      <h1 align="right">VASL 4.0 User's Guide - Preferences</h1>
+      <h1 align="right">VASL User's Guide - Preferences</h1>
       </div>
 
-      <table width="80%" border="0" cellspacing="20" cellpadding="0" align="center">
-
-        <tr align="center">
-
-          <td colspan="2" class="sidebar"><a href="index.htm">Introduction</a> | <a href="02.htm">Installation</a> |
-          <b>Preferences</b> | <a href="04.htm">Environment</a> | <a href="05.htm">Getting Started</a> | <a
-          href="06.htm">Setting Up a Scenario</a> | <a href="07.htm">Playing Tools</a> | <a href="08.htm">Appendices</a></td>
-
+      <table>
+        <tr>
+          <td class="menu sidebar pull-right"></td>
         </tr>
+      </table>
 
+      <table>
         <tr>
           <td colspan="2">
 
@@ -203,6 +200,9 @@ ga('send', 'pageview');
 $(document).ready(function() {
 	$("#navbar").load("/include/navbar.htm", function() {
     $("ul.navbar-nav li.users").addClass("active");
+	});
+	$(".menu").load("menu.htm", function() {
+    $(".menu .03").css({ 'font-weight': 'bold', 'color': 'black' });
 	});
 	$("footer").load("/include/copyright.htm");
 });

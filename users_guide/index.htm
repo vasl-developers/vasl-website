@@ -26,16 +26,12 @@ ga('send', 'pageview');
     <div class="main-content col-md-12">
 
       <div class="userHeader">
-        <h1 class="pull-right">VASL 4.0 User's Guide - Introduction</h1>
+        <h1 class="pull-right">VASL User's Guide - Introduction</h1>
       </div>
 
       <table>
-
         <tr>
-          <td colspan="2" class="sidebar"><b>Introduction</b> | <a href="02.htm">Installation</a>
-          | <a href="03.htm">Preferences</a> | <a href="04.htm">Environment</a>
-          | <a href="05.htm">Getting Started</a> | <a href="06.htm">Setting Up a Scenario</a>
-          | <a href="07.htm">Playing Tools</a> | <a href="08.htm">Appendices</a></td>
+          <td colspan="2" class="menu sidebar pull-right"></td>
         </tr>
 
         <tr>
@@ -114,6 +110,9 @@ ga('send', 'pageview');
 $(document).ready(function() {
 	$("#navbar").load("/include/navbar.htm", function() {
     $("ul.navbar-nav li.users").addClass("active");
+	});
+	$(".menu").load("menu.htm", function() {
+    $(".menu .in").css({ 'font-weight': 'bold', 'color': 'black' });
 	});
 	$("footer").load("/include/copyright.htm");
 });

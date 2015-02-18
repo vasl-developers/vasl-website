@@ -22,9 +22,28 @@ ga('send', 'pageview');
 </head>
 <body>
 <div id="navbar"></div>
-
 <div class="container-fluid">
-  <iframe style="margin-bottom:60px;" src="out/installing_vasl.html" width="100%" height="600px"></iframe>
+  <div class="row">
+    <div class="main-content col-md-12 no-margin-bottom no-padding-bottom">
+      <div class="userHeader">
+        <h1 class="pull-right">VASL User's Guide - Introduction</h1>
+      </div>
+
+      <table>
+        <tr>
+          <td colspan="2" class="menu sidebar pull-right"></td>
+        </tr>
+
+        <tr>
+          <td colspan="2"><hr/></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid no-margin-top">
+  <iframe style="margin-bottom:60px;" src="out/installing_vasl.html" width="100%" height="480px"></iframe>
 </div>
 
 <footer></footer>
@@ -34,6 +53,9 @@ ga('send', 'pageview');
 $(document).ready(function() {
 	$("#navbar").load("/include/navbar.htm", function() {
     $("ul.navbar-nav li.users").addClass("active");
+	});
+	$(".menu").load("/users_guide/menu.htm", function() {
+    $(".menu .02").css({ 'font-weight': 'bold', 'color': 'black' });
 	});
 	$("footer").load("/include/copyright.htm");
 });

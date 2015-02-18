@@ -7,7 +7,7 @@
 <meta name="author" content="">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<title>VASL 4.0 User's Guide - Environment</title>
+<title>VASL User's Guide - Environment</title>
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link href="/css/vasl_styles.css" rel="stylesheet">
 <script type="text/javascript">
@@ -26,19 +26,16 @@ ga('send', 'pageview');
     <div class="main-content col-md-12">
 
       <div class="userHeader">
-      <h1 align="right">VASL 4.0 User's Guide - Environment</h1>
+        <h1 align="right">VASL User's Guide - Environment</h1>
       </div>
 
-      <table width="80%" border="0" cellspacing="20" cellpadding="0" align="center">
-
-        <tr align="center">
-
-          <td colspan="2" class="sidebar"><a href="index.htm">Introduction</a> | <a href="02.htm">Installation</a> | <a
-          href="03.htm">Preferences</a> | <b>Environment</b> | <a href="05.htm">Getting Started</a> | <a href="06.htm">Setting
-          Up a Scenario</a> | <a href="07.htm">Playing Tools</a> | <a href="08.htm">Appendices</a></td>
-
+      <table>
+        <tr>
+          <td class="menu sidebar pull-right"></td>
         </tr>
+      </table>
 
+      <table>
         <tr>
           <td colspan="2">
 
@@ -46,14 +43,14 @@ ga('send', 'pageview');
 
             <h2>Preferences</h2>
 
-            <p>VASL 4.0 is composed of several windows. Upon starting, you will see the Server window, the VASL Controls window
+            <p>VASL is composed of several windows. Upon starting, you will see the Server window, the VASL Controls window
             and the Counters window.</p>
 
             <div align="center"><img src="../images/opening_screen.gif" width="511" height="358"></div>
 
             <h2>Logging On</h2>
 
-            <p>In the Server window, click <b>Connect</b> to log on to the VASL 4.0 server </p>
+            <p>In the Server window, click <b>Connect</b> to log on to the VASL server </p>
 
             <p><span class="sidebar">(<b>Note</b>: Some corporate security firewalls will prevent a connection, although a
             residential service should have no problem)</span>.</p>
@@ -100,6 +97,9 @@ ga('send', 'pageview');
 $(document).ready(function() {
 	$("#navbar").load("/include/navbar.htm", function() {
     $("ul.navbar-nav li.users").addClass("active");
+	});
+	$(".menu").load("menu.htm", function() {
+    $(".menu .04").css({ 'font-weight': 'bold', 'color': 'black' });
 	});
 	$("footer").load("/include/copyright.htm");
 });

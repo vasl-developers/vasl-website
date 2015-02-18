@@ -7,7 +7,7 @@
 <meta name="author" content="">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<title>VASL 4.0 User's Guide - Getting Started</title>
+<title>VASL User's Guide - Getting Started</title>
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link href="/css/vasl_styles.css" rel="stylesheet">
 <script type="text/javascript">
@@ -26,26 +26,21 @@ ga('send', 'pageview');
     <div class="main-content col-md-12">
 
       <div class="userHeader">
-      <h1 align="right">VASL 4.0 User's Guide - Getting Started</h1>
+        <h1 align="right">VASL User's Guide - Getting Started</h1>
       </div>
 
-      <table width="80%" border="0" cellspacing="20" cellpadding="0" align="center">
-
-        <tr align="center">
-
-          <td colspan="2" class="sidebar"><a href="index.htm">Introduction</a> | <a href="02.htm">Installation</a> | <a
-          href="03.htm">Preferences</a> | <a href="04.htm">Environment</a> | <b>Getting Started</b> | <a href="06.htm">Setting
-          Up a Scenario</a> | <a href="07.htm">Playing Tools</a> | <a href="08.htm">Appendices</a></td>
-
+      <table>
+        <tr>
+          <td class="menu sidebar pull-right"></td>
         </tr>
+      </table>
 
+      <table>
+        <tr>
           <td colspan="2">
             <hr/>
 
-            <div align="center" class="sidebar"><a href="05.htm#joining">Joining A Game</a> | <a href="05.htm#starting">Starting
-            A Game</a> | <a href="05.htm#saving">Saving A Game</a> | <a href="05.htm#message">Message Boards</a></div>
-
-            <h2 name="joining">Joining a Game</h2>
+            <h2 id="joining">Joining a Game</h2>
 
             <p>Probably one of the best ways to learn the ins and outs of VASL is to spectate a bit. </p>
 
@@ -63,7 +58,7 @@ ga('send', 'pageview');
 
             <h3>Step 2 - Synchronize</h3>
 
-            <p>With VASL 4, you are automatically synchronized with the game-in-progress when you enter a new room.</p>
+            <p>With VASL, you are automatically synchronized with the game-in-progress when you enter a new room.</p>
 
             <p><font color="#00CCFF">[Rodney, what circumstances would necessitate needing to synchronize from the right-click
             menu?]</font> Synchronize by right-clicking on the player's name in the Current Game column and selecting
@@ -105,7 +100,7 @@ ga('send', 'pageview');
 
             <hr/>
 
-            <h2 name="starting">Starting a Game</h2>
+            <h2 id="starting">Starting a Game</h2>
 
             <p>To start a game of your own, it will be necessary to create a Scenario Room by entering a new name in the
             &quot;New Game&quot; field of the Server window and pressing <b>Enter</b>. Others (your opponent and spectators) can
@@ -113,7 +108,7 @@ ga('send', 'pageview');
 
             <hr/>
 
-            <h2 name="saving">Saving a Game</h2>
+            <h2 id="saving">Saving a Game</h2>
 
             <p>A game can be saved at any time. In the VASL controls window, simply go to <b>File - Save Game</b>. Provide the
             scenario with a name and a location on your hard drive, and press <b>OK</b>. It is <i>highly</i> recommended that
@@ -128,7 +123,7 @@ ga('send', 'pageview');
         <tr align="left" valign="top">
           <td>
 
-            <h2 name="message">Message Boards</h2>
+            <h2 id="message">Message Boards</h2>
 
             <p>VASL also contains a message area that allows you to post messages or game requests on the server. In the Server
             window, click the <b>&quot;Messages&quot;</b> tab and click <b>&quot;Check Messages&quot;</b> to view the Message
@@ -198,6 +193,9 @@ ga('send', 'pageview');
 $(document).ready(function() {
 	$("#navbar").load("/include/navbar.htm", function() {
     $("ul.navbar-nav li.users").addClass("active");
+	});
+	$(".menu").load("menu.htm", function() {
+    $(".menu .05").css({ 'font-weight': 'bold', 'color': 'black' });
 	});
 	$("footer").load("/include/copyright.htm");
 });

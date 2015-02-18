@@ -20,14 +20,14 @@ ul.clean { list-style-type: none;padding: 4px 0px;margin: 0px; }
 
 div.quotes p { text-align: center; }
 
-div.container-fluid {
+.container-fluid {
   margin-top: 170px;
 }
-div.copyright {
+.copyright {
   text-align: center;
   padding-top: 10px;
 }
-div.copyright ul li {
+.copyright ul li {
   font-size: 9px;
   line-height: 12px;
 }
@@ -68,4 +68,13 @@ div.navbar-fixed-top div.container {
 }
 div.userHeader + * {
   clear: both;
+}
+.no-margin-top {
+  margin-top: 0;
+}
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+.no-padding-bottom {
+  padding-bottom: 0;
 }
