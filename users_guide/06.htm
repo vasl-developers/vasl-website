@@ -70,12 +70,6 @@ ga('send', 'pageview');
         </tr>
         <tr align="left" valign="top">
           <td colspan="2">
-            <hr/>
-
-            <div align="center" class="sidebar"><a href="06.htm#creating">Creating a Room</a> | <b>Loading the Scenario</b> | <a
-            href="06.htm#maps">Maps</a> | <a href="06.htm#placement">Placement of Counters</a> | <a
-            href="06.htm#handling">Handling the Counters</a> | <a href="06.htm#tips">Tips and Tricks</a></div>
-
             <h2 name="loading">Step 2 - Loading the Scenario</h2>
 
             <p>First, check the <a href="http://vasl.info/index.htm/scenarios.htm">VASL scenario setup archive</a> for the
@@ -86,12 +80,6 @@ ga('send', 'pageview');
 
             <p>If the scenario you are playing doesn't exist in the archive, you can create the setup yourself. Choose <b>File -
             New Game</b>. The Choose Boards window will appear asking you to select the maps you will use in the game.</p>
-
-            <hr/>
-
-            <div align="center" class="sidebar"><a href="06.htm#creating">Creating a Room</a> | <a href="06.htm#loading">Loading
-            the Scenario</a> | <b>Maps</b> | <a href="06.htm#placement">Placement of Counters</a> | <a
-            href="06.htm#handling">Handling the Counters</a> | <a href="06.htm#tips">Tips and Tricks</a></div>
 
             <h2 name="maps">Step 3 - Mapboards</h2>
 
@@ -210,13 +198,6 @@ ga('send', 'pageview');
             <p>(If you wish to change mapboards after having begun setup, you may do so by clicking the <img
             src="../images/pick_new_boards.gif" width="27" height="27" border="1" align="absmiddle"> button at the top of the
             VASL Map window.)</p>
-
-            <hr/>
-
-            <div align="center" class="sidebar"><a href="06.htm#creating">Creating a Room</a> | <a href="06.htm#loading">Loading
-            the Scenario</a> | <a href="06.htm#maps">Maps</a> | <b>Placement of Counters</b> | <a
-            href="06.htm#handling">Handling the Counters</a> | <a href="06.htm#tips">Tips and Tricks</a></div>
-
           </td>
         </tr>
 
@@ -245,12 +226,6 @@ ga('send', 'pageview');
             <p><b>TIP:</b> Once you draw out all your counters you may <b>HIP</b> them (<b>Ctrl+H</b>) to prevent your opponent
             from seeing them. Then set up your counters. There is no need for your opponent to leave the scenario room while you
             set up. Once you and your opponent are ready, conceal the HIPed stacks and then reveal them! </p>
-
-            <hr/>
-
-            <div align="center" class="sidebar"><a href="06.htm#creating">Creating a Room</a> | <a href="06.htm#loading">Loading
-            the Scenario</a> | <a href="06.htm#maps">Maps</a> | <a href="06.htm#placement">Placement of Counters</a> |
-            <b>Handling the Counters</b> | <a href="06.htm#tips">Tips and Tricks</a></div>
 
             <h2 name="handling">Handling the Counters</h2>
 
@@ -400,12 +375,6 @@ ga('send', 'pageview');
             <div align="center"><img src="../images/map_features.gif" width="561" height="440" border="1">
             </div>
 
-            <hr/>
-
-            <div align="center" class="sidebar"><a href="06.htm#creating">Creating a Room</a> | <a href="06.htm#loading">Loading
-            the Scenario</a> | <a href="06.htm#maps">Maps</a> | <a href="06.htm#placement">Placement of Counters</a> | <a
-            href="06.htm#handling">Handling the Counters</a> | <b>Tips and Tricks</b></div>
-
             <h2 name="tips">Tips and Tricks</h2>
 
             <p>At setup, place your entire OB off board (on the grey area outside the map) before putting units on the boards,
@@ -426,26 +395,6 @@ ga('send', 'pageview');
 
           </td>
         </tr>
-        <tr align="left" valign="top">
-          <td colspan="2">
-            <hr/>
-          </td>
-        </tr>
-
-        <tr>
-          <td align="left" class="next"> &lt;&lt; <a href="05.htm">Getting Started</a>
-          </td>
-          <td align="right" class="next"> <a href="07.htm">Playing Tools</a> &gt;&gt;
-          </td>
-        </tr>
-        <tr align="center">
-
-          <td colspan="2" class="sidebar"><a href="index.htm">Introduction</a> | <a href="02.htm">Installation</a> | <a
-          href="03.htm">Preferences</a> | <a href="04.htm">Environment</a> | <a href="05.htm">Getting Started</a> | <b>Setting Up a
-          Scenario</b> | <a href="07.htm">Playing Tools</a> | <a href="08.htm">Appendices</a></td>
-
-        </tr>
-
       </table>
     </div>
   </div>
@@ -460,7 +409,7 @@ $(document).ready(function() {
     $("ul.navbar-nav li.users").addClass("active");
 	});
 	$(".menu").load("menu.htm", function() {
-    $(".menu .06").css({ 'font-weight': 'bold', 'color': 'black' });
+    $(".menu .06").addClass("active");
 	});
 	$("footer").load("/include/copyright.htm");
 });

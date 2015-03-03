@@ -182,12 +182,6 @@ ga('send', 'pageview');
 
           </td>
         </tr>
-
-        <tr>
-          <td align="left" class="next"> &lt;&lt; <a href="02.htm">Installation</a></td>
-          <td align="right" class="next"> <a href="04.htm">Environment</a> &gt;&gt;<br><br></td>
-        </tr>
-
       </table>
     </div>
   </div>
@@ -202,7 +196,7 @@ $(document).ready(function() {
     $("ul.navbar-nav li.users").addClass("active");
 	});
 	$(".menu").load("menu.htm", function() {
-    $(".menu .03").css({ 'font-weight': 'bold', 'color': 'black' });
+    $(".menu .03").addClass("active");
 	});
 	$("footer").load("/include/copyright.htm");
 });

@@ -79,12 +79,6 @@ ga('send', 'pageview');
 
           </td>
         </tr>
-
-        <tr>
-          <td align="left" class="next"> &lt;&lt; <a href="03.htm">Preferences</a> </td>
-          <td align="right" class="next"> <a href="05.htm">Getting Started</a> &gt;&gt;</td>
-        </tr>
-
       </table>
     </div>
   </div>
@@ -99,7 +93,7 @@ $(document).ready(function() {
     $("ul.navbar-nav li.users").addClass("active");
 	});
 	$(".menu").load("menu.htm", function() {
-    $(".menu .04").css({ 'font-weight': 'bold', 'color': 'black' });
+    $(".menu .04").addClass("active");
 	});
 	$("footer").load("/include/copyright.htm");
 });

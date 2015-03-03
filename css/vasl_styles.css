@@ -78,3 +78,7 @@ div.userHeader + * {
 .no-padding-bottom {
   padding-bottom: 0;
 }
+.menu a.active {
+  color: black;
+  font-weight: bold;
+}

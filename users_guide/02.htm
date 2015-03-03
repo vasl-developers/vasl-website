@@ -105,75 +105,8 @@ ga('send', 'pageview');
 		        cake, right?&nbsp; You can launch VASSAL by clicking <a
 		        href="http://www.vassalengine.org/ws/vassal.jnlp">here</a>.</small>
 
-		        <!--
-        		<span class="sidebar"><a href="#win">Windows</a> | <a href="#mac">Macintosh</a>
-        		| <a href="#os2">OS/2</a> | <a href="#linux">Linux</a></span> <a name="win">&nbsp;</a>
-        		<p><b>Windows 95/NT machines Installation</b></p>
-        		<p>1. The VASL icon is a shortcut that opens <b>VASL</b> and the <b>JRE</b>
-        		 simultaneously. Right-click on the VASL icon and select <b>Properties</b>.</p>
-        		<p>2. Click on the <b>Shortcut</b> tab. Change the &quot;Start in&quot;
-        		 field to your VASL directory, i.e. the one containing the classes.jar
-        		 and VASLdata files, such as &quot;C:\VASL\&quot;. See Figure B.</p>
-        		<p>3. You should not have to alter the &quot;Target&quot; field. If you
-        		 lose the initial setting, reset the Target field to: &quot;C:\Program
-        		 Files\Javasoft\JRE\1.1\bin\jrew.exe&quot; -nojit -cp classes.jar VASL.
-        		 If you are using version 1.1.4 of the JRE or earlier, delete the -nojit
-        		 part of the field. If your JRE is installed into a directory other than
-        		 the default, you will have to edit the &quot;Target&quot; field, replacing
-        		 C:\Program Files\Javasoft\JRE\1.1\bin with the directory containing the
-        		 jrew.exe file. </p>
-        		<p>4. Press <b>OK</b> to accept the changes. Double-click on the VASL icon
-        		 to launch VASL. If nothing happens, check the shortcut fields for proper
-        		 spacing, spelling, and upper/lowercase. Any errors will prevent the program
-        		 from launching. </p>
-        		<a name="mac">&nbsp;</a>
-        		<p><b>MAC Installation</b></p>
-        		<p>1. Install the MRJ. This will place files into your System Extensions
-        		 folder, but not all of the files are necessary to run VASL. If you want
-        		 to preserve space, you may delete (or put in the Extensions (Disabled)
-        		 folder) the <i>MRJ SDK</i> folder as well as the following files in the
-        		 MRJ Libraries folder: <i>MRJ PPC JITC, MRJ PPC JITC.zip, MRJLib.zip, MRJSDKClasses.zip,
-        		 MRJToolkitStubs.zip</i>. You need to keep the <i>MRJ Libraries</i> folder
-        		 with the <i>MRJLib</i> file and the <i>MRJClasses</i> folder which contains
-        		 a single file called <i>MRJClasses.zip</i>. </p>
-        		<p>2. Download and extract the the MacVASL application. Double-click on
-        		 the VASL icon to launch VASL.</p>
-        		<a name="os2">&nbsp;</a>
-        		<p><b>OS / 2 Installation</b></p>
-        		<p>To run VASL from an OS/2 desktop icon involves the following three steps
-        		 after downloading VASL. Here, <i>[path]</i> refers to the VASL directory.</p>
-        		<p>1. Add <i>[path]classes.jar</i> to the SET CLASSPATH command in CONFIG.SYS
-        		 to eliminate having to include it on a session-by-session basis. </p>
-        		<p>2. Create a two-line OS/2 command file with filename vasl.cmd to point
-        		 to the drive and directory containing <i>classes.jar</i> and <i>VASLdata</i>
-        		 (to eliminate unnecessary references for saved files, etc.) and then to
-        		 invoke Java as follows: </p>
-        		<p>cd<i> [path]</i><br>
-        		 java VASL </p>
-        		<p>3. Create a program object with the following properties: </p>
-        		<blockquote>
-        		 <p>Program Path and file name = vasl.cmd <br>
-        			 Session = OS/2 <br>
-        			 Window Start minimized = ON <br>
-        			 Close window on exit = ON<br>
-        			 Choose an Icon from whatever strikes your fancy<br>
-        			 Title=VASL</p>
-        		</blockquote>
-        		<a name="linux">&nbsp;</a>
-        		<p><b>LINUX Installation</b></p>
-        		<p>Make a shell script in ~/bin with the following command line (one line)</p>
-        		<span class="parNonJust">cd ~/vasl /usr/local/jdk1.1.5/bin/jre -classpath
-        		~/vasl/classes.jar:/usr/local/jdk1.1.5/lib/classes.zip VASL &amp; cd</span>
-		        -->
-
           </td>
         </tr>
-
-        <tr>
-		      <td align="left" class="next">&lt;&lt; <a href="index.htm">Introduction</a></td>
-		      <td align="right" class="next"> <a href="03.htm">Preferences</a>&gt;&gt; </td>
-	      </tr>
-
       </table>
     </div>
   </div>
@@ -188,7 +121,7 @@ $(document).ready(function() {
     $("ul.navbar-nav li.users").addClass("active");
 	});
 	$(".menu").load("menu.htm", function() {
-    $(".menu .02").css({ 'font-weight': 'bold', 'color': 'black' });
+    $(".menu .02").addClass("active");
 	});
 	$("footer").load("/include/copyright.htm");
 });

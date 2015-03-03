@@ -227,26 +227,6 @@ ga('send', 'pageview');
             </table>
           </td>
         </tr>
-
-        <tr align="left" valign="top">
-          <td colspan="2">
-            <hr>
-          </td>
-        </tr>
-
-        <tr>
-          <td align="left" class="next" nowrap> &lt;&lt; <a href="06.htm">Setting Up a Scenario</a> </td>
-          <td align="right" class="next"> <a href="08.htm">Appendices</a> &gt;&gt; </td>
-        </tr>
-
-        <tr align="center">
-
-          <td colspan="2" class="sidebar"><a href="index.htm">Introduction</a> | <a href="02.htm">Installation</a> | <a
-          href="03.htm">Preferences</a> | <a href="04.htm">Environment</a> | <a href="05.htm">Getting Started</a> | <a
-          href="06.htm">Setting Up a Scenario</a> | <b>Playing Tools</b> | <a href="08.htm">Appendices</a></td>
-
-        </tr>
-
       </table>
     </div>
   </div>
@@ -261,7 +241,7 @@ $(document).ready(function() {
     $("ul.navbar-nav li.users").addClass("active");
 	});
 	$(".menu").load("menu.htm", function() {
-    $(".menu .07").css({ 'font-weight': 'bold', 'color': 'black' });
+    $(".menu .07").addClass("active");
 	});
 	$("footer").load("/include/copyright.htm");
 });

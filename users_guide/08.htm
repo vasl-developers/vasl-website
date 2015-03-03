@@ -269,15 +269,6 @@ ga('send', 'pageview');
 
             </td>
          </tr>
-
-         <tr align="left" valign="top">
-            <td colspan="2"><hr/> </td>
-         </tr>
-
-        <tr>
-          <td align="left" class="next" nowrap=""> &lt;&lt; <a href="/qc/qc.html">Quick Counters</a></td>
-          <td align="right" class="next">&nbsp; </td>
-        </tr>
       </table>
     </div>
   </div>
@@ -292,7 +283,7 @@ $(document).ready(function() {
     $("ul.navbar-nav li.users").addClass("active");
   });
 	$(".menu").load("menu.htm", function() {
-    $(".menu .08").css({ 'font-weight': 'bold', 'color': 'black' });
+    $(".menu .08").addClass("active");
 	});
   $("footer").load("/include/copyright.htm");
 });
