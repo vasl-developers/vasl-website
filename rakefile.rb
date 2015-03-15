@@ -6,6 +6,7 @@ require "net/ftp"
 require "yaml"
 require "rubygems"
 require "zip"
+require "jsonify"
 
 class FTPClient
   attr_reader :remote_path
@@ -128,6 +129,30 @@ class Deployer
         ftp_client.copy(entry, local + "/boards/" + entry)
       end
     end
+
+    version_file_name = "/vasl/boards/v5boardVersions.txt"
+    puts "reading " + version_file_name
+
+    json = Jsonify::Builder.new(:format => :pretty)
+
+    text=File.open(version_file_name).read
+    text.gsub!(/\r\n?/, "")
+    text.each_line do |line|
+      line.gsub!(/\n?/, "")
+      s = line.split(' = ');
+
+      board = s[0]
+      version = s[1]
+      json.tag!(board, version)
+    end
+
+    #puts json.compile!
+
+    versions = File.new("versions.json", "w+")
+    versions.write(json.compile!)
+    versions.close
+
+    ftp_client.copy(versions, "boards/versions.json")
 
   ensure
     ftp_client.ftp.close
