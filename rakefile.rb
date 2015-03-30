@@ -125,6 +125,10 @@ class Deployer
     Dir.glob("*.zip").each do |entry|
       if entry[0,5] == "bdBFP" || entry[0,3] == "BFP"
         ftp_client.copy(entry, local + "/boards/bfp/" + entry)
+      elsif entry[0,5] == "bdPBR"
+        ftp_client.copy(entry, local + "/boards/mmp/" + entry)
+      elsif entry[0,5] == "bdFrF"
+        ftp_client.copy(entry, local + "/boards/frf/" + entry)
       else
         ftp_client.copy(entry, local + "/boards/" + entry)
       end
@@ -140,15 +144,15 @@ class Deployer
     text.each_line do |line|
       line.gsub!(/\n?/, "")
       s = line.split(' = ');
-
+      #puts "#{s[0]}: #{s[1]}"
       board = s[0]
       version = s[1]
       json.tag!(board, version)
     end
 
-    #puts json.compile!
+    puts json.compile!
 
-    versions = File.new("versions.json", "w+")
+    versions = File.new("boards/versions.json", "w+")
     versions.write(json.compile!)
     versions.close
 
