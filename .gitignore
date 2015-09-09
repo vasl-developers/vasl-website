@@ -6,3 +6,4 @@ zip/*.*
 boards/
 boards/bfp/
 boards/.dropbox.attr
+setups/old/
