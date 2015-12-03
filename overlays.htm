@@ -1,97 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<title>VASL - Download Overlays</title>
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<link href="/css/vasl_styles.css" rel="stylesheet">
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-50258794-1', 'auto');
-ga('send', 'pageview');
-</script>
-</head>
-<body>
-<div id="navbar"></div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2 sidebar"></div>
-    <div class="main-content col-md-10">
-
-      <div class="userHeader">
-        <h1 class="pull-right">VASL Overlays</h1>
-      </div><br/>
-
-      <div id="overlays">
-
-        <h3>Overlays in v5 colors</h3>
-
-        <p>Download these and unzip them into your boards/overlays folder.</p>
-
-        <p><b><a href="boards/overlays/Standard_overlays.zip" rel="nofollow" title="Standard overlays">Standard
-        overlays</a>:</b> Overlays 1-7, Brush (B), Backblast (BB), Beach (BE), Bridge (BR), Deir (D), Dense Jungle (DJ), Deluxe
-        (DX), Escarpment (E), Elevated RR (ELRR), Grain (G), Hillock (H), Hedge (HD), Hill (HI), Marsh (M), Orchard (O), Ocean
-        (OC), Open Ground (OG), Orchard-Woods (OW), Pond (P), Rice Paddy (RP), Railroad (RR), River (RV), Sand (S), Sand Dune
-        (SD), Shellhole (SH), Stone Rubble (SR), Stream (ST), Sunken Railroad (SURR), Swamp (SW), Vineyard (V), Wadi (W), Woods
-        (WD), Wooden Rubble (WR), Water (WT), Building (X)</p>
-
-        <p><b><a href="boards/bfp/BFP_Overlays.zip" target="_blank" rel="nofollow">Bounding Fire overlays:</a></b>
-        Ruined City (RC), Factory (F), Debris (D), H-1 Hill (HI), H-2 Hill (HII), Orchard Village (O), V-1 Bocage Village (VI),
-        V-3 Bocage Village (VII), V-3 Bocage Village (VIII), C-1 Castle (CI)</p>
-
-        <p><b><a href="boards/lft/ovrFT.zip" target="_blank" rel="nofollow">Le Franc Tireur overlays:</a></b> ft1,ft2,ft3,ft7<sub>All v3.0</sub></p>
-
-        <p><b><a href="boards/overlays/RttR_Overlays.zip" target="_blank" rel="nofollow">Rivers To The Reich overlays:</a></b>
-        RTTRA-RTTRO<sub>All v1.0</sub></p>
-
-        <p><b><a href="boards/overlays/ovrMM.zip" target="_blank" rel="nofollow">2009 March Madness overlay:</a></b>
-        MM03<sub>All v1.0</sub> Overlay is officially named MM03 but renamed MM3 for VASL use. To place overlay MM3: Select
-        bd16, flip bd16, and add Overlay <b>MM3</b> with <i>H9</i> and <i>H8</i> as the hex coordinates.</p>
-
-        <p><b><a href="boards/overlays/XP_overlays.zip" rel="nofollow" title="Transparent-background
-        overlays">Transparent-background overlays</a></b>: Same as the standard overlays, but with Level 0 Open Ground turned
-        transparent. See <a href="http://forums.gamesquad.com/showthread.php?p=1029631#post1029631" rel="nofollow"
-        target="_blank" title="here">here</a> for discussion. Brush (XP_B), Grain (XP_G), Hedge (XP_HD), Marsh (XP_M), Orchard
-        (XP_O), Pond (XP_P), Rice Paddy (XP_RP), Railroad (XP_RR), Shellhole (XP_SH), Stone Rubble (XP_ST), Swamp (XP_SW),
-        Vineyard (XP_V), Woods (XP_WD), Wooden Rubble (XP_WR), Building (XP_X)</p>
-
-
-        <h3>Critical Hit Overlays</h3>
-
-        <p><b><a href="boards/overlays/chOvr40.zip" target="_blank" rel="nofollow">Board 40 overlay:</a></b> This is a hand-drawn version of Critical Hit's Overlay V40.</p>
-
-        <p><b><a href="boards/overlays/chOvrCem.zip" target="_blank" rel="nofollow">Cemetery Hill overlays</a></b> These are hand-drawn versions of Critical Hit's Cemetery Hill overlays:
-        cem1 = Cemetery, cem2 = Village, cem3 = Gully, cem4 = Hill, cem5 = Open Ground, cem6 = Cemetery version 2, cem7 = Village version 2.</p>
-
-        <p><b><a href="boards/overlays/chOvrTef.zip" target="_blank" rel="nofollow">Total Eastern Front overlays</a></b> These are hand-drawn versions of Critical Hit's Total Eastern Front Pack overlays: tef1, tef2, tef3</p>
-
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<footer></footer>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$("#navbar").load("/include/navbar.htm", function() {
-    $("ul.navbar-nav li.download").addClass("active");
-	});
-	$("div.sidebar").load("/include/sidebar.htm", function() {
-    $("a.overlays").addClass("active");
-	});
-	$("footer").load("/include/copyright.htm");
-});
-</script>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<title>VASL - Download Overlays</title>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link href="/css/vasl_styles.css" rel="stylesheet">
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50258794-1', 'auto');
+ga('send', 'pageview');
+</script>
+</head>
+<body>
+<div id="navbar"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 sidebar"></div>
+    <div class="main-content col-md-10">
+
+      <div class="userHeader">
+        <h1 class="pull-right">VASL Overlays</h1>
+      </div><br/>
+
+      <div id="overlays">
+
+        <h3>Overlays in v5 colors</h3>
+
+        <p>Download these and unzip them into your boards/overlays folder.</p>
+
+        <p><b><a href="boards/overlays/Standard_overlays.zip" rel="nofollow" title="Standard overlays">Standard
+        overlays</a>:</b> Overlays 1-7, Brush (B), Backblast (BB), Beach (BE), Bridge (BR), Deir (D), Dense Jungle (DJ), Deluxe
+        (DX), Escarpment (E), Elevated RR (ELRR), Grain (G), Hillock (H), Hedge (HD), Hill (HI), Marsh (M), Orchard (O), Ocean
+        (OC), Open Ground (OG), Orchard-Woods (OW), Pond (P), Rice Paddy (RP), Railroad (RR), River (RV), Sand (S), Sand Dune
+        (SD), Shellhole (SH), Stone Rubble (SR), Stream (ST), Sunken Railroad (SURR), Swamp (SW), Vineyard (V), Wadi (W), Woods
+        (WD), Wooden Rubble (WR), Water (WT), Building (X)</p>
+
+        <p><b><a href="boards/bfp/BFP_Overlays.zip" target="_blank" rel="nofollow">Bounding Fire overlays:</a></b>
+        Ruined City (RC), Factory (F), Debris (D), H-1 Hill (HI), H-2 Hill (HII), Orchard Village (O), V-1 Bocage Village (VI),
+        V-3 Bocage Village (VII), V-3 Bocage Village (VIII), C-1 Castle (CI)</p>
+
+        <p><b><a href="boards/lft/ovrFT.zip" target="_blank" rel="nofollow">Le Franc Tireur overlays:</a></b> ft1,ft2,ft3,ft7<sub>All v3.0</sub></p>
+
+        <p><b><a href="boards/overlays/RttR_Overlays.zip" target="_blank" rel="nofollow">Rivers To The Reich overlays:</a></b>
+        RTTRA-RTTRO<sub>All v1.0</sub></p>
+
+        <p><b><a href="boards/overlays/ovrMM.zip" target="_blank" rel="nofollow">2009 March Madness overlay:</a></b>
+        MM03<sub>All v1.0</sub> Overlay is officially named MM03 but renamed MM3 for VASL use. To place overlay MM3: Select
+        bd16, flip bd16, and add Overlay <b>MM3</b> with <i>H9</i> and <i>H8</i> as the hex coordinates.</p>
+
+        <p><b><a href="boards/overlays/XP_overlays.zip" rel="nofollow" title="Transparent-background
+        overlays">Transparent-background overlays</a></b>: Same as the standard overlays, but with Level 0 Open Ground turned
+        transparent. See <a href="http://forums.gamesquad.com/showthread.php?p=1029631#post1029631" rel="nofollow"
+        target="_blank" title="here">here</a> for discussion. Brush (XP_B), Grain (XP_G), Hedge (XP_HD), Marsh (XP_M), Orchard
+        (XP_O), Pond (XP_P), Rice Paddy (XP_RP), Railroad (XP_RR), Shellhole (XP_SH), Stone Rubble (XP_ST), Swamp (XP_SW),
+        Vineyard (XP_V), Woods (XP_WD), Wooden Rubble (XP_WR), Building (XP_X)</p>
+
+
+        <h3>Critical Hit Overlays</h3>
+
+        <p><b><a href="boards/overlays/chOvr40.zip" target="_blank" rel="nofollow">Board 40 overlay:</a></b> This is a hand-drawn version of Critical Hit's Overlay V40.</p>
+
+        <p><b><a href="boards/overlays/chOvrCem.zip" target="_blank" rel="nofollow">Cemetery Hill overlays</a></b> These are hand-drawn versions of Critical Hit's Cemetery Hill overlays:
+        cem1 = Cemetery, cem2 = Village, cem3 = Gully, cem4 = Hill, cem5 = Open Ground, cem6 = Cemetery version 2, cem7 = Village version 2.</p>
+
+        <p><b><a href="boards/overlays/chOvrTef.zip" target="_blank" rel="nofollow">Total Eastern Front overlays</a></b> These are hand-drawn versions of Critical Hit's Total Eastern Front Pack overlays: tef1, tef2, tef3</p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer></footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#navbar").load("/include/navbar.htm", function() {
+    $("ul.navbar-nav li.download").addClass("active");
+	});
+	$("div.sidebar").load("/include/sidebar.htm", function() {
+    $("a.overlays").addClass("active");
+	});
+	$("footer").load("/include/copyright.htm");
+});
+</script>
+</body>
 </html>

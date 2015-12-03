@@ -127,6 +127,8 @@ class Deployer
         ftp_client.copy(entry, local + "/boards/bfp/" + entry)
       elsif entry[0,5] == "bdPBR"
         ftp_client.copy(entry, local + "/boards/mmp/" + entry)
+      elsif entry[0,6] == "bdRBv2"
+        ftp_client.copy(entry, local + "/boards/mmp/" + entry)
       elsif entry[0,5] == "bdFrF"
         ftp_client.copy(entry, local + "/boards/frf/" + entry)
       else
@@ -179,13 +181,13 @@ task :package do
   Packages.zip(Dir.pwd, "bd[p-z]", "v6bdsp-z.zip")
   Packages.zip(Dir.pwd, "bd[a-h]", "DASLbdsa-h.zip")
   Packages.zip(Dir.pwd, "bd0[0-9]", "v6bds00-09.zip")
-  Packages.zip(Dir.pwd, "bd1[0-9]", "v6bds10-19.zip")
+  Packages.zip(Dir.pwd, "bd1[0-9]*", "v6bds10-19.zip")
   Packages.zip(Dir.pwd, "bd2[0-9]", "v6bds20-29.zip")
   Packages.zip(Dir.pwd, "bd3[0-9]", "v6bds30-39.zip")
   Packages.zip(Dir.pwd, "bd4[0-9]", "v6bds40-49.zip")
   Packages.zip(Dir.pwd, "bd5[0-9]", "v6bds50-59.zip")
   Packages.zip(Dir.pwd, "bd6[0-9]", "v6bds60-69.zip")
-  Packages.zip(Dir.pwd, "bd[0-6][0-9]", "v6boardsAll.zip")
+  Packages.zip(Dir.pwd, "bd[0-6][0-9]*", "v6boardsAll.zip")
 
   Packages.zip(Dir.pwd, "bdBFP[A-Z]", "BFP_SingleWide.zip")
   Packages.zip(Dir.pwd, "bdBFPDW[0-9][a,b]", "BFP_DoubleWide.zip")
