@@ -136,6 +136,7 @@ class Deployer
       end
     end
 
+    Dir.chdir(local)
     version_file_name = "/vasl/boards/v5boardVersions.txt"
     puts "reading " + version_file_name
 
@@ -187,7 +188,8 @@ task :package do
   Packages.zip(Dir.pwd, "bd4[0-9]", "v6bds40-49.zip")
   Packages.zip(Dir.pwd, "bd5[0-9]", "v6bds50-59.zip")
   Packages.zip(Dir.pwd, "bd6[0-9]", "v6bds60-69.zip")
-  Packages.zip(Dir.pwd, "bd[0-6][0-9]*", "v6boardsAll.zip")
+  Packages.zip(Dir.pwd, "bd7[0-9]", "v6bds70-79.zip")
+  Packages.zip(Dir.pwd, "bd[0-9][0-9]*", "v6boardsAll.zip")
 
   Packages.zip(Dir.pwd, "bdBFP[A-Z]", "BFP_SingleWide.zip")
   Packages.zip(Dir.pwd, "bdBFPDW[0-9][a,b]", "BFP_DoubleWide.zip")
