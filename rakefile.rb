@@ -23,7 +23,7 @@ class FTPClient
     ftp.connect(credentials["server"])
     ftp.login(credentials["username"], credentials["password"])
     ftp.passive = true
-    # ftp.debug_mode = true
+    #ftp.debug_mode = true
     ftp.chdir(remote_path)
   end
 
@@ -108,6 +108,7 @@ end
 
 class Deployer
   def self.run(local, remote)
+    cwd = Dir.pwd
     ftp_client = FTPClient.new(remote)
     ftp_client.connect
 
@@ -136,9 +137,8 @@ class Deployer
       end
     end
 
-    Dir.chdir(local)
+    Dir.chdir(cwd)
     version_file_name = "/vasl/boards/v5boardVersions.txt"
-    puts "reading " + version_file_name
 
     json = Jsonify::Builder.new(:format => :pretty)
 
@@ -155,7 +155,7 @@ class Deployer
 
     puts json.compile!
 
-    versions = File.new("boards/versions.json", "w+")
+    versions = File.new(cwd + "/boards/versions.json", "w+")
     versions.write(json.compile!)
     versions.close
 
