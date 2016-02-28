@@ -44,7 +44,7 @@ div.panel-heading {
   cursor: pointer;
 }
 div.navbar-fixed-top {
-  background-image: url(./images/header.jpg);
+  background-image: url(../images/header.jpg);
   background-position: 169px 0;
   height: 93px;
 }
