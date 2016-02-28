@@ -108,13 +108,13 @@ ga('send', 'pageview');
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	$("#navbar").load("/include/navbar.htm", function() {
+	$("#navbar").load("../include/navbar.htm", function() {
     $("ul.navbar-nav li.users").addClass("active");
 	});
 	$(".menu").load("menu.htm", function() {
     $(".menu .in").css({ 'font-weight': 'bold', 'color': 'black' });
 	});
-	$("footer").load("/include/copyright.htm");
+	$("footer").load("../include/copyright.htm");
 });
 </script>
 </body>
