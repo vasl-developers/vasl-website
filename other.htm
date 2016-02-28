@@ -237,15 +237,15 @@ ga('send', 'pageview');
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	$("#navbar").load("/include/navbar.htm", function() {
+	$("#navbar").load("./include/navbar.htm", function() {
     $("ul.navbar-nav li.download").addClass("active");
 	});
-	$("div.sidebar").load("/include/sidebar.htm", function() {
+	$("div.sidebar").load("./include/sidebar.htm", function() {
     $("a.other").addClass("active");
 	});
-	$("footer").load("/include/copyright.htm");
+	$("footer").load("./include/copyright.htm");
 
-  $.getJSON( "/boards/versions.json", function( boards ) {
+  $.getJSON( "./boards/versions.json", function( boards ) {
     var items = [];
     $.each(boards, function(id, version ) {
       console.log(id + " " + version);
