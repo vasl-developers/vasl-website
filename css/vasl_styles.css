@@ -22,6 +22,7 @@ div.quotes p { text-align: center; }
 
 .container-fluid {
   margin-top: 170px;
+  margin-bottom: 34px;
 }
 .copyright {
   text-align: center;
