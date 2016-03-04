@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div id="navbar"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 sidebar"></div>
+    <div class="main-content col-md-10">
+      <div class="userHeader"></div>
+      {{ content }}
+    </div>
+  </div>
+</div>
+<footer>
+{% include copyright.html %}
+</footer>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#navbar").load("./include/navbar.htm", function() {
+    $("ul.navbar-nav li.download").addClass("active");
+	});
+	$("div.sidebar").load("./include/sidebar.htm", function() {
+    $("a.setups").addClass("active");
+	});
+});
+</script>
+</body>
+</html>

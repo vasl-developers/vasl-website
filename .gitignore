@@ -3,3 +3,4 @@ credentials.yaml
 zip
 zip/*.*
 boards/.dropbox.attr
+_site
