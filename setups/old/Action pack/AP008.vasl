@@ -1,0 +1,47 @@
+bd	0	0	r43	
+INFO	Axis	Axis	1	3	3	3	5
+
+count	646	822	none	Trench	false	0
+count	646	822	none	Trench	false	1
+count	646	822	none	Trench	false	2
+count	646	822	none	Trench	false	3
+
+unit	56	935	axis	Sniper;Sniperb		ge	false	false	0
+unit	56	709	axis	ge/ge468S;s8b		ge	false	false	0
+unit	56	709	axis	ge/ge468S;s8b		ge	false	false	1
+unit	56	709	axis	ge/ge468S;s8b		ge	false	false	2
+unit	112	709	axis	ge/ge468S;s8b		ge	false	false	0
+unit	112	709	axis	ge/ge468S;s8b		ge	false	false	1
+unit	112	709	axis	ge/ge468S;s8b		ge	false	false	2
+unit	168	709	axis	ge/ge468S;s8b		ge	false	false	0
+unit	168	709	axis	ge/ge468S;s8b		ge	false	false	1
+unit	168	709	axis	ge/ge468S;s8b		ge	false	false	2
+unit	224	709	axis	ge/ge468S;s8b		ge	false	false	0
+unit	224	709	axis	ge/ge468S;s8b		ge	false	false	1
+unit	224	709	axis	ge/ge468S;s8b		ge	false	false	2
+unit	56	774	axis	ge/geL92;L92b		ge	false	false	0
+unit	112	774	axis	ge/geL81;L81b		ge	false	false	0
+unit	168	774	axis	ge/geL80;L80b		ge	false	false	0
+unit	56	838	axis	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	112	838	axis	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	112	838	axis	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	112	838	axis	ge/geLMG;ge/geLMGB		ge	false	false	2
+unit	505	709	allied	al/al457S;s6b		al	false	false	0
+unit	505	709	allied	al/al457S;s6b		al	false	false	1
+unit	505	709	allied	al/al457S;s6b		al	false	false	2
+unit	562	709	allied	al/al457S;s6b		al	false	false	0
+unit	562	709	allied	al/al457S;s6b		al	false	false	1
+unit	562	709	allied	al/al457S;s6b		al	false	false	2
+unit	449	709	allied	al/al457S;s6b		al	false	false	0
+unit	449	709	allied	al/al457S;s6b		al	false	false	1
+unit	449	709	allied	al/al457S;s6b		al	false	false	2
+unit	449	774	allied	al/alL81;L81b		al	false	false	0
+unit	505	774	allied	al/alL80;L80b		al	false	false	0
+unit	449	838	allied	al/alMMG;al/alMMGB		al	false	false	0
+unit	505	838	allied	al/alLMG;al/alLMGB		al	false	false	0
+unit	505	838	allied	al/alLMG;al/alLMGB		al	false	false	1
+unit	646	693	allied	Sniper;Sniperb		al	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

@@ -1,0 +1,158 @@
+bd	0	0	r04	bd	0	1	10	bd	0	2	r17	bd	1	0	r38	899	0	899	-1	bd	1	1	42	0	0	899	-1	bd	1	2	43	0	0	899	-1	
+INFO	Allied	Allied	1	3	4	3	2
+OBAPhil	8	3	
+count	730	2064	none	Fox1	false	0
+count	730	2064	none	Fox1	false	1
+count	730	2064	none	Fox1	false	2
+count	730	2064	none	Fox1	false	3
+count	730	2064	none	Fox1	false	4
+count	730	2064	none	Fox1	false	5
+count	2866	484	none	Horse3	false	0
+count	2866	484	none	Horse3	false	1
+count	2866	484	none	Horse3	false	2
+count	2978	484	none	Horse3	false	0
+count	2978	484	none	Horse3	false	1
+count	2978	484	none	Horse3	false	2
+count	2866	580	none	Horse3	false	0
+count	2866	580	none	Horse3	false	1
+count	2866	580	none	Horse3	false	2
+count	2978	580	none	Horse3	false	0
+count	2978	580	none	Horse3	false	1
+count	2978	580	none	Horse3	false	2
+
+unit	449	1967	axis	c228;c8b		ge	false	false	0
+unit	393	1967	axis	ge/ge248H;h7b		ge	false	false	0
+unit	112	1967	axis	ge/ge548S;s8b		ge	false	false	0
+unit	112	1967	axis	ge/ge548S;s8b		ge	false	false	1
+unit	112	1967	axis	ge/ge548S;s8b		ge	false	false	2
+veh	281	2064	axis	pzaii;OTTD;CS 4,s8,H5		ge	false	3	3	false	true	0
+veh	281	2064	axis	pzaii;OTTD;CS 4,s8,H5		ge	false	3	3	false	true	1
+unit	224	1967	axis	ge/ge468S;s8b		ge	false	false	0
+unit	224	1967	axis	ge/ge468S;s8b		ge	false	false	1
+unit	224	1967	axis	ge/ge468S;s8b		ge	false	false	2
+unit	281	1967	axis	ge/ge468S;s8b		ge	false	false	0
+unit	281	1967	axis	ge/ge468S;s8b		ge	false	false	1
+unit	281	1967	axis	ge/ge468S;s8b		ge	false	false	2
+unit	168	1967	axis	ge/ge468S;s8b		ge	false	false	0
+unit	168	1967	axis	ge/ge468S;s8b		ge	false	false	1
+unit	168	1967	axis	ge/ge468S;s8b		ge	false	false	2
+unit	505	1967	axis	ge/geL102;L102b		ge	false	false	0
+unit	56	1967	axis	ge/ge548S;s8b		ge	false	false	0
+unit	56	1967	axis	ge/ge548S;s8b		ge	false	false	1
+unit	56	1967	axis	ge/ge548S;s8b		ge	false	false	2
+unit	618	1967	axis	ge/geL81;L81b		ge	false	false	0
+unit	674	1967	axis	ge/geL80;L80b		ge	false	false	0
+unit	730	1967	axis	ge/geHMG;ge/geHMGB		ge	false	false	0
+unit	730	1967	axis	ge/geHMG;ge/geHMGB		ge	false	false	1
+unit	786	1967	axis	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	786	1967	axis	ge/geMMG;ge/geMMGB		ge	false	false	1
+unit	843	1967	axis	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	843	1967	axis	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	843	1967	axis	ge/geLMG;ge/geLMGB		ge	false	false	2
+unit	843	1967	axis	ge/geLMG;ge/geLMGB		ge	false	false	3
+unit	899	1967	axis	ge/gePSK;ge/gePSKB		ge	false	false	0
+unit	899	1967	axis	ge/gePSK;ge/gePSKB		ge	false	false	1
+unit	899	1967	axis	ge/gePSK;ge/gePSKB		ge	false	false	2
+veh	56	2064	axis	pzvg;hvt;CS 6,sN7^4^/8^5,12:Stall		ge	false	3	3	false	false	0
+veh	168	2064	axis	pzaiii;OTTD;CS 6,s8,H5,No IF		ge	false	3	3	false	true	0
+unit	337	1967	axis	ge/ge468S;s8b		ge	false	false	0
+unit	337	1967	axis	ge/ge468S;s8b		ge	false	false	1
+unit	337	1967	axis	ge/ge468S;s8b		ge	false	false	2
+veh	393	2064	axis	sdkfz11;TRUCK;cs 5		ge	false	3	3	false	false	0
+veh	505	2064	axis	opel;TRUCK;cs 6		ge	false	3	3	false	false	0
+veh	505	2064	axis	opel;TRUCK;cs 6		ge	false	3	3	false	false	1
+veh	505	2064	axis	opel;TRUCK;cs 6		ge	false	3	3	false	false	2
+gun	618	2064	axis	geAT75L;hvAT;s7,A5^2^/4^3^/3^4^		ge	false	3	false	0
+unit	843	2161	axis	qmark;qmark		ge	true	false	0
+unit	843	2161	axis	qmark;qmark		ge	false	false	1
+unit	562	1967	axis	ge/geL91;L91b		ge	false	false	0
+unit	562	1967	axis	ge/geL91;L91b		ge	false	false	1
+unit	899	2032	axis	qmark;qmark		ge	true	false	0
+unit	899	2032	axis	qmark;qmark		ge	false	false	1
+unit	899	2161	axis	qmark;qmark		ge	true	false	0
+unit	899	2161	axis	qmark;qmark		ge	false	false	1
+unit	899	2096	axis	qmark;qmark		ge	true	false	0
+unit	899	2096	axis	qmark;qmark		ge	false	false	1
+unit	843	2096	axis	qmark;qmark		ge	true	false	0
+unit	843	2096	axis	qmark;qmark		ge	false	false	1
+unit	730	2161	axis	qmark;qmark		ge	true	false	0
+unit	730	2161	axis	qmark;qmark		ge	false	false	1
+unit	786	2161	axis	qmark;qmark		ge	true	false	0
+unit	786	2161	axis	qmark;qmark		ge	false	false	1
+unit	843	2032	axis	qmark;qmark		ge	true	false	0
+unit	843	2032	axis	qmark;qmark		ge	false	false	1
+unit	618	2161	axis	Sniper;Sniperb		ge	false	false	0
+unit	2725	209	allied	am/amHMG50;am/amHMG50B		ru	false	false	0
+unit	2725	145	allied	ru/ruL91;L91b		ru	false	false	0
+unit	2725	16	allied	ru/ru458S;s8b		ru	false	false	0
+unit	2725	16	allied	ru/ru458S;s8b		ru	false	false	1
+unit	2725	16	allied	ru/ru458S;s8b		ru	false	false	2
+unit	2781	16	allied	ru/ru458S;s8b		ru	false	false	0
+unit	2781	16	allied	ru/ru458S;s8b		ru	false	false	1
+unit	2781	16	allied	ru/ru458S;s8b		ru	false	false	2
+unit	2838	16	allied	ru/ru458S;s8b		ru	false	false	0
+unit	2838	16	allied	ru/ru458S;s8b		ru	false	false	1
+unit	2838	16	allied	ru/ru458S;s8b		ru	false	false	2
+unit	2894	16	allied	ru/ru458S;s8b		ru	false	false	0
+unit	2894	16	allied	ru/ru458S;s8b		ru	false	false	1
+unit	2894	16	allied	ru/ru458S;s8b		ru	false	false	2
+unit	2950	16	allied	ru/ru458S;s8b		ru	false	false	0
+unit	2950	16	allied	ru/ru458S;s8b		ru	false	false	1
+unit	2950	16	allied	ru/ru458S;s8b		ru	false	false	2
+unit	3006	16	allied	ru/ru458S;s8b		ru	false	false	0
+unit	2725	80	allied	ru/ru447S;s7b		ru	false	false	0
+unit	2725	80	allied	ru/ru447S;s7b		ru	false	false	1
+unit	2725	80	allied	ru/ru447S;s7b		ru	false	false	2
+unit	2781	80	allied	ru/ru447S;s7b		ru	false	false	0
+unit	2781	80	allied	ru/ru447S;s7b		ru	false	false	1
+unit	2781	80	allied	ru/ru447S;s7b		ru	false	false	2
+unit	2838	80	allied	ru/ru447S;s7b		ru	false	false	0
+unit	2838	80	allied	ru/ru447S;s7b		ru	false	false	1
+unit	2838	80	allied	ru/ru447S;s7b		ru	false	false	2
+unit	2838	145	allied	ru/ruL80;L80b		ru	false	false	0
+unit	2781	145	allied	ru/ruL81;L81b		ru	false	false	0
+unit	2725	209	allied	am/amHMG50;am/amHMG50B		ru	false	false	0
+unit	2781	209	allied	ru/ruHMG;ru/ruHMGB		ru	false	false	0
+unit	2838	209	allied	ru/ruMMG;ru/ruMMGB		ru	false	false	0
+unit	2838	209	allied	ru/ruMMG;ru/ruMMGB		ru	false	false	1
+unit	2894	209	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	2894	209	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+unit	2894	209	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	2
+unit	2950	209	allied	ru/ruMTR;ru/ruMTRB		ru	false	false	0
+unit	2950	209	allied	ru/ruMTR;ru/ruMTRB		ru	false	false	1
+unit	3006	209	allied	radio678;ru/ruradiob		ru	false	false	0
+unit	2725	403	allied	ru/ru628S;s8b		ru	false	false	0
+unit	2725	403	allied	ru/ru628S;s8b		ru	false	false	1
+unit	2725	403	allied	ru/ru628S;s8b		ru	false	false	2
+unit	2781	403	allied	ru/ru628S;s8b		ru	false	false	0
+unit	2781	403	allied	ru/ru628S;s8b		ru	false	false	1
+unit	2781	403	allied	ru/ru628S;s8b		ru	false	false	2
+unit	2838	403	allied	ru/ru628S;s8b		ru	false	false	0
+unit	2838	403	allied	ru/ru628S;s8b		ru	false	false	1
+unit	2894	403	allied	ru/ru527S;s7b		ru	false	false	0
+unit	2950	403	allied	ru/ru527S;s7b		ru	false	false	0
+unit	2950	403	allied	ru/ru527S;s7b		ru	false	false	1
+unit	2950	403	allied	ru/ru527S;s7b		ru	false	false	2
+unit	2781	467	allied	ru/ruL80;L80b		ru	false	false	0
+unit	2725	467	allied	ru/ruL92;L92b		ru	false	false	0
+unit	2725	532	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	2725	532	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+unit	2725	532	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	2
+unit	2894	145	allied	ru/ruL70;L70b		ru	false	false	0
+veh	2753	774	allied	isu122;TD;CS 6,s8,No IF		ru	false	3	3	false	false	0
+veh	2753	774	allied	isu122;TD;CS 6,s8,No IF		ru	false	3	3	false	false	1
+veh	2753	774	allied	isu122;TD;CS 6,s8,No IF		ru	false	3	3	false	false	2
+veh	2753	1032	allied	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	0
+veh	2753	1032	allied	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	1
+veh	2753	1032	allied	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	2
+veh	2866	1032	allied	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	0
+veh	2866	1032	allied	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	1
+veh	2866	1032	allied	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	2
+unit	2894	80	allied	ru/ru447S;s7b		ru	false	false	0
+unit	2894	80	allied	ru/ru447S;s7b		ru	false	false	1
+unit	2894	80	allied	ru/ru447S;s7b		ru	false	false	2
+unit	3006	113	allied	Sniper;Sniperb		ru	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

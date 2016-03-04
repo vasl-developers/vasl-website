@@ -1,0 +1,68 @@
+bd	0	0	BRV	0	0	871	-1	
+INFO	Allied	Allied	1	?	4	?	2
+NOTESELR per BRV 8.1
+
+count	786	645	Bob Smith	heroic;heroicb	false	1
+count	562	645	none	Brntwk	false	0
+count	618	677	none	Brntwk	false	0
+count	449	580	Bob Smith	BridgeX	false	0
+rot	56	32	none	North	false	2	0
+
+unit	562	709	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	562	709	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	562	709	axis Smith	ge/ge658S;s9b		ge	false	false	2
+unit	562	709	axis Smith	ge/ge658S;s9b		ge	false	false	3
+unit	618	742	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	618	742	axis Smith	ge/ge447S;s7b		ge	false	false	1
+unit	618	742	axis Smith	ge/ge447S;s7b		ge	false	false	2
+unit	618	742	axis Smith	ge/ge447S;s7b		ge	false	false	3
+unit	674	774	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	674	774	axis Smith	ge/ge447S;s7b		ge	false	false	1
+unit	674	774	axis Smith	ge/ge447S;s7b		ge	false	false	2
+unit	674	774	axis Smith	ge/ge447S;s7b		ge	false	false	3
+unit	562	774	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	618	806	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	618	806	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	618	806	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	2
+unit	618	806	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	3
+unit	674	838	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	562	838	axis Smith	ge/geL92;L92b		ge	false	false	0
+unit	562	903	axis Smith	ge/geL80;L80b	Gestapo	ge	false	false	0
+unit	618	935	axis Smith	ge/geL70;L70b	Gest. 7+1	ge	false	false	0
+unit	449	645	axis Smith	Sniper;Sniperb	SAN 4	ge	false	false	0
+unit	618	613	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	618	613	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	618	613	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	618	613	allied Smith	ru/ru458S;s8b		ru	false	false	3
+unit	674	645	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	674	645	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	674	645	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	674	645	allied Smith	ru/ru458S;s8b		ru	false	false	3
+unit	730	677	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	730	677	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	730	677	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	730	677	allied Smith	ru/ru447S;s7b		ru	false	false	3
+unit	786	645	allied Smith	ru/ruL80;L80b		ru	false	false	0
+unit	730	613	allied Smith	ru/ruL91;L91b		ru	false	false	0
+unit	674	580	allied Smith	ru/ruLMG;ru/ruLMGB	(moved)	ru	false	false	0
+unit	674	580	allied Smith	dc;dcb	(moved)	ru	false	false	1
+unit	674	580	allied Smith	dc;dcb	(moved)	ru	false	false	2
+unit	-28	532	allied Smith	dc;dcb		ru	false	false	0
+unit	-28	532	allied Smith	dc;dcb		ru	false	false	1
+unit	-84	564	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	-84	564	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+unit	-84	564	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	2
+unit	-84	629	allied Smith	ru/ruL102;L102b		ru	false	false	0
+unit	-28	596	allied Smith	ru/ru628S;s8b		ru	false	false	0
+unit	-28	596	allied Smith	ru/ru628S;s8b		ru	false	false	1
+unit	-28	596	allied Smith	ru/ru628S;s8b		ru	false	false	2
+unit	-28	596	allied Smith	ru/ru628S;s8b		ru	false	false	3
+unit	-28	661	allied Smith	ru/ru628S;s8b		ru	false	false	0
+unit	-28	661	allied Smith	ru/ru628S;s8b		ru	false	false	1
+unit	-28	661	allied Smith	ru/ru628S;s8b		ru	false	false	2
+unit	-28	661	allied Smith	ru/ru628S;s8b		ru	false	false	3
+unit	505	548	allied Smith	Sniper;Sniperb	SAN 2	ru	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

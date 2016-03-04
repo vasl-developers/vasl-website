@@ -1,0 +1,57 @@
+bd	0	0	22	0	0	871	645	bd	0	1	r23	926	0	875	645	
+INFO	Allied	Allied	1	?	4	?	2
+NOTESBoards have been rotated 180 degrees to
+NOTESavoid VASL board clipping errors.
+NOTESSee scenario card for ELRs.
+
+rot	56	64	none	North	false	4	0
+count	224	-32	none	Fox1	false	0
+count	337	-32	none	Fox1	false	0
+count	281	-96	none	Fox1	false	0
+count	168	-96	none	Fox1	false	0
+count	393	-32	none	Fort;Fort1	false	0
+count	505	-32	none	Fort;Fort1	false	0
+count	449	-96	none	Fort;Fort1	false	0
+
+unit	56	-32	axis Smith	ge/ge468S;s8b		ge	false	false	0
+unit	56	-32	axis Smith	ge/ge468S;s8b		ge	false	false	1
+unit	56	-32	axis Smith	ge/ge468S;s8b		ge	false	false	2
+unit	56	-32	axis Smith	ge/ge468S;s8b		ge	false	false	3
+unit	112	-32	axis Smith	ge/ge468S;s8b		ge	false	false	0
+unit	112	-32	axis Smith	ge/ge468S;s8b		ge	false	false	1
+unit	112	-32	axis Smith	ge/ge468S;s8b		ge	false	false	2
+unit	56	-96	axis Smith	ge/geL81;L81b		ge	false	false	0
+unit	112	-96	axis Smith	ge/geL80;L80b		ge	false	false	0
+unit	168	-32	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	168	-32	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	562	-32	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	562	-32	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	562	-32	axis Smith	ge/ge658S;s9b		ge	false	false	2
+unit	562	-32	axis Smith	ge/ge658S;s9b		ge	false	false	3
+unit	618	-32	axis Smith	ge/ge348H;h8b		ge	false	false	0
+unit	618	-96	axis Smith	ge/geL91;L91b		ge	false	false	0
+unit	674	-32	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	674	-96	axis Smith	dc;dcb		ge	false	false	0
+unit	337	1322	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	337	1322	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	337	1322	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	393	1322	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	393	1322	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	449	1322	allied Smith	ru/ru527S;s7b		ru	false	false	0
+unit	449	1322	allied Smith	ru/ru527S;s7b		ru	false	false	1
+unit	449	1322	allied Smith	ru/ru527S;s7b		ru	false	false	2
+unit	449	1322	allied Smith	ru/ru527S;s7b		ru	false	false	3
+unit	505	1322	allied Smith	ru/ru527S;s7b		ru	false	false	0
+unit	505	1322	allied Smith	ru/ru527S;s7b		ru	false	false	1
+unit	505	1322	allied Smith	ru/ru527S;s7b		ru	false	false	2
+unit	505	1322	allied Smith	ru/ru527S;s7b		ru	false	false	3
+unit	618	1322	allied Smith	ru/ruL70;L70b		ru	false	false	0
+unit	562	1322	allied Smith	ru/ruL92;L92b		ru	false	false	0
+unit	674	1322	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	674	1322	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+unit	674	1322	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	2
+unit	730	1322	allied Smith	dc;dcb		ru	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

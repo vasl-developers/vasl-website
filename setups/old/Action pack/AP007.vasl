@@ -1,0 +1,68 @@
+bd	0	0	16	bd	0	1	43	bd	0	2	r33	
+INFO	Axis	Axis	1	4	0	3	0
+
+rot	252	2306	none	Motors3	false	2	0
+rot	365	2306	none	Motor3	false	2	0
+rot	365	2306	none	Motor3	false	2	1
+rot	365	2306	none	Motor3	false	2	2
+rot	365	2306	none	Motor3	false	2	3
+rot	365	2306	none	Motor3	false	2	4
+
+unit	1854	97	axis	ge/ge468S;s8b		ge	false	false	0
+unit	1854	97	axis	ge/ge468S;s8b		ge	false	false	1
+unit	1854	97	axis	ge/ge468S;s8b		ge	false	false	2
+unit	1910	97	axis	ge/ge468S;s8b		ge	false	false	0
+unit	1967	97	axis	ge/geL91;L91b		ge	false	false	0
+unit	2023	97	axis	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	1854	193	axis	al81		ge	false	false	0
+veh	1967	193	axis	pzivd;mt;CS 5,sD7,AP7,s9^H6		ge	false	3	3	false	false	0
+veh	1967	193	axis	pzivd;mt;CS 5,sD7,AP7,s9^H6		ge	false	3	3	false	false	1
+veh	2079	193	axis	pziiih;mt;CS 6,sD7,A4^1^/5^2		ge	false	3	3	false	false	0
+veh	2079	193	axis	pziiih;mt;CS 6,sD7,A4^1^/5^2		ge	false	3	3	false	false	1
+veh	2079	193	axis	pziiih;mt;CS 6,sD7,A4^1^/5^2		ge	false	3	3	false	false	2
+veh	1854	290	axis	ps38ta;lt;CS 4,sD6,A4^1^/5^2		ge	false	3	3	false	false	0
+veh	1854	290	axis	ps38ta;lt;CS 4,sD6,A4^1^/5^2		ge	false	3	3	false	false	1
+veh	1967	290	axis	pz38te;lt;CS 5,sD7		ge	false	3	3	false	false	0
+veh	1967	290	axis	pz38te;lt;CS 5,sD7		ge	false	3	3	false	false	1
+veh	1967	290	axis	pz38te;lt;CS 5,sD7		ge	false	3	3	false	false	2
+veh	1967	290	axis	pz38te;lt;CS 5,sD7		ge	false	3	3	false	false	3
+veh	1967	290	axis	pz38te;lt;CS 5,sD7		ge	false	3	3	false	false	4
+veh	1967	290	axis	pz38te;lt;CS 5,sD7		ge	false	3	3	false	false	5
+veh	2079	290	axis	pziif;lt;CS 3,sD7		ge	false	3	3	false	false	0
+veh	2079	290	axis	pziif;lt;CS 3,sD7		ge	false	3	3	false	false	1
+veh	1854	387	axis	spw2511;OTHT;CS 5		ge	false	3	3	false	true	0
+veh	1854	387	axis	spw2511;OTHT;CS 5		ge	false	3	3	false	true	1
+veh	1854	387	axis	spw2511;OTHT;CS 5		ge	false	3	3	false	true	2
+veh	1854	387	axis	spw2511;OTHT;CS 5		ge	false	3	3	false	true	3
+unit	112	1999	allied	ru/ru447S;s7b		ru	false	false	0
+unit	112	1999	allied	ru/ru447S;s7b		ru	false	false	1
+unit	112	1999	allied	ru/ru447S;s7b		ru	false	false	2
+unit	168	1999	allied	ru/ru447S;s7b		ru	false	false	0
+unit	168	1999	allied	ru/ru447S;s7b		ru	false	false	1
+unit	168	1999	allied	ru/ru447S;s7b		ru	false	false	2
+unit	224	1999	allied	ru/ruL81;L81b		ru	false	false	0
+unit	281	1999	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+veh	140	2112	allied	t34m40;mt;R,CS 5		ru	false	3	3	false	false	0
+veh	140	2112	allied	t34m40;mt;R,CS 5		ru	false	3	3	false	false	1
+veh	140	2112	allied	t34m40;mt;R,CS 5		ru	false	3	3	false	false	2
+veh	252	2112	allied	bt7m37;mt;R,CS 3		ru	false	3	3	false	false	0
+veh	252	2112	allied	bt7m37;mt;R,CS 3		ru	false	3	3	false	false	1
+veh	252	2112	allied	bt7m37;mt;R,CS 3		ru	false	3	3	false	false	2
+veh	252	2112	allied	bt7m37;mt;R,CS 3		ru	false	3	3	false	false	3
+veh	252	2112	allied	bt7m37;mt;R,CS 3		ru	false	3	3	false	false	4
+veh	252	2112	allied	bt7m37;mt;R,CS 3		ru	false	3	3	false	false	5
+veh	365	2112	allied	bt7a;mt;CS 3,AP7,s9		ru	false	3	3	false	false	0
+veh	365	2112	allied	bt7a;mt;CS 3,AP7,s9		ru	false	3	3	false	false	1
+veh	140	2209	allied	bt5m34;mt;R,CS 3		ru	false	3	3	false	false	0
+veh	140	2209	allied	bt5m34;mt;R,CS 3		ru	false	3	3	false	false	1
+veh	252	2209	allied	t60m40;lt;R,CS 2		ru	false	3	3	false	false	0
+veh	252	2209	allied	t60m40;lt;R,CS 2		ru	false	3	3	false	false	1
+veh	365	2209	allied	t35;hvt;R,CS 8,s9		ru	false	3	3	false	false	0
+veh	365	2209	allied	t35;hvt;R,CS 8,s9		ru	false	3	3	false	false	1
+veh	365	2209	allied	t35;hvt;R,CS 8,s9		ru	false	3	3	false	false	2
+veh	140	2306	allied	ba20;ac;R,CS 3		ru	false	3	3	false	false	0
+unit	1854	193	allied	al81		ge	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

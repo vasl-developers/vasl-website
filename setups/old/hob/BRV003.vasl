@@ -1,0 +1,80 @@
+bd	0	0	BRV	0	258	2164	1096	
+INFO	Allied	Allied	1	?	3	?	3
+NOTESGerman ELR per BRV 8.1
+NOTESRussian ELR per BRV 8.1 (-1)
+
+count	1433	1177	none	Fort;Fort1	false	0
+count	562	1225	none	Fort;Fort1	false	0
+count	618	1225	none	Fort;Fort1	false	0
+count	674	1225	none	Fort;Fort1	false	0
+count	730	1225	none	Fort;Fort1	false	0
+lab	899	1129	Bob Smith	acqB1;acqB2	Banner	false	0
+rot	843	32	none	North	false	2	0
+
+unit	1236	1129	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	1236	1129	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	1236	1129	axis Smith	ge/ge658S;s9b		ge	false	false	2
+unit	1292	1129	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	1292	1129	axis Smith	ge/ge447S;s7b		ge	false	false	1
+unit	1292	1129	axis Smith	ge/ge447S;s7b		ge	false	false	2
+unit	1348	1129	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	1348	1129	axis Smith	ge/ge447S;s7b		ge	false	false	1
+unit	1405	1129	axis Smith	ge/ge436S;s5b		ge	false	false	0
+unit	1405	1129	axis Smith	ge/ge436S;s5b		ge	false	false	1
+unit	1461	1129	axis Smith	ge/geL80;L80b	10-0 Gest.	ge	false	false	0
+unit	1517	1129	axis Smith	ge/geL91;L91b		ge	false	false	0
+unit	1573	1129	axis Smith	ge/geL81;L81b		ge	false	false	0
+unit	1264	1177	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	1320	1177	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	1320	1177	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	1376	1177	axis Smith	ge/geFT;ftb		ge	false	false	0
+unit	814	1177	allied Smith	am/amHMG50;am/amHMG50B		ru	false	false	0
+rot	1517	935	none	breach	false	4	0
+count	1236	387	allied Smith	russ	false	0
+count	1011	516	allied Smith	russ	false	0
+count	1011	580	allied Smith	russ	false	0
+count	899	645	allied Smith	russ	false	0
+count	899	774	allied Smith	russ	false	0
+count	955	806	allied Smith	russ	false	0
+count	955	1064	allied Smith	russ	false	0
+unit	505	1129	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	505	1129	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	505	1129	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	562	1129	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	562	1129	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	562	1129	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	618	1129	allied Smith	ru/ru527S;s7b		ru	false	false	0
+unit	618	1129	allied Smith	ru/ru527S;s7b		ru	false	false	1
+unit	618	1129	allied Smith	ru/ru527S;s7b		ru	false	false	2
+unit	674	1129	allied Smith	ru/ru527S;s7b		ru	false	false	0
+unit	674	1129	allied Smith	ru/ru527S;s7b		ru	false	false	1
+unit	674	1129	allied Smith	ru/ru527S;s7b		ru	false	false	2
+unit	730	1129	allied Smith	ru/ru527S;s7b		ru	false	false	0
+unit	730	1129	allied Smith	ru/ru527S;s7b		ru	false	false	1
+unit	730	1129	allied Smith	ru/ru527S;s7b		ru	false	false	2
+unit	786	1129	allied Smith	ru/ru527S;s7b		ru	false	false	0
+unit	786	1129	allied Smith	ru/ru527S;s7b		ru	false	false	1
+unit	786	1129	allied Smith	ru/ru527S;s7b		ru	false	false	2
+unit	533	1177	allied Smith	ru/ruL92;L92b		ru	false	false	0
+unit	590	1177	allied Smith	ru/ruL91;L91b		ru	false	false	0
+unit	646	1177	allied Smith	ru/ruL81;L81b		ru	false	false	0
+unit	702	1177	allied Smith	ru/ruL70;L70b		ru	false	false	0
+unit	393	1129	allied Smith	c228;c8b		ru	false	false	0
+unit	393	1129	allied Smith	c228;c8b		ru	false	false	1
+unit	393	1129	allied Smith	c228;c8b		ru	false	false	2
+unit	393	1129	allied Smith	c228;c8b		ru	false	false	3
+unit	758	1177	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	758	1177	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+unit	758	1177	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	2
+unit	758	1177	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	3
+unit	814	1177	allied Smith	am/amHMG50;am/amHMG50B		ru	false	false	0
+unit	843	1129	allied Smith	dc;dcb		ru	false	false	0
+unit	843	1129	allied Smith	dc;dcb		ru	false	false	1
+unit	843	1129	allied Smith	dc;dcb		ru	false	false	2
+gun	337	1129	allied Smith	ruAR76L;art;s8,A4^2^/5^3^/6^4^/7^5		ru	false	3	false	0
+gun	337	1129	allied Smith	ruAR76L;art;s8,A4^2^/5^3^/6^4^/7^5		ru	false	3	false	1
+gun	337	1129	allied Smith	ruAR76L;art;s8,A4^2^/5^3^/6^4^/7^5		ru	false	3	false	2
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

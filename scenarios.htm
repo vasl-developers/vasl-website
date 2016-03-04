@@ -55,13 +55,17 @@ ga('send', 'pageview');
 <script src="./js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	$("#navbar").load("/include/navbar.htm", function() {
+	$("#navbar").load("./include/navbar.htm", function() {
     $("ul.navbar-nav li.download").addClass("active");
 	});
-	$("div.sidebar").load("/include/sidebar.htm", function() {
+	$("div.sidebar").load("./include/sidebar.htm", function() {
     $("a.setups").addClass("active");
 	});
-	$("footer").load("/include/copyright.htm");
+	$("footer").load("./include/copyright.htm");
+
+  $.get("./setups", function(data) {
+      $("#setups").append(data);
+  });
 });
 </script>
 </body>

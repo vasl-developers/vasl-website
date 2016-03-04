@@ -1,0 +1,51 @@
+bd	0	0	42	955	0	843	-1	OVR	o4	bb2	cc3	OVR	o5	z2	aa2	
+INFO	Axis	Axis	1	5	2	4	3
+
+count	337	677	none	ap6	false	0
+count	337	677	none	ap6	false	1
+count	337	677	none	ap6	false	2
+count	337	677	none	ap6	false	3
+
+unit	1067	322	axis	Sniper;Sniperb		ge	false	false	0
+unit	899	97	axis	ge/ge658S;s9b		ge	false	false	0
+unit	899	97	axis	ge/ge658S;s9b		ge	false	false	1
+unit	899	97	axis	ge/ge658S;s9b		ge	false	false	2
+unit	955	97	axis	ge/ge658S;s9b		ge	false	false	0
+unit	955	97	axis	ge/ge658S;s9b		ge	false	false	1
+unit	955	97	axis	ge/ge658S;s9b		ge	false	false	2
+unit	1011	97	axis	ge/ge658S;s9b		ge	false	false	0
+unit	1011	97	axis	ge/ge658S;s9b		ge	false	false	1
+unit	1011	97	axis	ge/ge658S;s9b		ge	false	false	2
+unit	1067	97	axis	ge/ge658S;s9b		ge	false	false	0
+unit	899	161	axis	ge/geL91;L91b		ge	false	false	0
+unit	955	161	axis	ge/geL81;L81b		ge	false	false	0
+unit	1011	161	axis	ge/geL70;L70b		ge	false	false	0
+unit	1011	161	axis	ge/geL70;L70b		ge	false	false	1
+unit	899	226	axis	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	955	226	axis	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	955	226	axis	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	955	226	axis	ge/geLMG;ge/geLMGB		ge	false	false	2
+unit	1011	226	axis	ge/gePSK;ge/gePSKB		ge	false	false	0
+unit	1067	226	axis	dc;dcb		ge	false	false	0
+veh	899	322	axis	spw2519;OTHT;rCS 4,s9,H6		ge	false	3	3	false	true	0
+veh	899	322	axis	spw2519;OTHT;rCS 4,s9,H6		ge	false	3	3	false	true	1
+unit	56	677	allied	am/am666S;s8b		am	false	false	0
+unit	112	677	allied	am/am346H;h7b		am	false	false	0
+unit	168	677	allied	c227;c8b		am	false	false	0
+unit	168	677	allied	c227;c8b		am	false	false	1
+unit	224	677	allied	c126;c7b		am	false	false	0
+unit	224	677	allied	c126;c7b		am	false	false	1
+unit	56	742	allied	am/amL91;L91b		am	false	false	0
+unit	112	742	allied	am/amL81;L81b		am	false	false	0
+unit	168	742	allied	am/amL70;L70b		am	false	false	0
+unit	56	806	allied	am/amMMG;am/amMMGB		am	false	false	0
+unit	56	806	allied	am/amMMG;am/amMMGB		am	false	false	1
+unit	56	806	allied	am/amMMG;am/amMMGB		am	false	false	2
+unit	112	806	allied	am/baz44;am/baz44b		am	false	false	0
+gun	224	806	allied	amAT76L;hvAT;A4^4^/5^5		am	false	3	false	0
+gun	224	806	allied	amAT76L;hvAT;A4^4^/5^5		am	false	3	false	1
+unit	337	806	allied	Sniper;Sniperb		am	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

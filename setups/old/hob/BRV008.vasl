@@ -1,0 +1,58 @@
+bd	0	0	23	0	0	871	645	bd	0	1	20	0	0	871	645	
+INFO	Allied	Allied	1	2	4	3	2
+NOTESAllied reinforcements have ELR 4.
+
+rot	56	64	none	North	false	6	0
+
+unit	899	871	axis Smith	ge/ge548S;s8b		ge	false	false	0
+unit	899	871	axis Smith	ge/ge548S;s8b		ge	false	false	1
+unit	899	871	axis Smith	ge/ge548S;s8b		ge	false	false	2
+unit	899	871	axis Smith	ge/ge548S;s8b		ge	false	false	3
+unit	899	806	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	899	806	axis Smith	ge/ge447S;s7b		ge	false	false	1
+unit	899	806	axis Smith	ge/ge447S;s7b		ge	false	false	2
+unit	899	742	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	899	742	axis Smith	ge/ge447S;s7b		ge	false	false	1
+unit	899	742	axis Smith	ge/ge447S;s7b		ge	false	false	2
+unit	899	548	axis Smith	c228;c8b		ge	false	false	0
+unit	955	742	axis Smith	ge/geL70;L70b		ge	false	false	0
+unit	955	806	axis Smith	ge/geL81;L81b		ge	false	false	0
+unit	955	871	axis Smith	ge/geL91;L91b		ge	false	false	0
+unit	955	677	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	955	677	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	955	677	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	2
+unit	899	677	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	899	677	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	1
+unit	955	613	axis Smith	ge/gePSK;ge/gePSKB		ge	false	false	0
+unit	899	613	axis Smith	dc;dcb		ge	false	false	0
+gun	955	548	axis Smith	geAT50L;ltAT;A5^1^/6^2^/5^3^/4^4		ge	false	3	false	0
+veh	-56	193	allied Smith	m4a176w;mt;CS 6,sM8,s5^5,A4^A4^/5^5		am	false	3	3	false	false	0
+veh	-56	193	allied Smith	m4a176w;mt;CS 6,sM8,s5^5,A4^A4^/5^5		am	false	3	3	false	false	1
+unit	-56	387	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	-56	387	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	-56	387	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	-56	451	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	-56	451	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	-56	451	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	-112	419	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	-112	419	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	-112	419	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	-112	484	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	-112	484	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	-112	484	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	-56	516	allied Smith	ru/ruL70;L70b		ru	false	false	0
+unit	-56	580	allied Smith	ru/ruL81;L81b		ru	false	false	0
+unit	-112	548	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	-56	64	allied Smith	ru/ru628S;s8b		ru	false	false	0
+unit	-56	64	allied Smith	ru/ru628S;s8b		ru	false	false	1
+unit	-56	64	allied Smith	ru/ru628S;s8b		ru	false	false	2
+unit	-56	64	allied Smith	ru/ru628S;s8b		ru	false	false	3
+unit	-56	129	allied Smith	ru/ruL91;L91b		ru	false	false	0
+unit	-112	97	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	-112	97	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+unit	-112	161	allied Smith	dc;dcb		ru	false	false	0
+unit	-112	161	allied Smith	dc;dcb		ru	false	false	1
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

@@ -1,0 +1,104 @@
+bd	0	0	r43	bd	0	1	10	OVR	x8	y5	y5	OVR	x14	q4	p3	OVR	x17	t4	t5	OVR	x18	o6	p5	bd	0	2	r33	OVR	be4	gg3	gg2	OVR	be5	w3	w2	OVR	be6	k3	k3	OVR	oc2	gg2	gg1	OVR	oc2	w2	w1	OVR	oc3	l2	l1	
+INFO	Axis	Axis	1	3	3	5	4
+NOTESSavannah Rain
+PNOTESPhil	1998 jun 14 Phil- from scenario card
+
+
+unit	1826	435	axis	al91		ge	false	false	0
+veh	1938	435	axis	pzvie;king;CS 6,sD7,M7*,A6^2^/5^3^/4^4,ML:9		ge	false	3	3	false	false	0
+veh	1938	435	axis	pzvie;king;CS 6,sD7,M7*,A6^2^/5^3^/4^4,ML:9		ge	false	3	3	false	false	1
+veh	1938	435	axis	pzvie;king;CS 6,sD7,M7*,A6^2^/5^3^/4^4,ML:9		ge	false	3	3	false	false	2
+veh	1938	435	axis	pzvie;king;CS 6,sD7,M7*,A6^2^/5^3^/4^4,ML:9		ge	false	3	3	false	false	3
+veh	2051	435	axis	pziiih;mt;CS 6,sD7,A4^1^/5^2		ge	false	3	3	false	false	0
+veh	2051	435	axis	pziiih;mt;CS 6,sD7,A4^1^/5^2		ge	false	3	3	false	false	1
+unit	1826	48	axis	it/it447S;s7b		it	false	false	0
+unit	1826	48	axis	it/it447S;s7b		it	false	false	1
+unit	1826	48	axis	it/it447S;s7b		it	false	false	2
+unit	1938	48	axis	it/it447S;s7b		it	false	false	0
+unit	1938	48	axis	it/it447S;s7b		it	false	false	1
+unit	1938	48	axis	it/it447S;s7b		it	false	false	2
+unit	1995	48	axis	it/it447S;s7b		it	false	false	0
+unit	1826	113	axis	it/it346S;s5b		it	false	false	0
+unit	1826	113	axis	it/it346S;s5b		it	false	false	1
+unit	1826	113	axis	it/it346S;s5b		it	false	false	2
+unit	1882	113	axis	it/it346S;s5b		it	false	false	0
+unit	1882	113	axis	it/it346S;s5b		it	false	false	1
+unit	1882	113	axis	it/it346S;s5b		it	false	false	2
+unit	1938	113	axis	it/it346S;s5b		it	false	false	0
+unit	1938	113	axis	it/it346S;s5b		it	false	false	1
+unit	1938	113	axis	it/it346S;s5b		it	false	false	2
+unit	1995	113	axis	it/it346S;s5b		it	false	false	0
+unit	1995	177	axis	it/it346S;s5b		it	false	false	0
+unit	1938	177	axis	it/it346S;s5b		it	false	false	0
+unit	1938	177	axis	it/it346S;s5b		it	false	false	1
+unit	1938	177	axis	it/it346S;s5b		it	false	false	2
+unit	1826	177	axis	it/it346S;s5b		it	false	false	0
+unit	1826	177	axis	it/it346S;s5b		it	false	false	1
+unit	1826	177	axis	it/it346S;s5b		it	false	false	2
+unit	1882	177	axis	it/it346S;s5b		it	false	false	0
+unit	1882	177	axis	it/it346S;s5b		it	false	false	1
+unit	1882	177	axis	it/it346S;s5b		it	false	false	2
+unit	2051	177	axis	it/it136H;h4b		it	false	false	0
+unit	2051	177	axis	it/it136H;h4b		it	false	false	1
+unit	1826	242	axis	it/itL91;L91b		it	false	false	0
+unit	1882	242	axis	it/itL81;L81b		it	false	false	0
+unit	1938	242	axis	it/itL80;L80b		it	false	false	0
+unit	1995	242	axis	it/itL70;L70b		it	false	false	0
+unit	1995	242	axis	it/itL70;L70b		it	false	false	1
+unit	1826	306	axis	it/itHMG;it/itHMGB		it	false	false	0
+unit	1826	306	axis	it/itHMG;it/itHMGB		it	false	false	1
+unit	1882	306	axis	it/itMMG;it/itMMGB		it	false	false	0
+unit	1938	306	axis	it/itLMG;it/itLMGB		it	false	false	0
+unit	1938	306	axis	it/itLMG;it/itLMGB		it	false	false	1
+unit	1938	306	axis	it/itLMG;it/itLMGB		it	false	false	2
+unit	1938	306	axis	it/itLMG;it/itLMGB		it	false	false	3
+unit	1995	306	axis	it/itMTR;it/itMTRB		it	false	false	0
+unit	1995	306	axis	it/itMTR;it/itMTRB		it	false	false	1
+unit	1882	48	axis	it/it447S;s7b		it	false	false	0
+unit	1882	48	axis	it/it447S;s7b		it	false	false	1
+unit	1882	48	axis	it/it447S;s7b		it	false	false	2
+unit	2107	274	axis	Sniper;Sniperb		it	false	false	0
+unit	1826	758	allied	am/am667S;s8b		am	false	false	0
+unit	1826	758	allied	am/am667S;s8b		am	false	false	1
+unit	1826	758	allied	am/am667S;s8b		am	false	false	2
+unit	1882	758	allied	am/am667S;s8b		am	false	false	0
+unit	1882	758	allied	am/am667S;s8b		am	false	false	1
+unit	1882	758	allied	am/am667S;s8b		am	false	false	2
+unit	1938	758	allied	am/am667S;s8b		am	false	false	0
+unit	1938	758	allied	am/am667S;s8b		am	false	false	1
+unit	1938	758	allied	am/am667S;s8b		am	false	false	2
+unit	1826	693	allied	am/am747S;s8b		am	false	false	0
+unit	1826	693	allied	am/am747S;s8b		am	false	false	1
+unit	1826	693	allied	am/am747S;s8b		am	false	false	2
+unit	1882	693	allied	am/am747S;s8b		am	false	false	0
+unit	1826	822	allied	am/am347H;h7b		am	false	false	0
+unit	1826	822	allied	am/am347H;h7b		am	false	false	1
+unit	1882	822	allied	c227;c8b		am	false	false	0
+unit	1882	822	allied	c227;c8b		am	false	false	1
+unit	1882	822	allied	c227;c8b		am	false	false	2
+unit	2023	709	allied	Sniper;Sniperb		am	false	false	0
+unit	1826	951	allied	am/amMMG;am/amMMGB		am	false	false	0
+unit	1826	951	allied	am/amMMG;am/amMMGB		am	false	false	1
+unit	1938	951	allied	am/baz43;am/baz43b		am	false	false	0
+unit	1938	951	allied	am/baz43;am/baz43b		am	false	false	1
+unit	1938	951	allied	am/baz43;am/baz43b		am	false	false	2
+unit	1882	951	allied	am/amMTR;am/amMTRB		am	false	false	0
+unit	1995	951	allied	am/amFT;ftb		am	false	false	0
+unit	2051	951	allied	dc;dcb		am	false	false	0
+gun	2023	806	allied	amAR75s;inf;WP8,H7		am	false	3	false	0
+gun	2023	806	allied	amAR75s;inf;WP8,H7		am	false	3	false	1
+gun	2023	806	allied	amAR75s;inf;WP8,H7		am	false	3	false	2
+unit	1938	887	allied	am/amL80;L80b		am	false	false	0
+veh	1882	1403	allied	m4;mt;rCS 5,sM5^4+^,WP7^J4+^,s5^J4+		am	false	3	3	false	false	0
+veh	1882	1403	allied	m4;mt;rCS 5,sM5^4+^,WP7^J4+^,s5^J4+		am	false	3	3	false	false	1
+unit	1826	887	allied	am/amL91;L91b		am	false	false	0
+unit	1826	887	allied	am/amL91;L91b		am	false	false	1
+unit	1882	887	allied	am/amL81;L81b		am	false	false	0
+veh	1882	1145	allied	ton212;TRUCK;cs 7		am	false	3	3	false	false	0
+unit	1882	1145	allied	c227;c8b		am	false	false	1
+gun	1882	1145	allied	amAR105;art;WP8,s7,H6,C7^4+P		am	false	3	false	2
+unit	1826	435	allied	al91		ge	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

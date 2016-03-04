@@ -1,0 +1,152 @@
+bd	0	0	BRV	
+INFO	Allied	Allied	1	?	4	?	3
+NOTESELR per BRV 8.1
+
+rot	56	32	none	North	false	2	0
+count	955	1677	none	Fort;Fort1	false	0
+count	955	1677	none	Fort;Fort1	false	1
+count	1236	1612	none	Wire	false	0
+count	1236	1612	none	Wire	false	1
+count	1236	1612	none	Wire	false	2
+count	1292	1677	none	Trench	false	0
+count	1292	1677	none	Trench	false	1
+count	1292	1677	none	Trench	false	2
+count	1292	1677	none	Trench	false	3
+count	1292	1677	none	Trench	false	4
+rot	1348	1612	none	Rdblk	false	2	0
+rot	1348	1612	none	Rdblk	false	2	1
+rot	1348	1612	none	Rdblk	false	2	2
+lab	843	-96	Bob Smith	acqB1;acqB2	Banner	false	0
+
+unit	337	1612	axis Smith	ge/ge838Ss;s9b		ge	false	false	0
+unit	337	1612	axis Smith	ge/ge838Ss;s9b		ge	false	false	1
+unit	337	1612	axis Smith	ge/ge838Ss;s9b		ge	false	false	2
+unit	337	1612	axis Smith	ge/ge838Ss;s9b		ge	false	false	3
+unit	393	1612	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	393	1612	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	393	1612	axis Smith	ge/ge658S;s9b		ge	false	false	2
+unit	337	1677	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	337	1677	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	337	1677	axis Smith	ge/ge658S;s9b		ge	false	false	2
+unit	393	1677	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	393	1677	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	393	1677	axis Smith	ge/ge658S;s9b		ge	false	false	2
+unit	449	1612	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	449	1612	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	449	1612	axis Smith	ge/ge658S;s9b		ge	false	false	2
+unit	449	1677	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	449	1677	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	505	1612	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	505	1612	axis Smith	ge/ge447S;s7b		ge	false	false	1
+unit	505	1612	axis Smith	ge/ge447S;s7b		ge	false	false	2
+unit	505	1612	axis Smith	ge/ge447S;s7b		ge	false	false	3
+unit	505	1677	axis Smith	ge/ge447S;s7b		ge	false	false	0
+unit	505	1677	axis Smith	ge/ge447S;s7b		ge	false	false	1
+unit	505	1677	axis Smith	ge/ge447S;s7b		ge	false	false	2
+unit	505	1677	axis Smith	ge/ge447S;s7b		ge	false	false	3
+unit	562	1612	axis Smith	c228;c8b		ge	false	false	0
+unit	562	1677	axis Smith	ge/geL92;L92b		ge	false	false	0
+unit	618	1677	axis Smith	ge/geL91;L91b		ge	false	false	0
+unit	618	1612	axis Smith	ge/geL81;L81b		ge	false	false	0
+unit	618	1612	axis Smith	ge/geL81;L81b		ge	false	false	1
+unit	618	1612	axis Smith	ge/geL81;L81b		ge	false	false	2
+unit	674	1612	axis Smith	ge/geL80;L80b	9-0 Gest.	ge	false	false	0
+unit	674	1677	axis Smith	ge/geHMG;ge/geHMGB		ge	false	false	0
+unit	674	1677	axis Smith	ge/geHMG;ge/geHMGB		ge	false	false	1
+unit	730	1677	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	730	1677	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	1
+unit	730	1677	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	2
+unit	730	1677	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	3
+unit	730	1612	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	730	1612	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	730	1612	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	2
+unit	786	1612	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	786	1612	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	786	1612	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	2
+unit	786	1677	axis Smith	dc;dcb		ge	false	false	0
+unit	786	1677	axis Smith	dc;dcb		ge	false	false	1
+unit	786	1677	axis Smith	dc;dcb		ge	false	false	2
+unit	843	1612	axis Smith	ge/gePSK;ge/gePSKB		ge	false	false	0
+unit	843	1612	axis Smith	ge/gePSK;ge/gePSKB		ge	false	false	1
+unit	843	1677	axis Smith	qmark;qmark		ge	true	false	0
+unit	843	1677	axis Smith	qmark;qmark		ge	true	false	1
+unit	843	1677	axis Smith	qmark;qmark		ge	true	false	2
+unit	843	1677	axis Smith	qmark;qmark		ge	false	false	3
+unit	899	1612	axis Smith	qmark;qmark		ge	true	false	0
+unit	899	1612	axis Smith	qmark;qmark		ge	true	false	1
+unit	899	1612	axis Smith	qmark;qmark		ge	false	false	2
+unit	899	1677	axis Smith	qmark;qmark		ge	true	false	0
+unit	899	1677	axis Smith	qmark;qmark		ge	true	false	1
+unit	899	1677	axis Smith	qmark;qmark		ge	false	false	2
+gun	1180	1677	axis Smith	geAA88L;hvAA;A5^2^/4^3^/3^4		ge	false	3	false	0
+veh	1067	1677	axis Smith	pzvg;hvt;CS 6,sN7^4^/8^5,12:Stall	Turret	ge	false	3	3	false	true	0
+veh	1124	1612	axis Smith	pzvg;hvt;CS 6,sN7^4^/8^5,12:Stall		ge	false	3	3	false	true	0
+veh	1517	1612	axis Smith	psw2342;ac;CS 4,sD7,A5^3^/4^4		ge	false	3	3	false	false	0
+veh	1517	1677	axis Smith	pzvib;king;CS 6,sN9,ML:9		ge	false	3	3	false	false	0
+veh	1011	1612	axis Smith	pzvg;hvt;CS 6,sN7^4^/8^5,12:Stall	Turret	ge	false	3	3	false	true	0
+unit	281	-32	allied Smith	ru/ru628S;s8b		ru	false	false	0
+unit	281	-32	allied Smith	ru/ru628S;s8b		ru	false	false	1
+unit	281	-32	allied Smith	ru/ru628S;s8b		ru	false	false	2
+unit	337	-32	allied Smith	ru/ru628S;s8b		ru	false	false	0
+unit	337	-32	allied Smith	ru/ru628S;s8b		ru	false	false	1
+unit	337	-32	allied Smith	ru/ru628S;s8b		ru	false	false	2
+unit	393	-32	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	393	-32	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	393	-32	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	449	-32	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	449	-32	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	449	-32	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	449	-32	allied Smith	ru/ru458S;s8b		ru	false	false	3
+unit	505	-32	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	505	-32	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	505	-32	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	562	-32	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	562	-32	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	562	-32	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	562	-32	allied Smith	ru/ru447S;s7b		ru	false	false	3
+unit	618	-32	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	618	-32	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	618	-32	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	618	-32	allied Smith	ru/ru447S;s7b		ru	false	false	3
+unit	674	-32	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	674	-32	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	674	-32	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	674	-32	allied Smith	ru/ru447S;s7b		ru	false	false	3
+unit	730	-32	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	730	-32	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	281	-96	allied Smith	ru/ruL102;L102b		ru	false	false	0
+unit	337	-96	allied Smith	ru/ruL91;L91b		ru	false	false	0
+unit	393	-96	allied Smith	ru/ruL81;L81b		ru	false	false	0
+unit	393	-96	allied Smith	ru/ruL81;L81b		ru	false	false	1
+unit	449	-96	allied Smith	ru/ruL80;L80b		ru	false	false	0
+unit	505	-96	allied Smith	ru/ruHMG;ru/ruHMGB		ru	false	false	0
+unit	505	-96	allied Smith	ru/ruHMG;ru/ruHMGB		ru	false	false	1
+unit	562	-96	allied Smith	ru/ruMMG;ru/ruMMGB		ru	false	false	0
+unit	562	-96	allied Smith	ru/ruMMG;ru/ruMMGB		ru	false	false	1
+unit	562	-96	allied Smith	ru/ruMMG;ru/ruMMGB		ru	false	false	2
+unit	562	-96	allied Smith	ru/ruMMG;ru/ruMMGB		ru	false	false	3
+unit	618	-96	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	618	-96	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+unit	618	-96	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	2
+unit	618	-96	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	3
+unit	674	-96	allied Smith	dc;dcb		ru	false	false	0
+unit	674	-96	allied Smith	dc;dcb		ru	false	false	1
+unit	674	-96	allied Smith	dc;dcb		ru	false	false	2
+unit	730	-96	allied Smith	ru/ruFT;ftb		ru	false	false	0
+unit	730	-96	allied Smith	ru/ruFT;ftb		ru	false	false	1
+unit	786	-96	allied Smith	ru/ruMTR;ru/ruMTRB		ru	false	false	0
+unit	786	-96	allied Smith	ru/ruMTR;ru/ruMTRB		ru	false	false	1
+unit	786	-96	allied Smith	ru/ruMTR;ru/ruMTRB		ru	false	false	2
+unit	786	-32	allied Smith	radio678;ru/ruradiob		ru	false	false	0
+veh	843	-32	allied Smith	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	0
+veh	899	-96	allied Smith	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	0
+veh	955	-32	allied Smith	is2;hvt;CS 6,No IF		ru	false	3	3	false	false	0
+veh	1011	-96	allied Smith	is2m;hvt;CS 6,No IF		ru	false	3	3	false	false	0
+veh	1067	-32	allied Smith	su122;TD;CS 5,H9,s8,No IF		ru	false	3	3	false	false	0
+veh	1124	-96	allied Smith	su122;TD;CS 5,H9,s8,No IF		ru	false	3	3	false	false	0
+veh	1180	-32	allied Smith	su122;TD;CS 5,H9,s8,No IF		ru	false	3	3	false	false	0
+veh	1236	-96	allied Smith	ot34;mt;R*,CS 4,AP7,No IF,A2^2^/3^3^/4^4^/5^5		ru	false	3	3	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

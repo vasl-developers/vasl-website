@@ -1,0 +1,10 @@
+Created 5/20/06 by Tom Lavan (Hexagoner)
+
+VASL Module Version 5.3
+VASSAL engine version 2.6.3
+
+Terrain modifications completed
+Snipers and OB units present
+No variable OB units present
+INFO screen completed for all scenarios
+

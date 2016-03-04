@@ -1,0 +1,119 @@
+bd	0	0	r18	bd	0	1	43	bd	0	2	42	
+INFO	Axis	Axis	1	4	3	3	4
+
+count	1854	1387	none	ap6	false	0
+count	1854	1387	none	ap6	false	1
+count	1854	1387	none	ap6	false	2
+count	1854	1387	none	ap6	false	3
+count	1967	1387	none	Atditch	false	0
+count	1967	1387	none	Atditch	false	1
+count	1967	1387	none	Atditch	false	2
+count	1967	1387	none	Atditch	false	3
+count	1967	1387	none	Atditch	false	4
+count	1967	1387	none	Atditch	false	5
+rot	1967	1483	none	Pbwd1	false	2	0
+count	1854	1483	none	Trench	false	0
+count	1854	1483	none	Trench	false	1
+count	1854	1483	none	Trench	false	2
+count	1854	1483	none	Trench	false	3
+count	1854	1483	none	Trench	false	4
+count	1854	1483	none	Trench	false	5
+count	1854	1483	none	Trench	false	6
+count	1854	1483	none	Trench	false	7
+count	1854	1483	none	Trench	false	8
+count	1854	1483	none	Trench	false	9
+
+unit	1826	113	axis	ge/ge838S;s8b		ge	false	false	0
+unit	1826	113	axis	ge/ge838S;s8b		ge	false	false	1
+unit	1826	113	axis	ge/ge838S;s8b		ge	false	false	2
+unit	1882	113	axis	ge/ge838S;s8b		ge	false	false	0
+unit	1882	113	axis	ge/ge838S;s8b		ge	false	false	1
+unit	1995	113	axis	ge/ge468S;s8b		ge	false	false	0
+unit	1995	113	axis	ge/ge468S;s8b		ge	false	false	1
+unit	1995	113	axis	ge/ge468S;s8b		ge	false	false	2
+unit	1938	113	axis	ge/ge468S;s8b		ge	false	false	0
+unit	1826	177	axis	ge/ge467S;s7b		ge	false	false	0
+unit	1826	177	axis	ge/ge467S;s7b		ge	false	false	1
+unit	1826	177	axis	ge/ge467S;s7b		ge	false	false	2
+unit	1882	177	axis	ge/ge467S;s7b		ge	false	false	0
+unit	1882	177	axis	ge/ge467S;s7b		ge	false	false	1
+unit	1882	177	axis	ge/ge467S;s7b		ge	false	false	2
+unit	1938	177	axis	ge/ge467S;s7b		ge	false	false	0
+unit	1938	177	axis	ge/ge467S;s7b		ge	false	false	1
+unit	1938	177	axis	ge/ge467S;s7b		ge	false	false	2
+unit	1995	177	axis	ge/ge467S;s7b		ge	false	false	0
+unit	1826	242	axis	ge/geL91;L91b		ge	false	false	0
+unit	1826	242	axis	ge/geL91;L91b		ge	false	false	1
+unit	1882	242	axis	ge/geL81;L81b		ge	false	false	0
+unit	1938	242	axis	ge/geL80;L80b		ge	false	false	0
+unit	1938	242	axis	ge/geL80;L80b		ge	false	false	1
+unit	1826	306	axis	ge/geHMG;ge/geHMGB		ge	false	false	0
+unit	1882	306	axis	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	1882	306	axis	ge/geMMG;ge/geMMGB		ge	false	false	1
+unit	1938	306	axis	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	1938	306	axis	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	1938	306	axis	ge/geLMG;ge/geLMGB		ge	false	false	2
+unit	1826	371	axis	ge/geFT;ftb		ge	false	false	0
+unit	1882	371	axis	dc;dcb		ge	false	false	0
+unit	1882	371	axis	dc;dcb		ge	false	false	1
+unit	1882	371	axis	dc;dcb		ge	false	false	2
+unit	1938	371	axis	ge/gegol;ge/gegolb		ge	false	false	0
+unit	1938	371	axis	ge/gegol;ge/gegolb		ge	false	false	1
+unit	1938	371	axis	ge/gegol;ge/gegolb		ge	false	false	2
+unit	1938	371	axis	ge/gegol;ge/gegolb		ge	false	false	3
+veh	1854	484	axis	jgpzv;TD;CS 6,HE7,sN9,12:Stall		ge	false	3	3	false	false	0
+veh	1854	484	axis	jgpzv;TD;CS 6,HE7,sN9,12:Stall		ge	false	3	3	false	false	1
+veh	1854	484	axis	jgpzv;TD;CS 6,HE7,sN9,12:Stall		ge	false	3	3	false	false	2
+veh	1854	484	axis	jgpzv;TD;CS 6,HE7,sN9,12:Stall		ge	false	3	3	false	false	3
+veh	2079	484	axis	stgiiig;AG;CS 4,sD7,s8,A6^2^/5^3^/4^4,MG:VCA only		ge	false	3	3	false	false	0
+veh	2079	484	axis	stgiiig;AG;CS 4,sD7,s8,A6^2^/5^3^/4^4,MG:VCA only		ge	false	3	3	false	false	1
+veh	1967	484	axis	suh42l;AG;CS 4,sN9,s9,H9,MG:VCA only		ge	false	3	3	false	false	0
+veh	1967	484	axis	suh42l;AG;CS 4,sN9,s9,H9,MG:VCA only		ge	false	3	3	false	false	1
+unit	2079	290	axis	Sniper;Sniperb		ge	false	false	0
+unit	1854	1774	allied	am/amHMG50;am/amHMG50B		ru	false	false	0
+unit	1826	1112	allied	ru/ru328H;h7b		ru	false	false	0
+unit	1826	1112	allied	ru/ru328H;h7b		ru	false	false	1
+unit	1826	1112	allied	ru/ru328H;h7b		ru	false	false	2
+unit	1882	1112	allied	ru/ru328H;h7b		ru	false	false	0
+unit	1882	1112	allied	ru/ru328H;h7b		ru	false	false	1
+unit	1882	1112	allied	ru/ru328H;h7b		ru	false	false	2
+unit	1938	1112	allied	ru/ruL70;L70b		ru	false	false	0
+unit	1995	1112	allied	ru/ruHero;ru/ruHerob		ru	false	false	0
+unit	2051	1112	allied	ru/ruATR;ru/ruATRb		ru	false	false	0
+unit	2107	1112	allied	dc;dcb		ru	false	false	0
+unit	2107	1112	allied	dc;dcb		ru	false	false	1
+unit	2107	1112	allied	dc;dcb		ru	false	false	2
+unit	1854	1580	allied	ru/ru458S;s8b		ru	false	false	0
+unit	1854	1580	allied	ru/ru458S;s8b		ru	false	false	1
+unit	1854	1580	allied	ru/ru458S;s8b		ru	false	false	2
+unit	1910	1580	allied	ru/ru458S;s8b		ru	false	false	0
+unit	1967	1580	allied	ru/ru447S;s7b		ru	false	false	0
+unit	1967	1580	allied	ru/ru447S;s7b		ru	false	false	1
+unit	1967	1580	allied	ru/ru447S;s7b		ru	false	false	2
+unit	2023	1580	allied	ru/ru447S;s7b		ru	false	false	0
+unit	2023	1580	allied	ru/ru447S;s7b		ru	false	false	1
+unit	2023	1580	allied	ru/ru447S;s7b		ru	false	false	2
+unit	2079	1580	allied	ru/ru447S;s7b		ru	false	false	0
+unit	2079	1580	allied	ru/ru447S;s7b		ru	false	false	1
+unit	2079	1580	allied	ru/ru447S;s7b		ru	false	false	2
+unit	2135	1580	allied	ru/ru447S;s7b		ru	false	false	0
+unit	1854	1645	allied	c228;c8b		ru	false	false	0
+unit	1854	1645	allied	c228;c8b		ru	false	false	1
+unit	1854	1645	allied	c228;c8b		ru	false	false	2
+unit	1854	1645	allied	c228;c8b		ru	false	false	3
+unit	1854	1709	allied	ru/ruL91;L91b		ru	false	false	0
+unit	1910	1709	allied	ru/ruL81;L81b		ru	false	false	0
+unit	1967	1709	allied	ru/ruL80;L80b		ru	false	false	0
+unit	1854	1774	allied	am/amHMG50;am/amHMG50B		ru	false	false	0
+unit	1910	1774	allied	ru/ruHMG;ru/ruHMGB		ru	false	false	0
+unit	1967	1774	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	1967	1774	allied	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+gun	1854	1870	allied	ruAT57LL;ltAT;A4^3^/5^4^/6^5		ru	false	3	false	0
+gun	1854	1870	allied	ruAT57LL;ltAT;A4^3^/5^4^/6^5		ru	false	3	false	1
+gun	1967	1870	allied	ruAT45LL;ltAT;A4^2^/5^3^/6^4^/7^5		ru	false	3	false	0
+gun	1967	1870	allied	ruAT45LL;ltAT;A4^2^/5^3^/6^4^/7^5		ru	false	3	false	1
+unit	2135	1709	allied	Sniper;Sniperb		ru	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

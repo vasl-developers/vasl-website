@@ -1,0 +1,76 @@
+bd	0	0	BRV	0	0	871	967	
+INFO	Allied	Allied	1	?	3	?	2
+NOTESGerman ELR per BRV 8.1 (-1)
+NOTESRussian ELR per BRV 8.1
+
+rot	899	484	none	Rdblk	false	2	0
+count	899	419	none	Wire	false	0
+rot	56	32	none	North	false	2	0
+
+unit	899	548	axis Smith	ge/ge838S;s8b		ge	false	false	0
+unit	899	613	axis Smith	ge/ge658S;s9b		ge	false	false	0
+unit	899	613	axis Smith	ge/ge658S;s9b		ge	false	false	1
+unit	899	613	axis Smith	ge/ge658S;s9b		ge	false	false	2
+unit	899	613	axis Smith	ge/ge658S;s9b		ge	false	false	3
+unit	899	677	axis Smith	ge/ge436S;s5b		ge	false	false	0
+unit	899	677	axis Smith	ge/ge436S;s5b		ge	false	false	1
+unit	899	677	axis Smith	ge/ge436S;s5b		ge	false	false	2
+unit	899	677	axis Smith	ge/ge436S;s5b		ge	false	false	3
+unit	899	742	axis Smith	ge/ge436S;s5b		ge	false	false	0
+unit	899	742	axis Smith	ge/ge436S;s5b		ge	false	false	1
+unit	899	742	axis Smith	ge/ge436S;s5b		ge	false	false	2
+unit	899	742	axis Smith	ge/ge436S;s5b		ge	false	false	3
+unit	955	580	axis Smith	ge/geL81;L81b		ge	false	false	0
+unit	955	645	axis Smith	ge/geL81;L81b		ge	false	false	0
+unit	955	709	axis Smith	ge/geL80;L80b		ge	false	false	0
+unit	955	709	axis Smith	ge/geL80;L80b		ge	false	false	1
+unit	955	774	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	0
+unit	955	774	axis Smith	ge/geMMG;ge/geMMGB		ge	false	false	1
+unit	899	806	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	899	806	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	955	838	axis Smith	dc;dcb		ge	false	false	0
+unit	955	838	axis Smith	dc;dcb		ge	false	false	1
+unit	899	871	axis Smith	ge/gePSK;ge/gePSKB		ge	false	false	0
+unit	899	484	axis Smith	blank	Barricade	ge	false	false	1
+unit	-56	613	allied Smith	am/amHMG50;am/amHMG50B		ru	false	false	0
+unit	-56	290	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	-56	290	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	-56	290	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	-112	322	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	-112	322	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	-112	322	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	-56	355	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	-56	355	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	-56	355	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	-112	387	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	-112	387	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	-112	387	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	-56	419	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	-56	419	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	-56	419	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	-112	451	allied Smith	ru/ru447S;s7b		ru	false	false	0
+unit	-112	451	allied Smith	ru/ru447S;s7b		ru	false	false	1
+unit	-112	451	allied Smith	ru/ru447S;s7b		ru	false	false	2
+unit	-56	484	allied Smith	ru/ruL92;L92b		ru	false	false	0
+unit	-56	548	allied Smith	ru/ruL81;L81b		ru	false	false	0
+unit	-112	516	allied Smith	ru/ruL70;L70b		ru	false	false	0
+unit	-112	516	allied Smith	ru/ruL70;L70b		ru	false	false	1
+unit	-112	580	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	-112	580	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+unit	-112	580	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	2
+unit	-112	580	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	3
+unit	-112	645	allied Smith	ru/ruHMG;ru/ruHMGB		ru	false	false	0
+unit	-112	645	allied Smith	ru/ruHMG;ru/ruHMGB		ru	false	false	1
+unit	-56	613	allied Smith	am/amHMG50;am/amHMG50B		ru	false	false	0
+unit	-56	677	allied Smith	dc;dcb		ru	false	false	0
+unit	-56	677	allied Smith	dc;dcb		ru	false	false	1
+unit	-56	677	allied Smith	dc;dcb		ru	false	false	2
+unit	-112	709	allied Smith	ru/ruFT;ftb		ru	false	false	0
+unit	-112	709	allied Smith	ru/ruFT;ftb		ru	false	false	1
+veh	-56	226	allied Smith	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	0
+veh	-56	161	allied Smith	su76m;OTTD;rCS 4,A5^3^/6^4^/7^5		ru	false	3	3	false	true	0
+veh	-56	97	allied Smith	su152;TD;CS 6,No IF		ru	false	3	3	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

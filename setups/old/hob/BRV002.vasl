@@ -1,0 +1,93 @@
+bd	0	0	BRV	
+INFO	Axis	Axis	1	2	4	?	2
+NOTESRussian ELR by BRV 8.1
+
+rot	1517	-32	none	Rdblk	false	2	0
+rot	1573	-32	none	Rdblk	false	2	0
+rot	899	64	none	North	false	2	0
+
+unit	1067	-32	axis Smith	ge/ge548S;s8b		ge	false	false	0
+unit	1067	-32	axis Smith	ge/ge548S;s8b		ge	false	false	1
+unit	1067	-32	axis Smith	ge/ge548S;s8b		ge	false	false	2
+unit	1124	-32	axis Smith	ge/ge436S;s5b		ge	false	false	0
+unit	1124	-32	axis Smith	ge/ge436S;s5b		ge	false	false	1
+unit	1124	-32	axis Smith	ge/ge436S;s5b		ge	false	false	2
+unit	1180	-32	axis Smith	ge/ge436S;s5b		ge	false	false	0
+unit	1180	-32	axis Smith	ge/ge436S;s5b		ge	false	false	1
+unit	1180	-32	axis Smith	ge/ge436S;s5b		ge	false	false	2
+unit	1236	-32	axis Smith	ge/ge436S;s5b		ge	false	false	0
+unit	1236	-32	axis Smith	ge/ge436S;s5b		ge	false	false	1
+unit	1236	-32	axis Smith	ge/ge436S;s5b		ge	false	false	2
+unit	1292	-32	axis Smith	ge/geL81;L81b		ge	false	false	0
+unit	1348	-32	axis Smith	ge/geL70;L70b	7+1 Gest.	ge	false	false	0
+unit	1405	-32	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	0
+unit	1405	-32	axis Smith	ge/geLMG;ge/geLMGB		ge	false	false	1
+unit	1461	-32	axis Smith	ge/gePSK;ge/gePSKB		ge	false	false	0
+unit	1573	-32	axis Smith	blank	Barricade	ge	false	false	1
+gun	843	97	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	32	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	161	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	226	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	290	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	64	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	129	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	193	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	258	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	355	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	322	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	419	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	387	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	484	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	451	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	548	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	516	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	613	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	580	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	677	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	645	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	742	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	709	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	806	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	774	axis Smith	Blank;gun		ja	false	3	true	0
+gun	843	871	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	838	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	935	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	903	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1000	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	967	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1064	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1032	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1129	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1096	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1193	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1161	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1258	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1322	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1387	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1451	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1516	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1580	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1225	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1290	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1354	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1419	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1483	axis Smith	Blank;gun		ja	false	3	false	0
+gun	843	1548	axis Smith	Blank;gun		ja	false	3	false	0
+unit	1742	-32	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	1742	-32	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	1742	-32	allied Smith	ru/ru458S;s8b		ru	false	false	2
+unit	1798	-32	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	1798	-32	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	1854	-32	allied Smith	ru/ru458S;s8b		ru	false	false	0
+unit	1854	-32	allied Smith	ru/ru458S;s8b		ru	false	false	1
+unit	1910	-32	allied Smith	ru/ru248H;h7b		ru	false	false	0
+unit	1910	-32	allied Smith	ru/ru248H;h7b		ru	false	false	1
+unit	2023	-32	allied Smith	ru/ruL70;L70b		ru	false	false	0
+unit	1967	-32	allied Smith	ru/ruL91;L91b		ru	false	false	0
+unit	2079	-32	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	0
+unit	2079	-32	allied Smith	ru/ruLMG;ru/ruLMGB		ru	false	false	1
+veh	2135	-32	allied Smith	t3485;mt;CS 6,sD6*,A5^4^/6^5		ru	false	3	3	false	false	0
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log

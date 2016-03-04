@@ -1,0 +1,122 @@
+bd	0	0	r38	bd	0	1	r43	
+INFO	Allied	Allied	1	3	5	3	4
+
+rot	1011	1612	none	Pbwd1	false	2	0
+rot	1011	1612	none	Pbwd1	false	2	1
+rot	1011	1612	none	Pbwd1	false	2	2
+rot	1011	1612	none	Pbwd1	false	2	3
+count	899	1612	none	Fox1	false	0
+count	899	1612	none	Fox1	false	1
+count	899	1612	none	Fox1	false	2
+count	899	1612	none	Fox1	false	3
+count	899	1612	none	Fox1	false	4
+count	899	1612	none	Fox1	false	5
+
+unit	899	1322	axis	ja/ja447S;ja/ja347Sr		ja	false	false	0
+unit	899	1322	axis	ja/ja447S;ja/ja347Sr		ja	false	false	1
+unit	899	1322	axis	ja/ja447S;ja/ja347Sr		ja	false	false	2
+unit	955	1322	axis	ja/ja447S;ja/ja347Sr		ja	false	false	0
+unit	955	1322	axis	ja/ja447S;ja/ja347Sr		ja	false	false	1
+unit	955	1322	axis	ja/ja447S;ja/ja347Sr		ja	false	false	2
+unit	1011	1322	axis	ja/ja447S;ja/ja347Sr		ja	false	false	0
+unit	1011	1322	axis	ja/ja447S;ja/ja347Sr		ja	false	false	1
+unit	1067	1322	axis	ja/ja347S;ja/ja237S		ja	false	false	0
+unit	1067	1322	axis	ja/ja347S;ja/ja237S		ja	false	false	1
+unit	1067	1322	axis	ja/ja347S;ja/ja237S		ja	false	false	2
+unit	1124	1322	axis	ja/ja347S;ja/ja237S		ja	false	false	0
+unit	1124	1322	axis	ja/ja347S;ja/ja237S		ja	false	false	1
+unit	1124	1322	axis	ja/ja347S;ja/ja237S		ja	false	false	2
+unit	1180	1322	axis	ja/ja347S;ja/ja237S		ja	false	false	0
+unit	1180	1322	axis	ja/ja347S;ja/ja237S		ja	false	false	1
+unit	1236	1322	axis	c228;ja/ja128C		ja	false	false	0
+unit	1236	1322	axis	c228;ja/ja128C		ja	false	false	1
+unit	1236	1322	axis	c228;ja/ja128C		ja	false	false	2
+unit	1292	1322	axis	c228;ja/ja128C		ja	false	false	0
+unit	1292	1322	axis	c228;ja/ja128C		ja	false	false	1
+unit	1292	1322	axis	c228;ja/ja128C		ja	false	false	2
+unit	814	1403	axis	Sniper;Sniperb		ja	false	false	0
+unit	899	1387	axis	ja/jaL91;ja/jaL80w		ja	false	false	0
+unit	955	1387	axis	ja/jaL90;ja/jaL8p1w		ja	false	false	0
+unit	1011	1387	axis	ja/jaL8p1;ja/jaL7p2w		ja	false	false	0
+unit	1011	1387	axis	ja/jaL8p1;ja/jaL7p2w		ja	false	false	1
+unit	899	1451	axis	ja/jaHMG;ja/jaHMGB		ja	false	false	0
+unit	955	1451	axis	ja/jaMMG;ja/jaMMGB		ja	false	false	0
+unit	955	1451	axis	ja/jaMMG;ja/jaMMGB		ja	false	false	1
+unit	1067	1451	axis	ja/jaMTR;ja/jaMTRB		ja	false	false	0
+unit	1067	1451	axis	ja/jaMTR;ja/jaMTRB		ja	false	false	1
+unit	1124	1451	axis	dc;dcb		ja	false	false	0
+unit	1124	1451	axis	dc;dcb		ja	false	false	1
+unit	899	1516	axis	qmark;qmark		ja	true	false	0
+unit	899	1516	axis	qmark;qmark		ja	false	false	1
+unit	955	1516	axis	qmark;qmark		ja	true	false	0
+unit	955	1516	axis	qmark;qmark		ja	false	false	1
+unit	1011	1516	axis	qmark;qmark		ja	true	false	0
+unit	1011	1516	axis	qmark;qmark		ja	false	false	1
+unit	1067	1516	axis	qmark;qmark		ja	true	false	0
+unit	1067	1516	axis	qmark;qmark		ja	false	false	1
+unit	1124	1516	axis	qmark;qmark		ja	true	false	0
+unit	1124	1516	axis	qmark;qmark		ja	false	false	1
+unit	1180	1516	axis	qmark;qmark		ja	true	false	0
+unit	1180	1516	axis	qmark;qmark		ja	false	false	1
+gun	1264	1403	axis	jaAT47L;at		ja	false	3	false	0
+gun	1376	1403	axis	jaINF70s;inf;WP5,AP5,H6^5		ja	false	3	false	0
+gun	1264	1499	axis	jaAA20L;ltAA		ja	false	3	false	0
+unit	1011	1451	axis	ja/jaLMG;ja/jaLMGB		ja	false	false	0
+unit	1011	1451	axis	ja/jaLMG;ja/jaLMGB		ja	false	false	1
+unit	1011	1451	axis	ja/jaLMG;ja/jaLMGB		ja	false	false	2
+unit	1854	97	allied	am/am337H;h7b		am	false	false	0
+unit	1854	97	allied	am/am337H;h7b		am	false	false	1
+unit	1854	97	allied	am/am337H;h7b		am	false	false	2
+unit	1910	97	allied	am/am337H;h7b		am	false	false	0
+unit	1910	97	allied	am/am337H;h7b		am	false	false	1
+unit	1910	97	allied	am/am337H;h7b		am	false	false	2
+unit	1967	97	allied	am/am337H;h7b		am	false	false	0
+unit	1967	97	allied	am/am337H;h7b		am	false	false	1
+unit	1967	97	allied	am/am337H;h7b		am	false	false	2
+unit	1854	161	allied	am/amL91;L91b		am	false	false	0
+unit	1910	161	allied	am/amL80;L80b		am	false	false	0
+unit	1854	226	allied	am/amLMG;am/amLMGB		am	false	false	0
+unit	1854	226	allied	am/amLMG;am/amLMGB		am	false	false	1
+unit	56	1322	allied	am/am667S;s8b		am	false	false	0
+unit	56	1322	allied	am/am667S;s8b		am	false	false	1
+unit	56	1322	allied	am/am667S;s8b		am	false	false	2
+unit	112	1322	allied	am/am667S;s8b		am	false	false	0
+unit	112	1322	allied	am/am667S;s8b		am	false	false	1
+unit	112	1322	allied	am/am667S;s8b		am	false	false	2
+unit	168	1322	allied	am/am666S;s8b		am	false	false	0
+unit	168	1322	allied	am/am666S;s8b		am	false	false	1
+unit	168	1322	allied	am/am666S;s8b		am	false	false	2
+unit	281	1322	allied	am/am666S;s8b		am	false	false	0
+unit	281	1322	allied	am/am666S;s8b		am	false	false	1
+unit	281	1322	allied	am/am666S;s8b		am	false	false	2
+unit	56	1387	allied	am/amL92;L92b		am	false	false	0
+unit	112	1387	allied	am/amL81;L81b		am	false	false	0
+unit	168	1387	allied	am/amL80;L80b		am	false	false	0
+unit	224	1387	allied	am/amL70;L70b		am	false	false	0
+unit	-84	1403	allied	Sniper;Sniperb		am	false	false	0
+unit	56	1451	allied	am/amMMG;am/amMMGB		am	false	false	0
+unit	56	1451	allied	am/amMMG;am/amMMGB		am	false	false	1
+unit	112	1451	allied	dc;dcb		am	false	false	0
+unit	112	1451	allied	dc;dcb		am	false	false	1
+unit	168	1451	allied	am/baz45;am/baz45b		am	false	false	0
+unit	168	1451	allied	am/baz45;am/baz45b		am	false	false	1
+veh	337	1387	allied	m4105;mt;CS 6,sM8,H9,s7,WP9,C7^P		am	false	3	3	false	false	0
+veh	337	1451	allied	m5a1;lt;CS 4,C7		am	false	3	3	false	false	0
+unit	56	1677	allied	am/am666S;s8b		am	false	false	0
+unit	56	1677	allied	am/am666S;s8b		am	false	false	1
+unit	112	1677	allied	am/amL70;L70b		am	false	false	0
+veh	56	1774	allied	m3ht;OTHT;CS 5,MA:MMG		am	false	3	3	false	true	0
+veh	56	1774	allied	m3ht;OTHT;CS 5,MA:MMG		am	false	3	3	false	true	1
+veh	168	1774	allied	ton34;TRUCK;cs 4		am	false	3	3	false	false	0
+veh	168	1774	allied	ton34;TRUCK;cs 4		am	false	3	3	false	false	1
+veh	168	1774	allied	ton34;TRUCK;cs 4		am	false	3	3	false	false	2
+veh	168	1774	allied	ton34;TRUCK;cs 4		am	false	3	3	false	false	3
+veh	168	1774	allied	ton34;TRUCK;cs 4		am	false	3	3	false	false	4
+veh	168	1774	allied	ton34;TRUCK;cs 4		am	false	3	3	false	false	5
+unit	224	1322	allied	am/am666S;s8b		am	false	false	0
+unit	224	1322	allied	am/am666S;s8b		am	false	false	1
+unit	224	1322	allied	am/am666S;s8b		am	false	false	2
+end_save
+begin_log
+CHAT<rk> - In order for concealment to work properly, you must select the top unit in each stack in your OB and hit CTRL-O.  Your opponent should do the same.
+end_log
