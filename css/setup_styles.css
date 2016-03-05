@@ -1,0 +1,36 @@
+#setups h1,
+#setups h2,
+#setups h3,
+#setups h4,
+#setups h5,
+#setups h6 {
+  margin: 5px 0;
+}
+
+#setups h1 {
+  margin-left: 0;
+}
+
+#setups h2 {
+  margin-left: 10px;
+}
+
+#setups h3 {
+  margin-left: 20px;
+}
+
+#setups h4 {
+  margin-left: 30px;
+}
+
+#setups h5 {
+  margin-left: 40px;
+}
+
+#setups h6 {
+  margin-left: 50px;
+}
+
+#setups p {
+  margin: 0;
+}

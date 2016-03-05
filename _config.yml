@@ -1,0 +1,9 @@
+url: "http://vasl.info"
+baseurl: ""
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: test
