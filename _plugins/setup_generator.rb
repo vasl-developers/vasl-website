@@ -30,6 +30,9 @@ module Jekyll
 
       # Keep the file from being cleaned by Jekyll
       site.static_files << Jekyll::SitemapFile.new(site, site.dest, "/", FILE_NAME)
+
+      FileUtils.cd('./include')
+      FileUtils.cp File.join(site.dest, FILE_NAME), File.join(FileUtils.pwd(), "scen.html")
     end
 
     def process(path)
