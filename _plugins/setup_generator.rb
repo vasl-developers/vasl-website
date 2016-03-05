@@ -24,6 +24,8 @@ module Jekyll
       Dir::mkdir(site.dest) if !File.directory? site.dest
       $fileHtml = File.new(File.join(site.dest, FILE_NAME), "w+")
 
+      $base = site.dest
+
       traverse(File.join(site.dest, "/setups"))
 
       $fileHtml.close()
@@ -42,7 +44,8 @@ module Jekyll
         h = "h" + level.to_s
         $fileHtml.puts "<"+h+">" + dir + "</"+h+">" if dir != "Enhanced"
       else
-        $fileHtml.puts "<p><a href='"+path+"'>" + File.basename(path, ".vsav") + "</a></p>"
+        downloadPath = path.sub($base, ".")
+        $fileHtml.puts "<p><a href='"+downloadPath+"'>" + File.basename(path, ".vsav") + "</a></p>"
       end
     end
 
