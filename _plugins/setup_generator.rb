@@ -38,6 +38,7 @@ module Jekyll
     end
 
     def process(path)
+      puts path
       if File.directory?(path)
         dir = File.basename(path)
         level = path.count('/') - 4
