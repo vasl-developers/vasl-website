@@ -47,9 +47,9 @@ ga('send', 'pageview');
                 <li>You'll see a dialog box showing that Vassal is tiling the VASL images. This makes the images more efficient while using VASL.</li>
               </ol>
 
-              <p>VASL 6.3.* requires Vassal 3.2.8 or later and VASL 5.9.3 only works with Vassal 3.1.20. If you save a module,
-              game, or log in VASL 6.3.*, you will NOT be able to open it afterwards with VASL 5.9. We recommend finishing your
-              5.9 games with that version of VASL and starting new ones with 6.3.*.</p>
+              <p>VASL 6.4.* requires Vassal 3.2.8 or later and VASL 5.9.3 only works with Vassal 3.1.20. If you save a module,
+              game, or log in VASL 6.4.*, you will NOT be able to open it afterwards with VASL 5.9. We recommend finishing your
+              5.9 games with that version of VASL and starting new ones with 6.4.*.</p>
 
               <p>Vassal 3.2.x and 3.1.20 can happily coexist on the same machine. Just make sure to install each version to a different location.</p>
 
@@ -60,35 +60,80 @@ ga('send', 'pageview');
       </div>
 
       <div class="well table">
-        <a id="download633" class="track btn btn-large btn-primary" href="modules/VASLv633.zip">VASL 6.3.3</a>
-        <a href="./boards.htm" class="track btn btn-lrge btn-success">Get the new version 6 boards</a>
+        <a id="download640" class="track btn btn-large btn-primary" href="modules/VASLv640.zip">VASL 6.4.0</a>
+        <a href="./boards.htm" class="track btn btn-lrge btn-success">Get the version 6 boards</a>
+        <h2 class="pull-right">Updated May 12, 2017</h2>
+        <h3>New in version 6.4.0:</h3>
+        <ul>
+          <li>Enhancements:
+            <ul>
+              <li>Improved sniper finder; now functions like broken piece finder (highlights snipers on map).</li>
+              <li>Draggable overlays; when setting up a game, rather than having to enter the overlay name and hexes in a dialogue box, you can drag them onto the map. Previous method still supported. To use this feature you must install a VASL extension. Download the extension from <a href="http://vasl.info/extensions.htm">http://vasl.info/extensions.htm</a>. For installation instructions for extensions, see the User Guide at VASL.info. Instructions for using the draggable overlays during game play are included in the extension and can be accessed via the Help menu in VASL.</li>
+              <li>Counter linking. You can link two counters together and display a line showing the link. Great for Guns and acquisition counters or firer-target pairs. To link: select any two counters, CTRL-ALT-L. Linkline will show. Click elsewhere and Linkline will disappear. Reclick one of the counters and Linkline will reappear. To end link, select both counters, CTRL-ALT-U.</li>
+              <li>LOS Checking for HASL maps; starting with the Red Barricades map, LOS checking is being extended to HASL maps.</li>
+              <li>LOS Checking for rooftops, cellars added; LOS can now be traced from rooftops and cellars for all multihex buildings on boards 1-75, including 1a-9b.</li>
+              <li>LOS Checking stays enabled regardless of cropping and/or flipping configurations.</li>
+              <li>Counters under a “?” now show as white (reversion to previous style due to popular demand).</li>
+            </ul>
+          </li>
+          <li>Fixes:
+            <ul>
+              <li>Improvements to LOS checking, especially with respect to depressions and cliff hexsides. Using UpArrow/DownArrow keys and CTRL-UpArrow/DownArrow to change level of target/firer in LOS check results now displays on opponent’s device as well. Plus, same keys can be used to switch LOS check from base hex to entrenchment if one is present in the hex. Entrenchment is “below” the base hex.</li>
+              <li>Versioning problems with Desert boards have been fixed. An extensive cleanup of board files has been done, which should improve speed and performance.</li>
+              <li>A problem with counters disappearing from extension windows has been resolved.</li>
+              <li>Several bugs causing VASL or VASSAL to crash were eliminated.</li>
+            </ul>
+          </li>
+          <li>Known Issues:
+            <ul>
+              <li>The stream terrain under the elevated road bridges on Board 13 will show as one level higher than it should be, plus LOS that passes through these bridge hexes may show incorrect hindrances.</li>
+            </ul>
+          </li>
+          <li>Compatability Issues:
+            <ul>
+              <li>A number of these changes (ie., counter linking and LOS improvements) require both players to be using 6.4.0 when playing online; otherwise the game will run but the enhancements will not function. Updated board versions are also required for many of the LOS improvements (and should automatically update when starting a game; if not, they can be downloaded from the boards page at VASL.info).</li>
+            </ul>
+          </li>
+          <li>Kudos and Credits:
+            <ul>
+              <li>Doug Rimmer for pushing 6.4.0 out the door.</li>
+              <li>David Sullivan for helping us find those Sniper Counters buried under stacks of stacks, for counter linking and for most of the bug fixes, with additional work by Zoltan Grose.</li>
+              <li>Allan Cannamore for conceiving of and implementing draggable overlays.</li>
+              <li>Carl Nogueira and Terry Gray for initial testing of LOS Checking in Stalingrad. Chris Doary for tireless rules explanations that helped us understand what the LOS code needed to do.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="well table">
+        <a id="download633" class="track btn btn-large btn-info" href="modules/VASLv633.zip">VASL 6.3.3</a>
         <h2 class="pull-right">Updated March 24, 2016</h2>
         <h3>New in version 6.3.3:</h3>
         <ul>
           <li>Code Enhancements:
-      			<ul>
-          		<li>More reminders for special die rolls</li>
-          		<li>Mark Unmoved button should be on the left</li>
+            <ul>
+              <li>More reminders for special die rolls</li>
+              <li>Mark Unmoved button should be on the left</li>
             </ul>
           </li>
           <li>Counter fixes:
-      			<ul>
-          		<li>Foot/Ponton typo</li>
-          		<li>Missing HP counters</li>
-          		<li>Final 6.3 HP counter fixes</li>
-          		<li>Counter error on It Lancia 1ZM</li>
+            <ul>
+              <li>Foot/Ponton typo</li>
+              <li>Missing HP counters</li>
+              <li>Final 6.3 HP counter fixes</li>
+              <li>Counter error on It Lancia 1ZM</li>
               <li>British Acquisition marker and HIP</li>
-          		<li>Remove HIP from HtH CC and Phase Wheels</li>
-          		<li>CC/Melee counters lost the Hand-to-Hand option</li>
-          		<li>Russian Guns/AFV counters get a &frac12;" concealment counter</li>
+              <li>Remove HIP from HtH CC and Phase Wheels</li>
+              <li>CC/Melee counters lost the Hand-to-Hand option</li>
+              <li>Russian Guns/AFV counters get a &frac12;" concealment counter</li>
             </ul>
           </li>
           <li>Code fixes:
-      			<ul>
-          		<li>LOS off on cropped board</li>
-          		<li>Sniper icons no longer report on DR images</li>
-          		<li>Dragging a counter off a QC menu throws NPE</li>
-          		<li>Board version not being reported in chatter when the board is opened.</li>
+            <ul>
+              <li>LOS off on cropped board</li>
+              <li>Sniper icons no longer report on DR images</li>
+              <li>Dragging a counter off a QC menu throws NPE</li>
+              <li>Board version not being reported in chatter when the board is opened.</li>
             </ul>
           </li>
         </ul>
@@ -100,17 +145,17 @@ ga('send', 'pageview');
         <h3>New in version 6.3.0:</h3>
         <ul>
           <li>Hakkaa P&auml;&auml;lle Counters!
-      			<ul>
-      				<li>You've waited long enough, but now it's time to slap on some virtual skis and tackle that electronic Motti. Enjoy!</li>
+            <ul>
+              <li>You've waited long enough, but now it's time to slap on some virtual skis and tackle that electronic Motti. Enjoy!</li>
             </ul>
           </li>
           <li>Automatic board synchronization!
-      			<ul>
-      				<li>Have an out of date copy of a board? No worries - VASL now grabs the latest board from the repository when you create or open a game. Missing a board altogether? Not a problem - the missing board will be copied to your board directory and you're off and running.</li>
+            <ul>
+              <li>Have an out of date copy of a board? No worries - VASL now grabs the latest board from the repository when you create or open a game. Missing a board altogether? Not a problem - the missing board will be copied to your board directory and you're off and running.</li>
             </ul>
           </li>
           <li>Other enhancements:
-      			<ul>
+            <ul>
               <li>More reminders for special die rolls were added to the QC dice buttons. Unlikely hits, Multiple hits, turret vs. hull... stuff like that.</li>
               <li>Partial support for LOS checking when using overlays was added. LOS checking is only disabled if it touches the overlay outline.</li>
               <li>Mark Unmoved button was moved to the left so it won't "disappear" on smaller screens.</li>
@@ -123,19 +168,19 @@ ga('send', 'pageview');
             </ul>
           </li>
           <li>Bug fixes:
-      			<ul>
-      				<li>The "disappearing" counters and stacks bug should finally (!) be fixed.</li>
-      				<li>Snap points were missing on deluxe boards.</li>
-      				<li>LOS checks no longer lose the chatter focus when stepping through a log file.</li>
-      				<li>Hungarian Vehicle Crews had the wrong morale.</li>
-      				<li>"Crags to palm trees" SSR transformation was not working on some boards.</li>
-      				<li>"Woods-Roads - Fill in with woods" SSR transformation was not working on some boards.</li>
-      				<li>Bocage incorrectly blocked LOS to some higher elevations.</li>
-      				<li>Japanese crews and SMCs were missing Prep Fire and First Fire options.</li>
-      				<li>Smoke exponents on Chinese Type 89 MTR were wrong.</li>
-      				<li>The labels on the CA counters were in the wrong position.</li>
-      				<li>Bad hex sizes on BFP boards bug were fixed.</li>
-      				<li>Blank boards (all white boards with a hex grid) are available. They're great for setups and when you need a little elbow room on the board.</li>
+            <ul>
+              <li>The "disappearing" counters and stacks bug should finally (!) be fixed.</li>
+              <li>Snap points were missing on deluxe boards.</li>
+              <li>LOS checks no longer lose the chatter focus when stepping through a log file.</li>
+              <li>Hungarian Vehicle Crews had the wrong morale.</li>
+              <li>"Crags to palm trees" SSR transformation was not working on some boards.</li>
+              <li>"Woods-Roads - Fill in with woods" SSR transformation was not working on some boards.</li>
+              <li>Bocage incorrectly blocked LOS to some higher elevations.</li>
+              <li>Japanese crews and SMCs were missing Prep Fire and First Fire options.</li>
+              <li>Smoke exponents on Chinese Type 89 MTR were wrong.</li>
+              <li>The labels on the CA counters were in the wrong position.</li>
+              <li>Bad hex sizes on BFP boards bug were fixed.</li>
+              <li>Blank boards (all white boards with a hex grid) are available. They're great for setups and when you need a little elbow room on the board.</li>
             </ul>
           </li>
         </ul>
@@ -163,68 +208,68 @@ ga('send', 'pageview');
         <a id="download620" class="track btn btn-large btn-info" href="modules/VASLv620.zip">VASL 6.2</a>
         <h2 class="pull-right">Updated January 14, 2015</h2>
         <h3>New in version 6.2:</h3>
-    		<h4>Enhancements</h4>
+        <h4>Enhancements</h4>
         <ul>
           <li>LOS improvements:
-      			<ul>
-      				<li>LOS support has been added for the following boards and
-      					<ul>
-      						<li>a-h</li>
-      						<li>1a/1b-9a/9b</li>
-      						<li>BFP boards</li>
-      					</ul>
-      					<p>Get all of the <a href="boards/v6boards1-67.zip" rel="nofollow">updated boards</a>, and unzip the file into your boards folder.</p>
-      					<p>PTO terrain transformations have also been added to the LOS engine.</p>
-      				</li>
-      				<li>Fixed a bug where LOS checks did not show on your opponent's board.</li>
-      			</ul>
+            <ul>
+              <li>LOS support has been added for the following boards and
+                <ul>
+                  <li>a-h</li>
+                  <li>1a/1b-9a/9b</li>
+                  <li>BFP boards</li>
+                </ul>
+                <p>Get all of the <a href="boards/v6boards1-67.zip" rel="nofollow">updated boards</a>, and unzip the file into your boards folder.</p>
+                <p>PTO terrain transformations have also been added to the LOS engine.</p>
+              </li>
+              <li>Fixed a bug where LOS checks did not show on your opponent's board.</li>
+            </ul>
           </li>
           <li>Board Cropper, Overlay, and Terrain Transformation dialogs now have a a pulldown that includes only selected boards.</li>
           <li>The new American 2-6 LMG from Rising Sun was added.</li>
           <li>The Quick Counter extension has been integrated into VASL. You no longer need to download and install the extension.
-      			<p>The Quick Counter toolbar can be customized, additional instances can be created and enabled.</p>
-	        </li>
+            <p>The Quick Counter toolbar can be customized, additional instances can be created and enabled.</p>
+          </li>
           <li>The map border has been extended from 200 pixels to 400 pixels.
-      		  <p><span style="font-weight: bold;font-style: italic;">Important Note:</span>Both players must use Version 6.2 for
-      		  the extended border to function. Extending the border causes all pieces in existing games to be offset by 200
-      		  pixels. You can fix this problem by selecting all counters (drag the mouse across the entire map), and then
-      		  dragging one counter back into place. This correction does not work for draggable overlays and entrenchment
-      		  counters. You must move these overlays and counters manually.</p>
-    		  </li>
-    		  <li>The Show Map button now has three states:  Show All, Hide Pieces (only), Hide all (pieces and draggable overlays).</li>
-    		  <li>The stack expander now shows the terrain under the stack.</li>
+            <p><span style="font-weight: bold;font-style: italic;">Important Note:</span>Both players must use Version 6.2 for
+            the extended border to function. Extending the border causes all pieces in existing games to be offset by 200
+            pixels. You can fix this problem by selecting all counters (drag the mouse across the entire map), and then
+            dragging one counter back into place. This correction does not work for draggable overlays and entrenchment
+            counters. You must move these overlays and counters manually.</p>
+          </li>
+          <li>The Show Map button now has three states:  Show All, Hide Pieces (only), Hide all (pieces and draggable overlays).</li>
+          <li>The stack expander now shows the terrain under the stack.</li>
           <li>Installation documentation has been revised and enhanced.</li>
           <li>Documentation for LOS checking has been added.</li>
         </ul>
-		    <h4>Bug fixes</h4>
-  		  <ul>
-    			<li>Counter fixes
-    			  <ul>
-    			    <li>The German 5-4-8 Assault Engineer squad image has been corrected.</li>
-      				<li>Broken side morale of the black Waffen SS 5--8 Assualt Engineer has been corrected.</li>
-      				<li>Churchill AVRE no longer generates a Pin counter when removing the Fascine.</li>
-      				<li>The default label "kk" has been removed from the Cave counter.</li>
-    			  </ul>
-    			</li>
-    			<li>Cropping for DASL boards c through h has been corrected.</li>
-    			<li>LOS fixes to the following hexes:
-    			  <ul>
-    			    <li>24U7</li>
-      				<li>6K1/6K2</li>
-      				<li>2Z9</li>
-    			  </ul>
-    			</li>
-    			<li>Selecting a stack no longer reveals HIP units.</li>
-    			<li>Fixed a bug where LOS checks did not appear on your opponent's board.</li>
-    			<li>Fixed a bug where overlays could not be added to boards 1b-9b.</li>
-    			<li>Fixed several overlay bugs mentioned in the following locations:
-    				<ul>
-    					<li><a href="http://forums.gamesquad.com/showthread.php?114157-Weird-bug-using-wadis-in-broken-terrain&p=1621534#post1621534">http://forums.gamesquad.com/showthread.php?114157-Weird-bug-using-wadis-in-broken-terrain&p=1621534#post1621534</a></li>
-    					<li><a href="http://forums.gamesquad.com/showthread.php?111256-VASL-5-9-3-Support-Thread&p=1576065&viewfull=1#post1576065">http://forums.gamesquad.com/showthread.php?111256-VASL-5-9-3-Support-Thread&p=1576065&viewfull=1#post1576065</a></li>
-    					<li><a href="http://forums.gamesquad.com/showthread.php?111256-VASL-5-9-3-Support-Thread&p=1577431&viewfull=1#post1577431">http://forums.gamesquad.com/showthread.php?111256-VASL-5-9-3-Support-Thread&p=1577431&viewfull=1#post1577431</a></li>
-    				</ul>
-    			</li>
-  		  </ul>
+        <h4>Bug fixes</h4>
+        <ul>
+          <li>Counter fixes
+            <ul>
+              <li>The German 5-4-8 Assault Engineer squad image has been corrected.</li>
+              <li>Broken side morale of the black Waffen SS 5--8 Assualt Engineer has been corrected.</li>
+              <li>Churchill AVRE no longer generates a Pin counter when removing the Fascine.</li>
+              <li>The default label "kk" has been removed from the Cave counter.</li>
+            </ul>
+          </li>
+          <li>Cropping for DASL boards c through h has been corrected.</li>
+          <li>LOS fixes to the following hexes:
+            <ul>
+              <li>24U7</li>
+              <li>6K1/6K2</li>
+              <li>2Z9</li>
+            </ul>
+          </li>
+          <li>Selecting a stack no longer reveals HIP units.</li>
+          <li>Fixed a bug where LOS checks did not appear on your opponent's board.</li>
+          <li>Fixed a bug where overlays could not be added to boards 1b-9b.</li>
+          <li>Fixed several overlay bugs mentioned in the following locations:
+            <ul>
+              <li><a href="http://forums.gamesquad.com/showthread.php?114157-Weird-bug-using-wadis-in-broken-terrain&p=1621534#post1621534">http://forums.gamesquad.com/showthread.php?114157-Weird-bug-using-wadis-in-broken-terrain&p=1621534#post1621534</a></li>
+              <li><a href="http://forums.gamesquad.com/showthread.php?111256-VASL-5-9-3-Support-Thread&p=1576065&viewfull=1#post1576065">http://forums.gamesquad.com/showthread.php?111256-VASL-5-9-3-Support-Thread&p=1576065&viewfull=1#post1576065</a></li>
+              <li><a href="http://forums.gamesquad.com/showthread.php?111256-VASL-5-9-3-Support-Thread&p=1577431&viewfull=1#post1577431">http://forums.gamesquad.com/showthread.php?111256-VASL-5-9-3-Support-Thread&p=1577431&viewfull=1#post1577431</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
 
       <div class="well table">
@@ -375,17 +420,17 @@ ga('send', 'pageview');
 <script src="./js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	$("#navbar").load("./include/navbar.htm", function() {
+  $("#navbar").load("./include/navbar.htm", function() {
     $("ul.navbar-nav li.download").addClass("active");
-	});
-	$("div.sidebar").load("./include/sidebar.htm", function() {
+  });
+  $("div.sidebar").load("./include/sidebar.htm", function() {
     $("a.modules").addClass("active");
-	});
-	$("footer").load("./include/copyright.htm");
+  });
+  $("footer").load("./include/copyright.htm");
 
-	$("a.track").on("click", function() {
-	  ga('send', 'event', 'button', 'click', $(this).attr("id"));
-	});
+  $("a.track").on("click", function() {
+    ga('send', 'event', 'button', 'click', $(this).attr("id"));
+  });
 });
 </script>
 </body>
