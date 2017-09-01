@@ -1,4 +1,4 @@
-##releasing a new version of VASL
+## Releasing a new version of VASL
 
 Add new version notes to download.htm
 
