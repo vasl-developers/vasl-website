@@ -40,13 +40,13 @@ module Jekyll
     def process(path)
       puts path
       if File.directory?(path)
-        dir = File.basename(path)
+        dir = File.basename(path).sub("&", "&amp;")
         level = path.count('/') - 4
         h = "h" + level.to_s
         $fileHtml.puts "<"+h+">" + dir + "</"+h+">" if dir != "Enhanced"
       else
-        downloadPath = path.sub($base, ".")
-        $fileHtml.puts "<p><a href='"+downloadPath+"'>" + File.basename(path, ".vsav") + "</a></p>"
+        downloadPath = path.sub($base, ".").sub("&", "%26").sub("#", "%23")
+        $fileHtml.puts '<p><a href="'+downloadPath+'">' + File.basename(downloadPath, ".vsav") + "</a></p>"
       end
     end
 
