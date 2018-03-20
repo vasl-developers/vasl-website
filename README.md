@@ -42,8 +42,9 @@ http://web.archive.org/web/20090802172423/http://www.vasl.org/index.htm
 vasl.info hosting
 =================
 godaddy.com
-
+```
 DNS records (as of 3-19-2018)
 A 192.30.252.153
 A 192.30.252.154
 CNAME www vasl-developers.github.io
+```
