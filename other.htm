@@ -312,6 +312,7 @@
             var name = $(this).attr("name");
 
             if(name === 'B&I' || name === 'B&amp;I') name = 'BI';
+            if(name.indexOf('&') >= 0) return;
 
             var version = $(this).attr("version");
             $("sub.version."+name).text(" v"+version);
