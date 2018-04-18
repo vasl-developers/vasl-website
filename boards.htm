@@ -350,12 +350,19 @@ $(document).ready(function() {
 	  ga('send', 'event', 'button', 'click', $(this).attr("id"));
 	});
 
-  $.getJSON( "./boards/versions.json", function( boards ) {
-    var items = [];
-    $.each(boards, function(id, version ) {
-      console.log(id + " " + version);
-      $("sub.version."+id).text("v"+version);
-    });
+  var url = 'https://raw.githubusercontent.com/vasl-developers/vasl/develop/boards/v5boardVersions.xml';
+
+  $.ajax({
+      type: "GET",
+      url: url,
+      dataType: "xml",
+      success: function (xml) {
+        $(xml).find('coreBoards').find('boarddata').each(function(){
+          var name = $(this).attr("name");
+          var version = $(this).attr("version");
+          $("sub.version."+name).text(" v"+version);
+        });             
+      }
   });
 });
 </script>
