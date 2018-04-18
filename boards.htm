@@ -350,6 +350,9 @@ $(document).ready(function() {
       success: function (xml) {
         $(xml).find('boarddata').each(function(){
           var name = $(this).attr("name");
+
+          if(name.indexOf('&') >= 0) return;
+
           var version = $(this).attr("version");
           $("sub.version."+name).text(" v"+version);
         });             
