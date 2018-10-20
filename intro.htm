@@ -35,7 +35,7 @@ ga('send', 'pageview');
         <h1 align=right>Playing ASL With VASL</h1>
       </div>
 
-      <h3>Originally posted by Andreas Ludwig on May 10, 2010 @ <a href="http://wargamecenter.wordpress.com/2010/05/10/vasl/">Homefront Wargame Center</a></h3>
+      <h3>UPDATED: October, 2018. Originally posted by Andreas Ludwig on May 10, 2010 @ <a href="http://wargamecenter.wordpress.com/2010/05/10/vasl/">Homefront Wargame Center</a></h3>
 
       <p>For the newbie, playing ASL over the internet via the VASL program appears to be quite complex - on first sight - in spite of the geniality and clear arrangement of the program. The main problems encountered are the correct program setup and keeping track of a PbEM Game with its multiple log-files.</p>
 
@@ -51,14 +51,14 @@ ga('send', 'pageview');
       we play VASL both on Windows and Linux (SuSE 9.1). Also playing on Mac OsX is no problem.
 
       <p>To install the current version of VASL, you need to install the VASSAL Engine and then download the VASL module file.
-      Unzip the VASL.mod file and place it in your VASSAL module folder, and then load VASL that way. Follow the <a
+      Unzip the VASLvXXX.zip file and place it in your VASSAL module folder. Open VASSAL and doubleclick the VASL module to load the game. Follow the <a
       href="./download.htm">Downloads</a> link above for the most recent VASL version and the link to the necessary VASSAL Engine
       version.
 
-      <p>Important: The mapboards have to be downloaded as well, because without them playing is impossible. The <a
+      <p>Important: For VASL versions 6.4.2 and earlier, the mapboards have to be downloaded as well, because without them playing is impossible. The <a
       href="./boards.htm">Boards</a> and <a href="./overlays.htm">Overlays</a> can be downloaded here as well. Create a board
       folder on your system and extract the boards into it. Inside that folder, create an overlays folder, and extract the
-      overlays into that folder.
+      overlays into that folder. For version 6.4.3, it is no longer necessary to manually download the boards: see Board Directory under General Preferences below. 
 
       <h2>2. Installing and Running</h2>
 
@@ -129,8 +129,10 @@ ga('send', 'pageview');
         two windows hovering around on your monitor or simply have one combined window at the top of the screen where it doesn't
         get in the way.
 
-        <li>Board Directory: This is the place to specify the path where the boards are stored on your computer - if you don't have
-        any boards or leave this entry empty, playing is impossible.
+        <li>Board Directory: This is the place to specify the path where the boards will be stored on your computer - it is recommended that you specify (and create if required) a
+        directory in your User area ("c:\USERS\<your user name>\vasl\boards" on Windows). When you start VASL, all available boards will
+	be listed in the board selection dropdown list. Clicking on a board will download the latest version to your directory. You must be 
+	connected to the internet for this to work. You must specify a board directory or playing is impossible.
 
         <li>Use Arrow Keys to Scroll: ON or OFF. It's a matter of individual preference whether to scroll with the arrow keys or
         just with the mouse.
