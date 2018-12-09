@@ -26,7 +26,7 @@ To rebuild the setup include file (/include/scen.html), run
 jekyll build
 ```
 
-This will regenerate the file based on the fodlers and files found in \setups, and the resulting changes to `/include/scen.html` will need to get commited and pushed.
+This will regenerate the file based on the folders and files found in \setups, and the resulting changes to `/include/scen.html` will need to get commited and pushed.
 
 vasl-website
 ============
