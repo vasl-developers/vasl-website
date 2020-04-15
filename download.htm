@@ -57,9 +57,117 @@ ga('send', 'pageview');
         </div>
       </div>
 
-<div class="well table">
-        <a id="download644" class="track btn btn-large btn-primary" href="modules/VASLv644.zip">VASL 6.4.4</a>
+    <div class="well table">
+        <a id="download650" class="track btn btn-large btn-primary" href="modules/VASLv650.zip">VASL 6.5.0</a>
         <a href="./boards.htm" class="track btn btn-lrge btn-success">Get the version 6 boards</a>
+        <h2 class="pull-right">Updated April 15, 2020</h2>
+        <h3>New in version 6.5.0:</h3>
+	  <ul>
+            <li>New Features
+	      <ul>
+                <li>1. Casualties Bin</li>
+		<ul>
+		<li>This feature automates tracking of CVP during a scenario. All CVP-eligible units (infantry, vehicles, guns, planes, and LC) now start with their full CVP value as the default. They can be moved to a casualties bin which will track and report on total CVP for Allied/Axis sides. CVP for individual units can be adjusted as required by SSRs, CGs or other situations.</li>
+		<li>To Move A Unit to the Casualties Bin:</li>
+		<ul>
+		 <li>Right click on the unit, select Casualties Bin and then either Allied or Axis from the submenu. This allows for maximum flexibility (think Italians or prisoners) as to which side the CVP should be allocated.</li>
+		</ul>		  
+		<li>To Change the CVP of a unit:</li>
+		<ul>		    
+		  <li>Right click on the unit, select Reset CVP and then enter the new CVP value. This has to be done for each unit. Changing the CVP of one Russian 447 in a scenario won’t change it for all Russian 447 in the game.</li>
+		  <li>If you are using DVP, you will need to do this for each vehicle in the Casualties Bin.</li>
+		  <li>For vehicles, you can reset the base CVP value as above or you can reduce the CVP by clicking on CVP Modifiers and then selecting one of the four submenu items which will change the CVP by (1) -1 for malf/disabled MA; (2) – 2 if the crew survives; (3) -3 if the MA is malf/disabled and the crew survives; or (4) return CVP to the default value.</li>
+		  <li>While crews are built into the vehicle CVP, Armor Leaders are not. To add an AL to the Casualties Bin, the AL counter must be put on board and then sent to the Casualties Bin.</li>  
+		</ul>		  
+			<li>To View CVP Counts:</li>
+			  <ul>    
+			    <li>For a quick count, click on the CVP button on the tool bar and a current total will show up in the chat window for Allied CVP and Axis CVP.</li>
+		    	    <li>For a detailed view, click on the Casualties Bin button on the tool bar and the Casualties Bin will display with a stack of those units sent to the Bin in each of the Allied and Axis areas. Those units cannot, in this version, be automatically sorted, but they can be restacked and sorted manually and their CVP values can be changed as above while in the Casualties Bin. Clicking on the Allied CVP or Axis CVP buttons at the top of the Casualties Bin window will update the CVP total for that side (only). You can close the window normally or leave it open.</li>
+		    	    <li>All Casualties Bin actions will be saved by Save Game.</li>
+			  </ul>
+		  	<li>To Handle Wrecks and Casualty Reduction:</li>
+			  <ul>
+		    	    <li>For Wrecks, before turning the vehicle into a wreck, clone it, send one version to the Casualties Bin and then change the other to a wreck.</li>
+		    	    <li>For Casualty Reduction, turn the squad into a hs, clone the hs, send one version to the Casualties Bin and leave the other on the main map and apply any further actions (such as breaking) to it.</li> 
+			  </ul>		  
+			<li>Version Compatibility:</li>
+			  <ul>
+		    	    <li>For both players to see and use the Casualties Bin, they will both need 6.5.</li>
+		    	    <li>Games saved with previous versions of the game can be opened with 6.5 and will work normally. In terms of the Casualties Bin, existing unit counters will not contain the Casualties Bin functionality. However, new unit counters dragged from the Counters Window will. Simply replace the existing counters with one from the Counters Window whenever a unit needs to go the Casualties Bin.</li>
+		    	    <li>Some counters that should not have the Casualties Bin menu items may have them. This is due to the way counters are created in VASL. If you find such counters, please report them.</li>
+			  </ul>
+			<li>Extensions:</li>
+			  <ul>
+			    <li>Unit counters added by extensions will not have the Casualties Bin functionality even though they will have the popup menu items.</li>
+			    <li>Sending such a counter to the Casualties Bin will produce an error message in the chat window and will not add CVP points to the Allied or Axis totals. However, the game will not crash, and you will be able to continue to play normally.</li>
+			    <li>With the agreement of Third Parties Producers, it would be possible to work with those who have produced Extensions with unit counters to see if the Casualties Bin functionality could be applied to those counters. This work is underway on the BFP Extension.</li>
+			  </ul>
+			<li>Vehicle CVP special case:</li>
+			  <ul>
+			    <li>A reminder that when determining the CVP of a vehicle, the highest possible AF is used. In the case of vehicles with Front AF inside a square box, this can raise their CVP.</li>
+			    <li>For example, a vehicle with a squared 8 AF will be treated as having 11 AF for CVP calculation purposes, resulting in 3 CVP for armor rather than 2 CVP.</li>
+			  </ul>
+		</ul>
+		<li>2. Counter Finder</li>
+		<ul>
+		<li>This feature lets players search for hard to find counters such as motorcycle counters or Out of Gas or NVR counters.</li>
+		<li>To use, click on the "Ctr Search" button located between the INFO and Night buttons on the toolbar.  You will have two ways to locate a counter: search and scroll.</li>
+		<li>To Search:</li>
+		<ul>
+		  <li>Enter a counter name in the text box with the text "Enter Counter Name". Then click the "Search" button. The location of the counter will show up in the other text box.</li>
+		  <li>If no match is found the text box will report this. This will happen. For example, looking for bicycle counters - enter "Bicycle". You will get a result. Enter "Bicycles" will get you no joy. You can just keep entering different counter names.</li>
+		  <li>Clicking on Clear will reset the text boxes to their original state but is not required between individual searches. The search function is case insensitive so both “Wind” and “wind” will find the Wind counter.</li>
+		</ul>
+		<li>To Scroll:</li> 
+		<ul>		
+  		  <li>A scrollable list is displayed at the bottom of the window. Scroll down the list until you find the counter you want in the left-hand column. The right-hand column will tell you where it is in the counter palette.</li>
+		  <li>In both cases, what you get is the location of the counter in the counter palette (which opens when you click on the German 467 icon on the tool bar). You will not be taken to that location; you have to get there yourself. Just navigate through the tabs and panels as you normally would.</li>
+		  <li>This is meant to handle those hard to find counters. It won't work for units: infantry, vehicles, guns, LC and planes. Basically, anything that is found under the Axis O/B or Allied O/B tabs is excluded (with some exceptions like Bicycles, Dozers). It is also not going to find counters in extensions.</li>
+ 		</ul>
+		</ul>
+              </ul>		
+	<li>Bug Fixes</li>
+	  <ul>	
+		<li>1. LOS Fix for rubbled upper levels and split levels</li>
+		<ul>
+		  <li>Rubble counters (both stone and wood) can now be incremented by level via their popup menu just as building level counters can. The LOS tool will recognize the applicable level of the rubble counter. Drag the Wooden Rubble counter off the Toolbar and change type and level as required.</li>
+		  <li>The total height of Split-level buildings, including underlying terrain, is now correctly calculated and so the LOS tool works.</li>
+		</ul>
+		<li>2. LOS Bug fix to handle BFPDWxb and deluxe boards when flipped and cropped</li>
+		<ul>
+		  <li>A couple of board configurations needed a fix to fully enable flipping and cropping.</li>
+		  <li>Plus, a few other minor bugs to fix cropping and flipping errors.</li>
+		</ul>
+		<li>3. Concealment Chart error fixed</li> 
+	  </ul>
+	<li>Counter Changes</li>
+	  <ul>
+	    <li>1. Korea: Forgotten War counters are now part of the main VASL module</li>
+	    <ul>
+		<li>All the counters from the KFW extension have now been added to the core VASL module, meaning that the KFW extension is no longer required for VASL6.5 forwards. All hail Al Cannamore for a huge effort on the KFW counters!!</li>
+	    </ul>
+	    <li>2. EC/Weather counters have been updated </li>
+	    <ul>
+		<li>The entire set of EC/Weather counters have been redone as per a long-standing thread on GS. Many of them can be flipped or incremented to reflect different conditions. They are still found in the same place in the Counter Palette (Other/Map/EC).</li>
+	    </ul>
+	    <li>3. Several counter bugs were fixed</li>
+	    <ul>
+		<li>The images for the German 20L(6) AA gun  and versions of the Finnish T-26 vehicle were corrected. A problem with LC wrecks was fixed.</li>
+	    </ul>
+	  </ul>
+	<li>Board Updates</li>
+	  <ul>
+	    <li>While not strictly part of VASL6.5, a reminder of some of the board updates that have taken place over the last year. Auto syncing should be taking care of this for you; if you have downloaded a board from VASL.info recently, you are probably doing something wrong!</li>
+	    <li>1. LOS has now been applied to all Deluxe boards</li>
+	    <li>2. Festung Budapest boards have been updated to version 6.0+</li> 
+	    <li>3. Bugs in various individual boards have been fixed: BFP,  bd40, bd50, bd70, bdRileys</li>
+	    <li>4. The addition of Light Woods transformation to all boards has been completed and various bugs fixed</li>
+	    <li>Of course, a whole group of new boards were VASLized over the past year. A lot of hard work by a bunch of folks.</li>
+	  </ul>
+        </ul>
+      </div>
+    <div class="well table">
+        <a id="download644" class="track btn btn-large btn-primary" href="modules/VASLv644.zip">VASL 6.4.4</a>
         <h2 class="pull-right">Updated March 28, 2019</h2>
         <h3>New in version 6.4.4:</h3>
         <ul>
