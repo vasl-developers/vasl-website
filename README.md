@@ -46,5 +46,13 @@ godaddy.com
 DNS records (as of 3-19-2018)
 A 192.30.252.153
 A 192.30.252.154
+
+DNS records (as of 4-17-2020)
+A 185.199.108.153
+A 185.199.109.153
+A 185.199.110.153
+A 185.199.111.153
+
 CNAME www vasl-developers.github.io
 ```
+
