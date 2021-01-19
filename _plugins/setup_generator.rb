@@ -41,7 +41,8 @@ module Jekyll
       puts path
       if File.directory?(path)
         dir = File.basename(path).sub("&", "&amp;")
-        level = path.count('/') - 4
+        sub_path = path.rpartition("_site/setups")[-1]
+        level = sub_path.count('/')
         h = "h" + level.to_s
         $fileHtml.puts "<"+h+">" + dir + "</"+h+">" if dir != "Enhanced"
       else
@@ -51,7 +52,7 @@ module Jekyll
     end
 
     def traverse(path='.')
-      Dir.entries(path).each do |name|
+      Dir.entries(path).sort_by { |x| File.path(x) }.each do |name|
         next  if name == '.' or name == '..'
 
         path2 = path + '/' + name
