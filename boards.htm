@@ -1,436 +1,422 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>VASL - Download Boards and overlays</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link href="./css/vasl_styles.css" rel="stylesheet">
+  <link href="./css/board_styles.css" rel="stylesheet">
+  <script type="text/javascript">
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-50258794-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</head>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-<link rel="icon" href="./favicon.ico" type="image/x-icon"><title>VASL - Download Boards and overlays</title>
-
-<link rel="stylesheet" href="./css/bootstrap.min.css">
-<link href="./css/vasl_styles.css" rel="stylesheet">
-<link href="./css/board_styles.css" rel="stylesheet">
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-50258794-1', 'auto');
-ga('send', 'pageview');
-</script></head><body>
-<div id="navbar"></div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2 sidebar"></div>
-    <div class="main-content col-md-10">
-      <div class="userHeader">
-        <h1 class="pull-right">VASL Boards</h1>
-      </div>
-
-      <div id="boards" class="table-responsive">
-      <table class="table table-striped table-condensed table-bordered">
-      <tbody>
-        <tr>
-          <td><a href="boards/bd00.zip" rel="nofollow">bd&nbsp;00</a><sub class="version 00"></sub></td>
-          <td><a href="boards/bd01.zip" rel="nofollow">bd&nbsp;01</a><sub class="version 01"></sub></td>
-          <td><a href="boards/bd02.zip" rel="nofollow">bd&nbsp;02</a><sub class="version 02"></sub></td>
-          <td><a href="boards/bd03.zip" rel="nofollow">bd&nbsp;03</a><sub class="version 03"></sub></td>
-          <td><a href="boards/bd04.zip" rel="nofollow">bd&nbsp;04</a><sub class="version 04"></sub></td>
-          <td><a href="boards/bd05.zip" rel="nofollow">bd&nbsp;05</a><sub class="version 05"></sub></td>
-          <td><a href="boards/bd06.zip" rel="nofollow">bd&nbsp;06</a><sub class="version 06"></sub></td>
-          <td><a href="boards/bd07.zip" rel="nofollow">bd&nbsp;07</a><sub class="version 07"></sub></td>
-          <td><a href="boards/bd08.zip" rel="nofollow">bd&nbsp;08</a><sub class="version 08"></sub></td>
-          <td><a href="boards/bd09.zip" rel="nofollow">bd&nbsp;09</a><sub class="version 09"></sub></td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd10.zip" rel="nofollow">bd&nbsp;10</a><sub class="version 10"></sub></td>
-          <td><a href="boards/bd11.zip" rel="nofollow">bd&nbsp;11</a><sub class="version 11"></sub></td>
-          <td><a href="boards/bd12.zip" rel="nofollow">bd&nbsp;12</a><sub class="version 12"></sub></td>
-          <td><a href="boards/bd13.zip" rel="nofollow">bd&nbsp;13</a><sub class="version 13"></sub></td>
-          <td><a href="boards/bd14.zip" rel="nofollow">bd&nbsp;14</a><sub class="version 14"></sub></td>
-          <td><a href="boards/bd15.zip" rel="nofollow">bd&nbsp;15</a><sub class="version 15"></sub></td>
-          <td><a href="boards/bd16.zip" rel="nofollow">bd&nbsp;16</a><sub class="version 16"></sub></td>
-          <td><a href="boards/bd17.zip" rel="nofollow">bd&nbsp;17</a><sub class="version 17"></sub></td>
-          <td><a href="boards/bd18.zip" rel="nofollow">bd&nbsp;18</a><sub class="version 18"></sub></td>
-          <td><a href="boards/bd19.zip" rel="nofollow">bd&nbsp;19</a><sub class="version 19"></sub></td>
-        </tr>
-        <tr>
-          <td><a href="boards/bd10z.zip" rel="nofollow">bd&nbsp;10z</a><sub class="version 10z"></sub></td>
-          <td><a href="boards/bd17z.zip" rel="nofollow">bd&nbsp;17z</a><sub class="version 17z"></sub></td>
-          <td><a href="boards/bd25ETO.zip" rel="nofollow">bd&nbsp;25ETO</a><sub class="version 25ETO"></sub></td>
-          <td colspan="8">&nbsp;</td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd20.zip" rel="nofollow">bd&nbsp;20</a><sub class="version 20"></sub></td>
-          <td><a href="boards/bd21.zip" rel="nofollow">bd&nbsp;21</a><sub class="version 21"></sub></td>
-          <td><a href="boards/bd22.zip" rel="nofollow">bd&nbsp;22</a><sub class="version 22"></sub></td>
-          <td><a href="boards/bd23.zip" rel="nofollow">bd&nbsp;23</a><sub class="version 23"></sub></td>
-          <td><a href="boards/bd24.zip" rel="nofollow">bd&nbsp;24</a><sub class="version 24"></sub></td>
-          <td><a href="boards/bd25.zip" rel="nofollow">bd&nbsp;25</a><sub class="version 25"></sub></td>
-          <td><a href="boards/bd26.zip" rel="nofollow">bd&nbsp;26</a><sub class="version 26"></sub></td>
-          <td><a href="boards/bd27.zip" rel="nofollow">bd&nbsp;27</a><sub class="version 27"></sub></td>
-          <td><a href="boards/bd28.zip" rel="nofollow">bd&nbsp;28</a><sub class="version 28"></sub></td>
-          <td><a href="boards/bd29.zip" rel="nofollow">bd&nbsp;29</a><sub class="version 29"></sub></td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd30.zip" rel="nofollow">bd&nbsp;30</a><sub class="version 30"></sub></td>
-          <td><a href="boards/bd31.zip" rel="nofollow">bd&nbsp;31</a><sub class="version 31"></sub></td>
-          <td><a href="boards/bd32.zip" rel="nofollow">bd&nbsp;32</a><sub class="version 32"></sub></td>
-          <td><a href="boards/bd33.zip" rel="nofollow">bd&nbsp;33</a><sub class="version 33"></sub></td>
-          <td><a href="boards/bd34.zip" rel="nofollow">bd&nbsp;34</a><sub class="version 34"></sub></td>
-          <td><a href="boards/bd35.zip" rel="nofollow">bd&nbsp;35</a><sub class="version 35"></sub></td>
-          <td><a href="boards/bd36.zip" rel="nofollow">bd&nbsp;36</a><sub class="version 36"></sub></td>
-          <td><a href="boards/bd37.zip" rel="nofollow">bd&nbsp;37</a><sub class="version 37"></sub></td>
-          <td><a href="boards/bd38.zip" rel="nofollow">bd&nbsp;38</a><sub class="version 38"></sub></td>
-          <td><a href="boards/bd39.zip" rel="nofollow">bd&nbsp;39</a><sub class="version 39"></sub></td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd40.zip" rel="nofollow">bd&nbsp;40</a><sub class="version 40"></sub></td>
-          <td><a href="boards/bd41.zip" rel="nofollow">bd&nbsp;41</a><sub class="version 41"></sub></td>
-          <td><a href="boards/bd42.zip" rel="nofollow">bd&nbsp;42</a><sub class="version 42"></sub></td>
-          <td><a href="boards/bd43.zip" rel="nofollow">bd&nbsp;43</a><sub class="version 43"></sub></td>
-          <td><a href="boards/bd44.zip" rel="nofollow">bd&nbsp;44</a><sub class="version 44"></sub></td>
-          <td><a href="boards/bd45.zip" rel="nofollow">bd&nbsp;45</a><sub class="version 45"></sub></td>
-          <td><a href="boards/bd46.zip" rel="nofollow">bd&nbsp;46</a><sub class="version 46"></sub></td>
-          <td><a href="boards/bd47.zip" rel="nofollow">bd&nbsp;47</a><sub class="version 47"></sub></td>
-          <td><a href="boards/bd48.zip" rel="nofollow">bd&nbsp;48</a><sub class="version 48"></sub></td>
-          <td><a href="boards/bd49.zip" rel="nofollow">bd&nbsp;49</a><sub class="version 49"></sub></td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd50.zip" rel="nofollow">bd&nbsp;50</a><sub class="version 50"></sub></td>
-          <td><a href="boards/bd51.zip" rel="nofollow">bd&nbsp;51</a><sub class="version 51"></sub></td>
-          <td><a href="boards/bd52.zip" rel="nofollow">bd&nbsp;52</a><sub class="version 52"></sub></td>
-          <td><a href="boards/bd53.zip" rel="nofollow">bd&nbsp;53</a><sub class="version 53"></sub></td>
-          <td><a href="boards/bd54.zip" rel="nofollow">bd&nbsp;54</a><sub class="version 54"></sub></td>
-          <td><a href="boards/bd55.zip" rel="nofollow">bd&nbsp;55</a><sub class="version 55"></sub></td>
-          <td><a href="boards/bd56.zip" rel="nofollow">bd&nbsp;56</a><sub class="version 56"></sub></td>
-          <td><a href="boards/bd57.zip" rel="nofollow">bd&nbsp;57</a><sub class="version 57"></sub></td>
-          <td><a href="boards/bd58.zip" rel="nofollow">bd&nbsp;58</a><sub class="version 58"></sub></td>
-          <td><a href="boards/bd59.zip" rel="nofollow">bd&nbsp;59</a><sub class="version 59"></sub></td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd60.zip" rel="nofollow">bd&nbsp;60</a><sub class="version 60"></sub></td>
-          <td><a href="boards/bd61.zip" rel="nofollow">bd&nbsp;61</a><sub class="version 61"></sub></td>
-          <td><a href="boards/bd62.zip" rel="nofollow">bd&nbsp;62</a><sub class="version 62"></sub></td>
-          <td><a href="boards/bd63.zip" rel="nofollow">bd&nbsp;63</a><sub class="version 63"></sub></td>
-          <td><a href="boards/bd64.zip" rel="nofollow">bd&nbsp;64</a><sub class="version 64"></sub></td>
-          <td><a href="boards/bd65.zip" rel="nofollow">bd&nbsp;65</a><sub class="version 65"></sub></td>
-          <td><a href="boards/bd66.zip" rel="nofollow">bd&nbsp;66</a><sub class="version 66"></sub></td>
-          <td><a href="boards/bd67.zip" rel="nofollow">bd&nbsp;67</a><sub class="version 67"></sub></td>
-          <td><a href="boards/bd68.zip" rel="nofollow">bd&nbsp;68</a><sub class="version 68"></sub></td>
-          <td><a href="boards/bd69.zip" rel="nofollow">bd&nbsp;69</a><sub class="version 69"></sub></td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd70.zip" rel="nofollow">bd&nbsp;70</a><sub class="version 70"></sub></td>
-          <td><a href="boards/bd71.zip" rel="nofollow">bd&nbsp;71</a><sub class="version 71"></sub></td>
-          <td><a href="boards/bd72.zip" rel="nofollow">bd&nbsp;72</a><sub class="version 72"></sub></td>
-          <td><a href="boards/bd73.zip" rel="nofollow">bd&nbsp;73</a><sub class="version 73"></sub></td>
-          <td><a href="boards/bd74.zip" rel="nofollow">bd&nbsp;74</a><sub class="version 74"></sub></td>
-          <td><a href="boards/bd75.zip" rel="nofollow">bd&nbsp;75</a><sub class="version 75"></sub></td>
-          <td><a href="boards/bd76.zip" rel="nofollow">bd&nbsp;76</a><sub class="version 76"></sub></td>
-          <td>&nbsp;</td>
-          <td><a href="boards/bd78.zip" rel="nofollow">bd&nbsp;78</a><sub class="version 78"></sub></td>
-          <td><a href="boards/bd79.zip" rel="nofollow">bd&nbsp;79</a><sub class="version 79"></sub></td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd80.zip" rel="nofollow">bd&nbsp;80</a><sub class="version 80"></sub></td>
-          <td><a href="boards/bd81.zip" rel="nofollow">bd&nbsp;81</a><sub class="version 81"></sub></td>
-          <td><a href="boards/bd82.zip" rel="nofollow">bd&nbsp;82</a><sub class="version 82"></sub></td>
-          <td><a href="boards/bd83.zip" rel="nofollow">bd&nbsp;83</a><sub class="version 83"></sub></td>
-          <td><a href="boards/bd84.zip" rel="nofollow">bd&nbsp;84</a><sub class="version 84"></sub></td>
-	  <td><a href="boards/bd85.zip" rel="nofollow">bd&nbsp;85</a><sub class="version 85"></sub></td>
-	  <td><a href="boards/bd86.zip" rel="nofollow">bd&nbsp;86</a><sub class="version 86"></sub></td>
-          <td colspan="6">&nbsp;</td>
-        </tr>
-
-        <tr>
-          <th colspan="10">Deluxe Boards</th>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bda.zip" rel="nofollow">bd&nbsp;a</a><sub class="version a"></sub></td>
-          <td><a href="boards/bdb.zip" rel="nofollow">bd&nbsp;b</a><sub class="version b"></sub></td>
-          <td><a href="boards/bdc.zip" rel="nofollow">bd&nbsp;c</a><sub class="version c"></sub></td>
-          <td><a href="boards/bdd.zip" rel="nofollow">bd&nbsp;d</a><sub class="version d"></sub></td>
-          <td><a href="boards/bde.zip" rel="nofollow">bd&nbsp;e</a><sub class="version e"></sub></td>
-          <td><a href="boards/bdf.zip" rel="nofollow">bd&nbsp;f</a><sub class="version f"></sub></td>
-          <td><a href="boards/bdg.zip" rel="nofollow">bd&nbsp;g</a><sub class="version g"></sub></td>
-          <td><a href="boards/bdh.zip" rel="nofollow">bd&nbsp;h</a><sub class="version h"></sub></td>
-          <td colspan="2">&nbsp;</td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bdi.zip" rel="nofollow">bd&nbsp;i</a><sub class="version i"></sub></td>
-          <td><a href="boards/bdj.zip" rel="nofollow">bd&nbsp;j</a><sub class="version j"></sub></td>
-          <td><a href="boards/bdk.zip" rel="nofollow">bd&nbsp;k</a><sub class="version k"></sub></td>
-          <td><a href="boards/bdl.zip" rel="nofollow">bd&nbsp;l</a><sub class="version l"></sub></td>
-          <td colspan="6">&nbsp;</td>
-        </tr>
-	
-	<tr>
-          <th colspan="10">Starter Kit Boards   <a id="v6skBoards" href="boards/v6bdsm-z.zip" class="track btn btn-small btn-primary" title="about 3.7 MB">Get all of the version 6 Starter Kit Boards</a></th>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bdkSK.zip" rel="nofollow">bd&nbsp;kSK</a><sub class="version kSK"></sub></td>
-          <td><a href="boards/bdlSK.zip" rel="nofollow">bd&nbsp;lSK</a><sub class="version lSK"></sub></td>
-          <td><a href="boards/bdm.zip" rel="nofollow">bd&nbsp;m</a><sub class="version m"></sub></td>
-          <td><a href="boards/bdn.zip" rel="nofollow">bd&nbsp;n</a><sub class="version n"></sub></td>
-          <td><a href="boards/bdo.zip" rel="nofollow">bd&nbsp;o</a><sub class="version o"></sub></td>
-          <td><a href="boards/bdp.zip" rel="nofollow">bd&nbsp;p</a><sub class="version p"></sub></td>
-          <td colspan="6">&nbsp;</td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bdq.zip" rel="nofollow">bd&nbsp;q</a><sub class="version q"></sub></td>
-          <td><a href="boards/bdr.zip" rel="nofollow">bd&nbsp;r</a><sub class="version r"></sub></td>
-          <td><a href="boards/bds.zip" rel="nofollow">bd&nbsp;s</a><sub class="version s"></sub></td>
-          <td><a href="boards/bdt.zip" rel="nofollow">bd&nbsp;t</a><sub class="version t"></sub></td>
-          <td><a href="boards/bdu.zip" rel="nofollow">bd&nbsp;u</a><sub class="version u"></sub></td>
-          <td><a href="boards/bdv.zip" rel="nofollow">bd&nbsp;v</a><sub class="version v"></sub></td>
-          <td><a href="boards/bdw.zip" rel="nofollow">bd&nbsp;w</a><sub class="version w"></sub></td>
-          <td><a href="boards/bdx.zip" rel="nofollow">bd&nbsp;x</a><sub class="version x"></sub></td>
-          <td><a href="boards/bdy.zip" rel="nofollow">bd&nbsp;y</a><sub class="version y"></sub></td>
-          <td><a href="boards/bdz.zip" rel="nofollow">bd&nbsp;z</a><sub class="version z"></sub></td>
-        </tr>
-
-        <tr>
-          <th colspan="10">Action Pack Boards</th>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd1a.zip" rel="nofollow">bd&nbsp;1a</a><sub class="version 1a"></sub></td>
-          <td><a href="boards/bd1b.zip" rel="nofollow">bd&nbsp;1b</a><sub class="version 1b"></sub></td>
-          <td><a href="boards/bd2a.zip" rel="nofollow">bd&nbsp;2a</a><sub class="version 2a"></sub></td>
-          <td><a href="boards/bd2b.zip" rel="nofollow">bd&nbsp;2b</a><sub class="version 2b"></sub></td>
-          <td><a href="boards/bd3a.zip" rel="nofollow">bd&nbsp;3a</a><sub class="version 3a"></sub></td>
-          <td><a href="boards/bd3b.zip" rel="nofollow">bd&nbsp;3b</a><sub class="version 3b"></sub></td>
-          <td><a href="boards/bd4a.zip" rel="nofollow">bd&nbsp;4a</a><sub class="version 4a"></sub></td>
-          <td><a href="boards/bd4b.zip" rel="nofollow">bd&nbsp;4b</a><sub class="version 4b"></sub></td>
-          <td><a href="boards/bd5a.zip" rel="nofollow">bd&nbsp;5a</a><sub class="version 5a"></sub></td>
-          <td><a href="boards/bd5b.zip" rel="nofollow">bd&nbsp;5b</a><sub class="version 5b"></sub></td>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bd6a.zip" rel="nofollow">bd&nbsp;6a</a><sub class="version 6a"></sub></td>
-          <td><a href="boards/bd6b.zip" rel="nofollow">bd&nbsp;6b</a><sub class="version 6b"></sub></td>
-          <td><a href="boards/bd7a.zip" rel="nofollow">bd&nbsp;7a</a><sub class="version 7a"></sub></td>
-          <td><a href="boards/bd7b.zip" rel="nofollow">bd&nbsp;7b</a><sub class="version 7b"></sub></td>
-          <td><a href="boards/bd8a.zip" rel="nofollow">bd&nbsp;8a</a><sub class="version 8a"></sub></td>
-          <td><a href="boards/bd8b.zip" rel="nofollow">bd&nbsp;8b</a><sub class="version 8b"></sub></td>
-          <td><a href="boards/bd9a.zip" rel="nofollow">bd&nbsp;9a</a><sub class="version 9a"></sub></td>
-          <td><a href="boards/bd9b.zip" rel="nofollow">bd&nbsp;9b</a><sub class="version 9b"></sub></td>
-          <td><a href="boards/bd10a.zip" rel="nofollow">bd&nbsp;10a</a><sub class="version 10a"></sub></td>
-          <td><a href="boards/bd10b.zip" rel="nofollow">bd&nbsp;10b</a><sub class="version 10b"></sub></td>
-        </tr>
-		<tr>
-          <td><a href="boards/bd11a.zip" rel="nofollow">bd&nbsp;11a</a><sub class="version 11a"></sub></td>
-          <td><a href="boards/bd11b.zip" rel="nofollow">bd&nbsp;11b</a><sub class="version 11b"></sub></td>
-          <td><a href="boards/bd12a.zip" rel="nofollow">bd&nbsp;12a</a><sub class="version 12a"></sub></td>
-          <td><a href="boards/bd12b.zip" rel="nofollow">bd&nbsp;12b</a><sub class="version 12b"></sub></td>
-          <td><a href="boards/bd13a.zip" rel="nofollow">bd&nbsp;13a</a><sub class="version 13a"></sub></td>
-          <td><a href="boards/bd13b.zip" rel="nofollow">bd&nbsp;13b</a><sub class="version 13b"></sub></td>
-          <td colspan="4">&nbsp;</td>
-		</tr>
-        <tr>
-          <th colspan="10">Utility Boards</th>
-        </tr>
-
-        <tr>
-          <td><a href="boards/bdNUL.zip" rel="nofollow">bd&nbsp;NUL</a><sub class="version NUL"></sub></td>
-          <td><a href="boards/bdNULV.zip" rel="nofollow">bd&nbsp;NULV</a><sub class="version NULV"></sub></td>
-          <td><a href="boards/bdBlank0.zip" rel="nofollow">bd&nbsp;Blank0</a><sub class="version Blank0"></sub></td>
-          <td><a href="boards/bdBlank1.zip" rel="nofollow">bd&nbsp;Blank1</a><sub class="version Blank1"></sub></td>
-          <td colspan="6">&nbsp;</td>
-        </tr>
-
-      </tbody></table>
-      </div>
-
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading" data-toggle="collapse" data-target="#collapseOne" title="click to open">
-            <span class="pull-right"><a href="READMEforbdNULandbdNULV.pdf" target="_blank" rel="nofollow">Download PDF</a></span>
-            <h4 class="panel-title">README for bdNUL and bdNULV
-              <span class="glyphicon glyphicon-circle-arrow-down pull-left">&nbsp;</span>
-            </h4>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse">
-            <div class="panel-body">
-              <p>Board
-NULV is similar to bdNUL - it's a 1-pixel-wide "board" that can be used
-as a placeholder to make VASL accept a particular board configuration.</p>
-
-              <p>Recall
-that VASL only understands boards placed in rows and columns. In order
-to get VASL to understand the following board configuration:</p>
-
-              <table>
-                <tbody><tr>
-                  <td rowspan="2" width="90"><img src="images/bd2a.gif" style="margin: 0pt; width: 200px;"><br>
-</td>
-                  <td><img src="images/bd10.gif" style="margin: 0pt; height: 143px;"><br>
-</td>
-                </tr>
-                <tr>
-                  <td><img src="images/bd22.gif" style="margin: 0pt; height: 143px;"><br>
-</td>
-                </tr>
-              </tbody></table>
-
-              <p>We use bdNUL (a 901-pixel-wide by 1-pixel-tall "board") to fit "under" bd 2a in VASL's Map Creation dialog:</p>
-
-              <table class="table table-bordered" style="width: 250px;">
-                <tbody><tr>
-                  <td>2a<br>
-</td>
-                  <td>10<br>
-</td>
-                </tr>
-                <tr>
-                  <td>NUL<br>
-</td>
-                  <td>22<br>
-</td>
-                </tr>
-              </tbody></table>
-
-              <p>Similar to this situation, bdNULV (a 1-pixel-wide by 645-pixel-tall "board") is useful for creating the following map:</p>
-
-              <table style="width: 400px;">
-                <tbody><tr>
-                  <td colspan="2"><img src="images/bd14.gif" style="margin: 0pt; height: 143px;"><br>
-</td>
-                </tr>
-                <tr>
-                  <td><img src="images/bd46.gif" style="margin: 0pt; height: 143px;"><br>
-</td>
-                  <td><img src="images/bd37.gif" style="margin: 0pt; height: 143px;"><br>
-</td>
-                </tr>
-              </tbody></table>
-
-              <p>To do this, place and crop the boards as such:</p>
-
-              <table class="table table-bordered" style="width: 250px;">
-                <tbody><tr>
-                  <td>14<br>
-</td>
-                  <td>NULV<br>
-</td>
-                </tr>
-                <tr>
-                  <td>46 (A-Q)<br>
-</td>
-                  <td>37 (A-Q)<br>
-</td>
-                </tr>
-              </tbody></table>
-
-              <p>Sure, it's possible to do this without needing bdNULV if you simply rotate the entire map 180 degrees:</p>
-
-              <table class="table table-bordered" style="width: 250px;">
-                <tbody><tr>
-                  <td>37 (flipped, A-Q)<br>
-</td>
-                  <td>46 (flipped, A-Q)<br>
-</td>
-                </tr>
-                <tr>
-                  <td>14 (flipped)<br>
-</td>
-                  <td>(leave blank)<br>
-</td>
-                </tr>
-              </tbody></table>
-
-              <p>...but goshdarnit, sometimes you want the right board on top :-)</p>
+<body>
+  <div id="navbar"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 sidebar"></div>
+      <div class="main-content col-md-10">
+        <div class="userHeader">
+          <h1 class="pull-right">VASL Boards</h1>
+        </div>
+        <div id="boards" class="table-responsive">
+          <p>Since VASL has automated the board update process, the need to show the version numbers here has passed. There is no longer a need for players themselves to download boards, even new boards as they are issued. You will always have access to the latest version of any VASL-ized board, just select it from the board picker in VASL!</p>
+          <table class="table table-striped table-condensed table-bordered">
+            <tbody>
+              <tr>
+                <td><a href="boards/bd00.zip" rel="nofollow">bd&nbsp;00</a><sub class="version 00"></sub></td>
+                <td><a href="boards/bd01.zip" rel="nofollow">bd&nbsp;01</a><sub class="version 01"></sub></td>
+                <td><a href="boards/bd02.zip" rel="nofollow">bd&nbsp;02</a><sub class="version 02"></sub></td>
+                <td><a href="boards/bd03.zip" rel="nofollow">bd&nbsp;03</a><sub class="version 03"></sub></td>
+                <td><a href="boards/bd04.zip" rel="nofollow">bd&nbsp;04</a><sub class="version 04"></sub></td>
+                <td><a href="boards/bd05.zip" rel="nofollow">bd&nbsp;05</a><sub class="version 05"></sub></td>
+                <td><a href="boards/bd06.zip" rel="nofollow">bd&nbsp;06</a><sub class="version 06"></sub></td>
+                <td><a href="boards/bd07.zip" rel="nofollow">bd&nbsp;07</a><sub class="version 07"></sub></td>
+                <td><a href="boards/bd08.zip" rel="nofollow">bd&nbsp;08</a><sub class="version 08"></sub></td>
+                <td><a href="boards/bd09.zip" rel="nofollow">bd&nbsp;09</a><sub class="version 09"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd10.zip" rel="nofollow">bd&nbsp;10</a><sub class="version 10"></sub></td>
+                <td><a href="boards/bd11.zip" rel="nofollow">bd&nbsp;11</a><sub class="version 11"></sub></td>
+                <td><a href="boards/bd12.zip" rel="nofollow">bd&nbsp;12</a><sub class="version 12"></sub></td>
+                <td><a href="boards/bd13.zip" rel="nofollow">bd&nbsp;13</a><sub class="version 13"></sub></td>
+                <td><a href="boards/bd14.zip" rel="nofollow">bd&nbsp;14</a><sub class="version 14"></sub></td>
+                <td><a href="boards/bd15.zip" rel="nofollow">bd&nbsp;15</a><sub class="version 15"></sub></td>
+                <td><a href="boards/bd16.zip" rel="nofollow">bd&nbsp;16</a><sub class="version 16"></sub></td>
+                <td><a href="boards/bd17.zip" rel="nofollow">bd&nbsp;17</a><sub class="version 17"></sub></td>
+                <td><a href="boards/bd18.zip" rel="nofollow">bd&nbsp;18</a><sub class="version 18"></sub></td>
+                <td><a href="boards/bd19.zip" rel="nofollow">bd&nbsp;19</a><sub class="version 19"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd10z.zip" rel="nofollow">bd&nbsp;10z</a><sub class="version 10z"></sub></td>
+                <td><a href="boards/bd17z.zip" rel="nofollow">bd&nbsp;17z</a><sub class="version 17z"></sub></td>
+                <td><a href="boards/bd25ETO.zip" rel="nofollow">bd&nbsp;25ETO</a><sub class="version 25ETO"></sub></td>
+                <td colspan="8">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd20.zip" rel="nofollow">bd&nbsp;20</a><sub class="version 20"></sub></td>
+                <td><a href="boards/bd21.zip" rel="nofollow">bd&nbsp;21</a><sub class="version 21"></sub></td>
+                <td><a href="boards/bd22.zip" rel="nofollow">bd&nbsp;22</a><sub class="version 22"></sub></td>
+                <td><a href="boards/bd23.zip" rel="nofollow">bd&nbsp;23</a><sub class="version 23"></sub></td>
+                <td><a href="boards/bd24.zip" rel="nofollow">bd&nbsp;24</a><sub class="version 24"></sub></td>
+                <td><a href="boards/bd25.zip" rel="nofollow">bd&nbsp;25</a><sub class="version 25"></sub></td>
+                <td><a href="boards/bd26.zip" rel="nofollow">bd&nbsp;26</a><sub class="version 26"></sub></td>
+                <td><a href="boards/bd27.zip" rel="nofollow">bd&nbsp;27</a><sub class="version 27"></sub></td>
+                <td><a href="boards/bd28.zip" rel="nofollow">bd&nbsp;28</a><sub class="version 28"></sub></td>
+                <td><a href="boards/bd29.zip" rel="nofollow">bd&nbsp;29</a><sub class="version 29"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd30.zip" rel="nofollow">bd&nbsp;30</a><sub class="version 30"></sub></td>
+                <td><a href="boards/bd31.zip" rel="nofollow">bd&nbsp;31</a><sub class="version 31"></sub></td>
+                <td><a href="boards/bd32.zip" rel="nofollow">bd&nbsp;32</a><sub class="version 32"></sub></td>
+                <td><a href="boards/bd33.zip" rel="nofollow">bd&nbsp;33</a><sub class="version 33"></sub></td>
+                <td><a href="boards/bd34.zip" rel="nofollow">bd&nbsp;34</a><sub class="version 34"></sub></td>
+                <td><a href="boards/bd35.zip" rel="nofollow">bd&nbsp;35</a><sub class="version 35"></sub></td>
+                <td><a href="boards/bd36.zip" rel="nofollow">bd&nbsp;36</a><sub class="version 36"></sub></td>
+                <td><a href="boards/bd37.zip" rel="nofollow">bd&nbsp;37</a><sub class="version 37"></sub></td>
+                <td><a href="boards/bd38.zip" rel="nofollow">bd&nbsp;38</a><sub class="version 38"></sub></td>
+                <td><a href="boards/bd39.zip" rel="nofollow">bd&nbsp;39</a><sub class="version 39"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd40.zip" rel="nofollow">bd&nbsp;40</a><sub class="version 40"></sub></td>
+                <td><a href="boards/bd41.zip" rel="nofollow">bd&nbsp;41</a><sub class="version 41"></sub></td>
+                <td><a href="boards/bd42.zip" rel="nofollow">bd&nbsp;42</a><sub class="version 42"></sub></td>
+                <td><a href="boards/bd43.zip" rel="nofollow">bd&nbsp;43</a><sub class="version 43"></sub></td>
+                <td><a href="boards/bd44.zip" rel="nofollow">bd&nbsp;44</a><sub class="version 44"></sub></td>
+                <td><a href="boards/bd45.zip" rel="nofollow">bd&nbsp;45</a><sub class="version 45"></sub></td>
+                <td><a href="boards/bd46.zip" rel="nofollow">bd&nbsp;46</a><sub class="version 46"></sub></td>
+                <td><a href="boards/bd47.zip" rel="nofollow">bd&nbsp;47</a><sub class="version 47"></sub></td>
+                <td><a href="boards/bd48.zip" rel="nofollow">bd&nbsp;48</a><sub class="version 48"></sub></td>
+                <td><a href="boards/bd49.zip" rel="nofollow">bd&nbsp;49</a><sub class="version 49"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd50.zip" rel="nofollow">bd&nbsp;50</a><sub class="version 50"></sub></td>
+                <td><a href="boards/bd51.zip" rel="nofollow">bd&nbsp;51</a><sub class="version 51"></sub></td>
+                <td><a href="boards/bd52.zip" rel="nofollow">bd&nbsp;52</a><sub class="version 52"></sub></td>
+                <td><a href="boards/bd53.zip" rel="nofollow">bd&nbsp;53</a><sub class="version 53"></sub></td>
+                <td><a href="boards/bd54.zip" rel="nofollow">bd&nbsp;54</a><sub class="version 54"></sub></td>
+                <td><a href="boards/bd55.zip" rel="nofollow">bd&nbsp;55</a><sub class="version 55"></sub></td>
+                <td><a href="boards/bd56.zip" rel="nofollow">bd&nbsp;56</a><sub class="version 56"></sub></td>
+                <td><a href="boards/bd57.zip" rel="nofollow">bd&nbsp;57</a><sub class="version 57"></sub></td>
+                <td><a href="boards/bd58.zip" rel="nofollow">bd&nbsp;58</a><sub class="version 58"></sub></td>
+                <td><a href="boards/bd59.zip" rel="nofollow">bd&nbsp;59</a><sub class="version 59"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd60.zip" rel="nofollow">bd&nbsp;60</a><sub class="version 60"></sub></td>
+                <td><a href="boards/bd61.zip" rel="nofollow">bd&nbsp;61</a><sub class="version 61"></sub></td>
+                <td><a href="boards/bd62.zip" rel="nofollow">bd&nbsp;62</a><sub class="version 62"></sub></td>
+                <td><a href="boards/bd63.zip" rel="nofollow">bd&nbsp;63</a><sub class="version 63"></sub></td>
+                <td><a href="boards/bd64.zip" rel="nofollow">bd&nbsp;64</a><sub class="version 64"></sub></td>
+                <td><a href="boards/bd65.zip" rel="nofollow">bd&nbsp;65</a><sub class="version 65"></sub></td>
+                <td><a href="boards/bd66.zip" rel="nofollow">bd&nbsp;66</a><sub class="version 66"></sub></td>
+                <td><a href="boards/bd67.zip" rel="nofollow">bd&nbsp;67</a><sub class="version 67"></sub></td>
+                <td><a href="boards/bd68.zip" rel="nofollow">bd&nbsp;68</a><sub class="version 68"></sub></td>
+                <td><a href="boards/bd69.zip" rel="nofollow">bd&nbsp;69</a><sub class="version 69"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd70.zip" rel="nofollow">bd&nbsp;70</a><sub class="version 70"></sub></td>
+                <td><a href="boards/bd71.zip" rel="nofollow">bd&nbsp;71</a><sub class="version 71"></sub></td>
+                <td><a href="boards/bd72.zip" rel="nofollow">bd&nbsp;72</a><sub class="version 72"></sub></td>
+                <td><a href="boards/bd73.zip" rel="nofollow">bd&nbsp;73</a><sub class="version 73"></sub></td>
+                <td><a href="boards/bd74.zip" rel="nofollow">bd&nbsp;74</a><sub class="version 74"></sub></td>
+                <td><a href="boards/bd75.zip" rel="nofollow">bd&nbsp;75</a><sub class="version 75"></sub></td>
+                <td><a href="boards/bd76.zip" rel="nofollow">bd&nbsp;76</a><sub class="version 76"></sub></td>
+                <td>&nbsp;</td>
+                <td><a href="boards/bd78.zip" rel="nofollow">bd&nbsp;78</a><sub class="version 78"></sub></td>
+                <td><a href="boards/bd79.zip" rel="nofollow">bd&nbsp;79</a><sub class="version 79"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd80.zip" rel="nofollow">bd&nbsp;80</a><sub class="version 80"></sub></td>
+                <td><a href="boards/bd81.zip" rel="nofollow">bd&nbsp;81</a><sub class="version 81"></sub></td>
+                <td><a href="boards/bd82.zip" rel="nofollow">bd&nbsp;82</a><sub class="version 82"></sub></td>
+                <td><a href="boards/bd83.zip" rel="nofollow">bd&nbsp;83</a><sub class="version 83"></sub></td>
+                <td><a href="boards/bd84.zip" rel="nofollow">bd&nbsp;84</a><sub class="version 84"></sub></td>
+                <td><a href="boards/bd85.zip" rel="nofollow">bd&nbsp;85</a><sub class="version 85"></sub></td>
+                <td><a href="boards/bd86.zip" rel="nofollow">bd&nbsp;86</a><sub class="version 86"></sub></td>
+                <td colspan="6">&nbsp;</td>
+              </tr>
+              <tr>
+                <th colspan="10">Deluxe Boards</th>
+              </tr>
+              <tr>
+                <td><a href="boards/bda.zip" rel="nofollow">bd&nbsp;a</a><sub class="version a"></sub></td>
+                <td><a href="boards/bdb.zip" rel="nofollow">bd&nbsp;b</a><sub class="version b"></sub></td>
+                <td><a href="boards/bdc.zip" rel="nofollow">bd&nbsp;c</a><sub class="version c"></sub></td>
+                <td><a href="boards/bdd.zip" rel="nofollow">bd&nbsp;d</a><sub class="version d"></sub></td>
+                <td><a href="boards/bde.zip" rel="nofollow">bd&nbsp;e</a><sub class="version e"></sub></td>
+                <td><a href="boards/bdf.zip" rel="nofollow">bd&nbsp;f</a><sub class="version f"></sub></td>
+                <td><a href="boards/bdg.zip" rel="nofollow">bd&nbsp;g</a><sub class="version g"></sub></td>
+                <td><a href="boards/bdh.zip" rel="nofollow">bd&nbsp;h</a><sub class="version h"></sub></td>
+                <td colspan="2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><a href="boards/bdi.zip" rel="nofollow">bd&nbsp;i</a><sub class="version i"></sub></td>
+                <td><a href="boards/bdj.zip" rel="nofollow">bd&nbsp;j</a><sub class="version j"></sub></td>
+                <td><a href="boards/bdk.zip" rel="nofollow">bd&nbsp;k</a><sub class="version k"></sub></td>
+                <td><a href="boards/bdl.zip" rel="nofollow">bd&nbsp;l</a><sub class="version l"></sub></td>
+                <td colspan="6">&nbsp;</td>
+              </tr>
+              <tr>
+                <th colspan="10">Starter Kit Boards <a id="v6skBoards" href="boards/v6bdsm-z.zip" class="track btn btn-small btn-primary" title="about 3.7 MB">Get all of the version 6 Starter Kit Boards</a></th>
+              </tr>
+              <tr>
+                <td><a href="boards/bdkSK.zip" rel="nofollow">bd&nbsp;kSK</a><sub class="version kSK"></sub></td>
+                <td><a href="boards/bdlSK.zip" rel="nofollow">bd&nbsp;lSK</a><sub class="version lSK"></sub></td>
+                <td><a href="boards/bdm.zip" rel="nofollow">bd&nbsp;m</a><sub class="version m"></sub></td>
+                <td><a href="boards/bdn.zip" rel="nofollow">bd&nbsp;n</a><sub class="version n"></sub></td>
+                <td><a href="boards/bdo.zip" rel="nofollow">bd&nbsp;o</a><sub class="version o"></sub></td>
+                <td><a href="boards/bdp.zip" rel="nofollow">bd&nbsp;p</a><sub class="version p"></sub></td>
+                <td colspan="6">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><a href="boards/bdq.zip" rel="nofollow">bd&nbsp;q</a><sub class="version q"></sub></td>
+                <td><a href="boards/bdr.zip" rel="nofollow">bd&nbsp;r</a><sub class="version r"></sub></td>
+                <td><a href="boards/bds.zip" rel="nofollow">bd&nbsp;s</a><sub class="version s"></sub></td>
+                <td><a href="boards/bdt.zip" rel="nofollow">bd&nbsp;t</a><sub class="version t"></sub></td>
+                <td><a href="boards/bdu.zip" rel="nofollow">bd&nbsp;u</a><sub class="version u"></sub></td>
+                <td><a href="boards/bdv.zip" rel="nofollow">bd&nbsp;v</a><sub class="version v"></sub></td>
+                <td><a href="boards/bdw.zip" rel="nofollow">bd&nbsp;w</a><sub class="version w"></sub></td>
+                <td><a href="boards/bdx.zip" rel="nofollow">bd&nbsp;x</a><sub class="version x"></sub></td>
+                <td><a href="boards/bdy.zip" rel="nofollow">bd&nbsp;y</a><sub class="version y"></sub></td>
+                <td><a href="boards/bdz.zip" rel="nofollow">bd&nbsp;z</a><sub class="version z"></sub></td>
+              </tr>
+              <tr>
+                <th colspan="10">Action Pack Boards</th>
+              </tr>
+              <tr>
+                <td><a href="boards/bd1a.zip" rel="nofollow">bd&nbsp;1a</a><sub class="version 1a"></sub></td>
+                <td><a href="boards/bd1b.zip" rel="nofollow">bd&nbsp;1b</a><sub class="version 1b"></sub></td>
+                <td><a href="boards/bd2a.zip" rel="nofollow">bd&nbsp;2a</a><sub class="version 2a"></sub></td>
+                <td><a href="boards/bd2b.zip" rel="nofollow">bd&nbsp;2b</a><sub class="version 2b"></sub></td>
+                <td><a href="boards/bd3a.zip" rel="nofollow">bd&nbsp;3a</a><sub class="version 3a"></sub></td>
+                <td><a href="boards/bd3b.zip" rel="nofollow">bd&nbsp;3b</a><sub class="version 3b"></sub></td>
+                <td><a href="boards/bd4a.zip" rel="nofollow">bd&nbsp;4a</a><sub class="version 4a"></sub></td>
+                <td><a href="boards/bd4b.zip" rel="nofollow">bd&nbsp;4b</a><sub class="version 4b"></sub></td>
+                <td><a href="boards/bd5a.zip" rel="nofollow">bd&nbsp;5a</a><sub class="version 5a"></sub></td>
+                <td><a href="boards/bd5b.zip" rel="nofollow">bd&nbsp;5b</a><sub class="version 5b"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd6a.zip" rel="nofollow">bd&nbsp;6a</a><sub class="version 6a"></sub></td>
+                <td><a href="boards/bd6b.zip" rel="nofollow">bd&nbsp;6b</a><sub class="version 6b"></sub></td>
+                <td><a href="boards/bd7a.zip" rel="nofollow">bd&nbsp;7a</a><sub class="version 7a"></sub></td>
+                <td><a href="boards/bd7b.zip" rel="nofollow">bd&nbsp;7b</a><sub class="version 7b"></sub></td>
+                <td><a href="boards/bd8a.zip" rel="nofollow">bd&nbsp;8a</a><sub class="version 8a"></sub></td>
+                <td><a href="boards/bd8b.zip" rel="nofollow">bd&nbsp;8b</a><sub class="version 8b"></sub></td>
+                <td><a href="boards/bd9a.zip" rel="nofollow">bd&nbsp;9a</a><sub class="version 9a"></sub></td>
+                <td><a href="boards/bd9b.zip" rel="nofollow">bd&nbsp;9b</a><sub class="version 9b"></sub></td>
+                <td><a href="boards/bd10a.zip" rel="nofollow">bd&nbsp;10a</a><sub class="version 10a"></sub></td>
+                <td><a href="boards/bd10b.zip" rel="nofollow">bd&nbsp;10b</a><sub class="version 10b"></sub></td>
+              </tr>
+              <tr>
+                <td><a href="boards/bd11a.zip" rel="nofollow">bd&nbsp;11a</a><sub class="version 11a"></sub></td>
+                <td><a href="boards/bd11b.zip" rel="nofollow">bd&nbsp;11b</a><sub class="version 11b"></sub></td>
+                <td><a href="boards/bd12a.zip" rel="nofollow">bd&nbsp;12a</a><sub class="version 12a"></sub></td>
+                <td><a href="boards/bd12b.zip" rel="nofollow">bd&nbsp;12b</a><sub class="version 12b"></sub></td>
+                <td><a href="boards/bd13a.zip" rel="nofollow">bd&nbsp;13a</a><sub class="version 13a"></sub></td>
+                <td><a href="boards/bd13b.zip" rel="nofollow">bd&nbsp;13b</a><sub class="version 13b"></sub></td>
+                <td colspan="4">&nbsp;</td>
+              </tr>
+              <tr>
+                <th colspan="10">Utility Boards</th>
+              </tr>
+              <tr>
+                <td><a href="boards/bdNUL.zip" rel="nofollow">bd&nbsp;NUL</a><sub class="version NUL"></sub></td>
+                <td><a href="boards/bdNULV.zip" rel="nofollow">bd&nbsp;NULV</a><sub class="version NULV"></sub></td>
+                <td><a href="boards/bdBlank0.zip" rel="nofollow">bd&nbsp;Blank0</a><sub class="version Blank0"></sub></td>
+                <td><a href="boards/bdBlank1.zip" rel="nofollow">bd&nbsp;Blank1</a><sub class="version Blank1"></sub></td>
+                <td colspan="6">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading" data-toggle="collapse" data-target="#collapseOne" title="click to open">
+              <span class="pull-right"><a href="READMEforbdNULandbdNULV.pdf" target="_blank" rel="nofollow">Download PDF</a></span>
+              <h4 class="panel-title">README for bdNUL and bdNULV
+                <span class="glyphicon glyphicon-circle-arrow-down pull-left">&nbsp;</span>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>Board
+                  NULV is similar to bdNUL - it's a 1-pixel-wide "board" that can be used
+                  as a placeholder to make VASL accept a particular board configuration.</p>
+                <p>Recall
+                  that VASL only understands boards placed in rows and columns. In order
+                  to get VASL to understand the following board configuration:</p>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td rowspan="2" width="90"><img src="images/bd2a.gif" style="margin: 0pt; width: 200px;"><br>
+                      </td>
+                      <td><img src="images/bd10.gif" style="margin: 0pt; height: 143px;"><br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/bd22.gif" style="margin: 0pt; height: 143px;"><br>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>We use bdNUL (a 901-pixel-wide by 1-pixel-tall "board") to fit "under" bd 2a in VASL's Map Creation dialog:</p>
+                <table class="table table-bordered" style="width: 250px;">
+                  <tbody>
+                    <tr>
+                      <td>2a<br>
+                      </td>
+                      <td>10<br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>NUL<br>
+                      </td>
+                      <td>22<br>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>Similar to this situation, bdNULV (a 1-pixel-wide by 645-pixel-tall "board") is useful for creating the following map:</p>
+                <table style="width: 400px;">
+                  <tbody>
+                    <tr>
+                      <td colspan="2"><img src="images/bd14.gif" style="margin: 0pt; height: 143px;"><br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/bd46.gif" style="margin: 0pt; height: 143px;"><br>
+                      </td>
+                      <td><img src="images/bd37.gif" style="margin: 0pt; height: 143px;"><br>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>To do this, place and crop the boards as such:</p>
+                <table class="table table-bordered" style="width: 250px;">
+                  <tbody>
+                    <tr>
+                      <td>14<br>
+                      </td>
+                      <td>NULV<br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>46 (A-Q)<br>
+                      </td>
+                      <td>37 (A-Q)<br>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>Sure, it's possible to do this without needing bdNULV if you simply rotate the entire map 180 degrees:</p>
+                <table class="table table-bordered" style="width: 250px;">
+                  <tbody>
+                    <tr>
+                      <td>37 (flipped, A-Q)<br>
+                      </td>
+                      <td>46 (flipped, A-Q)<br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>14 (flipped)<br>
+                      </td>
+                      <td>(leave blank)<br>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>...but goshdarnit, sometimes you want the right board on top :-)</p>
+              </div>
             </div>
           </div>
         </div>
+        <div class="well">
+          <h3>A note on managing VASL board versions, from David Sullivan</h3>
+          <p>With
+            the reintroduction of automated LOS in VASL 6.1, we are entering a
+            season where managing your boards folder is going to need some
+            attention. You're probably aware that VASL checks board versions when
+            you use the boards and lets you know when your boards are out of date.
+            To minimize the hassle, I've tweaked this code so you won't see too
+            many of those nagging messages if you follow these simple
+            recommendations.</p>
+          <p>Note that all boards that contain LOS data will be v6; v5 boards (and earlier) will not support LOS.</p>
+          <p>1)
+            If you choose to continue using 6.0.3 or a previous version of VASL you
+            should not download the v6 boards. Nothing will change for you.</p>
+          <p>2)
+            If you upgrade to 6.1 you should grab the v6 boards and continue to do
+            so as they are released. If new boards are released and you haven't
+            downloaded them you will see the version message, which is good.</p>
+          <p>3)
+            If you run 6.1 and another version of VASL I highly recommend using a
+            second boards folder, say boardsV6, that contains the v6 boards and all
+            your other boards. Leave your current boards folder as-is. When you
+            start VASL you'll just have to remember to pick the appropriate boards
+            folder in your preference or in the board picker. Note that preferences
+            are universal and not specific to the VASL version.</p>
+        </div>
       </div>
-
-      <div class="well">
-        <h3>A note on managing VASL board versions, from David Sullivan</h3>
-
-        <p>With
-the reintroduction of automated LOS in VASL 6.1, we are entering a
-season where managing your boards folder is going to need some
-attention. You're probably aware that VASL checks board versions when
-you use the boards and lets you know when your boards are out of date.
-To minimize the hassle, I've tweaked this code so you won't see too
-many of those nagging messages if you follow these simple
-recommendations.</p>
-
-        <p>Note that all boards that contain LOS data will be v6; v5 boards (and earlier) will not support LOS.</p>
-
-        <p>1)
-If you choose to continue using 6.0.3 or a previous version of VASL you
-should not download the v6 boards. Nothing will change for you.</p>
-
-        <p>2)
-If you upgrade to 6.1 you should grab the v6 boards and continue to do
-so as they are released. If new boards are released and you haven't
-downloaded them you will see the version message, which is good.</p>
-
-        <p>3)
-If you run 6.1 and another version of VASL I highly recommend using a
-second boards folder, say boardsV6, that contains the v6 boards and all
-your other boards. Leave your current boards folder as-is. When you
-start VASL you'll just have to remember to pick the appropriate boards
-folder in your preference or in the board picker. Note that preferences
-are universal and not specific to the VASL version.</p>
-
-      </div>
-
     </div>
   </div>
-</div>
+  <footer></footer>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $("#navbar").load("./include/navbar.htm", function() {
+      $("ul.navbar-nav li.download").addClass("active");
+    });
+    $("div.sidebar").load("./include/sidebar.htm", function() {
+      $("a.boards").addClass("active");
+    });
+    $("footer").load("./include/copyright.htm");
 
-<footer></footer>
-<script src="./js/jquery.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$("#navbar").load("./include/navbar.htm", function() {
-    $("ul.navbar-nav li.download").addClass("active");
-	});
-	$("div.sidebar").load("./include/sidebar.htm", function() {
-    $("a.boards").addClass("active");
-	});
-	$("footer").load("./include/copyright.htm");
+    $("a.track").on("click", function() {
+      ga('send', 'event', 'button', 'click', $(this).attr("id"));
+    });
 
-	$("a.track").on("click", function() {
-	  ga('send', 'event', 'button', 'click', $(this).attr("id"));
-	});
+    // var url = 'https://raw.githubusercontent.com/vasl-developers/vasl/develop/boards/v5boardVersions.xml';
 
-  var url = 'https://raw.githubusercontent.com/vasl-developers/vasl/develop/boards/v5boardVersions.xml';
+    // $.ajax({
+    //     type: "GET",
+    //     url: url,
+    //     dataType: "xml",
+    //     success: function (xml) {
+    //       $(xml).find('boarddata').each(function(){
+    //         var name = $(this).attr("name");
 
-  $.ajax({
-      type: "GET",
-      url: url,
-      dataType: "xml",
-      success: function (xml) {
-        $(xml).find('boarddata').each(function(){
-          var name = $(this).attr("name");
+    //         if(name.indexOf('&') >= 0) return;
 
-          if(name.indexOf('&') >= 0) return;
+    //         var version = $(this).attr("version");
+    //         $("sub.version."+name).text(" v"+version);
+    //       });             
+    //     }
+    // });
 
-          var version = $(this).attr("version");
-          $("sub.version."+name).text(" v"+version);
-        });             
-      }
+    // I left the sub elements on the board elements, in case we want to turn this back on. 
+    // Without the processing above, those elements will remain invisible to the web page.
   });
-});
-</script>
-</body></html>
+  </script>
+</body>
+
+</html>
