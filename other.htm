@@ -201,8 +201,8 @@
             <tr>
               <td colspan="2"><a href="boards/ch/bdDBP.zip" rel="nofollow">Dien Bien Phu</a><sub class="version DBP"></sub></td>
               <td colspan="2"><a href="boards/ch/STONNE.zip" rel="nofollow">Stonne</a><sub class="version Stonne"></sub></td>
-              <td colspan="2">&nbsp;</td>
-              <td colspan="2">&nbsp;</td>
+              <td colspan="2"><a href="boards/ch/bdMamayevKurgan.zip" rel="nofollow">Mamayev Kurgan</a><sub class="version MamayevKurgan"></sub></td>
+              <td colspan="2"><a href="boards/ch/bdMamayevKurganW.zip" rel="nofollow">Mamayev Kurgan W</a><sub class="version MamayevKurganW"></sub></td>
               <td><a href="boards/ch/ch.zip" rel="nofollow">All CH</a></td>
             </tr>
             <tr>
@@ -317,24 +317,24 @@
     });
     $("footer").load("./include/copyright.htm");
 
-    var url = 'https://raw.githubusercontent.com/vasl-developers/vasl/develop/boards/v5boardVersions.xml';
+    // var url = 'https://raw.githubusercontent.com/vasl-developers/vasl/develop/boards/v5boardVersions.xml';
 
-    $.ajax({
-        type: "GET",
-        url: url,
-        dataType: "xml",
-        success: function (xml) {
-          $(xml).find('otherBoards').find('boarddata').each(function(){
-            var name = $(this).attr("name");
+    // $.ajax({
+    //     type: "GET",
+    //     url: url,
+    //     dataType: "xml",
+    //     success: function (xml) {
+    //       $(xml).find('otherBoards').find('boarddata').each(function(){
+    //         var name = $(this).attr("name");
 
-            if(name === 'B&I' || name === 'B&amp;I') name = 'BI';
-            if(name.indexOf('&') >= 0) return;
+    //         if(name === 'B&I' || name === 'B&amp;I') name = 'BI';
+    //         if(name.indexOf('&') >= 0) return;
 
-            var version = $(this).attr("version");
-            $("sub.version."+name).text(" v"+version);
-          });
-        }
-    });
+    //         var version = $(this).attr("version");
+    //         $("sub.version."+name).text(" v"+version);
+    //       });
+    //     }
+    // });
   });
   </script>
 </body></html>
