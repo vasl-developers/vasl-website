@@ -4,7 +4,7 @@ h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-w
 .quoteSource { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 12px; color: #666666}
 .quoteHead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: italic; font-weight: bold; color: #990000}
 .copyright { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #999999}
-.question { font-style: italic; color: #666600}
+.question { border-top: 1pt solid black; padding-top: 10px; font-weight: bold; color: #666600}
 h2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold}
 ol { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px}
 .sidebar { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px}
