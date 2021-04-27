@@ -49,16 +49,59 @@ ga('send', 'pageview');
 
               <p>VASL 6.5.* requires Vassal 3.2.17. If you save a game, or log in VASL 6.5.*, you will NOT be able to open it afterwards with earlier versions of VASL.</p>
 
-              <p>VASL6.6.1 works with VASSAL3.4.6.</p>
+              <p>VASL6.6.1 works with VASSAL3.4.6. VASL6.6.2 works with VASSAL3.5.5.</p>
 
               <p>Vassal 3.2.17 or later requires Java Runtime Envionment (JRE) 8 or later.</p>
-              <p>VASSAL 3.4.6 bundles Java and so no separate Java installation is required.</p>
+              <p>VASSAL 3.4.6 and above bundle Java and so no separate Java installation is required.</p>
             </div>
           </div>
         </div>
       </div>
+	<div class="well table">
+            <a id="download662" class="track btn btn-large btn-primary" href="modules/VASLv662.zip">VASL 6.6.2</a>
+            <h2 class="pull-right">Updated April 26, 2021</h2>
+            <h3>New in version 6.6.2:</h3>
+
+           <li>This version is about bug fixes:</li>
+		<br>
+		<p>Crashes during Board Selection and Setup. We fixed a couple of bugs that caused issues when using the BoardPicker wizard at startup. </p>
+		<p>AFV’s marked with a Bad Things label now show up in the Broken/Malf Finder.</p>
+		<p>Fixed issues causing the “Outdated Custom Code” messages.</p>
+		<p>Fixed North Korean concealment and Italian 347 BH bugs.</p>
+		<p>Fixed bug with Marsh to Level 0 terrain transformation.</p>
+		<p>Units moved with Numpad now report move and are marked moved. </p>
+		<p>LOS Freezing- to prevent LOS freezing when both players check LOS at the same time, the los buttons on remote devices are disabled once a player clicks his los button. Ending the los check enables the other player’s buttons again.</p>
+ 		<p>Cropping to a Full Hex was still kicking out the los engine in some situations. Fixed that dead.</p>
+		<p>Blind hex Gully bugs – fixed a minor bug when determining blind hexes in los and when tracing los into a Gully.</p>
+		<p>Board-specific Overlays (those listed in the TerrainSSR window) now only block los when touched by los thread. </p>
+		<p>Board-specific Overlays (those listed in the TerrainSSR window) now only block los when touched by los thread.</p>
+		<p>Chat window now reports if VASL los enabled or disabled at game startup.</p>
+		<br>
+	   <li>Plus, we did some other stuff:</li>
+		<br>
+		<p>Moved VASL to VASSAL3.5.5. You will need VASSAL3.5.5 to run this VASL version. Any other version is at your own risk.</p>
+		<p>Created a separate VASL tab in Preferences. All those listed there are specific to VASL – use it to set the red circle “look here” preference. Those remaining under the General tab are VASSAL Preferences. </p>
+		<p>Created a separate VASL tab in Preferences. All those listed there are specific to VASL – use it to set the red circle “look here” preference. Those remaining under the General tab are VASSAL Preferences. </p>
+		<p>Added functionality to the Casualties Bin: you can now send an AFV to the Cas Bin and create a wreck on the map with one click. Same for CRing Squad to a HS and sending a HS to the Bin (there is also an option to ELR the squad first). But you will still have to break the remaining HS (if needed) with another click. Prisoner CVP values can now be changed.  BH or ELR leaders now changes their CVP.</p>
+		<p>Added CX menu option to ? counters. (This was flagged as an issue in October 2015; we may be slow but we don’t go fast).</p>
+		<p>Added a Dust Shader button. Works like the night shader only with a number of gradients.</p>
+ 		<p></p>
+ 		<p>We added custom phase track wheels that enable you to use individual nationality icons in the phase wheel and turn track tools. Plus the phase tracker now runs for 40 turns! Credit Gordon Molek and Walter Parker for their assistance with the custom turn markers and phase wheel. Gordon did all the turn and reinforcement marker graphics. Walter figured out the way to get the phase tracker to go up to turn 40.</p>
+		<p>VASSAL3.5.5 fixes a bug that was eliminating the first character typed in the chat window.</p>
+		<br>
+	   <li>Compatibility issues: 6.6.2 is compatible with games saved in 6.6.1. Unit counters created in 6.6.1 will not have the new Casualties Bin options but can still be sent to the Bin and have their CVP added. </li>
+
+            <br>
+            <li>To use VASL6.6.2 you must first download and install VASSAL3.5.5.</li>
+            <br>
+            <li>Important:</li>
+            <li>Games created in VASL6.5.0 or 6.5.1 will work in VASL6.6.2 but not all new functionality will work with counters created in 6.5.X. Games created in earlier versions of VASL won't work in VASL6.6.2.</li>
+            <li>It is possible to have both VASSAL3.2.17 running VASL6.5.1 AND VASSAL3.5.5 running VASL6.6.2 on your device at the same time. It is not an either/or choice.</li>
+            <br>
+        </div>
+
         <div class="well table">
-            <a id="download661" class="track btn btn-large btn-primary" href="modules/VASLv661.zip">VASL 6.6.1</a>
+            <a id="download661" class="track btn btn-large btn-info" href="modules/VASLv661.zip">VASL 6.6.1</a>
             <h2 class="pull-right">Updated October 15, 2020</h2>
             <h3>New in version 6.6.1:</h3>
 
