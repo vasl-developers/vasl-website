@@ -49,7 +49,7 @@ ga('send', 'pageview');
 
               <p>VASL 6.5.* requires Vassal 3.2.17. If you save a game, or log in VASL 6.5.*, you will NOT be able to open it afterwards with earlier versions of VASL.</p>
 
-              <p>VASL6.6.1 works with VASSAL3.4.6. VASL6.6.2 works with VASSAL3.5.5.</p>
+              <p>VASL6.6.3 works with VASSAL3.5.8.</p>
 
               <p>Vassal 3.2.17 or later requires Java Runtime Envionment (JRE) 8 or later.</p>
               <p>VASSAL 3.4.6 and above bundle Java and so no separate Java installation is required.</p>
@@ -58,7 +58,43 @@ ga('send', 'pageview');
         </div>
       </div>
 	<div class="well table">
-            <a id="download662" class="track btn btn-large btn-primary" href="modules/VASLv662.zip">VASL 6.6.2</a>
+            <a id="download663" class="track btn btn-large btn-primary" href="modules/VASLv663.zip">VASL 6.6.3</a>
+            <h2 class="pull-right">Updated October 30, 2021</h2>
+            <h3>New in version 6.6.3:</h3>
+
+	    <li>This version is about terrain issues:</li>
+		<br>
+		<p>Fixed Orchard-to-Cactus Patch transformation on bd25</p>
+		<p>Fixed LOS to Crest location in a Depression hex</p>
+		<p>LOS now works with RB/RO gutted factory overlays</p>
+		<p>LOS bug with cropped Deluxe boards is fixed</p>
+		<p>LOS bug with deluxe-sized hexes fixed</p>
+		<p>Bd41 and bd47 Marsh transforms and Orchard-to-Shellhole transform fixed</p>
+		<p>LOS to On-Map bridges and to Bridge and Crest Counters fixed</p>
+		<p>LOS now works on desert boards 26-31, plus when using hillock, wadi, dier and sand dune (low only) overlays</p>
+		<p>Expanded environmental shaders for Dust, Fog, Sun Blindness, Heat Haze. Thanks to Morris Legge for this work!</p>
+		<p>Some under the hood changes will clean up minor bugs and irritants</p>
+		<br>
+	   <li>Plus, we did some other stuff:</li>
+		<br>
+		<p>Added a preference to enable the Player Window (menus, toolbars, chat, dice) to be always on top when in uncombined window mode. Player Window is resizeable<p>
+		<p>You can now add an offboard observer location (not counter) to a board edge hex at specified height and draw LOS to/from it as if to an upper-level building. Plus, all hexes now allow the los string to go up 10 levels and down 3 levels of “virtual locations”<p>
+		<p>? was preventing some vehicles from moving via CTRL-numpad. Fixed<p>
+		<p>Broken units moved to the Casualty Bin now revert to GO side in the Bin; Striped squad CVP fixed<p>
+		<p>Added a CA pointer for all veh/guns. Shift-Alt-Q to toggle on/off on individual vehicle/gun. Shift-Alt-W to toggle on/off for all vehicle/guns in the game (must have at least one selected to toggle). Thanks to Neal Ulen for the hard work on this one<p>
+		<p>The Counter Detail window (hover over stack) now shows base level of hex along with hexname<p>
+		<p>Updated the Help files and converted them to pdfs. Plus added a more complete listing of Hotkeys. Many thanks to Jeff Wright for his great work on this.<p>
+		<p>Moved VASL to VASSAL3.5.8. You will need VASSAL3.5.8 to run this VASL version. Any other version is at your own risk<p>
+		<br>
+		<li>Compatibility issues: 6.6.3 is generally compatible with games saved in 6.6.2. Some bug fixes which required changes to certain counters will not work for counters created in 6.6.2 but they should maintain their previous functionality</li>
+		<br>
+		<li>Finally, please note that virtually every board was updated since 6.6.2 was released. This was the start of a big effort to eliminate redundant components in the board files which will make solving board issues much easier and will simplify adding new terrain transformations. It will slow down bug fixing for the next year or so but will pay big benefits.</li>
+           	<br>
+	               
+        </div>
+	
+	<div class="well table">
+            <a id="download662" class="track btn btn-large btn-info" href="modules/VASLv662.zip">VASL 6.6.2</a>
             <h2 class="pull-right">Updated April 26, 2021</h2>
             <h3>New in version 6.6.2:</h3>
 
