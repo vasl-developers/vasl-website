@@ -1,85 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-<link rel="icon" href="./favicon.ico" type="image/x-icon">
-<title>VASL - Frequently Asked Questions</title>
-<link rel="stylesheet" href="./css/bootstrap.min.css">
-<link href="./css/vasl_styles.css" rel="stylesheet">
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-50258794-1', 'auto');
-ga('send', 'pageview');
-</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>VASL - Frequently Asked Questions</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link href="./css/vasl_styles.css" rel="stylesheet">
+  <script type="text/javascript">
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-50258794-1', 'auto');
+  ga('send', 'pageview');
+  </script>
 </head>
+
 <body>
-<div id="navbar"></div>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-2 sidebar"></div>
-		<div class="main-content col-md-10">
-			<div class="userHeader">
-				<h1 class="pull-left">VASL Frequently Asked Questions</h1>
-			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-
-					<p class="question"><b>Q:</b> Can you open a VASL game by double-clicking on a .vsav file?</p>
-
-					<p><b>A:</b> Yes, but only if you have only one version of VASL and VASSAL on your device. If you have multiple versions of VASL/VASSAL (which is perfectly fine), double-clicking will likely create a version conflict. In this situation, open VASSAL, open VASL from the VASSAL window, open the saved game from the VASL Wizard.</p>
-
-					<p class="question"><b>Q:</b> Are there any compatibility issues with Upgrading the board files to the new v6 boards and still running them in VASL 6.0.3?</p>
-
-					<p><b>A:</b> No - they will work just fine in 6.0.3.</p>
-
-					<p class="question"><b>Q:</b> Where do I set the server address?</p>
-
-					<p><b>A:</b> VASL determines the default server address dynamically at run-time. In Preferences, there is a Server tab, where there is also a VASSALJabber Server that can be used, and a P2P Network configuration can be set up.</p>
-
-					<p class="question"><b>Q:</b> Is the OBA deck randomized in any way regarding its drawing? Or will the same sequence of cards reveal each and every time once a deck is created. What about the "extra" card pulls which are then put back in the deck.</p>
-
-					<p><b>A:</b> The OBA pile randomizes the cards every time the card pile is clicked.</p>
-					
-					<p class="question"><b>Q:</b> I have a copy of the BRT map that opens fine in 5.9.2/3.1.18. But when I try to start a New Game in 6.0.3/3.2.11 it doesn't even show up in the list of available maps to choose from.</p>
-
-					<p><b>A:</b> The file name was BdBRT and the fix is to rename it bdBRT.</p>
-					
-				</div>
-				<div class="col-md-6">
-
-					<p class="question"><b>Q:</b> For team play of scenarios/CGs, we noticed the that if one person concealed a unit, the other player on their team would not be able to see what the unit was (e.g. my partner and I are the US versus two German players ... at setup, I concealed all the US units per the SSR, but then neither the German nor my US partner were able to view the US units, only I could view them).<br><br>We tried the 'let opponent unmask your pieces' button in the Preferences, as well as both of us changing our name to "US", but neither seemed to work. Any thoughts/suggestions? Thanks.</p>
-
-					<p><b>A:</b> The answer is quite simple; players on the same team must share the same password. Not the same username and password, just the password.<br><br>It is easy to create multiple identities and passwords on VASL. Just go to preferences ->personal and then enter a new name and password. This does not replace the old identity, it simply creates a new one.<br><br>So, for myself, my name "DougRimmer" with a password of "firstpassword". But when I am playing as part of a team, my name is "Nightrules" with a passowrd of "secondpassword".<br><br>If you open a game with the wrong name/password and can’t see under your own counters (been there, done that), just make the change in preferences to the right one and you should be able to see under the ?. Don’t even have to close the game and restart!</p>
-
-					<p class="question"><b>Q:</b> I've seen some crazy results generated by the dice roller in VASL. Can I trust its fairness?</p>
-
-					<p><b>A:</b> Yes. See Stephen Berry's <a href="vassal/rng.htm">analysis</a></p>
-
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<footer></footer>
-<script src="./js/jquery.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$("#navbar").load("./include/navbar.htm", function() {
-		$("ul.navbar-nav li.faq").addClass("active");
-	});
-	$("div.sidebar").load("./include/contact.htm");
-	$("footer").load("./include/copyright.htm");
-});
-</script>
+  <div id="navbar"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 sidebar"></div>
+      <div class="main-content col-md-10">
+        <div class="userHeader">
+          <h1 class="pull-left">VASL Frequently Asked Questions</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="question"><b>Q:</b> I noticed while playing that if you look closely at a concealed stack, it is very easy to determine if it is real or dummy. Along the bottom edge of the counters underneath the top one you can almost make out the word morale; also for any unit with an underline the underline is clearly visible. Is there a way to fix this?</p>
+            <p><b>A:</b> The solution, introduced several versions back, was to enable counters underneath a ? counter to appear as white images. This is done by selecting the “Disable full color stacks” option from Preferences -> VASL. The white images contain no text or underlining. When unconcealed they revert to normal.</p>
+            <p class="question"><b>Q:</b> Can you open a VASL game by double-clicking on a .vsav file?</p>
+            <p><b>A:</b> Yes, but only if you have only one version of VASL and VASSAL on your device. If you have multiple versions of VASL/VASSAL (which is perfectly fine), double-clicking will likely create a version conflict. In this situation, open VASSAL, open VASL from the VASSAL window, open the saved game from the VASL Wizard.</p>
+            <p class="question"><b>Q:</b> Where do I set the server address?</p>
+            <p><b>A:</b> VASL determines the default server address dynamically at run-time. In Preferences, there is a Server tab, where there is also a VASSALJabber Server that can be used, and a P2P Network configuration can be set up.</p>
+            <p class="question"><b>Q:</b> Is the OBA deck randomized in any way regarding its drawing? Or will the same sequence of cards reveal each and every time once a deck is created. What about the "extra" card pulls which are then put back in the deck.</p>
+            <p><b>A:</b> The OBA pile randomizes the cards every time the card pile is clicked.</p>
+            <p class="question"><b>Q:</b> I've seen some crazy results generated by the dice roller in VASL. Can I trust its fairness?</p>
+            <p><b>A:</b> Yes. See Stephen Berry's <a href="vassal/rng.htm">analysis</a></p>
+          </div>
+          <div class="col-md-6">
+            <p class="question"><b>Q:</b> For team play of scenarios/CGs, we noticed the that if one person concealed a unit, the other player on their team would not be able to see what the unit was (e.g. my partner and I are the US versus two German players ... at setup, I concealed all the US units per the SSR, but then neither the German nor my US partner were able to view the US units, only I could view them).<br><br>We tried the 'let opponent unmask your pieces' button in the Preferences, as well as both of us changing our name to "US", but neither seemed to work. Any thoughts/suggestions? Thanks.</p>
+            <p><b>A:</b> The answer is quite simple; players on the same team must share the same password. Not the same username and password, just the password.<br><br>It is easy to create multiple identities and passwords on VASL. Just go to preferences ->personal and then enter a new name and password. This does not replace the old identity, it simply creates a new one.<br><br>So, for myself, my name "DougRimmer" with a password of "firstpassword". But when I am playing as part of a team, my name is "Nightrules" with a password of "secondpassword".<br><br>If you open a game with the wrong name/password and can’t see under your own counters (been there, done that), just make the change in preferences to the right one and you should be able to see under the ?. Don’t even have to close the game and restart!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer></footer>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $("#navbar").load("./include/navbar.htm", function() {
+      $("ul.navbar-nav li.faq").addClass("active");
+    });
+    $("div.sidebar").load("./include/contact.htm");
+    $("footer").load("./include/copyright.htm");
+  });
+  </script>
 </body>
+
 </html>
