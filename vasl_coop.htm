@@ -64,6 +64,74 @@ div.main-content img { width: 30%; }
       documentation on the interface and a tutorial on how to do it. And of course, the VASL developers are more than
       willing to help you get comfortable. Find a problem or looking for ideas?&nbsp; Check the VASL <a
       href="https://github.com/vasl-developers/vasl/issues">Issues List</a>.</p>
+
+      <hr/>
+
+      <h3>Current Development of VASL!</h3>
+
+      <h3>VASL6.6.4</h3>
+
+      <p>VASL6.6.4 is now out for beta testing. If you find a bug, please report it! VASL6.6.4 should be officially released in April, 2022.<br> </p>
+
+      <div class="well table">
+        <a id="download664beta" class="track btn btn-large btn-primary" href="modules/VASLv664beta.zip">VASL 6.6.4-beta5</a>
+
+        <h3>New in version 6.6.4-beta5:</h3>
+
+        <p>Enhancements:</p>
+        <p>The red CA pointer for veh/guns can now be enabled/disabled by preference (disabled by default). When enabled, Shift-Alt-Q to toggle on/off on individual vehicle/gun and Shift-Alt-W to toggle on/off for all vehicle/guns in the game (must have at least one selected to toggle). Games saved in 6.6.3 will maintain previous functionality.</p>
+        <p>Overlays and Terrain Transformations: overlays 1-7, BFPCI, BFPVI, BFPVIII, E, and FT now support terrain transformations the same way as boards do. These overlays have been reissued and new versions will download automatically when used just as automatic board updating. Code changes to support the terrain transforms are included so 6.6.4 is necessary.</p>
+        <p>Overlays and LOS: los checking now works for most single-terrain overlays such as brush, grain, woods, open ground, etc., including deluxe overlays. This will not work on games saved in earlier versions and opened in 6.6.4.</p>
+        <p>Overlays now resize along with the map boards when switching between normal and deluxe sized hexes.</p>
+        <p>All of the above applies only to overlays added via Boardpicker when selecting boards and not the Draggable Overlays Extension.</p>
+        <p>Swedish Volunteer counters have been updated and added to the core module. The SV.mdx/5SV.mdx extension is no longer required and should be deleted to avoid counter duplication.  Thanks to Jeremy Brubaker for the good work here.</p>
+        <p>Details have been added to the Dice stats display – turn on by preference in VASL tab. Thanks to J. Young for the work on this.</p>
+        <p>LOS now works on the Dinant board when using 6.6.4.</p>
+        <p>Bug fixes:</p>
+        <p>Bad Data in module messages in Cas Bin removed.</p>
+        <p>LOS bug with cropped boards is fixed.</p>
+        <p>Movement reporting to remote device and log file when using CTRL-Numpad key combo now works.</p>
+        <p>LOS bugs on boards RBv3, 17z and 47 are fixed.</p>
+        <p>Several bugs with the OB Observer feature are fixed. Games with OBA modules saved in earlier versions will not cause crashes.</p>
+        <p>The Hex Contents “hover” Window now reports the base level of the hex correctly.</p>
+        <p>Chinese Communist concealment counters are now working properly.</p>
+        <p>Drift counters now work with LOS.</p>
+        <p>A number of counters were fixed: Belgian 50mm mtr, German FT-17 vehicles, Sewer. Japanese leaders no longer have break on menu while motorcycles now have motion on menu.</p>
+
+        <p>IMPORTANT: You will need at least VASSAL3.6.5 to run this VASL version. Any other version is at your own risk.</p>
+        <p>Compatibility issues: 6.6.4 is generally compatible with games saved in 6.6.3. Some bug fixes which required changes to certain counters will not work for such counters created in earlier versions but they should maintain their previous functionality.</p>
+
+         <br>
+
+      </div>
+
+      <h3>VASL6.6.5</h3>
+
+      <p>Development for VASL6.6.5 is currently underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
+      on Github usually contains about 100 items, a combination of desired features, known bugs, and board related items. Not all are
+      being worked on at any given time. The current plan for 6.6.5 is to focus on new feature development and looks like this: <br> </p>
+
+      <img src="images/jb_beam.png" class="pull-right" alt="GitHub" />
+
+      <p>New Features</p>
+      <li>Enable the VASL chat window to work with html</li>
+      <li>Create, link, and label acquisition counters from a vehicle/gun popup menu with one click</li>
+      <li>Display a "Recent Games Played" list at Startup and on the File Menu</li>
+      <li>Add a Version Converter that will update previously saved games to new versions</li>
+      <li>Develop a new way to move and display vehicles in bypass</li>
+      <li>Have the LOS engine check for obstacles on both sides of the LOS thread as per ASL rules</li>
+      <li>Continue to streamline board files</li>
+      <br>
+      <p>Some of these may prove to be too difficult to implement or may risk creating many bugs and so may fall by the wayside. <br></p>
+
+      <p>Bug Fixes</p>
+      <p>No specific bug fixes are planned at present.<br></p>
+
+      <p>VASL6.6.5 should be officially released in the Fall of 2022.</p>
+
+      <p><i>VASL code development is currently carried out using free software tools provided by Jet Brains as part of it's
+        <a href="https://www.jetbrains.com/community/opensource/#support">Open Source Support </a>. We appreciate their on-going
+        assistance to VASL development.</i> </p>
     </div>
   </div>
 </div>
