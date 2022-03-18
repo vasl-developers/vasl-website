@@ -24,21 +24,7 @@
 <div id="navbar"></div>
 <div class="container-fluid" style="margin-top:150px;">
   <div class="row">
-    <div class="col-md-2 quotes">
-      <h3>What are People Saying about VASL:</h3>
-      <p><i>&quot;VASL is a perfect example of how the Internet is continuing to bring about a gaming Renaissance.&quot;</i><br><span class="quoteSource">Vox Day, Syndicated Technology Columnist</span></p>
-      <p><i>&quot;A remarkable achievement!&quot;</i><br/><span class="quoteSource">Bruce Geryk, Games Domain</span></p>
-      <p><i>&quot;The greatest thing since the invention of SL itself!&quot;</i></p>
-      <p><i>&quot;When I recently discovered VASL, I immediately purchased the ASL rulebook and modules 1-4.&quot;</i></p>
-      <p><i>&quot;VASL has 'saved' a lot of people that might have given up on ASL.&quot;</i></p>
-      <p><i>&quot;Made me run out and buy the ASL rules again...&quot;</i></p>
-      <p><i>&quot;With the potential of playing over the net, I've picked up CDG and AP1 in just the last few months.&quot;</i></p>
-      <p><i>&quot;VASL has drawn me back with as much enthusiasm as I had when I was a 16 year old.&quot;</i></p>
-      <p><i>&quot;Fills the void of not having face-to-face players handy...&quot;</i></p>
-      <p><i>&quot;Has tripled my ASL play...&quot;</i></p>
-      <p><i>&quot;My play of VASL resulted in me purchasing 6 modules that I probably never would have purchased due to lack of opponents. &quot;</i></p>
-    </div>
-
+    <div class="col-md-2 sidebar"></div>
     <div class="main-content col-md-8">
       <h1 class="pull-right">ASL Over the Internet!</h1>
       <table>
@@ -68,6 +54,9 @@ $(document).ready(function() {
     $("ul.navbar-nav li.about").addClass("active");
   });
   $("#links").load("./include/links.htm");
+  $("div.sidebar").load("./include/sidebar.htm", function() {
+    $("a.modules").addClass("active");
+  });
   $("footer").load("./include/copyright.htm");
 });
 </script>
