@@ -48,8 +48,8 @@
                   <li>Start Vassal. Select the File->Open module... menu option in Vassal and navigate to and select the saved VASL module file.</li>
                   <li>You'll see a dialog box showing that Vassal is tiling the VASL images. This makes the images more efficient while using VASL.</li>
                 </ol>
-                <p>VASL 6.5.* requires Vassal 3.2.17. If you save a game, or log in VASL 6.5.*, you will NOT be able to open it afterwards with earlier versions of VASL.</p>
-                <p>VASL 6.6.3 works with Vassal 3.5.8.</p>
+                <p>VASL 6.5.* requires Vassal 3.2.17. If you save a game or log in VASL 6.5.*, you will NOT be able to open it afterwards with earlier versions of VASL.</p>
+                <p>VASL 6.6.4 works with Vassal 3.6.6.</p>
                 <p>Vassal 3.2.17 or later requires Java Runtime Environment (JRE) 8 or later.</p>
                 <p>Vassal 3.4.6 and above bundle Java and so no separate Java installation is required.</p>
               </div>
@@ -57,7 +57,37 @@
           </div>
         </div>
         <div class="well table">
-          <a id="download6631" class="track btn btn-large btn-primary" href="modules/VASLv6631.zip">VASL 6.6.3.1</a>
+          <a id="download664" class="track btn btn-large btn-primary" href="modules/VASLv664.zip">VASL 6.6.4</a>
+          <h2 class="pull-right">Updated April 3, 2022</h2>
+          <h3>New in version 6.6.4:</h3>
+
+          <p>Enhancements:</p>
+          <p>The red CA pointer for veh/guns can now be enabled/disabled by preference (disabled by default). When enabled, Shift-Alt-Q to toggle on/off on individual vehicle/gun and Shift-Alt-W to toggle on/off for ALL vehicle/guns in the game (must have at least one selected to toggle). Games saved in 6.6.3 will maintain previous functionality.</p>
+          <p>Overlays and Terrain Transformations: overlays 1-7, BFPCI, BFPVI, BFPVIII, E, and FT now support terrain transformations the same way as boards do. These overlays have been reissued and new versions will download automatically when used just as automatic board updating. Code changes to support the terrain transforms are included so 6.6.4 is necessary.</p>
+          <p>Overlays and LOS: los checking now works for most single-terrain overlays such as brush, grain, woods, open ground, etc., including deluxe overlays. This will not work on games saved in earlier versions and opened in 6.6.4.</p>
+          <p>Overlays now resize along with the map boards when switching between normal and deluxe sized hexes.</p>
+          <p>All of the above applies only to overlays added via Boardpicker when selecting boards and not the Draggable Overlays Extension.</p>
+          <p>Swedish Volunteer counters have been updated and added to the core module. The SV.mdx/5SV.mdx extension is no longer required and should be deleted to avoid counter duplication.  Thanks to Jeremy Brubaker for the good work here.</p>
+          <p>Details have been added to the Dice stats display – turn on by preference in VASL tab. Thanks to J. Young for the work on this.</p>
+          <p>LOS now works on the Dinant board when using 6.6.4.</p>
+          <p>Bug fixes:</p>
+          <p>Bad Data in module messages in Cas Bin removed.</p>
+          <p>LOS bug with cropped boards is fixed.</p>
+          <p>Movement reporting to remote device and log file when using CTRL-Numpad key combo now works.</p>
+          <p>LOS bugs on boards RBv3, 17z and 47 are fixed.</p>
+          <p>Several bugs with the OB Observer feature are fixed. Games with OBA modules saved in earlier versions will not cause crashes.</p>
+          <p>The Hex Contents “hover” Window now reports the base level of the hex correctly.</p>
+          <p>Chinese Communist concealment counters are now working properly.</p>
+          <p>Drift counters now work with LOS.</p>
+          <p>A number of counters were fixed: Belgian 50mm mtr, German FT-17 vehicles, Sewer. Japanese leaders no longer have break on menu while motorcycles now have motion on menu.</p>
+
+          <p>IMPORTANT: You will need at least VASSAL3.6.6 to run this VASL version. Any other version is at your own risk.</p>
+          <p>Compatibility issues: 6.6.4 is generally compatible with games saved in 6.6.3. Some bug fixes which required changes to certain counters will not work for such counters created in earlier versions but they should maintain their previous functionality.</p>
+
+
+        </div>
+        <div class="well table">
+          <a id="download6631" class="track btn btn-large btn-info" href="modules/VASLv6631.zip">VASL 6.6.3.1</a>
           <h2 class="pull-right">Updated December 3, 2021</h2>
           <h3>New in version 6.6.3.1:</h3>
 
