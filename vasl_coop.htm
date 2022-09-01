@@ -74,7 +74,7 @@
       <p>VASL6.6.4 is now officially released. Get it from the downloads page.<br> </p>
 
       <!--<div class="well table">
-        <a id="download664beta" class="track btn btn-large btn-primary" href="modules/VASLv664beta.zip">VASL 6.6.4-beta5</a>
+        <a id="download664" class="track btn btn-large btn-primary" href="modules/VASLv664.zip">VASL 6.6.4</a>
 
       </div> -->
 
@@ -96,17 +96,24 @@
       <li>Continue to streamline board files</li>
       <br>
       <p>Some of these may prove to be too difficult to implement or may risk creating many bugs and so may fall by the wayside. <br></p>
-
-      <p>Bug Fixes</p>
-      <p>Cas Bin bug: when sending a HS to the bin, clicking on "CR and Send" or "ELR, CR, and Send" will send a full squad to the bin and leave a squad behind.<br></p>
-      <p>LOS bug: when drawing los to/from cellar location from/to non-adjacent location that crosses a wall/hexside, los was not being blocked</p>
       <br>
-      <p><b><span style="color: red">Update: June 2022  </span></b>VASL6.6.5-beta1 is now available. It includes two new features: (1) a new way to add acquisition counters: right click on the vehicle/gun, click "+ ACQ" (or use Ctrl+E. This will put an acq counter on top of the weapon. To link the weapon and acq, use Ctrl+Alt+L before doing anything else. Then drag the acq counter to its target.</p>
-      <p>(2) The chat window is now html enabled in VASSAL and VASL has been updated to use that functionality. This in particular needs testing to make sure all of the elements of the chat window are still working properly. </p>
+      <p><b><span style="color: red">Update: August 2022  </span></b>VASL6.6.5-beta3 is now available. It includes three new features: </p>
+      <p>(1) a new way to add acquisition counters: right click on the vehicle/gun, click "+ ACQ" (or use Ctrl+E. This will put an acq counter on top of the weapon. To link the weapon and acq, use Ctrl+Alt+L before doing anything else. Then drag the acq counter to its target.</p>
+      <p>(2) The chat window is now html enabled in VASSAL and VASL has been updated to use that functionality. This in particular needs testing to make sure all of the elements of the chat window are still working properly. NOTE: If you switch back-and-forth between versions 6.6.4 and 6.6.5-beta3 you will need to reset your coloured die color each time you switch. Unfortunate, but can't be avoided.</p>
+      <p>(3) Ammo Depletion has been added to those Vehicles/Guns which have Special Ammo. Ammo Depletion status is shown using the “ALT+I” shortcut or via the drop down menu’s “Deplete Ammo” submenu using the “Toggle On/Off” selection. This will bring up a label below the counter with each type of Depletable ammo available for that counter. Toggle the availability via shortcut as well as the drop down selection in the submenu. When toggled, the Depletable Ammo selected has its label changed to red with a strikethrough.       
       <p>Good progress has been made on the last feature, steamline board files. As we simplify the board creation process, we can produce new boards with less effort and errors. At present this means for users lots of automatic board updates. Let us know if you see any board errors.</p>
       <p>For the third item on the New Features list, displaying a "Recent Games Played" list, work on this is going to proceed within VASSAL as the required changes must be made within VASSAL.</p>
+
+      <p>As a minor enhancement, for certain vehicles which have removable SW (BAZ, PSK, ATR, PIAT), a menu option has been added to remove the SW, which places a counter on top of the vehicle and adds a "No XX" to the counter image. Toggling the SW menu option reloads the SW (but does not remove the actual SW counter - this must be done directly)</p>
+      <p>Thanks to Alan Bills for the Ammo Depletion and Removable SW adds.</p>
+
+      <p>Bug Fixes in VASL6.6.5-beta3:</p>
+      <p>Cas Bin bug: when sending a HS to the bin, clicking on "CR and Send" or "ELR, CR, and Send" will send a full squad to the bin and leave a squad behind.<br></p>
+      <p>Various LOS bugs have been fixed: when drawing los to/from cellar location from/to non-adjacent location that crosses a wall/hexside; cropping issues, including when overlays present; Smoke LOSH;</p>
       <br>
-      <p>Click on this link to download the <a href="https://www.dropbox.com/s/mw9ko6syzwc717a/vasl-6.6.5-beta1.vmod?dl=0">VASL6.6.5-beta1.vmod</a></p>
+      <p> VASL6.6.5-beta3 seems to be compatabile with games saved in earlier versions. However, most of the features and bug fixes in 6.6.5-beta3 won't be available in those games. </p>
+      <br>	
+      <p>Click on this link to download the <a href="https://www.dropbox.com/s/8d5w9z6tn4w0xkw/vasl-6.6.5-beta3.vmod?dl=0">VASL6.6.5-beta3.vmod</a></p>
       <br>
       <p>VASL6.6.5 should be officially released in the Fall of 2022.</p>
 
