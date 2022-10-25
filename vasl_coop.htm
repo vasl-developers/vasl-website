@@ -69,53 +69,42 @@
 
       <h3>Current Development of VASL!</h3>
 
-      <h3>VASL6.6.4</h3>
-
-      <p>VASL6.6.4 is now officially released. Get it from the downloads page.<br> </p>
-
-      <!--<div class="well table">
-        <a id="download664" class="track btn btn-large btn-primary" href="modules/VASLv664.zip">VASL 6.6.4</a>
-
-      </div> -->
-
       <h3>VASL6.6.5</h3>
 
-      <p>Development for VASL6.6.5 is currently underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
+      <p>VASL6.6.5 is now officially released. Get it from the downloads page.<br> </p>
+
+      <div class="well table">
+        <a id="download665" class="track btn btn-large btn-primary" href="modules/VASLv665.zip">VASL 6.6.5</a>
+      </div> 
+
+      <h3>VASL6.6.6</h3>
+
+      <p>Development for VASL6.6.6 is currently underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
       on Github usually contains about 100 items, a combination of desired features, known bugs, and board related items. Not all are
-      being worked on at any given time. The current plan for 6.6.5 is to focus on new feature development and looks like this: <br> </p>
+      being worked on at any given time. The current plan for 6.6.6 is to focus on bug fixes and to return to new feature development in 6.6.7.<br> </p>
 
       <img src="images/jb_beam.png" class="pull-right" alt="GitHub" />
 
-      <p>New Features</p>
-      <li>Enable the VASL chat window to work with html</li>
-      <li>Create, link, and label acquisition counters from a vehicle/gun popup menu with one click</li>
-      <li>Display a "Recent Games Played" list at Startup and on the File Menu</li>
-      <li>Add a Version Converter that will update previously saved games to new versions</li>
-      <li>Develop a new way to move and display vehicles in bypass</li>
-      <li>Have the LOS engine check for obstacles on both sides of the LOS thread as per ASL rules</li>
-      <li>Continue to streamline board files</li>
-      <br>
-      <p>Some of these may prove to be too difficult to implement or may risk creating many bugs and so may fall by the wayside. <br></p>
-      <br>
-      <p><b><span style="color: red">Update: August 2022  </span></b>VASL6.6.5-beta3 is now available. It includes three new features: </p>
-      <p>(1) a new way to add acquisition counters: right click on the vehicle/gun, click "+ ACQ" (or use Ctrl+E. This will put an acq counter on top of the weapon. To link the weapon and acq, use Ctrl+Alt+L before doing anything else. Then drag the acq counter to its target.</p>
-      <p>(2) The chat window is now html enabled in VASSAL and VASL has been updated to use that functionality. This in particular needs testing to make sure all of the elements of the chat window are still working properly. NOTE: If you switch back-and-forth between versions 6.6.4 and 6.6.5-beta3 you will need to reset your coloured die color each time you switch. Unfortunate, but can't be avoided.</p>
-      <p>(3) Ammo Depletion has been added to those Vehicles/Guns which have Special Ammo. Ammo Depletion status is shown using the “ALT+I” shortcut or via the drop down menu’s “Deplete Ammo” submenu using the “Toggle On/Off” selection. This will bring up a label below the counter with each type of Depletable ammo available for that counter. Toggle the availability via shortcut as well as the drop down selection in the submenu. When toggled, the Depletable Ammo selected has its label changed to red with a strikethrough.       
-      <p>Good progress has been made on the last feature, steamline board files. As we simplify the board creation process, we can produce new boards with less effort and errors. At present this means for users lots of automatic board updates. Let us know if you see any board errors.</p>
-      <p>For the third item on the New Features list, displaying a "Recent Games Played" list, work on this is going to proceed within VASSAL as the required changes must be made within VASSAL.</p>
-
-      <p>As a minor enhancement, for certain vehicles which have removable SW (BAZ, PSK, ATR, PIAT), a menu option has been added to remove the SW, which places a counter on top of the vehicle and adds a "No XX" to the counter image. Toggling the SW menu option reloads the SW (but does not remove the actual SW counter - this must be done directly)</p>
-      <p>Thanks to Alan Bills for the Ammo Depletion and Removable SW adds.</p>
-
-      <p>Bug Fixes in VASL6.6.5-beta3:</p>
+      <p>Bug Fixes Planned for VASL6.6.6:</p>
       <p>Cas Bin bug: when sending a HS to the bin, clicking on "CR and Send" or "ELR, CR, and Send" will send a full squad to the bin and leave a squad behind.<br></p>
-      <p>Various LOS bugs have been fixed: when drawing los to/from cellar location from/to non-adjacent location that crosses a wall/hexside; cropping issues, including when overlays present; Smoke LOSH;</p>
-      <br>
-      <p> VASL6.6.5-beta3 seems to be compatabile with games saved in earlier versions. However, most of the features and bug fixes in 6.6.5-beta3 won't be available in those games. </p>
+      <p>Chinese LMG(j) doesn't show Malf'd side.</p>
+      <p>Foxholes and Trench negate LOS Hindrance in grain and brush.</p>
+      <p>Overlay 4 bugs.</p>
+      <p>LOS button greyed out permanently.</p>
+      <p>ELR Bug.</p>
+      <p>Los bug with gullies on bdodx.</p>
+      <p>Setting terrain to DTO toggles on too many options.</p>
+      <p>LOS thread confused by transform of hill to grain.</p>
+      <p>Remove upper levels in LOS engine when adding Gutted Factory overlays.</p>
+      <p>ASLDicebot.java update.</p>
+      <p>Clean up board archive and board picker code files.</p>
+      <p>Night effect does not size correctly.</p>
+      <p>Some Finnish broken squads switches to unbroken HS.</p>
+      <p>More robust marsh to water transformation.</p>
       <br>	
-      <p>Click on this link to download the <a href="https://www.dropbox.com/s/8d5w9z6tn4w0xkw/vasl-6.6.5-beta3.vmod?dl=0">VASL6.6.5-beta3.vmod</a></p>
+      <p>As always, some of these may fall by the wayside as work progresses. </p>
       <br>
-      <p>VASL6.6.5 should be officially released in the Fall of 2022.</p>
+      <p>VASL6.6.6 should be officially released in the Spring of 2023.</p>
 
       <p><i>VASL code development is currently carried out using free software tools provided by Jet Brains as part of it's
         <a href="https://www.jetbrains.com/community/opensource/#support">Open Source Support </a>. We appreciate their on-going
