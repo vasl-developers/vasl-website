@@ -69,12 +69,12 @@
 
       <h3>Current Development of VASL!</h3>
 
-      <h3>VASL6.6.5</h3>
+      <h3>VASL6.6.6-beta3</h3>
 
-      <p>VASL6.6.5 is now officially released. Get it from the downloads page.<br> </p>
+      <p>VASL6.6.6-beta3 is now released. Get it here.<br> </p>
 
       <div class="well table">
-        <a id="download665" class="track btn btn-large btn-primary" href="modules/VASLv665.zip">VASL 6.6.5</a>
+        <a id="download665" class="track btn btn-large btn-primary" href="modules/VASLv666beta3.zip">VASL 6.6.6-beta3.vmod</a>
       </div> 
 
       <h3>VASL6.6.6</h3>
@@ -85,20 +85,64 @@
 
       <img src="images/jb_beam.png" class="pull-right" alt="GitHub" />
 
-      <p>Bug Fixes Planned for VASL6.6.6:</p>
-      <p>Cas Bin bug: when sending a HS to the bin, clicking on "CR and Send" or "ELR, CR, and Send" will send a full squad to the bin and leave a squad behind.<br></p>
+      <p><b>Bug Fixes in VASL6.6.6-beta3:</b></p>
+
+      <p><b>Chat Window</b></p>
+      <p>Setting different text colour for player’s own user message and those of their opponent’s is re-enabled (it was broken in 6.6.5)</p>
+      <p>Inconsistent use of Third Die setting now triggers null display </p>
+      <p>Jumbled display or multiple Chat Windows display is fixed by identifying conflicting extensions. The Chatter-plus-2.21.vmdx extension in particular should be deleted</p>
+      <p>Setting color for single die is re-enabled (broken by 6.6.5)</p>
+      <p>Additional colours have been added for the Coloured Die and Single Die</p> 
+      <p>Reporting and Display of Concealed Stacks is fixed</p>
+
+      <p><b>Dice Over Map</b></p>
+      <p>Incorrect display of Sniper Highlight for both DR and dr is fixed. Highlight only appears when either SAN is rolled on IFT/TH/MC/TC DR</p>
+      <p>Background colour for player/opponent textboxes/caption is re-enabled (broken by 6.6.5)</p>
+      <p>Setting colour for single dice is re-enabled (broken by 6.6.5)</p>
+      <p>Additional colours have been added for the Coloured Die and Single Die</p>
+      <p>Shout out to Morris Legge for lots of great work on the Chat and Dice Over Map fixes!</p>
+<br>
+<p>Overlay Bug – Overlays added via the Boardpicker method (“traditional”) that overlapped two boards or were placed adjacent to another board caused a crash in 6.6.5. This is fixed</p>
+<p>Hotkey Listing in Help – the document has been updated to include new/changed keystrokes</p>
+<p>Remove All – PIN/TI option has been fixed to include HW/Banzai/Lax counters</p>
+<p>+ ACQ in has been added to Light Mortars and RCL which were forgotten in 6.6.5</p> 
+<p>Foxholes and Trench counters were negating LOSH in Grain and Brush hexes in los checks. This is fixed</p>
+<p>Terrain SSR dialog – selecting DTO Terrain from the Terrain dropdown no longer automatically triggers Broken Terrain, Steppe Terrain, and Use Desert Colours for ETO boards</p>
+<p>LOS bugs – bug on bdodx fixed; level transform remove hills now works if hills have grain</p>
+<p>Casualties Bin – sending a HS to the Bin with the CR & Send button no longer sends a SQD to the Bin</p>
+<p>RB map – when adding Gutted Factory Overlays, Roof location is now removed in LOS</p>
+<p>Night and other vision shaders were shading the full board size even when the board was cropped. No more</p>
+  
+<p><b>Stuff that isn’t a Bug Fix</b></p>
+<p>Due to the good work of Alan Bills, there are a few new things in 6.6.6:</p>
+<p>Non-Emplaced Guns.  By selecting 'Non-Emplaced' from the counter's drop-down menu or by using the 'ALT_SHIFT+E' hotkey with any selected Gun, the 'Non-Emplaced Gun' counter is placed on top of the selected Gun.</p>
+ 
+<p>Schuerzen. For those vehicles listed in D11.2 as having optional Schuerzen, the player can now select 'Schuerzen' from the counter's drop-down menu or use the 'CTRL+ALT+S' hotkey when a unit is selected to toggle an orange 'Sz" label directly below the side/rear armor number indicating the vehicle is equipped with Schuerzen.</p>
+ 
+<p>Movement Trail.  All Infantry and vehicle counters now have the ability to display a Movement Trail.  This feature is activated on a per counter per player basis.  To activate, the player may select 'Movement Trail' from the counter's drop-down menu or use the 'CTRL+U' hotkey when a counter is selected.  This will toggle the Movement Trail on for any/all selected counters.  If not selected, the Movement Trail will no longer be displayed until the counter is selected again.  Movement Trails are reset in sync with the 'Moved' tag.  To reset a single counter you can toggle it off by selecting 'Moved' from the counter's drop-down menu or by using the 'CTRL+M' hotkey with the counter selected.  To reset all counters you can use the 'Moved' button on the map window to reset all 'Moved' tags along with all Movement Trails.  Movement Trails are displayed as red dots for vehicles and as smaller green dots for infantry type counters.</p>
+ 
+<p>As a consequential change, the Chinese counters 'Dare-Death' keystroke is now 'ALT+R'. This will make it a 'CTRL+R' for Berserk and 'ALT+R' for Dare-Death.</p>
+
+<p><b>VASSAL changes</b></p>
+<p>VASL6.6.6-beta1 is built with VASSAL3.6.9 which makes a few new VASSAL features available. </p>
+
+<p>1. Recent Games Menu</p>
+<p>The VASSAL team has added a new feature that lists most recently played games and allows you to open them. I believe (but am not 100% sure) that it displays only games opened by the module you are using (VASL). Not sure about versions. </p>
+
+<p>If you think you will use this a lot, probably best to turn off the Wizard (Preferences -> General)</p>
+
+<p>2. New font size and style for context menus</p>
+<p>Popup menus are now tidier and users can pick their font size.</p>
+
+<p>To set the font size, go File-> Preferences-> General-> Override default font size. Enter a value for the font size you want - 10, 12, 18, whatever. Not sure how big or small you can go. IMPORTANT: this setting seems to affect all VASSAL font display as you will quickly discover. Be careful how you use it!</p>
+	
+
+<p><b>Still in the pipeline for 6.6.6</b></p>
       <p>Chinese LMG(j) doesn't show Malf'd side.</p>
-      <p>Foxholes and Trench negate LOS Hindrance in grain and brush.</p>
-      <p>Overlay 4 bugs.</p>
       <p>LOS button greyed out permanently.</p>
       <p>ELR Bug.</p>
-      <p>Los bug with gullies on bdodx.</p>
-      <p>Setting terrain to DTO toggles on too many options.</p>
-      <p>LOS thread confused by transform of hill to grain.</p>
-      <p>Remove upper levels in LOS engine when adding Gutted Factory overlays.</p>
       <p>ASLDicebot.java update.</p>
       <p>Clean up board archive and board picker code files.</p>
-      <p>Night effect does not size correctly.</p>
       <p>Some Finnish broken squads switches to unbroken HS.</p>
       <p>More robust marsh to water transformation.</p>
       <br>	
