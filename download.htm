@@ -49,30 +49,50 @@
                   <li>You'll see a dialog box showing that Vassal is tiling the VASL images. This makes the images more efficient while using VASL.</li>
                 </ol>
                 <p>VASL 6.5.* requires Vassal 3.2.17. If you save a game or log in VASL 6.5.*, you will NOT be able to open it afterwards with earlier versions of VASL.</p>
-                <p>VASL 6.6.5 works with Vassal 3.6.7.</p>
+                <p>VASL 6.6.5 and 6.6.5.1 work with Vassal 3.6.7 - 3.6.14 EXCEPT 3.6.8.</p>
                 <p>Vassal 3.2.17 or later requires Java Runtime Environment (JRE) 8 or later.</p>
                 <p>Vassal 3.4.6 and above bundle Java and so no separate Java installation is required.</p>
               </div>
             </div>
           </div>
         </div>
-	<div class="well table">
-          <a id="download665" class="track btn btn-large btn-primary" href="modules/VASLv665.zip">VASL 6.6.5</a>
+        <div class="well table">
+          <a id="download6651" class="track btn btn-large btn-primary" href="modules/VASLv6651.zip">VASL 6.6.5.1</a>
+          <h2 class="pull-right">Updated March 23, 2023</h2>
+          <h3>New in 6.6.5.1:</h3>
+
+          <li>This is an urgent update to incorporate a bug fix that was preventing Automatic Board Updating from working.</li>
+          <br>
+          <p>We have changed exactly one line of code to fix the bug so this version should be identical to VASL-6.6.5 in all other respects.
+          </p>
+          <p>The bug was due to an external service that we use to get board data from our repository on the internet, which then drives the updating process (including the downloading of new boards).</p>
+          <br>
+          <p>That external service was no longer working with VASL-6.6.5 code. The only way to rectify this was to reissue 6.6.5.</p>
+          <br>
+          <li>This fix will be incorporated into VASL-6.6.6 which should be released very shortly. </li>
+          <br>
+
+          <p>IMPORTANT: You will need at least VASSAL3.6.7 to run this VASL version. All VASSAL versions up to 3.6.14 seem to run VASL6.6.5 without problem with the exception of VASSAL3.6.8 which should not be used.</p>
+          <p>Compatibility issues: 6.6.5.1 is generally compatible with games saved in 6.6.4. Some bug fixes which required changes to certain counters will not work for such counters created in earlier versions but they should maintain their previous functionality.</p>
+
+        </div>
+	  <div class="well table">
+          <a id="download665" class="track btn btn-large btn-info" href="modules/VASLv665.zip">VASL 6.6.5</a>
           <h2 class="pull-right">Updated October 25, 2022</h2>
           <h3>New in version 6.6.5:</h3>
 
           <p>Enhancements:</p>
-          <p>(1) a new way to add acquisition counters: right click on the vehicle/gun, click "Add ACQ" (or use Ctrl+E). This will put an acq counter on top of the weapon. To link the weapon and acq, use Ctrl+Alt+L before doing anything else. Then select the acq counter (click the map then right-click the acq) and drag it to its target.</p>
-          <p>(2) The chat window is now html enabled in VASSAL and VASL has been updated to use that functionality. This will improve the display of VASSAL messages in particular. NOTE: If you switch back-and-forth between 6.6.5 and any earlier version you will need to reset your coloured die colour (in both the Chat Window and Dice Over the Map) each time you switch. Unfortunate, but can't be avoided.</p>
-          <p>(3) Ammo Depletion has been added to those Vehicles/Guns which have Special Ammo. Ammo Depletion status is shown using the “ALT+I” shortcut or via the dropdown menu’s “Deplete Ammo” submenu using the “Toggle On/Off” selection. This will bring up a label below the counter with each type of Depletable ammo available for that counter. Toggle the availability via shortcut as well as the dropdown selection in the submenu. When toggled, the Depletable Ammo selected has its label changed to red with a strikethrough. Toggling again will return status to available.</p>
-          <p>As a minor enhancement, for certain vehicles which have removable SW (BAZ, PSK, ATR, PIAT), a menu option has been added to remove the SW, which places a SW counter on top of the vehicle and adds a "No XX" to the counter image. Toggling the SW menu option reloads the SW (but does not remove the actual SW counter - this must be done directly).</p>
-          <p>Thanks to Alan Bills for the Ammo Depletion and Removable SW adds.</p>
-          <p>Bug fixes:</p>
-          <p>Various LOS bugs have been fixed: when drawing los to/from cellar location from/to non-adjacent location that crosses a wall/hexside; cropping issues, including when overlays present; Smoke LOSH.</p>
-          <p>Ammo Depletion on the British ART M1A1 was fixed.</p>
-          
-          <p>IMPORTANT: You will need at least VASSAL3.6.7 to run this VASL version. Any other version is at your own risk.</p>
-          <p>Compatibility issues: 6.6.5 is generally compatible with games saved in 6.6.4. Some bug fixes which required changes to certain counters will not work for such counters created in earlier versions but they should maintain their previous functionality.</p>
+        <p>(1) a new way to add acquisition counters: right click on the vehicle/gun, click "Add ACQ" (or use Ctrl+E). This will put an acq counter on top of the weapon. To link the weapon and acq, use Ctrl+Alt+L before doing anything else. Then select the acq counter (click the map then right-click the acq) and drag it to its target.</p>
+        <p>(2) The chat window is now html enabled in VASSAL and VASL has been updated to use that functionality. This will improve the display of VASSAL messages in particular. NOTE: If you switch back-and-forth between 6.6.5 and any earlier version you will need to reset your coloured die colour (in both the Chat Window and Dice Over the Map) each time you switch. Unfortunate, but can't be avoided.</p>
+        <p>(3) Ammo Depletion has been added to those Vehicles/Guns which have Special Ammo. Ammo Depletion status is shown using the “ALT+I” shortcut or via the dropdown menu’s “Deplete Ammo” submenu using the “Toggle On/Off” selection. This will bring up a label below the counter with each type of Depletable ammo available for that counter. Toggle the availability via shortcut as well as the dropdown selection in the submenu. When toggled, the Depletable Ammo selected has its label changed to red with a strikethrough. Toggling again will return status to available.</p>
+        <p>As a minor enhancement, for certain vehicles which have removable SW (BAZ, PSK, ATR, PIAT), a menu option has been added to remove the SW, which places a SW counter on top of the vehicle and adds a "No XX" to the counter image. Toggling the SW menu option reloads the SW (but does not remove the actual SW counter - this must be done directly).</p>
+        <p>Thanks to Alan Bills for the Ammo Depletion and Removable SW adds.</p>
+        <p>Bug fixes:</p>
+        <p>Various LOS bugs have been fixed: when drawing los to/from cellar location from/to non-adjacent location that crosses a wall/hexside; cropping issues, including when overlays present; Smoke LOSH.</p>
+        <p>Ammo Depletion on the British ART M1A1 was fixed.</p>
+
+        <p>IMPORTANT: You will need at least VASSAL3.6.7 to run this VASL version. Any other version is at your own risk.</p>
+        <p>Compatibility issues: 6.6.5 is generally compatible with games saved in 6.6.4. Some bug fixes which required changes to certain counters will not work for such counters created in earlier versions but they should maintain their previous functionality.</p>
 
 
         </div>
