@@ -71,13 +71,13 @@
 
       <h3>VASL6.6.7</h3>
 
-    <!--  <p>VASL6.6.6-beta5 is now released. Get it here.<br> </p>  -->
+      <p>VASL6.6.7-beta1 is now released. Get it here.<br> </p>
 
-    <!--  <div class="well table">
-        <a id="download666" class="track btn btn-large btn-primary" href="https://www.dropbox.com/s/hweeji1c2pkb8kr/vasl-6.6.6-beta5.vmod?dl=0">VASL 6.6.6-beta5.vmod</a>
+      <div class="well table">
+        <a id="download667" class="track btn btn-large btn-primary" href="https://www.dropbox.com/s/mj4w9znetjsmbk6/vasl-6.6.7-beta1.vmod?dl=0">VASL 6.6.7-beta1.vmod</a>
       </div> 
 
-      <h3>VASL6.6.6</h3>  -->
+      <h3>VASL6.6.7-beta1</h3>
 
       <p>Development for VASL6.6.7 is currently underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
       on Github usually contains about 100 items, a combination of desired features, known bugs, and board related items. Not all are
@@ -88,8 +88,38 @@
      <p>An Enduring Game Converter/Updater</p>
 
 	<p>A major drawback with VASL is the inability to easily and correctly update setup files and games saved in an earlier version of VASL to the current version. Resolving this problem requires the development of an enduring Game Converter process that will handle all aspects of this conversion. </p>
-	<p>What follows is an overview of the current plan to do just that. We would like any thoughts you might have about this to ensure that we are covering all the necessary aspects and that the result will be useful and useable. </p>
+	<p>At the bottom of this page is an overview of the current plan to do just that. We would like any thoughts you might have about this to ensure that we are covering all the necessary aspects and that the result will be useful and useable. </p>
 	<p>For any of you interested in this, we have added a more detailed description of the issues and the planned development of the necessary functionality as a downloadable file at the bottom of this page. </p> 
+
+    <p> VASL6.6.7-beta1 contains the initial changes and needs to be tested to identify bugs and missing elements. Try it out and let us know how it goes - on GameSquad, Facebook or Discord, or email dougerimmer@gmail.com. The current workflow as described below includes a number of steps that may be streamlined in later versions. For the moment, this workful facilitates error identification. Thanks for your patience</p>
+    <p>WARNING: </p>
+    <p>There will be bugs in the beta. To avoid breaking an existing file during testing, follow these three simple rules:</p>
+      <p>1. No save, no worries: If something goes wrong during the update process, close the current game without saving it. The original file should survive unchanged.</p>
+      <p>2. Copy this: Make a copy of a setup file or saved game you want to use to test the updater. Test the copy; keep the original.</p>
+      <p>3. SNAFU and FUBAR. Appropriately, these are recognized military terms describing normal daily occurences. When you experience them, stay calm and carry on! </p>
+    <p><b>How the Game Updater Works:</b></p>
+      <p>Open a setup file or a saved game (.vsav file) created in a previous version of VASL. You will see messages in the Chat Window about the VASSAL/VASL versions used to save the game and currently in use.</p>
+      <p>Boards and overlays added via the traditional method (Boardpicker dropdown) will automatically be synced to the latest version and messages will show in the Chat window.</p>
+      <p>Open the VASL dropdown menu (click on the ASL icon) and select Update Game</p>
+      <p>You will get a popup warning message on the screen. Click Yes to proceed </p>
+      <p>At this point, all counters will be updated and reported in the Chat Window. If you see any "Cannot Refresh piece . . . " messages please note unit names and VASL version of original game and report</p>
+      <p>Next the game will compare installed versions of extensions with available versions and, if a new version of an extension is available, it will ask if the user wishes to update it. If so, it will attempt to update and will report results to the Chat Window</p>
+      <p>Finally, if VASL LOS Checking was disabled in the original .vsav file, users will be prompted to attempt to restore los checking by reselecting boards and overlays.</p>
+      <p>To test the Game Updater process, users should check that counters now have the latest functionality and that the map is displaying correctly and LOS is working</p>
+      <p>Please note and report any issues or problems</p>
+      <h3>Stuff to Remember:</h3>
+      <p>For log files .vlog, please follow the same steps after opening the log file (and before playing it)</p>
+      <p>Counter Updating will attempt to update counters that originate in extensions. While this has worked in the development phase, there will be errors due to inconsistent or duplicate naming of counters in extensions. Please note and report any such errors so that they can be fixed. </p>
+      <p>The extension updater in the beta only checks for updates to extensions the user has already installed. It is not checking for extensions needed for the .vsav file to work properly. This will be added in the next version once I am confident that the updating process is working.</p>
+      <p>For the extension updater to work, users must do a onetime download of version-enabled copies of current extensions. See <a href=http://vasl.info/extensions.htm">Extensions</a></p>
+      <p><b>Bug Fixes in 6.6.7-beta1</b></p>
+      <p>Of course, 6.6.7 will include a few bug fixes:</p>
+      <p>Finnish MMC were not breaking properly and the counter palette images were mixed up. This has beeen sorted</p>
+      <p>Russian 248 HS now break properly</p>
+      <p>A bug related to overlays was causing crashes; this is fixed. Note, however, that as work to extend LOS Checking to overlays continues, the LOS engine will get kicked out more often. "VASL LOS Disabled" is not an error message nor a crash and it is safe to play on. </p>
+      <p>Any crashes when adding overlays should be reported to VASL rather via  VASSAL bug report</p>
+      <p>This beta tests larger dice images in the Chat Window and Dice over the Map. The "1" die will appear larger. Let us know which you prefer</p>
+      <p><b>Game Converter Development Plan Overview</b></p>
 
 	<p>There are six main game elements that need to be “converted”: boards, overlays, counters, extensions, LOS checking, and log file playback. </p>
 <p>1.	Boards </p>
@@ -129,7 +159,7 @@
 <p>Fall 2023 Release VASL6.6.7</p>
 <p>It will include the first iteration of the Game Converter process. All games will automatically use the latest version of boards and overlays. Players will be given the choice to update previously saved games. Doing so will let them choose to (1) update all counters to the latest version; (2) restore los checking on boards that support it; and (3) update to the latest extension version for their loaded extensions. </p> 
 <p>Fall 2024 Release VASL6.6.9</p>
-<p>It will include the second iteration of the Game Converter process. All games will automatically use the latest version of boards and overlays. Updating previously saved games will update counters, los checking and extensions per VASL6.6.7, and will also support additional means to grab and display external content. </p>
+<p>It will include the second iteration of the Game Converter process. All games will automatically use the latest version of boards and overlays. Updating previously saved games will update counters and los checking per VASL6.6.7, and will also support checking for and updating of extensions required for the .vsav and additional means to grab and display external content. </p>
 <p>Spring 2025 Release VASL6.7.0</p>
 <p>The final version of the Game Converter will provide enhancements and modifications to all of the previous functionality. At this point, it should be possible to implement batch updating of setup files whenever a new VASL version is released so that these files would always be available with the latest functionality and improvements. </p>
  
