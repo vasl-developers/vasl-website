@@ -71,13 +71,13 @@
 
       <h3>VASL6.6.7</h3>
 
-      <p>VASL6.6.7-beta2 is now released. Get it here.<br> </p>
+      <p>VASL6.6.7-beta4 is now released. Get it here.<br> </p>
 
       <div class="well table">
-        <a id="download667" class="track btn btn-large btn-primary" href="https://www.dropbox.com/s/0zq055suk97nhst/vasl-6.6.7-beta2.vmod?dl=0">VASL 6.6.7-beta2.vmod</a>
+        <a id="download667" class="track btn btn-large btn-primary" href="https://www.dropbox.com/s/jvivfyo3owdzkd7/vasl-6.6.7-beta4.vmod?dl=0">VASL 6.6.7-beta4.vmod</a>
       </div> 
 
-      <h3>VASL6.6.7-beta2</h3>
+      <h3>VASL6.6.7-beta4</h3>
 
       <p>Development for VASL6.6.7 is currently underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
       on Github usually contains about 100 items, a combination of desired features, known bugs, and board related items. Not all are
@@ -91,7 +91,7 @@
 	<p>At the bottom of this page is an overview of the current plan to do just that. We would like any thoughts you might have about this to ensure that we are covering all the necessary aspects and that the result will be useful and useable. </p>
 	<p>For any of you interested in this, we have added a more detailed description of the issues and the planned development of the necessary functionality as a downloadable file at the bottom of this page. </p> 
 
-    <p> VASL6.6.7-beta2 contains the initial changes and needs to be tested to identify bugs and missing elements. Try it out and let us know how it goes - on GameSquad, Facebook or Discord, or email dougerimmer@gmail.com. The current workflow as described below includes a number of steps that may be streamlined in later versions. For the moment, this workful facilitates error identification. Thanks for your patience</p>
+    <p> VASL6.6.7-beta4 contains the initial changes and needs to be tested to identify bugs and missing elements. Try it out and let us know how it goes - on GameSquad, Facebook or Discord, or email dougerimmer@gmail.com. The current workflow as described below includes a number of steps that may be streamlined in later versions. For the moment, this workful facilitates error identification. Thanks for your patience</p>
     <p>WARNING: </p>
     <p>There will be bugs in the beta. To avoid breaking an existing file during testing, follow these three simple rules:</p>
       <p>1. No save, no worries: If something goes wrong during the update process, close the current game without saving it. The original file should survive unchanged.</p>
@@ -112,14 +112,20 @@
       <p>Counter Updating will attempt to update counters that originate in extensions. While this has worked in the development phase, there will be errors due to inconsistent or duplicate naming of counters in extensions. Please note and report any such errors so that they can be fixed. </p>
       <p>The extension updater in the beta only checks for updates to extensions the user has already installed. It is not checking for extensions needed for the .vsav file to work properly. This will be added in the next version once I am confident that the updating process is working.</p>
       <p>For the extension updater to work, users must do a onetime download of version-enabled copies of current extensions. See <a href="http://vasl.info/extensions.htm">Extensions</a></p>
-      <p><b>Bug Fixes in 6.6.7-beta2</b></p>
+      <p><b>Bug Fixes in 6.6.7-beta4</b></p>
       <p>Of course, 6.6.7 will include a few bug fixes:</p>
       <p>Finnish MMC were not breaking properly and the counter palette images were mixed up. This has beeen sorted</p>
       <p>Russian 248 HS now break properly and Italian 447AE now report using the correct name</p>
       <p>A bug related to overlays was causing crashes; this is fixed. Note, however, that as work to extend LOS Checking to overlays continues, the LOS engine will get kicked out more often. "VASL LOS Disabled" is not an error message nor a crash and it is safe to play on. </p>
       <p>Any crashes when adding overlays should be reported to VASL rather via  VASSAL bug report</p>
       <p>This beta tests larger dice images in the Chat Window and Dice over the Map. The "1" die will appear larger. Let us know which you prefer</p>
+      <p>Several Chat Window message bugs have been fixed</p>
       <p>More terrain counters (Cows, Debris) and draggable overlays (orchards) work with LOS</p>
+      <p>A Bomb Crater counter has been added</p>
+      <p>The updated Nationality Smoke extension now places counters in the Unit->Fire->Nationality Smoke pullout panel</p>
+      <p>The NVR counter can now show an illuminated area just as an IR or Starshell. The NVR value is adjustable</p>
+      <p>A Verbose LOS label overlap bug is fixed</p>
+
       <p><b>Game Converter Development Plan Overview</b></p>
 
 	<p>There are six main game elements that need to be “converted”: boards, overlays, counters, extensions, LOS checking, and log file playback. </p>
