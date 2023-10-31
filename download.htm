@@ -43,21 +43,87 @@
               <div class="panel-body">
                 <h4>To install VASL:</h4>
                 <ol>
-                  <li>Download the VASL module by clicking on the button above. Open the VASL ZIP file and save the enclosed module (.vmod) file to a known location.</li>
+                  <li>Download the VASL module by clicking on the button above. Save the downloaded module (.vmod) file to a known location.</li>
                   <li>Download Vassal (<a href="http://www.Vassalengine.org/" target="_blank">http://www.Vassalengine.org/</a>) and install it on your machine.</li>
                   <li>Start Vassal. Select the File->Open module... menu option in Vassal and navigate to and select the saved VASL module file.</li>
                   <li>You'll see a dialog box showing that Vassal is tiling the VASL images. This makes the images more efficient while using VASL.</li>
+		  <li>IMPORTANT CHANGE: as of VASL-6.6.7, the .vmod file will download directly as plug-n-play. It will no longer be inside a .zip file and will not need to be extracted from the zip archive as with previous versions.</li> 
                 </ol>
                 <p>VASL 6.5.* requires Vassal 3.2.17. If you save a game or log in VASL 6.5.*, you will NOT be able to open it afterwards with earlier versions of VASL.</p>
-                <p>VASL 6.6.5 and 6.6.5.1 work with Vassal 3.6.7 - 3.6.14 EXCEPT 3.6.8.</p>
+                <p>For VASL versions 6.6.x and later, see the version specific notes for VASSAL compatability. </p>
                 <p>Vassal 3.2.17 or later requires Java Runtime Environment (JRE) 8 or later.</p>
                 <p>Vassal 3.4.6 and above bundle Java and so no separate Java installation is required.</p>
               </div>
             </div>
           </div>
         </div>
+        <div class="well table">
+          <a id="download667" class="track btn btn-large btn-primary" href="modules/VASL-6.6.7.vmod">VASL 6.6.7</a>
+          <h2 class="pull-right">Updated October 31, 2023</h2>
+          <h3>New in 6.6.7:</h3>
+
+          <li>This is a feature version which introduces the Game Update tool.</li>
+
+          <h3>An Enduring Game Converter/Updater:</h3>
+
+          <p>This version begins the rollout of an enduring Game Converter process that will easily and correctly update setup files and games saved in an earlier version of VASL to the current version. It will take several versions until all the functionality is in place. This first phase allows users to update an open game, either from a setup file or saved game.</p>
+          <p>The current workflow as described below includes a number of steps that may be streamlined in later versions. For the moment, this workful facilitates error identification. Thanks for your patience.</p>
+          <p>WARNING:</p>
+          <p>To avoid breaking an existing file in this initial rollout, follow these three simple rules:</p>
+          <p>1.	No save, no worries: if something goes wrong during the update process, close the current game without saving it. The original file should survive unchanged.</p>
+          <p>2.	Copy this: Make a copy of a setup file or saved game you want to update. Convert the copy; keep the original.</p>
+          <p>3.	SNAFU and FUBAR. Appropriately, these are recognized military terms describing normal daily occurrences. When you experience them, stay calm and carry on!</p>
+
+          <p>How the Game Updater Works – 3 clicks:</p>
+          <p>Open a setup file or a saved game (.vsav file) created in a previous version of VASL. You will see messages in the Chat Window about the VASSAL/VASL versions used to save the game and currently in use.</p>
+          <p>Boards and overlays added via the traditional method (Boardpicker dropdown) will automatically be synced to the latest version and messages will show in the Chat window.</p>
+          <p>Open the VASL dropdown menu (click on the ASL icon) and click Update Game. You will get a popup warning message on the screen. Click Yes to proceed.</p>
+          <p>At this point, all counters will be updated and reported in the Chat Window. If you see any "Cannot Refresh piece . . . " messages please note unit names and VASL version of original game and report.</p>
+          <p>Next the game will compare installed versions of extensions with available versions and, if a new version of an extension is available, it will ask if the user wishes to update it. If so, it will attempt to update and will report results to the Chat Window.</p>
+          <p>Finally, if VASL LOS Checking was disabled in the original .vsav file, users will be prompted to attempt to restore los checking by reselecting boards and overlays.</p>
+          <p>This completes the update process.</p>
+          <p>Players should check that counters now have the latest functionality and that the map is displaying correctly and LOS is working.</p>
+          <p>Please note and report any issues or problems.</p>
+          <p>Stuff to Remember:</p>
+          <p>For log files .vlog, please follow the same steps after opening the log file (and before playing it).</p>
+          <p>Counter Updating will attempt to update counters that originate in extensions. While this has worked in the development phase, there will be errors due to inconsistent or duplicate naming of counters in extensions. Please note and report any such errors so that they can be fixed.</p>
+          <p>In this first deployment, the extension updater only checks for updates to extensions the user has already installed. It is not checking for extensions needed for the .vsav file to work properly.</p>
+          <p>For the extension updater to work, users must do a onetime download of version-enabled copies of current extensions. See http://vasl.info/extensions.htm.</p>
+
+          <h3>List of Bug Fixes:</h3>
+          <p>Counters:
+          <p>Finnish MMC were not breaking properly, and the counter palette images were mixed up. This has been sorted.  Finnish AA gun counter images are corrected.</p>
+          <p>Russian 248 HS now break properly.</p>
+          <p>A Bomb Crater counter has been added.</p>
+          <p>Popup Menu items have been added to vehicles to allow placement of VBM counters and Vehicle Dust counters. These are found in the Move submenu.</p>
+          <p>Russian and Finnish two-turret vehicles now allow proper TCA changes for both turrets.</p>
+          <p>Japanese and CPVA 228 crew counters can now be step-reduced to 127 crews.</p>
+          <p>The French Peugeot 202 truck with AAMG counter is now available.</p>
+          <p>Play:
+          <p>The Mark Moved bug is fixed. Plus, the Mark Moved preference is restored under the General tab.</p>
+          <p>More terrain counters (Dead Cows, Debris, PFZ Vineyard) and draggable overlays (orchards) work with LOS.</p>
+          <p>More traditional Overlays (those added by boardpicker) now work with los checking. As of this version, only multi-level buildings and Rice Paddies are not working with los.</p>
+          <p>The NVR counter can now show an illuminated area just as an IR or Starshell. The NVR value is adjustable.</p>
+          <p>Vehicle Dust LOSH is now calculated properly.</p>
+          <p>Non-los enabled boards using deluxe hex sizes now calculate range correctly.</p>
+          <p>A bug with assembling/disassembling “?” weapons is fixed.</p>
+          <p>Setup and System:</p>
+          <p>A bug related to overlays was causing crashes; this is fixed. Note, however, that as work to extend LOS Checking to overlays continues, the LOS engine will get kicked out more often. "VASL LOS Disabled" is not an error message nor a crash and it is safe to play on.  Any crashes when adding overlays should be reported to VASL rather via VASSAL bug report.</p>
+          <p>A board type descriptor has been added to the boardpicker dropdown list of boards. In particular this will help players distinguish between Deluxe and SK boards with the same name (e.g., k, l, m). In addition to their alphabetical placement, new boards available in VASL will appear at the top of the list and will be marked “NEW” for their first 3 months.</p>
+          <p>Blank boards (0) have been added to the boardpicker in a/b and deluxe format.</p>
+          <p>Several Chat Window bugs have been fixed, including missing user messages.</p>
+          <p>The updated Nationality Smoke extension now places counters in the Unit->Fire->Nationality Smoke pullout panel.</p>
+          <p>A Verbose LOS label overlap bug is fixed.</p>
+          <p>The Casbin Total CVP counters can no longer be deleted (which destroyed casbin functionality).</p>
+          <p>A rowhouse bar overlay has been added to the Fort tab of the draggable overlays.</p>
+          <br>
+          <p>IMPORTANT: You should use at least VASSAL3.7.5 to run this VASL version. </p>
+          <p>Compatibility issues: 6.6.7 is generally compatible with games saved in 6.6.4, 6.6.5 and 6.6.6. However players are encouraged to use the new Game Updater tool to convert games saved with any previous version to 6.6.7.</p>
+	  <li>IMPORTANT CHANGE: as of VASL-6.6.7, the .vmod file will download directly as plug-n-play. It will no longer be inside a .zip file and will not need to be extracted from the zip archive as with previous versions.</li> 
+        </div>
+
 	<div class="well table">
-          <a id="download666" class="track btn btn-large btn-primary" href="modules/VASLv666.zip">VASL 6.6.6</a>
+          <a id="download666" class="track btn btn-large btn-info" href="modules/VASLv666.zip">VASL 6.6.6</a>
           <h2 class="pull-right">Updated March 28, 2023</h2>
           <h3>New in 6.6.6:</h3>
 

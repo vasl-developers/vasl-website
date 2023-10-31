@@ -69,113 +69,46 @@
 
       <h3>Current Development of VASL!</h3>
 
-      <h3>VASL6.6.7</h3>
+      <h3>VASL6.6.8</h3>
 
-      <p>VASL6.6.7-beta5 is now released. Get it here.<br> </p>
+      <p>VASL6.6.8-beta1 will be released in the coming months. Get it here.<br> </p>
 
-      <div class="well table">
-        <a id="download667" class="track btn btn-large btn-primary" href="https://www.dropbox.com/scl/fi/f2z15r0drxluqpe8ma9oj/vasl-6.6.7-beta5.vmod?rlkey=jaaylvcsiprkycf2oaugndzey&dl=0">VASL 6.6.7-beta5.vmod</a>
-      </div> 
+      <!--<div class="well table">
+        <a id="download668" class="track btn btn-large btn-primary" href="">VASL 6.6.8-beta1.vmod</a>
+      </div> -->
 
-      <h3>VASL6.6.7-beta5</h3>
+      <h3>VASL6.6.8-beta1</h3>
 
-      <p>Development for VASL6.6.7 is currently underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
+      <p>Development for VASL6.6.8 is currently underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
       on Github usually contains about 100 items, a combination of desired features, known bugs, and board related items. Not all are
-      being worked on at any given time. The current plan for 6.6.7 is to focus on new feature development and in particular the creation of a Game Updater tool to allow setup files created in earlier versions and saved games from earlier versions to be easily updated to the features and functionality available in the latest VASL version.<br> </p>
+      being worked on at any given time. The current plan for 6.6.8 is to focus on bug fixes - many of you are good to point out these bugs
+      and the next version will focus on fixing as many as possible. 667 included the addition of a Game Updater tool to allow setup files
+      created in earlier versions and saved games from earlier versions to be easily updated to the features and functionality available
+      in the latest VASL version. Please be sure to flag any problems you have when using this tool. </p>
            
 	<img src="images/jb_beam.png" class="pull-right" alt="GitHub" />
 
-     <p>An Enduring Game Converter/Updater</p>
 
-	<p>A major drawback with VASL is the inability to easily and correctly update setup files and games saved in an earlier version of VASL to the current version. Resolving this problem requires the development of an enduring Game Converter process that will handle all aspects of this conversion. </p>
-	<p>At the bottom of this page is an overview of the current plan to do just that. We would like any thoughts you might have about this to ensure that we are covering all the necessary aspects and that the result will be useful and useable. </p>
-	<p>For any of you interested in this, we have added a more detailed description of the issues and the planned development of the necessary functionality as a downloadable file at the bottom of this page. </p> 
-
-    <p> VASL6.6.7-beta5 contains the initial changes and needs to be tested to identify bugs and missing elements. Try it out and let us know how it goes - on GameSquad, Facebook or Discord, or email dougerimmer@gmail.com. The current workflow as described below includes a number of steps that may be streamlined in later versions. For the moment, this workful facilitates error identification. Thanks for your patience</p>
-    <p>WARNING: </p>
-    <p>There will be bugs in the beta. To avoid breaking an existing file during testing, follow these three simple rules:</p>
-      <p>1. No save, no worries: If something goes wrong during the update process, close the current game without saving it. The original file should survive unchanged.</p>
-      <p>2. Copy this: Make a copy of a setup file or saved game you want to use to test the updater. Test the copy; keep the original.</p>
-      <p>3. SNAFU and FUBAR. Appropriately, these are recognized military terms describing normal daily occurences. When you experience them, stay calm and carry on! </p>
-    <p><b>How the Game Updater Works:</b></p>
-      <p>Open a setup file or a saved game (.vsav file) created in a previous version of VASL. You will see messages in the Chat Window about the VASSAL/VASL versions used to save the game and currently in use.</p>
-      <p>Boards and overlays added via the traditional method (Boardpicker dropdown) will automatically be synced to the latest version and messages will show in the Chat window.</p>
-      <p>Open the VASL dropdown menu (click on the ASL icon) and select Update Game</p>
-      <p>You will get a popup warning message on the screen. Click Yes to proceed </p>
-      <p>At this point, all counters will be updated and reported in the Chat Window. If you see any "Cannot Refresh piece . . . " messages please note unit names and VASL version of original game and report</p>
-      <p>Next the game will compare installed versions of extensions with available versions and, if a new version of an extension is available, it will ask if the user wishes to update it. If so, it will attempt to update and will report results to the Chat Window</p>
-      <p>Finally, if VASL LOS Checking was disabled in the original .vsav file, users will be prompted to attempt to restore los checking by reselecting boards and overlays.</p>
-      <p>To test the Game Updater process, users should check that counters now have the latest functionality and that the map is displaying correctly and LOS is working</p>
-      <p>Please note and report any issues or problems</p>
-      <h3>Stuff to Remember:</h3>
-      <p>For log files .vlog, please follow the same steps after opening the log file (and before playing it)</p>
-      <p>Counter Updating will attempt to update counters that originate in extensions. While this has worked in the development phase, there will be errors due to inconsistent or duplicate naming of counters in extensions. Please note and report any such errors so that they can be fixed. </p>
-      <p>The extension updater in the beta only checks for updates to extensions the user has already installed. It is not checking for extensions needed for the .vsav file to work properly. This will be added in the next version once I am confident that the updating process is working.</p>
-      <p>For the extension updater to work, users must do a onetime download of version-enabled copies of current extensions. See <a href="http://vasl.info/extensions.htm">Extensions</a></p>
-      <p><b>Bug Fixes in 6.6.7-beta5</b></p>
-      <p>Of course, 6.6.7 will include a few bug fixes:</p>
-      <p>Finnish MMC were not breaking properly and the counter palette images were mixed up. This has beeen sorted</p>
-      <p>Russian 248 HS now break properly and Italian 447AE now report using the correct name</p>
-      <p>A bug related to overlays was causing crashes; this is fixed. Note, however, that as work to extend LOS Checking to overlays continues, the LOS engine will get kicked out more often. "VASL LOS Disabled" is not an error message nor a crash and it is safe to play on. </p>
-      <p>Any crashes when adding overlays should be reported to VASL rather via  VASSAL bug report</p>
-      <p>Several Chat Window message bugs have been fixed</p>
-      <p>More terrain counters (Cows, Debris) and draggable overlays (orchards) work with LOS</p>
-      <p>A Bomb Crater counter has been added</p>
-      <p>The updated Nationality Smoke extension now places counters in the Unit->Fire->Nationality Smoke pullout panel</p>
-      <p>The NVR counter can now show an illuminated area just as an IR or Starshell. The NVR value is adjustable</p>
-      <p>A Verbose LOS label overlap bug is fixed</p>
-      <p>Vehicle Dust LOSH now calculated properly</p>
-
-
+      <p><b>Bug Fixes in 6.6.8-beta1</b></p>
+      <p>Counters:</p>
+      <p></p>
+      <p>Play:</p>
+      <p></p>
+      <p>Setup and System:</p>
+      <p></p>
+      <br>
       <p><b>Game Converter Development Plan Overview</b></p>
 
-	<p>There are six main game elements that need to be “converted”: boards, overlays, counters, extensions, LOS checking, and log file playback. </p>
-<p>1.	Boards </p>
-<p>Auto-synchronization has done all that is required; the necessary functionality is in place. All games are opened with the latest version of a board. Despite the glitch in March 2023, this works well.</p>
-
-<p>2.	Overlays</p>
-<p>There are currently four different ways to add overlays to a VASL map, each of which needs to be considered in the development of a Converter tool:</p>
-
-<p>a.	ASL Overlays added via the Overlays button in Boardpicker</p>
-<p>As of VASL6.6.6, overlays of this type are now subject to auto-synchronization and are managed exactly like boards. Thus, players will always be provided with the current version of any overlay. No additional work is required.</p> 
-
-<p>b.	Overlays added via the TerrainSSR button in Boardpicker</p>
-<p>These overlays are contained within the board files. Thus, due to auto-synchronization, players always have access to the most recent version of these overlays. No work required.</p>
-
-<p>c.	Overlays added from the VASL draggable overlays buttons on the toolbar</p>
-<p>These overlays are implemented as counters in VASL; see 3.</p>
-
-<p>d.	ASL Overlays added from the Overlays Extension</p>
-<p>See 4. </p>
-
-<p>3.	Counters</p>
-<p>VASSAL has long contained a counter updating tool but its performance has been erratic due to inconsistent approaches to adding new counters and amending existing ones by VASL developers. Changes in how VASL developers manage counters have greatly improved the effectiveness of the VASSAL counter updating tool, which has been adapted in VASL for use in the Game Converter process. In particular, issues with external content (images and text) added via Label counters have been addressed. The VASL Counter Updater will appear in VASL6.6.7 in the Fall of 2023.</p> 
-
-<p>4.	Extensions</p>
-<p>Extensions, like Boards and Overlays, are game components outside of the VASL module and can be updated separately. For various reasons, this will not be done via auto-synchronization. Starting in VASL6.6.7, when a new Extension version is detected, users will be asked if they wish to update. Counters contained in Extensions will be updated using the counter update mechanism. See 3. </p> 
-
-<p>5.	LOS Checking </p>
-<p>For older Setup files and Saved Games where LOS has been disabled, it is sometimes possible to restore LOS checking by reselecting the boards. Starting in VASL6.6.7 users will be asked if they wish to do so where necessary. </p>
-
-<p>6.	Log Files</p>
-<p>Initial testing shows that once a log file has been opened and the 5 components above have been updated the log file will play as it normally  would. No separate and distinct action appears to be needed with respect to log files saved in earlier VASL versions. </p>
-
-<p>In order to preserve the “enduring nature” of the Game Converter process there will be an impact on future VASL development planning and scheduling. After 6.6.6, new VASL versions will only include changes that will not break Setup Files or Saved Games. New features that impact version compatibility will be added only once an enduring Converter is in place. </p>
-<p>VASSAL’s development also has an impact on these issues. Changes in VASSAL may affect VASL’s ability to provide backwards compatibility. The current practice of having multiple VASL and/or VASSAL versions installed at one time provides some assurance to VASL users that older games will remain useable.</p>  
-<p>The plan is to target VASL 6.7.0 for implementing the Game Converter tool in such a way that setup files could be automatically updated in bulk to the next version. Between VASL versions 6.6.7 and 6.7.0, the Game Converter tool would be applied to setup files individually to check for errors.  Saved games are best converted individually when they are opened. Players will have the option to update or not. </p>
-<p>Proposed Plan of Action</p>
-<p>Fall 2023 Release VASL6.6.7</p>
-<p>It will include the first iteration of the Game Converter process. All games will automatically use the latest version of boards and overlays. Players will be given the choice to update previously saved games. Doing so will let them choose to (1) update all counters to the latest version; (2) restore los checking on boards that support it; and (3) update to the latest extension version for their loaded extensions. </p> 
-<p>Fall 2024 Release VASL6.6.9</p>
-<p>It will include the second iteration of the Game Converter process. All games will automatically use the latest version of boards and overlays. Updating previously saved games will update counters and los checking per VASL6.6.7, and will also support checking for and updating of extensions required for the .vsav and additional means to grab and display external content. </p>
-<p>Spring 2025 Release VASL6.7.0</p>
-<p>The final version of the Game Converter will provide enhancements and modifications to all of the previous functionality. At this point, it should be possible to implement batch updating of setup files whenever a new VASL version is released so that these files would always be available with the latest functionality and improvements. </p>
+	  <p>In order to preserve the “enduring nature” of the Game Converter process there will be an impact on future VASL development planning and scheduling. After 6.6.6, new VASL versions will only include changes that will not break Setup Files or Saved Games. New features that impact version compatibility will be added only once an enduring Converter is in place. </p>
+      <p>VASSAL’s development also has an impact on these issues. Changes in VASSAL may affect VASL’s ability to provide backwards compatibility. The current practice of having multiple VASL and/or VASSAL versions installed at one time provides some assurance to VASL users that older games will remain useable.</p>
+      <p>The plan is to target VASL 6.7.0 for implementing the Game Converter tool in such a way that setup files could be automatically updated in bulk to the next version. Between VASL versions 6.6.7 and 6.7.0, the Game Converter tool would be applied to setup files individually to check for errors.  Saved games are best converted individually when they are opened. Players will have the option to update or not. </p>
+      <p>Proposed Plan of Action</p>
+      <p>Fall 2024 Release VASL6.6.9</p>
+      <p>It will include the second iteration of the Game Converter process. All games will automatically use the latest version of boards and overlays. Updating previously saved games will update counters and los checking per VASL6.6.7, and will also support checking for and updating of extensions required for the .vsav and additional means to grab and display external content. </p>
+      <p>Spring 2025 Release VASL6.7.0</p>
+      <p>The final version of the Game Converter will provide enhancements and modifications to all of the previous functionality. At this point, it should be possible to implement batch updating of setup files whenever a new VASL version is released so that these files would always be available with the latest functionality and improvements. </p>
  
-	<div class="well table">
-        <a id="downloadplan" class="track btn btn-large btn-primary" href="https://www.dropbox.com/s/fv21bfv6fov64ed/Game%20Converter%20Issues%20and%20Plan.pdf?dl=0">Game Converter Issues and Plan</a>
-      </div>
-
-<p>VASL6.6.7 should be officially released in the Autumn of 2023.</p>
+	  <p>VASL6.6.8 should be officially released in the Spring of 2024.</p>
 
 <p><i>VASL code development is currently carried out using free software tools provided by Jet Brains as part of it's
  <a href="https://www.jetbrains.com/community/opensource/#support">Open Source Support </a>. We appreciate their on-going
