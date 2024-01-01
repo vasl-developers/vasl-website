@@ -34,16 +34,15 @@
 
       <div class="panel panel-default">
         <div class="panel-body">
-          <h4>Status Update: January 2024</h4>
-          <p>New versions of these scenario setup files, for 6.6.7 and beyond will now be added to <a href="http://vasl.info/updatedscenarios.htm">Scenario Setups. This page will no longer be updated.</a></p>
-          <p>This page contains several collections. Most of them are very outdated, one of which included every scenario of the core modules among them - for VASL v4.</p>
-          <p>Then there is another collection which includes roughly 150 VASL setups stretching from versions v5.9.2 to v6.2.2.</p>
-          <p>You can also retrieve ASLSK Scenario Setup files at <a href="https://github.com/atuline/ASLSK-Scenarios#asl-starter-kit-scenario-setups" target="_blank">https://github.com/atuline/ASLSK-Scenarios</a>.</p>
-
+          <h4>Status Update January 2024</h4>
+          <p>In conjunction with the inclusion of the Game Updater Functionality in VASL6.6.7 and beyond, this page now includes Scenario Setup files that have been updated to work with the latest VASL version. </p>
+          <p>These files will be updated each time a new VASL version is released to provide an enduring and up-to-date collection of VASL setups. </p>
+          <p>All of the previous Scenario Setup files are still available at <a href="http://vasl.info/scenarios.htm">Scenario Setups</a>.</p>
+          <p>The current collection of updated Scenario Setups does not include all of the previous file. More will be added over time. In addition, players are encouraged to contribute new Scenario Setup files.</p>
         </div>
       </div>
 
-      <div id="setups" class="table-responsive"></div>
+      <div id="updatedsetups" class="table-responsive"></div>
     </div>
   </div>
 </div>
@@ -57,9 +56,9 @@ $(document).ready(function() {
     $("ul.navbar-nav li.download").addClass("active");
 	});
 	$("div.sidebar").load("./include/sidebar.htm", function() {
-    $("a.setups").addClass("active");
+    $("a.updatedsetups").addClass("active");
 	});
-	$("#setups").load("./include/scen.html");
+	$("#updatedsetups").load("./include/updatedscen.html");
 	$("footer").load("./include/copyright.htm");
 });
 </script>
