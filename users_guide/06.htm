@@ -53,12 +53,8 @@
             <b>Enter</b> on your keyboard. You should now be the sole occupant of that room. If you enter the same name as a
             currently-ongoing scenario, you will join that room instead.</p>
 
-            <blockquote>
-
-            <p class="sidebar"><b>NOTE:</b> It is considered bad etiquette to start up a scenario in the middle of the Main
+            <p><b>NOTE:</b> It is considered bad etiquette to start up a scenario in the middle of the Main
             Room. This is the meeting area for players entering VASL, not a place to play your game! </p>
-
-            </blockquote>
 
             <p>While connected to a scenario chat room, all moves are broadcast to all players and maps are updated
             automatically. You can save and restore the game to files on your local machine. If your map and your opponent's map
@@ -67,7 +63,6 @@
             opponent's.</p>
 
           </td>
-          <td><img src="../images/server_new_room.gif" width="333" height="243" border="1"></td>
         </tr>
         <tr align="left" valign="top">
           <td colspan="2">
@@ -84,24 +79,15 @@
 
             <h2 name="maps">Step 3 - Mapboards</h2>
 
-            <div align="center"><img src="../images/choose_boards_bd2.gif" width="539" height="175" border="1"></div><br>
-
-            <p>Select the mapboard you are going to use for the scenario from the drop down list. Only mapboards which you have
-            downloaded beforehand from the <a href="../boards.htm" >Board Archive</a> will appear in the list.
-            Occasionally, new versions of board files will be issues to correct artwork errors or add features. The version
-            number of the board appears with the name of the board after it has been loaded (e.g. &quot;Loaded board 2 (version
-            1.3)&quot;).<br> </p>
+            <p>Select the mapboard you are going to use for the scenario from the drop down list. All available boards will appear
+            in the list. Once a board has been selected, VASL will check to ensure that the latest version of the board exists in
+            player's \boards directory and will download a new or updated version if required. The version number of the board
+            appears with the name of the board in the Chat Window after it has been loaded (e.g. &quot;Loaded board 2 (version
+            6.3)&quot;).<br> </p>
 
             <p>To add another board, select whether it will be placed horizontally (<b>Add Row</b>) or vertically (<b>Add
             Column</b>). If the map needs to be reversed (rotated), check the <b>Reverse</b> checkbox. If you made a mistake
             setting up the maps. you can click the <b>Clear</b> button, to reset the window so you can start again.</p>
-
-            <table width="100%" border="0" cellspacing="0">
-              <tr align="center" valign="middle">
-                <td><img src="../images/crop.gif" width="132" height="109" border="1"></td>
-                <td><img src="../images/crop_board_2.gif" width="354" height="174" border="1"></td>
-              </tr>
-            </table>
 
             <p>Once the maps are correctly placed you also have the ability to crop the maps. To crop a map, click on the
             <b>Crop Boards</b> button. A new window will appear. Enter the board number to be cropped (if there is more than
@@ -113,92 +99,32 @@
             hexes of blank space above the board, while cropping hexrows -d to gg will add 3 hexes to the left of the
             board).</p>
 
-            <div align="center"><img src="../images/add_overlay.gif" width="362" height="136" border="1"></div><br>
-
             <p><b>Overlays</b> are available by typing in the overlay name and hexes as they appear on a scenario card. You
             don't need to specify a board number if there is only one board. Some overlays, such as E1 and 4, require no
             coordinates. You should see the overlays on your Choose Boards window as they are added. Overlay files have version
-            numbers in case they need to be updated. The version number is displayed when the overlay is added.</p>
-
-            <div align="center"><img src="../images/add_overlay_bd2.gif" width="539" height="175"></div><br>
+            numbers in case they need to be updated (which will happen automatically as with boards). The version number is displayed when the overlay is added.</p>
 
             <p>Add ocean and beach overlays as though they were ordinary overlays, using hexes xx01 and xx02 as the
             &quot;1&quot; and &quot;2&quot; hexes. As with cropping, negative numbers and negative letters are legal for
             offboard placement hexes. Since Beach and Ocean overlays often extend off the edge of a board, you will need to
             either add space by cropping (see above) or place a blank board under the overlays.</p>
 
-            <p>With respect to <b>Cropping</b> and <b>Overlays</b>, follow the scenario card. For example, in scenario A59
-            &quot;Death at Carentan&quot;, it says only hexrows I through GG are playable. These are the letters that should be
-            entered in the crop fields for hexrows. The overlays for this scenario as per SSR are: O1 17o7, O2 17o2 - p1, O4
-            17L4 - M4, O5 17w3 - w4. When you enter these overlays on to the map, enter them as follows:</p>
-
-            <table width="400" border="1" cellspacing="0" cellpadding="5" align="center" bordercolor="#000000">
-              <tr bgcolor="#CCCC99" align="center">
-                <td class="parNonJust"><b>Overlay</b></td>
-                <td class="parNonJust"><b>Board</b></td>
-                <td class="parNonJust"><b>Hex 1</b></td>
-                <td class="parNonJust"><b>Hex 2</b></td>
-              </tr>
-              <tr align="center">
-                <td class="parNonJust">o1</td>
-                <td class="parNonJust">17</td>
-                <td class="parNonJust">o7</td>
-                <td class="parNonJust">&nbsp;</td>
-              </tr>
-              <tr bgcolor="#CCCCCC" align="center">
-                <td class="parNonJust">o2</td>
-                <td class="parNonJust">17</td>
-                <td class="parNonJust">o2</td>
-                <td class="parNonJust">p1</td>
-              </tr>
-              <tr align="center">
-                <td class="parNonJust">o4</td>
-                <td class="parNonJust">17</td>
-                <td class="parNonJust">l4</td>
-                <td class="parNonJust">m4</td>
-              </tr>
-              <tr bgcolor="#CCCCCC" align="center">
-                <td class="parNonJust">o5</td>
-                <td class="parNonJust">17</td>
-                <td class="parNonJust">w3</td>
-                <td class="parNonJust">w4</td>
-              </tr>
-            </table>
-
-            <p>If you make a mistake, entering an overlay with both Hex 1 and Hex 2 blank will delete that overlay. </p>
-
             <p><b>Terrain changes</b> are alterations to the mapboards according to special rules that comonly appear in
             scenarios. They allow you to completely alter the look of the geomorphic boards by putting down ground snow,
             removing grain or roads, applying PTO terrain, etc. </p>
-
-            <div align="center"><img src="../images/terrain_ssr_bd17.gif" width="539" height="175" border="1"><br>
-              <span class="sidebar">Board 17 in winter</span> <br>
-              <br>
-              <img src="../images/terrain_ssr_bd24.gif" width="539" height="175" border="1"><br>
-              <span class="sidebar">Board 24 with no valley, all paved roads, and all
-              stone buildings </span><br>
-              <br>
-              <img src="../images/terrain_ssr.gif" width="451" height="185" border="1">
-            </div><br>
 
             <p>Press the <b>Terrain SSR</b> button, use the controls to make your selection and hit the <b>Apply</b> button. Hit
             the <b>Done</b> button when finished.</p>
 
             <p>Like overlays, boards are given version numbers for possible future updates. The version number is displayed when
             you open the Terrain SSR window. When you connect to the VASL server, VASL will automatically check the version
-            numbers of the boards in play against the latest version. If your copies are found to be out of date, you will be
-            prompted to let VASL download and install the latest versions.</p>
-
-            <blockquote> <span class="sidebar">NOTE: Depending on the amount of memory in your computer, loading the maps may
-            take a bit of time. The more memory you have the faster it will load. Also be aware that some of the larger HASL
-            maps require quite a lot of memory. For Windows 95 <font color="#00CCFF">[98? XP?]</font> machines, 64 MB is
-            recommended to load the Red Barricades map. </span> </blockquote>
+            numbers of the boards in play against the latest version. If your copies are found to be out of date, VASL will
+            download and install the latest versions.</p>
 
             <p>Once you are done setting up the boards, press the <b>Done</b> button to begin setting up the counters.</p>
 
-            <p>(If you wish to change mapboards after having begun setup, you may do so by clicking the <img
-            src="../images/pick_new_boards.gif" width="27" height="27" border="1" align="absmiddle"> button at the top of the
-            VASL Map window.)</p>
+            <p>(If you wish to change mapboards after having begun setup, you may do so by clicking the ASL dropdown menu button
+            and then selecting "Pick new boards for this scenario.</p>
           </td>
         </tr>
 
@@ -206,27 +132,23 @@
           <td>
             <h2 name="placement">Step 4 - Placement of Counters </h2>
 
-            <p>After the maps have been set up, or after you've loaded a scenarios setup, the Overview window and VASL map
+            <p>After the maps have been set up, or after you've loaded a scenario's setup file, the VASL map
             window will appear on the screen. The Counters window, which allows you to select new counters you wish to place on
-            the map, should already be open. To select from the various information counters, click on the <b>Info</b> tab. To
-            select from the unit counters of the various nationalities, click on the <b>Units</b> tab.</p>
+            the map, will present in the toolbar. To select from the various information counters, click on the <b>Info</b> tab
+            in the Counters window or drag them from the Quick Counter toolbar. To
+            select from the unit counters of the various nationalities, click on the <b>Units</b> tab of the Counters window.</p>
 
-            <p>All the information and unit counters used in ASL are available in VASL. Click on the drop down list to select
-            the category of information counters that you wish to choose from. All the counters in that category will be shown
-            in the list window to the right. To view the counter simply click on its name in the list window and the counter's
-            image will appear on the left hand side. (You may flip the counter by right-clicking on the counter and selecting
-            &quot;<b>Flip</b>&quot; from the pop-up menu, or clicking on the counter and hitting <b>Ctrl+F</b>) To place that
+            <p>All the information and unit counters used in ASL are available in VASL. If you cannot find one either in the
+            Counter window or QC toolbar, try to flip a related counter by right-clicking on the counter and selecting
+            &quot;<b>Flip</b>&quot; from the pop-up menu, or clicking on the counter and hitting <b>Ctrl+F</b>). The popup menu may offer
+            other options to change to the counter that you wish (ie squad to hs, Battle Harden a Unit, DFF to Final Fire.  To place that
             counter on the map, simply click and drag the image from the Counter window onto the map.</p>
 
           </td>
-          <td><img src="../images/units_ger_veh.gif" width="304" height="268" border="1"></td>
+
         </tr>
         <tr align="left" valign="top">
           <td colspan="2">
-
-            <p><b>TIP:</b> Once you draw out all your counters you may <b>HIP</b> them (<b>Ctrl+H</b>) to prevent your opponent
-            from seeing them. Then set up your counters. There is no need for your opponent to leave the scenario room while you
-            set up. Once you and your opponent are ready, conceal the HIPed stacks and then reveal them! </p>
 
             <h2 name="handling">Handling the Counters</h2>
 
@@ -246,6 +168,10 @@
 
             <p><b>Collapsing a Stack of Counters:</b> When you wish to collapse a stack in order to return it to its compacted
             view, simply double-click on the expanded stack.</p>
+
+            <p><b>Selecting Only the Top Counter in a Stack of Counters:</b> When you wish to select on the topmost counter of a stack in order, right-click it.
+            Concealing that counter will add one ? counter to the top of the stack, while marking the lower counters as concealed (which displays them to the
+            opposing player as concealment counters. </p>
 
             <p><b>Counter Actions:</b> Once you have selected the counter(s) or stacks you wish to act upon, you may take the
             following actions by using the corresponding key commands. You may also right-click (Mac users hold down the command
@@ -344,7 +270,7 @@
             in VASL that information can be more convenient if made into a label. For example, labeling a unit
             &quot;Fanatic,&quot; &quot;Berserk,&quot; or &quot;Wounded&quot; saves you from having to drag around an extra
             counter. For vehicles, use the labels for vehicle ID numbers (matched with labels on acquisition counters), HD
-            status on crest lines, optional MG, Gyrostabilizers/Schuerzen, or armor leaders. To label a counter, simply select
+            status on crest lines, or armor leaders. To label a counter, simply select
             the counter and press <b>CTRL + L</b>. Type in the information you wish that counter to display and press
             <b>Enter</b>. To edit the contents of a counter label simply select the counter and press <b>CTRL + L</b>.</p>
 
@@ -354,8 +280,7 @@
             you can read the front.</p>
 
             <p><a name="concealment"><b>CONCEALMENT:</b></a> When concealed, your units will appear with a &quot;?&quot; in the
-            upper left corner. To your opponent, all concealed counters look like dummy (&quot;?&quot;) counters. It is up to
-            the honor system to keep you from unconcealing your opponent's concealed counters. A HIP counter is invisible to
+            upper left corner. To your opponent, all concealed counters look like dummy (&quot;?&quot;) counters. A HIP counter is invisible to
             your opponent. Your own HIP counters are drawn on your map in a semi-transparent manner with HIP stacks appearing
             against a white background.</p>
 
@@ -367,9 +292,6 @@
             <p><b>CLEANING UP:</b> VASL allows you to quickly delete all the phase based information counters. Choose Remove All
             from the top of the VASL map window. A sub-menu will appear listing all the information counters that can be quickly
             deleted at once.</p>
-
-            <div align="center"><img src="../images/map_features.gif" width="561" height="440" border="1">
-            </div>
 
             <h2 name="tips">Tips and Tricks</h2>
 
@@ -391,6 +313,7 @@
 
           </td>
         </tr>
+        <td class="next"> <a href="../users_guide/07.htm">Playing Tools</a>&gt;&gt; </td>
       </table>
     </div>
   </div>

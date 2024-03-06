@@ -29,44 +29,25 @@ VASL provides an integrated tool you can use to check line of sight (LOS)
 </p>
 
 
-<p class="p">Version 6 and later boards support LOS checking.  Check the release notes for a list of boards supported in the version.  You can flip and crop boards, but boards must be cropped to half-hexes for LOS checking to work.</p>
+<p class="p">Version 6 and later boards support LOS checking.  All MMP and BFP geoboards (including SK, Deluxe, and a/b style boards) along with several others support los checking. Most HASL and TPP boards do not but RB, RO, Dinant, and Singling do.  You can flip and crop boards, either to half-hexes or full-hexes and LOS checking will work.</p>
   
-<div class="p">LOS checking can apply ETO terrain rules or PTO terrain rules.  DTO terrain rules do not apply.  ETO terrain transformations available in the board picker apply with the following exceptions
-<ul class="ul">
-<li class="li">Orchard to Crag</li>
+<div class="p">LOS checking can apply ETO terrain rules or PTO terrain rules.  As of 2023, many but not all DTO terrain rules apply.
 
-<li class="li">Orchard to Shellholes</li>
-
-<li class="li">Shellholes to Crag</li>
-
-<li class="li">Shellholes to Orchard</li>
-
-</ul>
 </div>
 
 <div class="p">PTO terrain rules are applied when you choose and apply the <kbd class="ph userinput">PTO Transformations</kbd> option in the <span class="ph uicontrol">Terrain Transformations</span> dialog.  The following transformations are available:
 <ul class="ul">
 <li class="li">Dense Jungle</li>
-
 <li class="li">Bamboo</li>
-
 <li class="li">Palm Trees</li>
-
 <li class="li">Swamp</li>
-
+<li class="li">Huts</li>
 </ul>
-
-The following transformation is not available:
-<ul class="ul">
-<li class="li">Wooden building to huts</li>
-
-</ul>
-
 </div>
 
 <p class="p">If the <span class="ph uicontrol">Dense Jungle</span> box is not checked when other boxes in the PTO Transformations are checked, woods are treated as Light Jungle.</p>
 
-<p class="p">LOS checking does not apply to overlays, but does apply to certain counters.  LOS checking also does not detect hindrances along a Continuous Slope.  LOS checking does not work correctly in board edge half-hexes where abutting half-hexes have different terrain types.</p>
+<p class="p">LOS checking increasingly applies to overlays and terrain counters, but this is not yet complete.  LOS checking also does not detect hindrances along a Continuous Slope.  LOS checking does not work correctly in board edge half-hexes where abutting half-hexes have different terrain types.</p>
 
 <p class="p">The LOS engine does not enforce the rule that terrain must be visible on both sides of the thread to affect LOS.  If the thread touches an obstacle or hindrance, LOS will be affected.</p>
 

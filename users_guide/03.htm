@@ -49,8 +49,8 @@
 
             <p>Next, you will be asked to enter a password. Enter a password and press <b>OK</b>.</p>
 
-            <p>In the VASL Controls window, set your Preferences by going to <b>File &gt; Edit Preferences</b>. Most important
-            is the <a href="03.htm#boardDir">Board Directory preference</a> to inform VASL where to find the board images.</p>
+            <p>In the VASL Controls window, set your Preferences by going to <b>File &gt; Preferences</b>. Most important
+            is the <a href="03.htm#boardDir">Board Directory preference</a> under the VASL tab to inform VASL where to find the board images.</p>
 
           </td>
         </tr>
@@ -62,7 +62,7 @@
         </tr>
         <tr align="left" valign="top">
           <td width="99%">
-            <h3>Personal</h3>
+            <h3>Personal Tab</h3>
             <p><b>Name</b></p>
 
             <p>Whatever you enter in the Name field is the name that other people will see in the Chat area of VASL. Use a
@@ -76,47 +76,45 @@
             Profile</b>.</p>
 
           </td>
-          <td width="1%"><img src="../images/pref_personal.gif" width="359" height="314" border="1"></td>
+          <!-- <td width="1%"><img src="../images/pref_personal.gif" width="359" height="314" border="1"></td> -->
         </tr>
         <tr align="left" valign="top">
           <td colspan="2"><hr/></td>
         </tr>
         <tr align="left" valign="top">
           <td>
-            <h3 name="boardDir">General</h3>
+            <h3 name="boardDir">VASL Tab</h3>
             <p><b>Board Directory</b></p>
+            <p>Click the <b>Select</b> button and select the directory that will contain the board files that will automatically download when selected in BoardPicker or
+              when a saved game is opened. (If this setting is incorrect, no boards will appear when you open a game.)</p>
 
-            <p>Click the <b>Select</b> button and select the directory that contains the board files you have downloaded from
-            the VASL Board Archive. (If this setting is incorrect, no boards will appear when you open a game.)</p>
+            <p><b>Enabled red CA indicator</b></p>
+            <p>Checking this preference allows you show a red indicator in the corner of a Gun/Vehicle counter to indicate its CA. When enabled, Shift-Alt-Q
+              to toggle on/off on individual vehicle/gun and Shift-Alt-W to toggle on/off for ALL vehicle/guns in the game (must have at least one selected to toggle).</p>
 
-            <p><b>Use Arrow Keys to Scroll</b></p>
+            <p><b>Set Color of space around Map</b></p>
+            <p>Checking this preference allows you to change the color of the paddng around the VASL map.</p>
 
-            <p>Checking this preference allows you to use the arow keys on your keyboard to scroll around the VASL map when you
-            have no counters selected. If this box is not selected, the number keyboard will scroll the map window.</p>
+            <p><b>Opponent's Highlight Centered on Your Map</b></p>
+            <p>When checked, this preference will center on your map on the selected location when the Opponent highlights it.</p>
 
-            <p><b>Auto-Report Moves</b></p>
+            <p><b>Highlight Shows Red Circle on Map</b></p>
+            <p>When you highlight a location, a red circle is displayed on the map in that location.</p>
 
-            <p>The Auto-report moves checkbox will echo your units' moves into the VASL chat window so that you don't have to
-            move a unit from E5 to E4 and then type in &quot;E5 to E4&quot;; VASL will detect the move and auto-report it for
-            you. Covered-arc changes are reported as well.</p>
+            <p><b>Disable Full Color Stacks</b></p>
+            <p>Checking this preference will display (partially) counters below the top counter in a stack as a white image, </p>
 
-            <p><b>Center on Opponent's Move</b></p>
+            <p><b>Get DR/dr random numbers from random.org</b></p>
+            <p>Checking this preference will obtain DR/dr numbers from random.org rather than use the built-in dicebot. </p>
 
-            <p>The Center on Opponent's Move checkbox will automatically center the map on a unit that is being moved, whether
-            connected to the server or reading a logfile.</p>
+            <p><b>Show detailed dice stats</b></p>
+            <p>Checking this preference will display additional information when the dice stats button in the Chat Window is clicked. </p>
 
-            <p><b>Marked Moved Units</b></p>
-
-            <p>The Mark Moved Units checkbox will automatically mark units after they have been moved. Click <b>Mark Unmoved</b>
-            at the top of the VASL Map window to clear the &quot;Moved&quot; status of all units.</p>
-
-            <p><b>Chat Window Font</b></p>
-
-            <p>Specifies the font and font size used in the VASL Controls window. </p>
-
+            <p><b>Player Window (menus, toolbar, chat) is always on top in uncombined application mode</b> </p>
+            <p>Checking this preference when using the multiple window display puts the Player Window above all others onscreen. </p>
           </td>
 
-          <td><img src="../images/pref_general.gif" width="362" height="339" border="1"></td>
+          <!--<td><img src="../images/pref_general.gif" width="362" height="339" border="1"></td> -->
         </tr>
 
         <tr align="left" valign="top">
@@ -127,25 +125,28 @@
 
         <tr align="left" valign="top">
           <td>
-            <h3>LOS</h3>
+            <h3>LOS Tab</h3>
 
             <p><b>Retain LOS-hindrance counters</b></p>
-
             <p>Checking this preference will cause all counters which could cause a LOS hindrance to remain on the board when a
             LOS check is made.</p>
 
             <p><b>Snap Thread to grid</b></p>
-
             <p>The Snap Thread to grid checkbox will automatically place the LOS thread at the nearest hex center or vertex.
             Click the LOS button at the top of the VASL Map window to check LOS by dragging the mouse.</p>
 
             <p><b>Thread Color / Hindrance Thread Color / Blocked Thread Color</b></p>
-
             <p>Allows you to choose the color that the LOS Thread appears in.</p>
+
+            <p><b>Enable Los checking</b></p>
+            <p>Unchecking this preference disables los checking while still drawing a single color thread.</p>
+
+            <p><b>Verbose LOS</b></p>
+            <p>Provides additional detail on the LOS check, including hex and level plus results.</p>
 
           </td>
 
-          <td><img src="../images/pref_los.gif" width="353" height="353" border="1"></td>
+          <!--<td><img src="../images/pref_los.gif" width="353" height="353" border="1"></td> -->
 
         </tr>
 
@@ -155,20 +156,7 @@
           </td>
         </tr>
 
-        <tr align="left" valign="top">
-          <td>
-            <h3>Nationality Colors</h3>
 
-            <p>Allows you to customize the color of each nationality's units. Use the swatch, HSB or RGB color pallettes to
-            select the desired color.</p>
-
-            <p>Click <b>Default</b> to return the color to the default setting.</p>
-
-            <p>&nbsp;</p>
-
-          </td>
-          <td><img src="../images/pref_colors.gif" width="359" height="314" border="1"></td>
-        </tr>
         <tr align="left" valign="top">
           <td colspan="2">
             <hr/>
@@ -179,9 +167,13 @@
             <h3>Editing Preferences</h3>
 
             <p>Occasionally there will come a time where you will want to edit the preferences. To edit your preferences, launch
-            VASL and choose <b>File &gt; Edit Preferences</b> from the menu at the top of the VASL Controls window.<br> </p>
+            VASL and choose <b>File &gt; Preferences</b> from the menu at the top of the VASL Controls window.<br> </p>
 
           </td>
+        </tr>
+        <tr>
+          <td class="next"> <a href="../users_guide/04.htm">Environment</a>&gt;&gt; </td>
+          <td></td>
         </tr>
       </table>
     </div>

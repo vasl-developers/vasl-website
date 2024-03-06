@@ -26,88 +26,93 @@
   <div class="row">
     <div class="main-content col-md-12">
 
-      <div class="userHeader">
-        <h1 class="pull-right">VASL User's Guide - Installation</h1>
-      </div>
+		<div class="userHeader">
+			<h1 class="pull-right">VASL User's Guide - Installation</h1>
+		</div>
 
       <table>
         <tr>
-          <td colspan="2" class="menu sidebar pull-right"></td>
+          <td class="menu sidebar pull-right"></td>
         </tr>
+	  </table>
 
-        <tr>
-          <td colspan="2"><hr/></td>
-        </tr>
-
+	  <table>
         <tr>
           <td colspan="2">
 
-        		<hr name="installation" width="100%" size="2">
-        		<div align="center" class="sidebar"><b>Installation</b> | <a href="./02.htm#preparation">Preparation</a> | <a href="./02.htm#vassal">VASSAL</a><br></div>
+			<hr name="introduction" width="100%" size="2">
 
-		        <h2>Installation</h2>
+		  <h2>Installation</h2>
 
-		        <p>Installation of VASL is simpler than ever thanks to Java Web Start.&nbsp; Clicking on <a
-		        href="http://vasl.info/ws/vasl.jnlp">this link</a> from any browser will launch the latest version.&nbsp; If the
-		        link doesn't work, first make sure you've installed <a href="http://www.java.com/">Java 1.4.x</a> and then read the
-		        notes <a href="http://www.vassalengine.org/ws">here</a> before requesting help via <a
-		        href="mailto:vasl@vasl.org">email</a>.&nbsp; On Windows systems, Web Start will prompt you to create a shortcut on
-		        your desktop for you to run the program without going through a web browser.&nbsp;On Mac-OS-X/Linux, you can launch
-		        VASL directly with the command line <code>$JAVA_HOME/javaws/javaws http://vasl.info/ws/vasl.jnlp. </code>VASL does
-		        not run on pre-OS-X Macintosh systems. <br><br></p>
+			  <div class="section context">To install VASL:
 
-		        <hr width="100%" size="2">
-		        <div align="center" class="sidebar"><a href="./02.htm#installation">Installation</a> | <b>Preparation</b> | <a href="./02.htm#vassal">VASSAL</a></div>
+			  <ol class="ol steps">
+				  <li class="li step stepexpand">
+					  <span class="ph cmd">Open a browser and go to <a class="xref" href="http://vasl.info/download.htm" target="_blank">http://vasl.info/download.htm</a>.</span>
+				  </li>
+				  <li class="li step stepexpand">
+					  <span class="ph cmd">Click the button to download the version of the VASL module you want to install. </span>
+					  <div class="itemgroup info">The module is dowloaded as a .zip file to your default donwloads folder.</div>
+				  </li>
+				  <li class="li step stepexpand">
+					  <span class="ph cmd">Extract the VASL module (vasl.vmod) from the .zip file to a location you can find easily. </span>
+				  </li>
+				  <li class="li step stepexpand">
+					  <span class="ph cmd">Start the VASSAL engine. </span>
+				  </li>
+				  <li class="li step stepexpand">
+					  <span class="ph cmd">In the VASSAL menu bar, choose<span class="ph menucascade"><span class="ph uicontrol">File</span> &gt; <span class="ph uicontrol">Open module</span></span>.</span>
+					  <div class="itemgroup info">The VASSAL interface returms a browse dialog.</div>
+				  </li>
+				  <li class="li step stepexpand">
+					  <span class="ph cmd">Navigate to the directory where you unzipped the vasl module, select the module, and click <span class="ph uicontrol">Open</span>.</span>
+					  <div class="itemgroup stepresult">The VASSAL interface returns a dialog stating that the VASSAL engine is tiling the VASL images.</div>
+				  </li>
+			  </ol>
 
-		        <h2>Preparation</h2>
+			  </div>
+		  <h2>Preparation</h2>
 
 		        <h3>Mapboards</h3>
 
-		        <p>In order to actually play a game, you will need one or more of the VASL maps. &nbsp;The complete set of maps can
-		        be downloaded from the vasl.org <a href="http://vasl.info/boards.htm">Board and Overlay Archive</a>.<!--Lately an
-		        effort has been made by the VASL community to create more artistic renditions of the ASL map set than those
-		        originally provided by Rodney and Tom. These additional map sets are still works in progress and are not yet
-		        complete. <a href="mailto:dykevader@golden.net">Cait Glasson&#146;s</a> maps can be found at her <font
-		        color="#FF0000">Alternate VASL Board site</font> and <a href="mailto:bcm@u.washington.edu">Bruce
-		        Mansfield&#146;s</a> maps can be found at Michael Loos&#146; <a href="http://fge.if.usp.br/%7Eloos/ASLIND.htm" >VASL
-		        Board Website</a>. Also some Windows 95 users sporting slower machines or less memory have experienced problems
-		        loading the entire &quot;Red Barricades&quot; map.--> </p>
+			  <div class="body taskbody"><p class="shortdesc">You do NOT need to install the VASL board files. When you start a game, you will select map files (boards) from a list box. All available boards will be shown. </p>
+				  <p class="shortdesc">Clicking on a board will download the board to your computer. Before your first game, set a boards folder from the BoardPicker Screen by clicking Select.</p>
+				  <p class="shortdesc">You should also install the overlay files if you want to add   overlays to your map. </p>
 
-		        <blockquote>
-		        <p class="sidebar"><b>Note:</b> The VASL maps are <i>not</i> a replacement for the real ASL maps. LOS on these maps
-		        may be different than those on the real maps. </p>
-        		</blockquote>
+				  <div class="section context">To access the VASL board files:</div>
 
-		        <p>Your VASL folder will contain a folder named <b>boards</b>, and inside the boards folder, a folder named
-		        <b>overlays</b>.</p>
+				  <ol class="ol steps">
+					  <li class="li step stepexpand">
+						  <span class="ph cmd">Create a folder for VASL files</span>
+						  <div class="itemgroup stepxmp">For example, if your operating system is Windows, you might create the directory <span class="ph filepath">C:\Users\YourUserName\VASL</span>.</div>
+					  </li>
+					  <li class="li step stepexpand">
+						  <span class="ph cmd">In your VASL files folder, create a subfolder for your board files. It should be called "boards"</span>
+						  <div class="itemgroup stepxmp">Continuing the earlier example, you would create the subfolder <span class="ph filepath">C:\Users\YourUserName\VASL\boards</span>.</div>
+						  <div class="itemgroup stepxmp">DO NOT create your VASL folder or your boards directory in protected areas of your computer such as "C:\Program Files" on Windows computers</div>
+					  </li>
+					  <li class="li step stepexpand">
+						  <span class="ph cmd">Access the board files you want to use.</span>
+						  <div class="itemgroup info">When you start a new game:
+							  <ul class="ul">
+								  <li class="li">The Boardpicker will open. Make sure that the correct directory is being used by clicking on Select</li>
+								  <li class="li">Scroll through the dropdown list and select the boards you want for your game. The latest version of each selected board will be downloaded to your computer</li>
+							  </ul>
+						  </div>
+					  </li>
+				  </ol>
+			  </div>
 
-		        <p> Unzip the various board archives and extract them to the <b>boards</b> folder. If you have downloaded the
-		        overlays, extract them to the <b>overlays</b> folder inside <b>boards</b>.</p>
+			  <h3>Overlays</h3>
 
-		        <h3>Additional Folders (optional)</h3>
-
-		        <p>You may also wish to create folders to store games you wish to save and downloaded scenario setup files
-		        (e.g., you could create two folders in your VASL directory named <b>scenarios</b> and <b>games saved</b>).</p>
-
-		        <p>Below is a typical setup with the <b>VASL</b> folder created inside of <b>C:\Program Files\VASSAL</b>:</p>
-
-		        <div align="center"> <img src="../images/typical_setup.gif" width="545" height="253"> </div>
-
-		        <hr name="vassal" width="100%" size="2">
-
-		        <div align="center" class="sidebar">
-		          <a href="./02.htm#installation">Installation</a> | <a href="./02.htm#preparation">Preparation</a> | <b>VASSAL</b>
-		        </div>
-
-		        <h2>The VASSAL Engine</h2>
-
-		        <small>VASL is based on the <a href="http://www.vassalengine.org/">VASSAL Engine</a>, which can be used to make
-		        VASL-like playing aids for any kind of board game. &nbsp;Hey, if it can handle ASL, then any other game should be
-		        cake, right?&nbsp; You can launch VASSAL by clicking <a
-		        href="http://www.vassalengine.org/ws/vassal.jnlp">here</a>.</small>
-
+			  <div class="body taskbody"><p class="shortdesc">  If you have downloaded the overlays, extract them to a folder named <b>overlays</b> inside <b>\boards</b>.</p></div>
           </td>
+
         </tr>
+		  <tr>
+			  <td class="next"> <a href="../users_guide/03.htm">Preferences</a>&gt;&gt; </td>
+			  <td></td>
+		  </tr>
       </table>
     </div>
   </div>
