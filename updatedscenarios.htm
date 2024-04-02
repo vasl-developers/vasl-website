@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>VASL - Download Scenarios</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link href="./css/vasl_styles.css" rel="stylesheet">
+  <link href="./css/setup_styles.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7W4JY7C21F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7W4JY7C21F');
+  </script>
+</head>
+<body>
+<div id="navbar"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 sidebar"></div>
+    <div class="main-content col-md-10">
+
+      <div class="userHeader">
+        <h1 class="pull-right">Updated VASL Scenario Setups</h1>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>Status Update January 2024</h4>
+          <p>In conjunction with the inclusion of the Game Updater Functionality in VASL6.6.7 and beyond, this page now includes Scenario Setup files that have been updated to work with the latest VASL version. </p>
+          <p>These files will be updated each time a new VASL version is released to provide an enduring and up-to-date collection of VASL setups. </p>
+          <p>All of the previous Scenario Setup files are still available at <a href="http://vasl.info/scenarios.htm">Old VASL Scenario Setups</a>.</p>
+          <p>The current collection of updated Scenario Setups does not include all of the previous file. More will be added over time. In addition, players are encouraged to contribute new Scenario Setup files.</p>
+        </div>
+      </div>
+
+      <div id="updatedsetups" class="table-responsive"></div>
+    </div>
+  </div>
+</div>
+
+<footer></footer>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#navbar").load("./include/navbar.htm", function() {
+    $("ul.navbar-nav li.download").addClass("active");
+	});
+	$("div.sidebar").load("./include/sidebar.htm", function() {
+    $("a.updatedsetups").addClass("active");
+	});
+	$("#updatedsetups").load("./include/updatedscen.html");
+	$("footer").load("./include/copyright.htm");
+});
+</script>
+</body>
+</html>
