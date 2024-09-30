@@ -71,44 +71,37 @@
 
       <h3>VASL6.6.9</h3>
 
-      <p>VASL6.6.9-beta8 is released. Get it here.<br> </p>
+      <p>VASL6.6.9-beta9 is released. Get it here.<br> </p>
 
       <div class="well table">
         <a id="download669" class="track btn btn-large btn-primary" href="https://github.com/vasl-developers/vasl/releases/tag/vasl-6.6.9-beta8">VASL 6.6.9-beta8.vmod</a>
       </div>
 
-      <h3>VASL6.6.9-beta8</h3>
+      <h3>VASL6.6.9-beta9</h3>
 
       <p>Development for VASL6.6.9 is currently underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
       on Github usually contains about 150 items, a combination of desired features, known bugs, and board related items. Not all are
       being worked on at any given time. </p>
 
-      <p>Brand new in 6.6.9-beta8 are two new features: </p>
-      <p>Firstly,Any “shaders” (Night, Dust, Fog, Low Visibility, HeatHaze, or Sun Blindness) added to a game will automatically display when a saved game is reopened.
+      <p>Brand new in 6.6.9-beta9 are two new features: </p>
+      <p>Firstly, A No Right Of Inspection feature has been added.</p>
+      <p>Each nationality now has a No ROI counter in its “?” panel of the counter palette. To use for individual stacks, drag/delete a No ROI counter as you would a ? counter. </p>
+      <p>  To apply to all friendly stacks at once, drag a No ROI counter into the off-board area, select it and CTRL-ALT-G. A No ROI counter will be added to each friendly stack with 2 or more counters.
+        The No ROI will be placed under the top counter, HIPped. All counters below it in the stack will be concealed. To remove all existing friendly No ROI counters at once, select any No ROI on the map area and CTRL-ALT-H.
+        The No ROI counters will be deleted and any counters below the No ROI counter will lose concealment. </p>
+      <p>Secondly, The HOB menu for MMC now includes a BH & HC option which will Battle Harden the MMC and create a Hero in the hex. </p>
+      <p>Changes added in previous betas include:</p>
+      <p>Any “shaders” (Night, Dust, Fog, Low Visibility, HeatHaze, or Sun Blindness) added to a game will automatically display when a saved game is reopened.
         Players joining an online game will automatically match the shade status of the game they synchronize with. During online play, changes to shaders made by one player will automatically display for all players.</p>
-      <p>Secondly, a new preference (Chat tab) allows for a “ROF” die to be rolled and displayed separately for IFT and TH DR.
+      <p>A new preference (Chat tab) allows for a “ROF” die to be rolled and displayed separately for IFT and TH DR.
         Select the Preference and the die color and it will appear at the end of the text in Chat when rolling IFT/TH.  </p>
-      <p>It also adds the Railcar and 458/248 NKVD counters for TotR to the VASL module. The recently issued extension is no longer required.</p>
-      <p>It contains all of the fixes from previous betas that largely solve the "jumpimg counter" bug introduced in 6.6.8. Counter movement will return to normal although when counters are dragged onto the map window
-      for the first time, they may still offset to a bypass position in the intended hex. They can be moved to the proper position and will behave normally thereafter. We hope to fix this
-      minor issue in future 6.6.9 betas.</p>
+      <p>The Railcar and 458/248 NKVD counters for TotR are now part of the VASL module. The recently issued extension is no longer required.</p>
+      <p>6.6.9-beta9 also includes a number of bug fixes. See What's New under Help in VASL for full details.</p>
       <p>Minor bug fixes in the Auto-detection of HIP Fortification counters by moving units feature were also added. The Auto-Reveal function can be enabled/disabled in File -> Preferences -> VASL. Initially the
       preference is set to On. This feature will detect and reveal Hidden Fortifications as per one part of A12.34 - when an enemy unit gains los to them.</p>
-
-      <p>The game mechanics are this:</p>
-
-      <p>1. A player sets up one or more HIP fortifications (for now it works with Foxhole, Trench, A-T Ditch, PFZ and Wire counters).</p>
-      <p>2. The opposing player moves a (Good Order) unit counter such that it has los to one or more of the HIP fortifications.</p>
-      <p>3. The player who HIPped the fortification (only) will see a popup alert on screen asking if the fortification should be revealed or not. There are many good and valid reasons to say no.</p>
-      <p>4. If the owning player says yes to the reveal, the counter will appear onboard (for both players) and the reveal will be reported in the chat window.</p>
-      <p>5. If the owning player says no to the reveal, the other player will never know anything happened.</p>
-      <p>6. If only one player is involved in the game, the tool should not work at all. Same as current behaviour.</p>
-      <p>7. Concealed stacks will trigger to popup alert. If the moving player is unwilling to confirm presence of a real unit, the opponent should respond No to the reveal question.</p>
-
-      <p>Further development of the feature could include its application to additional fortification types and to different "reveal" rules - Night, PTO.</p>
-      <p>6.6.9-beta8 also includes a couple of other bug fixes: the Disable Full Color Stacks preference is now working again, a ghosting bug when drag-dropping is now fixed for linux users. See "What's New" in the Help menu when using VASL.</p>
-      <p>The current plan for 6.6.9 is to focus on new features such reworking AFV popup menus and starting to use SVG images in counters
-      - this will be a major step forward in image clarity but increases complexity and workload and so will be implemented in stages. </p>
+      <br>
+      <p>This will be the final Beta for 6.6.9. Official release is expected in early November. The original plan for 6.6.9 was to focus on two other new features: reworking AFV popup menus and starting to use SVG images in counters
+      - this work is not yet ready to be included in releases </p>
            
 	<img src="images/jb_beam.png" class="pull-right" alt="GitHub" />
 
