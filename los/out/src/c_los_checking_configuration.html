@@ -46,10 +46,10 @@ You can change the thread color for each condition.  Click the button for the co
 </div>
 
 </li>
+    <div class="p">Counter LOS hindrances
+        <ul class="ul">
+        <li class="li">By default, all counters are removed from the board when you click a LOS button.  Check the <span class="ph uicontrol">Retain LOS-hindrance counters</span> box to retain counters that affect LOS on board when checking LOS.  Counters that affect LOS include
 
-<li class="li">Counter LOS hindrances
-<div class="p">By default, all counters are removed from the board when you click a LOS button.  Check the <span class="ph uicontrol">Retain LOS-hindrance counters</span> box to retain counters that affect LOS on board when checking LOS.  Counters that affect LOS include 
-<ul class="ul">
 <li class="li">SMOKE counters, including Smoke Grenades</li>
 
 <li class="li">blazes</li>
@@ -63,32 +63,34 @@ You can change the thread color for each condition.  Click the button for the co
 </ul>
 
 </div>
+    <div class="p">Verbose LOS checking
+        <ul class="ul">
+        <li class="li">By default, LOS checking only reports the range and displays different threat colors depending on whether LOS is clear, hindered, or blocked.  When you check the <span class="ph uicontrol">Verbose LOS mode</span> box, LOS checking also reports:
+
+                <li class="li">hex coordinates of the source hex and the target hex</li>
+
+                <li class="li">level of the source hex and target hex for which LOS is being checked</li>
+
+                <li class="li">range from the source hex to the target hex</li>
+                <li class="li">If the LOS is blocked, the reason why along with a rule citation.</li>
+            </ul>
+        </li>
+    </div>
+
+    <li class="li">Enable and disable LOS checking behavior
+        <p class="p">Checking this box enables LOS checking behavior. When this box is unchecked, you can still click the LOS buttons to draw a LOS, but no los check takes place: the color of the thread does not change to indicate the condition of the LOS, and range and other information are not reported in the VASL interface.</p>
+
+    </li>
+
+<li class="li">Snap to grid (only has effect when Enable LOS Checking is unchecked – see above)
+<p class="p">By default, the thread snaps to the nearest hex center dot or hex vertex.  Check the <span class="ph uicontrol">Snap Thread to grid?</span> box to disable this behavior.
+    When you uncheck this box, the thread stays at the drag point, and does not snap to the nearest center dot or hex vertex. No los check is performed; a los line is drawn but nothing else.</p>
 
 </li>
 
-<li class="li">Snap to grid
-<p class="p">By default, the thread snaps to the nearest hex center dot or hex vertex.  Check the 
-<span class="ph uicontrol">Snap Thread to grid?</span> box to disable this behavior. When you uncheck this box, the thread stays at the drag point, and does not snap to the nearest center dot or hex vertex.</p>
 
-</li>
 
-<li class="li">Enable and disable LOS checking behavior
-<p class="p">Checking this box enables LOS checking behavior.  When this box is unchecked, you can still click the LOS buttons to draw LOS, but the color of the thread does not change to indicate condition of the LOS, and range and other information is not reported in the VASL interface.</p>
 
-</li>
-
-<li class="li">Verbose LOS checking
-<div class="p">By default, LOS checking only reports the range and displays different threat colors depending on whether LOS is clear, hindered, or blocked.  When you check the <span class="ph uicontrol">Verbose LOS mode</span> box, LOS checking also reports:
-<ul class="ul">
-<li class="li">hex coordinates of the source hex and the target hex</li>
-
-<li class="li">level of the source hex and target hex for which LOS is being checked</li>
-
-<li class="li">range from the source hex to the target hex</li>
-
-</ul>
-
-</div>
 
 </li>
 
