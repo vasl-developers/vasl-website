@@ -59,13 +59,36 @@
         <div class="well table">
           <a id="download670" class="track btn btn-large btn-primary" href="https://github.com/vasl-developers/vasl/releases/download/v6.7.0/vasl-6.7.0.vmod">VASL 6.7.0</a>
 
-          <h2 class="pull-right">Updated April 1, 2025</h2>
+          <h2 class="pull-right">Updated April 2, 2025</h2>
 
           <h3>New in 6.7.0:</h3>
           <br>
-          <p>This is a bug fix version.</p>
+          <li>Feature 1: Top concealment counter can now be made transparent for owner of non-dummy stack. This feature can be turned on/off in preference Tab. Removed Question Mark (?) from top concealment counters when they are being drawn with reduced opacity so it easier to see the counter(s) behind them.</li>
+          <li>Feature 2: When a special ammo is selected as depleted, it automatically displays below the counter.</li>
+          <li>Feature 3: Allow players to change the popup menu of a gamepiece when righ-clicking on a menu itme.This sends the menu item to an "unwanted" submenu.</li>
+          <li>Feature 4: Implementation of autosave feature. Creates save files every 10 minutes in users' "boards" directory. Maximum of 20 files created. Can be turned on/off in Preferences.</li>
+          <br>
+          <li>Fix 1: Add BH & HC options to HOB menu for US Army 447 and 336 Squads and HS.</li>
+          <li>Fix 2: Remove unneeded traits from White Gun CA (Field of Fire) counters.</li>
+          <li>Fix 3: Fixed bug where concealed broken SW was being revealed by the Broken/Malf SW/Gun report.</li>
+          <li>Fix 4: Fixed bug where ? counter was drawn with reduced opacity when on top of level counter.</li>
+          <li>Fix 5: Fixed Depleted Ammo display on German 37L AT Gun.</li>
+          <li>Fix 6: Fixed LOS bug with respect to on-map bridges so LOS can be drawn to bridge or depression level.</li>
+          <li>Fix 7: Fixed bug that causes game to crash when labels on counters use parenthesis.</li>
+          <li>Fix 8: Fixed LOS bugs on boards LFT3-10 caused by overlays and terrain transformations.</li>
+          <li>Fix 9: Fixed LOS bugs when using Gutted Factory overlays on boards RB and RO, and when applying Dense Jungle terrain transformation.</li>
+          <li>Fix 10: Fixed bug when a language other than English is selected in Vassal Preferences. This was causing errors when selecting boards.</li>
+          <li>Fix 11: Fixed issue for linux devices when using multiple windows and counters are not painted when entering new window.</li>
+          <br>
+          <li>Improvement 1: Changed implementation of concealment counters to try and take into consideration multiple locations with a hex denoted by counters (e.g. building level counters).</li>
+          <li>Improvement 2: Broken guns/sw are only highlighted to the owners.</li>
+          <li>Improvement 3: Draw HIP units a bit offset when enemy enters hex so they remain visible to owner.</li>
+          <li>Improvement 4: Implemented SVG graphics for all infantry units, guns and vehicles, Boats, Planes, LC and Shared white vehicles and many information counters. New counters drawn from the palette will use SVG. To change counters from games saved in previous versions to SVG, use the Update Game funciton on ASL dropdown (potato masher icon) (NOTE: the Update Game function has been disabled in 6.7.0 due to a bug and will be restored in futre versions).</li>
+          <li>Improvement 5: Extended LOS Checking to additional draggable Overlays: FFE, SMOKE, Rubble, OG, Wall/Hedge, Roads and Bridges.</li>
+          <li>Improvement 6: Removed deluxe hex size option, made redundant by Board Zoomer.</li>
+          <li>Improvement 7: Reordered the boards when selecting a map from BoardPicker and added a search box feature.</li>
+          <li>Improvement 8: Added a number of SSR overlays to board files to implement terrain transformations for "U" scenarios.</li>
 
-          <p>See What's New under Help in VASL for release notes</p>
 
           <br>
           <p>IMPORTANT: You should use at least VASSAL3.7.15 to run this VASL version. </p>
