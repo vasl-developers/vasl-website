@@ -69,51 +69,38 @@
 
       <h3>Current Development of VASL!</h3>
 
-      <h3>VASL6.7.0</h3>
+      <h3>VASL6.7.1</h3>
 
-      <p>VASL6.7.0 beta versions will be released here in the coming months.<br> </p>
+      <p>VASL6.7.1 beta versions will be released here in the coming months.<br> </p>
 
       <div class="well table">
 
-        <a id="download670" class="track btn btn-large btn-primary" href="https://github.com/vasl-developers/vasl/releases/download/v6.7.0-beta4/vasl-6.7.0-beta4.vmod">VASL 6.7.0-beta4.vmod</a>
+        <a id="download671" class="track btn btn-large btn-primary" href="https://github.com/vasl-developers/vasl/releases/download/v6.7.1-beta6/vasl-6.7.1-beta6.vmod">VASL 6.7.1-beta6.vmod</a>
       </div>
 
-      <h3>VASL6.7.0-beta4</h3>
+      <h3>VASL6.7.1-beta6</h3>
 
-      <p>Development for VASL6.7.0 is underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
+      <p>Development for VASL6.7.1 is underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
       on Github usually contains about 150 items, a combination of desired features, known bugs, and board related items. Not all are
       being worked on at any given time. </p>
 
-      <p>VASL6.7.0 will be a bug fix version.</p>
-      <p>In particular, there are a number of LOS bugs that needed to be addressed, along with finishing up
-        the work on having all overlays work with LOS Checking, including those in the VASL Overlays Extension.</p>
+      <p>The sole change in VASL6.7.1-beta6 is a major revision of the code that enables and enacts LOS Checking. The previous code was no longer
+        best suited for the supporting Cropping and Flipping of different board sizes and hex layout, nor for supporting LOS Checking of Overlays. </p>
 
-      <p>The original plan for 6.6.9 was to focus on two new features: reworking AFV popup menus and starting to use SVG images in counters
-      - this work was not ready to be included in 6.6.9 and work on them will continue in 6.7.0. VASL-6.7.0-beta4 implements svg graphics for
-      all boats and planes and includes revised vehicle counters. Have a look at the new look and provide comments. </p>
-      
-      <p>See What's New in VASL Help for a full list.</p>
+      <p>Beta6 contains the first step in implementing a new approach. This revised code will only work with geo maps - both the 33 x 10 hex and 17 x 20 hex sizes. It will not work with ANY HASL maps, including
+        those which previously supported LOS. Normal service will resume shortly once this set of code changes has been proven.</p>
+
+      <p>None of the changes have caused games to crash during testing to date. All that will happen is that the LOS Engine will fail when a game is
+        opened if a bug is encountered. It will be safe to continue to play but only the basic VASSAL LOS string will display.</p>
+
+      <p>This Beta should be used by players willing and interested to confirm if the revised LOS Engine is working properly. It contains no other bug
+      fixes or improvements beyond VASL6.7.1-beta5. Please send bug reports to dougerimmer@gmail.com</p>
 
 
            
 	<img src="images/jb_beam.png" class="pull-right" alt="GitHub" />
 
 
-      <br>
-      <p><b>Game Converter Development Plan Overview</b></p>
-
-	  <p>In order to preserve the “enduring nature” of the Game Converter process there will be an impact on future VASL development planning and scheduling. After 6.6.6, new VASL versions will only include changes that will not break Setup Files or Saved Games. New features that impact version compatibility will be added only once an enduring Converter is in place. </p>
-      <p>VASSAL’s development also has an impact on these issues. Changes in VASSAL may affect VASL’s ability to provide backwards compatibility. The current practice of having multiple VASL and/or VASSAL versions installed at one time provides some assurance to VASL users that older games will remain useable.</p>
-      <p>The plan was to target VASL 6.7.0 for implementing the Game Converter tool in such a way that setup files could be automatically updated in bulk to the next version. Between VASL versions 6.6.7 and 6.7.0, the Game Converter tool would be applied to setup files individually to check for errors.  Saved games are best converted individually when they are opened. Players will have the option to update or not. </p>
-      <p>Revised Plan of Action</p>
-      <p>Summer 2024 Release Scenario Setup files extension for 6.6.8</p>
-      <p>This extension is now available and includes 400 Scenario Setup files uppdated to 6.6.8 functionality.</p>
-      <p>Fall 2024 Release VASL6.6.9</p>
-      <p>The Scenario Setup files extension will be updated to 6.6.9 functionality and released at the same time as the VASL module. This will be the pattern from now on.</p>
-      <p>Spring 2025 Release VASL6.7.0</p>
-      <p>The final version of the Game Converter will provide enhancements and modifications to all of the previous functionality.</p>
-      <p>It will support checking for and updating of extensions required for the .vsav and additional means to grab and display external content.
-      This work was delayed from 6.6.9.</p>
 
       <p><i>VASL code development is currently carried out using free software tools provided by Jet Brains as part of it's
  <a href="https://www.jetbrains.com/community/opensource/#support">Open Source Support </a>. We appreciate their on-going
