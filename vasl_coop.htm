@@ -75,26 +75,43 @@
 
       <div class="well table">
 
-        <a id="download671" class="track btn btn-large btn-primary" href="https://github.com/vasl-developers/vasl/releases/download/v6.7.1-beta6/vasl-6.7.1-beta6.vmod">VASL 6.7.1-beta6.vmod</a>
+        <a id="download671" class="track btn btn-large btn-primary" href="https://github.com/vasl-developers/vasl/releases/download/v6.7.1-beta7/vasl-6.7.1-beta7.vmod">VASL 6.7.1-beta7.vmod</a>
       </div>
 
-      <h3>VASL6.7.1-beta6</h3>
+      <h3>VASL6.7.1-beta7</h3>
 
       <p>Development for VASL6.7.1 is underway. Our <a href="https://github.com/vasl-developers/vasl/issues">Issues List </a>
       on Github usually contains about 150 items, a combination of desired features, known bugs, and board related items. Not all are
       being worked on at any given time. </p>
 
-      <p>The sole change in VASL6.7.1-beta6 is a major revision of the code that enables and enacts LOS Checking. The previous code was no longer
-        best suited for the supporting Cropping and Flipping of different board sizes and hex layout, nor for supporting LOS Checking of Overlays. </p>
+      <p>New Features in 6.7.1-beta7:</p>
+      <p>Feature 1: Adding full set of SASL dr/DR buttons (enabled via preference in VASL tab). Remove SASLDice extension as it is no longer needed.</p>
+      <p>Feature 2: Adding SASL suspect counter activation flags in conjunction with the SASL Campaign Game Roster version 4.0 (see the SASL CGR help for more details).</p>
+        <p> Bug Fixes</p>
+      <p>Fix 1: Revised LOS code for Cropping and Flipping</p>
+      <p>Fix 2: Re-enable LOS Checking for selected HASL Maps</p>
+      <p>NOTE: this code will now work with geo maps – both the 33 x 10 hex and 17 x 20 hex sizes and those
+        HASL maps which previously supported LOS.</p>
 
-      <p>Beta6 contains the first step in implementing a new approach. This revised code will only work with geo maps - both the 33 x 10 hex and 17 x 20 hex sizes. It will not work with ANY HASL maps, including
-        those which previously supported LOS. Normal service will resume shortly once this set of code changes has been proven.</p>
+      <p>None of the changes have caused games to crash during testing to date. All that will happen is that the
+        LOS Engine will fail when a game is opened if a bug is encountered. It will be safe to continue play but
+        only the basic VASSAL LOS string will display.</p>
 
-      <p>None of the changes have caused games to crash during testing to date. All that will happen is that the LOS Engine will fail when a game is
-        opened if a bug is encountered. It will be safe to continue to play but only the basic VASSAL LOS string will display.</p>
-
-      <p>This Beta should be used by players willing and interested to confirm if the revised LOS Engine is working properly. It contains no other bug
-      fixes or improvements beyond VASL6.7.1-beta5. Please send bug reports to dougerimmer@gmail.com</p>
+      <p>Fix 3: Fixing masking for semi-transparent (small) sniper counters.</p>
+      <p>Fix 4: Tweaking SASL Suspect counters, fixed font issue for AmmoB.</p>
+      <p>Fix 5: Fixing PP for dm Japanese 50mm SW mortars.</p>
+      <p>Fix 6: Communist Phone and Radio counter names with correct case.</p>
+      <p>Fix 7: Correct SS 5-4-8 AE smoke exponent from ‘2’ to ‘4’.</p>
+      <p>Fix 8: Fixing various vehicle wrecks not working.</p>
+      <p> Improvements</p>
+      <p>Improvement 1: Debris Overlay added to Draggable Overlays; has changeable level background and works with LOS</p>
+      <p>Improvement 2: Sangar counter now has winter color</p>
+      <p>Improvement 3: Added “Out of Gas” and “Out of Gas Abandoned” counters.</p>
+      <p>Improvement 4: Added SVG Barrage counters.</p>
+      <p>Improvement 5: Panzer Lehr symbol updated.</p>
+      <p>Improvement 6: Update American counters’ label background color to match the new American counters’ base background color.</p>
+      <p> Compatibility Notes</p>
+      <p>Minimum Version Required: Built with VASSAL 3.7.18</p>
 
 
            
