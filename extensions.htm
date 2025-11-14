@@ -1,67 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <title>VASL - Download Scenarios</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link href="./css/vasl_styles.css" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7W4JY7C21F"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-  <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  <title>VASL - Download Scenarios</title>
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link href="./css/vasl_styles.css" rel="stylesheet">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7W4JY7C21F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      gtag('config', 'G-7W4JY7C21F');
+    </script>
+  </head>
 
-    gtag('config', 'G-7W4JY7C21F');
-  </script>
-</head>
-
-<body>
-  <div id="navbar"></div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-2 sidebar"></div>
-      <div class="main-content col-md-10">
-        <div class="userHeader">
-          <h1> VASL Extension Changes</h1>
-          <br>
-        </div>
-        <div class="userHeader">
-          <h3>IMPORTANT NOTICE: August 2025. Now that the vast majority of counters in the core VASL module (.vmods from version 6.7.0 onwards) are created with SVG graphics,
-            attention is turning to Extensions, many of which (but not all) contain counter images which can and should be converted to SVG images in future iterations of
-            those extensions.</h3>
-          <h3>To ensure that extensions will continue to work with both pre- and post- 6.7.0 versions of VASL, it will be necessary to create separate extensions for those
-            with SVG images while maintaining the extensions that do not contain SVG images (and are therefore compatible with pre-6.7.0 VASSAL).</h3>
-          <h3>We also want extensions to auto-update (or at least prompt the user to update). This is best/easiest to do if we maintain a stable file name
-            for the extension (with no version numbers in the name).</h3>
-          <br>
-        </div>
-        <div class="userHeader">
-          <h1> VASL SVG Extensions</h1>
-          <br>
-        </div>
-        <div class="userHeader">
-          <h3>These extensions should be used with VASL6.7.0 or higher. </h3>
-          <h3>Only extensions containing SVG images should be added to this section. New extensions with no SVG images will be added to the 6.X Extensions section below.</h3>
-        </div>
-        <div class="table-responsive">
-          <table class="table table-striped table-condensed table-bordered">
-            <thead>
-            <tr>
-              <th>Name</th>
-              <th>Description</th>
-              <th>Status</th>
-              <th>Author</th>
-            </tr>
-            </thead>
-            <tbody>
-            <!-- <tr class="success">
+  <body>
+    <div id="navbar"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 sidebar"></div>
+        <div class="main-content col-md-10">
+          <div class="userHeader">
+            <h1>VASL Extension Changes</h1>
+            <br />
+          </div>
+          <div class="userHeader">
+            <h3>
+              IMPORTANT NOTICE: August 2025. Now that the vast majority of counters in the core VASL module (.vmods from version
+              6.7.0 onwards) are created with SVG graphics, attention is turning to Extensions, many of which (but not all) contain
+              counter images which can and should be converted to SVG images in future iterations of those extensions.
+            </h3>
+            <h3>
+              To ensure that extensions will continue to work with both pre- and post- 6.7.0 versions of VASL, it will be necessary
+              to create separate extensions for those with SVG images while maintaining the extensions that do not contain SVG
+              images (and are therefore compatible with pre-6.7.0 VASSAL).
+            </h3>
+            <h3>
+              We also want extensions to auto-update (or at least prompt the user to update). This is best/easiest to do if we
+              maintain a stable file name for the extension (with no version numbers in the name).
+            </h3>
+            <br />
+          </div>
+          <div class="userHeader">
+            <h1>VASL SVG Extensions</h1>
+            <br />
+          </div>
+          <div class="userHeader">
+            <h3>These extensions should be used with VASL6.7.0 or higher.</h3>
+            <h3>
+              Only extensions containing SVG images should be added to this section. New extensions with no SVG images will be added
+              to the 6.X Extensions section below.
+            </h3>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-striped table-condensed table-bordered">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                  <th>Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- <tr class="success">
               <td><a href="extensions/e6/VASL Overlays.vmdx" class="internal" title="VASL Overlays.vmdx">VASL Overlays.vmdx</a></td>
               <td><p style="color:red;">Replaces VASLOverlays_vXX.vmdx.</p>
                 The primary manner in which VASL handles overlays. The old system, using the Board Wizard, still works. <br>Install in your VASL extensions folder then READ the Overlay Extension Help page accessible from the VASL Controls window.<br>Legacy versions available in VASL 5.x Extensions window below.<br>Feb '23: fixed ovrH3 numbering</td>
@@ -88,13 +99,20 @@
               <td>v1.0<p style="color:red;">June, 2023</p></td>
               <td><br></td>
             </tr> -->
-            <tr class="success">
-              <td><a href="./extensions/e6/festung-budapest.vmdx" class="internal" title="Festung Budapest.vmdx">Festung Budapest.vmdx</a></td>
-              <td>Extension for Festung Budapest</td>
-              <td>v2.0<p style="color:red;">Aug, 2025</p></td>
-              <td><br></td>
-            </tr>
-            <!-- <tr class="success">
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/festung-budapest.vmdx" class="internal" title="Festung Budapest.vmdx"
+                      >Festung Budapest.vmdx</a
+                    >
+                  </td>
+                  <td>Extension for Festung Budapest</td>
+                  <td>
+                    v2.0
+                    <p style="color: red">Aug, 2025</p>
+                  </td>
+                  <td><br /></td>
+                </tr>
+                <!-- <tr class="success">
               <td><a href="./extensions/e6/OBA Flowchart.vmdx" class="internal" title="OBA Flowchart.vmdx">OBA Flowchart.vmdx</a></td>
               <td><p style="color:red;">Replaces oba-flowchart.vmdx.</p>
                 Button for step by step OBA player flowchart/aid</td>
@@ -172,13 +190,19 @@
               <td>2.5<p style="color:red;">April, 2024</p></td>
               <td>John Young</td>
             </tr> -->
-            <tr class="success">
-              <td><a href="extensions/e6/SASL Campaign Roster.vmdx">SASL Campaign Roster.vmdx</a></td>
-              <td>SASL Campaign Roster and counters (SVG-only version) with 6.7.1 beta 7 and later, supports nationality S? counters and activation checking</td>
-              <td>v4.0<p style="color:red;">Oct, 2025</p></td>
-              <td>Gordon Molek</td>
-            </tr>
-            <!-- <tr class="success">
+                <tr class="success">
+                  <td><a href="extensions/e6/SASL Campaign Roster.vmdx">SASL Campaign Roster.vmdx</a></td>
+                  <td>
+                    SASL Campaign Roster and counters (SVG-only version) with 6.7.1 beta 7 and later, supports nationality S?
+                    counters and activation checking
+                  </td>
+                  <td>
+                    v4.0
+                    <p style="color: red">Oct, 2025</p>
+                  </td>
+                  <td>Gordon Molek</td>
+                </tr>
+                <!-- <tr class="success">
               <td><a href="extensions/e6/SASLDice.vmdx">SASLDice.vmdx</a></td>
               <td>Adds SASL-specific Dice Buttons to Dice Buttons in Chat Window</td>
               <td>v1.1<p style="color:red;">June, 2023</p></td>
@@ -190,42 +214,70 @@
               <td>v1.5<p style="color:red;">February, 2024</p></td>
               <td>Andy Lewis</td>
             </tr> -->
-            <tr class="success">
-              <td><a href="extensions/e6/Nationality Smoke.vmdx">Nationality Smoke.vmdx</a></td>
-              <td><p style="color:red;">Replaces Nationality Smoke v3.0.vmdx</p>
-                Updated to match VASL 6.7.0 SVG counters.</td>
-              <td>v3.1<p style="color:red;">May, 2025</p></td>
-              <td>Jeff Wright, Doug Rimmer, Allan Cannamore; Update Alan Bills; Update Gordon Molek</td>
-            </tr>
-            <!-- <tr class="success">
+                <tr class="success">
+                  <td><a href="extensions/e6/Nationality Smoke.vmdx">Nationality Smoke.vmdx</a></td>
+                  <td>
+                    <p style="color: red">Replaces Nationality Smoke v3.0.vmdx</p>
+                    Updated to match VASL 6.7.0 SVG counters.
+                  </td>
+                  <td>
+                    v3.1
+                    <p style="color: red">May, 2025</p>
+                  </td>
+                  <td>Jeff Wright, Doug Rimmer, Allan Cannamore; Update Alan Bills; Update Gordon Molek</td>
+                </tr>
+                <!-- <tr class="success">
               <td><a href="./extensions/e6/HoB Special Forces.vmdx" class="internal" title="HoB Special Forces.vmdx">HoB Special Forces.vmdx</a></td>
               <td><p style="color:red;">Replaces SFv2_2.vmdx</p>
                 HOB Special Forces I & II: includes both British and German counters for both products</td>
               <td>v2.2<p style="color:red;">June, 2023</p></td>
               <td>updated by Alan Bills</td>
             </tr> -->
-            <tr class="success">
-              <td><a href="./extensions/e6/OBA and CVP Aids.vmdx" class="internal" title="OBA and CVP Aids.vmdx">OBA and CVP Aids.vmdx</a></td>
-              <td><p style="color:red;">Replaces version 2.0</p>
-                Minor update to correct internal issues preventing counter display.</td>
-              <td>v2.1<p style="color:red;">Sep, 2025</p></td>
-              <td>updated by Doug Rimmer; updated by Gordon Molek</td>
-            </tr>
-            <tr class="success">
-              <td><a href="./extensions/e6/DYO Campaign.vmdx" class="internal" title="DYO Campaign.vmdx">DYO Campaign.vmdx</a></td>
-              <td><p style="color:red;"></p>
-                Contains various counters and overlays supporting DYO Campaign games as well as certain counters that may be useful in other scenarios.  v6.1 includes bug fixes. Works with VASL 6.7.1.</td>
-              <td>v6.2<p style="color:red;">September, 2025</p></td>
-              <td>Alan Bills</td>
-            </tr>
-            <tr class="success">
-              <td><a href="./extensions/e6/CustomUnit.vmdx" class="internal" title="CustomUnit.vmdx">CustomUnit.vmdx</a></td>
-              <td><p style="color:red;"></p>
-                Contains MMC and SMC counters for each nationality under Custom tab that can be customised to create new unit counters in VASL. v2.0 updates look/feel for new VASL 6.7.1 styles/colors</td>
-              <td>v2.0<p style="color:red;">June, 2025</p></td>
-              <td>Alan Bills</td>
-            </tr> -->
-            <!-- <tr class="success">
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/OBA and CVP Aids.vmdx" class="internal" title="OBA and CVP Aids.vmdx"
+                      >OBA and CVP Aids.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces version 2.0</p>
+                    Minor update to correct internal issues preventing counter display.
+                  </td>
+                  <td>
+                    v2.1
+                    <p style="color: red">Sep, 2025</p>
+                  </td>
+                  <td>updated by Doug Rimmer; updated by Gordon Molek</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/DYO Campaign.vmdx" class="internal" title="DYO Campaign.vmdx">DYO Campaign.vmdx</a>
+                  </td>
+                  <td>
+                    <p style="color: red"></p>
+                    Contains various counters and overlays supporting DYO Campaign games as well as certain counters that may be
+                    useful in other scenarios. v6.1 includes bug fixes. Works with VASL 6.7.1.
+                  </td>
+                  <td>
+                    v6.2
+                    <p style="color: red">September, 2025</p>
+                  </td>
+                  <td>Alan Bills</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="./extensions/e6/CustomUnit.vmdx" class="internal" title="CustomUnit.vmdx">CustomUnit.vmdx</a></td>
+                  <td>
+                    <p style="color: red"></p>
+                    Contains MMC and SMC counters for each nationality under Custom tab that can be customised to create new unit
+                    counters in VASL. v2.0 updates look/feel for new VASL 6.7.1 styles/colors
+                  </td>
+                  <td>
+                    v2.0
+                    <p style="color: red">June, 2025</p>
+                  </td>
+                  <td>Alan Bills</td>
+                </tr>
+                <!-- <tr class="success">
               <td><a href="./extensions/e6/Scenario Setup Files 669.vmdx" class="internal" title="Scenario Setup Files 669.vmdx">Old Scenario Setup Files.vmdx</a></td>
               <td><p style="color:red;"></p>
                 Contains 400 Scenario Setup Files (.vsav). The Select Scenario Setup option will replace the Start New Game function in both the Wizard and the File menu. To regain access to Start New Game, remove the Scenario Setup Files extension. Dragging the extension in and out of the extensions folder when required is an easy way to manage this. </td>
@@ -253,294 +305,482 @@
               <td>v2.3<p style="color:red;">January, 2025</p></td>
               <td>updated by Alan Bills</td>
             </tr>  -->
-            </tbody>
-          </table>
-        </div>
+              </tbody>
+            </table>
+          </div>
 
-        <div class="userHeader">
-          <br>
-          <h1> VASL 6.X Extensions</h1>
-          <br>
-        </div>
-        <div class="userHeader">
-          <h3>These are built to work especially with 6.6.10 or earlier. They will also work with 6.7.0 and higher.</h3>
-          <h3>When a new version of one of these extensions is created using SVG images, it will be placed in the section above. The existing version will be renamed to include "pnggif" in the filename and will be available in this section.
-            These renamed versions will be identical to the previous non-SVG version of the extension. They will display counters added to a game using the previous version of the extension. The "pnggif" versions will not be updated.</h3>
-          <h3>It is strongly recommended that users replace their existing versions of these extensions with these renamed versions.</h3>
-          <h3>Extensions in this section without "pnggif" in the filename represent extensions for which no SVG verion has yet been created (and may never be depending on the
-          purpose and functionality of the extension). Players can continue to use these extension as is, regardless of VASL version, and they will continue to be updated.</h3>
-          <br>
-        </div>
-        <div class="table-responsive">
-          <table class="table table-striped table-condensed table-bordered">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Status</th>
-                <th>Author</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="success">
-                <td><a href="extensions/e6/VASL Overlays.vmdx" class="internal" title="VASL Overlays.vmdx">VASL Overlays.vmdx</a></td>
-                <td><p style="color:red;">Replaces VASLOverlays_vXX.vmdx.</p>
-                  The primary manner in which VASL handles overlays. The old system, using the Board Wizard, still works. <br>Install in your VASL extensions folder then READ the Overlay Extension Help page accessible from the VASL Controls window.<br>Legacy versions available in VASL 5.x Extensions window below.<br>Feb '23: fixed ovrH3 numbering</td>
-                <td>v2.12<p style="color:red;">June, 2023</p></td>
-                <td>Allan Cannamore</td>
-              </tr>
-              <tr class="success">
-                <td><a href="extensions/e6/BoardZoomer.vmdx" class="internal" title="BoardZoomer.vmdx">BoardZoomer.vmdx</a></td>
-                <td> Extension for zooming boards but leaving counters unchanged. Use instead of 'Use Deluxe-sized Hexes' option.</td>
-                <td>v1.0<p style="color:red;">April, 2024</p></td>
-                <td>John Young</td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/Chit Generator.vmdx" class="internal" title="Chit Generator.vmdx">Chit Generator.vmdx</a></td>
-                <td><p style="color:red;">Replaces chit-generator-2.0.vmdx.</p>
-                  A-GG Button generates a letter that correspond to the hexrows of a board (For snowdrifts, drop points, etc.)</td>
-                <td>v2.0<p style="color:red;">June, 2023</p></td>
-                <td><br></td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/Cloaking Display.vmdx" class="internal" title="Cloaking Display.vmdx">Cloaking Display.vmdx</a></td>
-                <td><p style="color:red;">Replaces cloaking-display.vmdx.</p>
-                  Button for an auxiliary 'cloaking tray' for storing counters</td>
-                <td>v1.0<p style="color:red;">June, 2023</p></td>
-                <td><br></td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/Festung Budapest pnggif.vmdx" class="internal" title="Festung Budapest pnggif.vmdx">Festung Budapest pnggif.vmdx</a></td>
-                <td>Extension for Festung Budapest<br>This version will NOT be updated. For newer versions, see SVG Extensions section. </td>
-                <td>v1.3<p style="color:red;">Feb, 2024</p></td>
-                <td><br></td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/OBA Flowchart.vmdx" class="internal" title="OBA Flowchart.vmdx">OBA Flowchart.vmdx</a></td>
-                <td><p style="color:red;">Replaces oba-flowchart.vmdx.</p>
-                  Button for step by step OBA player flowchart/aid</td>
-                <td>v1.1<p style="color:red;">June, 2023</p></td>
-                <td><br></td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/Neal's VASL Charts.vmdx" class="internal" title="Neal's VASL Charts.vmdx">Neal's VASL Charts.vmdx</a></td>
-                <td><p style="color:red;">Replaces neals-vasl-charts.vmdx</p>
-                  VASL Charts</td>
-                <td>v1.71<p style="color:red;">June, 2023</p></td>
-                <td>Neal Ulen</td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/secret-dr-1.0.vmdx" class="internal" title="secret-dr-1.0.vmdx">secret-dr-1.0.vmdx</a></td>
-                <td>Private DRs can be made public for later verification.</td>
-                <td><br></td>
-                <td><br></td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/Terrain Chart.vmdx" class="internal" title="Terrain Chart.vmdx">Terrain Chart.vmdx</a></td>
-                <td><p style="color:red;">Replaces terrain-chart-1.2.1.vmdx</p>
-                  Terrain Chart tab in charts tray</td>
-                <td>v1.2.1<p style="color:red;">June, 2023</p></td>
-                <td>Jeffrey Malter, updated by Zoltan Grose</td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/tray.vmdx" class="internal" title="tray.vmdx">tray.vmdx</a></td>
-                <td>Button for an auxiliary 'mapboard' for storing counters</td>
-                <td><br></td>
-                <td><br></td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/TotR.vmdx" class="internal" title="TotR.vmdx">TotR.vmdx</a></td>
-                <td>Counters for Twilight of the Reich.<br>This extension will NOT be updated. TotR counters have been added to the core VASL module and no extension is required in VASL6.7.0 and higher.</td>
-                <td>v1.0<p style="color:red;">July, 2024</p></td>
-                <td></td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/BFP.vmdx" class="internal" title="BFP.vmdx">BFP.vmdx</a></td>
-                <td><p style="color:red;">Replaces all previous versions of BFP extensions, Adds Russian BA-27M to Mannerheim Cross.</p>
-                  Counters for Bounding Fire Productions' modules [<i>Operation Cobra, Blood and Jungle, Crucible of Steel, Poland in Flames, Objective:Schmidt, Corregidor: the Rock, Onslaught to Orsha, Operation Neptune, and Mannerheim Cross</i>]</td>
-                <td>v6.4<p style="color:red;">September, 2025</p></td>
-                <td>Rick Reinesch, Gordon Molek, Jeffrey Malter, Zoltan Grose, Ken Knott, Allan Cannamore, Brian Kemp</td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/Hollow Legions.vmdx" class="internal" title="Hollow Legions.vmdx">Hollow Legions.vmdx</a></td>
-                <td>Counters for Hollow Legions.</td>
-                <td>v1.1<p style="color:red;">June, 2023</p></td>
-                <td></td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/LCP WaR.vmdx" class="internal" title="LCP WaR.vmdx">LCP WaR.vmdx</a></td>
-                <td>Counters for Lone Canuck Productions' Wacht am Rhein and Konisberg.</td>
-                <td>v1.0<p style="color:red;">June, 2023</p></td>
-                <td>Patrick Ireland</td>
-              </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/LCP Anzio 44.vmdx" class="internal" title="LCP Anzio 44.vmdx">LCP Anzio 44.vmdx</a></td>
-                <td><p style="color:red;">Replaces LCP-Anzio44.vmdx</p>
-                  Counters for Lone Canuck Productions' Anzio 1944 pack.</td>
-                <td>v1.0<p style="color:red;">June, 2023</p></td>
-                <td></td>
-              </tr>
-              <tr class="success">
-                <td><a href="extensions/e6/Inor.vmdx">Inor.vmdx</a></td>
-                <td>Extension for LFT's Green Hell of Inor</td>
-                <td>v1.1<p style="color:red;">June, 2023</p></td>
-                <td>LFT</td>
-              </tr>
-              <tr class="success">
-                <td><a href="extensions/e6/PTOTerrain.vmdx">PTOTerrain.vmdx</a></td>
-                <td>PTO Terrain Chart tab in charts tray</td>
-                <td>v1.0</td>
-                <td>Steve Petras</td>
-              </tr>
-              <tr class="success">
-                <td><a href="extensions/e6/Hideable Control Markers.vmdx">Hideable Control Markers.vmdx</a></td>
-                <td><p style="color:red;">Replaces hideable-control-markers-1.9.vmdx</p>
-                  Hideable Control and Perimeter markers</td>
-                <td>2.5<p style="color:red;">April, 2024</p></td>
-                <td>John Young</td>
-              </tr>
-              <tr class="success">
-                <td><a href="extensions/e6/Scenario Aid Card.vmdx">Scenario Aid Card.vmdx</a></td>
-                <td><p style="color:red;">Replaces scenario-aid-card_2.2.vmdx</p>
-                  Scenario Aid Card<br> Can select and cycle through the calendar to highlight the current month. Can select and cycle through the EC table to highlight the current ECs.
-                  Can now place your chosen phase wheel on the Scenario Aid Card. Adds missing "Orchards in season" note to May on the calendar.
-                <br>No SVG update is planned. This extension can continue to be used.</td>
-                <td>v2.3<p style="color:red;">October, 2025</p></td>
-                <td>Gordon Molek</td>
-              </tr>
-              <tr class="success">
-                <td><a href="extensions/e6/SASL Campaign Roster pnggif.vmdx">SASL Campaign Roster pnggif.vmdx</a></td>
-                <td><p style="color:red;">Replaces sasl-campaign-roster_2.1.vmdx</p><br>This extension will NOT be updated. For newer versions, see SVG Extensions section.</td>
-                <td>v2.1<p style="color:red;">June, 2025</p></td>
-                <td>Gordon Molek</td>
-              </tr>
-	      <tr class="success">
-                <td><a href="extensions/e6/SASLDice.vmdx">SASLDice.vmdx</a></td>
-                <td>Adds SASL-specific Dice Buttons to Dice Buttons in Chat Window. <p style="color:red;">DEPRECATED, functionality in VASL 3.7.1 beta 7 and beyond.</p></td>
-                <td>v1.1<p style="color:red;">Oct, 2025</p></td>
-                <td>Doug Rimmer, Gordon Molek</td>
-              </tr>
-	      <tr class="success">
-                <td><a href="extensions/e6/SKReferences.vmdx">SKReferences.vmdx</a></td>
-                <td>Adds a tab under the QRDC button that has SK charts, and other quick reference play aides</td>
-                <td>v1.5<p style="color:red;">February, 2024</p></td>
-                <td>Andy Lewis</td>
-              </tr>	
-      	      <tr class="success">
-                <td><a href="extensions/e6/Nationality Smoke pnggif.vmdx" class="internal" title="Nationality Smoke pnggif.vmdx">Nationality Smoke pnggif.vmdx</a></td>
-                <td>This extension will NOT be updated. For newer versions, see SVG Extensions section.</td>
-                <td>v3.0<p style="color:red;"></p></td>
-                <td>Jeff Wright, Doug Rimmer, Allan Cannamore; Update Alan Bills; Update Gordon Molek</td>
-              </tr>
-	      <tr class="success">
-                <td><a href="./extensions/e6/HoB Special Forces.vmdx" class="internal" title="HoB Special Forces.vmdx">HoB Special Forces.vmdx</a></td>
-                <td><p style="color:red;">Replaces SFv2_2.vmdx</p>
-                  HOB Special Forces I & II: includes both British and German counters for both products</td>
-                <td>v2.2<p style="color:red;">June, 2023</p></td>
-                <td>updated by Alan Bills</td>
-              </tr>
-	      <tr class="success">
-                <td><a href="./extensions/e6/OBA and CVP Aids pnggif.vmdx" class="internal" title="OBA and CVP Aids pnggif.vmdx">OBA and CVP Aids pnggif.vmdx</a></td>
-                <td>This extension will NOT be updated. For newer versions, see SVG Extensions section.</td>
-                <td>v1.3<p style="color:red;"></p></td>
-                <td>updated by Doug Rimmer; updated by Gordon Molek</td>
-              </tr>
-          <tr class="success">
-                <td><a href="./extensions/e6/DYO Campaign pnggif.vmdx" class="internal" title="DYO Campaign pnggif.vmdx">DYO Campaign pnggif.vmdx</a></td>
-                <td><p style="color:red;"></p>
-                  Contains various counters and overlays supporting DYO Campaign games as well as certain counters that may be useful in other scenarios. </td>
-                <td>v5.4<p style="color:red;">June, 2025</p></td>
-                <td>Alan Bills</td>
-              </tr>
-          <tr class="success">
-                <td><a href="./extensions/e6/CustomUnit.vmdx" class="internal" title="CustomUnit.vmdx">CustomUnit.vmdx</a></td>
-                <td><p style="color:red;"></p>
-                  Contains MMC and SMC counters for each nationality under Custom tab that can be customised to create new unit counters in VASL. v2.0 updates look/feel for new VASL 6.7.1 styles/colors</td>
-                <td>v2.0<p style="color:red;">June, 2025</p></td>
-                <td>Alan Bills</td>
-              </tr>
-          <tr class="success">
-                <td><a href="./extensions/e6/Scenario Setup Files 669.vmdx" class="internal" title="Scenario Setup Files 669.vmdx">Old Scenario Setup Files.vmdx</a></td>
-                <td><p style="color:red;"></p>
-                  Contains 400 Scenario Setup Files (.vsav). The Select Scenario Setup option will replace the Start New Game function in both the Wizard and the File menu. To regain access to Start New Game, remove the Scenario Setup Files extension. Dragging the extension in and out of the extensions folder when required is an easy way to manage this. </td>
-                <td>v1.0<p style="color:red;">November, 2024</p></td>
-                <td>Doug Rimmer</td>
-          </tr>
-              <tr class="success">
-                <td><a href="./extensions/e6/Scenario Setup Files 670.vmdx" class="internal" title="Scenario Setup Files 670.vmdx">New Scenario Setup Files.vmdx</a></td>
-                <td><p style="color:red;"></p>
-                  <b>For use with VASL 6.7.0 and above</b>.Contains 400 Scenario Setup Files (.vsav). This newer version can be kept in the extension folder as the Start New Game function will remain accessible. </td>
-                <td>v1.0<p style="color:red;">March, 2025</p></td>
-                <td>Doug Rimmer <br>Joseph Larochelle</td>
-              </tr>
-          <tr class="success">
-                <td><a href="./extensions/e6/SpilkyCharts.vmdx" class="internal" title="SpilkyCharts.vmdx">SpilkyCharts.vmdx</a></td>
-                <td><p style="color:red;"></p>
-                  Contains Rich Spilky's Charts categorized by "subject".</td>
-                <td>v1.0<p style="color:red;">December, 2024</p></td>
-                <td>Stephen Stewart</td>
-              </tr>
-	  <tr class="success">
-                <td><a href="./extensions/e6/VBM Marker.vmdx" class="internal" title="VBM Marker.vmdx">VBM Marker.vmdx</a></td>
-                <td><p style="color:red;">Replaces 5VBM.mdx</p>
-                  Contains draggable normal, SaF and deluxe hex sized Vehicle Bypass masks for use in determining if there is enough space for VBM.</td>
-                <td>v2.3<p style="color:red;">January, 2025</p></td>
-                <td>updated by Alan Bills</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="userHeader">
-          <br>
-          <h1>VASL 5.x Extensions</h1>
-          <br>
-        </div>
-        <div class="userHeader">
-          <h3>All of these old (in many cases, very old) extensions have been removed as they are mostly obsolete and often cause conflicts with current VASL functionality.</h3>
-          <h3>These extensions still exist and can be located on the VASL GitHub repository. See https://github.com/vasl-developers/vasl-website/tree/gh-pages/extensions.</h3>
-          <h3>It is strongly recommended that users do NOT use these extensions and remove any that they have added to their VASL setup. </h3>
-          <h3>Should anyone feel that a particular 5.X extension is still useful and required, we can add them back to this page.</h3>
-          <br>
-        </div>
-        <div class="table-responsive">
-          <table class="table table-striped table-condensed table-bordered">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Status</th>
-                <th>Author</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-
-              </tr>
-              <tr>
-
-              </tr>
-
-            </tbody>
-          </table>
+          <div class="userHeader">
+            <br />
+            <h1>VASL 6.X Extensions</h1>
+            <br />
+          </div>
+          <div class="userHeader">
+            <h3>These are built to work especially with 6.6.10 or earlier. They will also work with 6.7.0 and higher.</h3>
+            <h3>
+              When a new version of one of these extensions is created using SVG images, it will be placed in the section above. The
+              existing version will be renamed to include "pnggif" in the filename and will be available in this section. These
+              renamed versions will be identical to the previous non-SVG version of the extension. They will display counters added
+              to a game using the previous version of the extension. The "pnggif" versions will not be updated.
+            </h3>
+            <h3>
+              It is strongly recommended that users replace their existing versions of these extensions with these renamed versions.
+            </h3>
+            <h3>
+              Extensions in this section without "pnggif" in the filename represent extensions for which no SVG verion has yet been
+              created (and may never be depending on the purpose and functionality of the extension). Players can continue to use
+              these extension as is, regardless of VASL version, and they will continue to be updated.
+            </h3>
+            <br />
+          </div>
+          <div class="table-responsive">
+            <table class="table table-striped table-condensed table-bordered">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                  <th>Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>
+                    <a href="extensions/e6/VASL Overlays.vmdx" class="internal" title="VASL Overlays.vmdx">VASL Overlays.vmdx</a>
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces VASLOverlays_vXX.vmdx.</p>
+                    The primary manner in which VASL handles overlays. The old system, using the Board Wizard, still works.
+                    <br />Install in your VASL extensions folder then READ the Overlay Extension Help page accessible from the VASL
+                    Controls window.<br />Legacy versions available in VASL 5.x Extensions window below.<br />Feb '23: fixed ovrH3
+                    numbering
+                  </td>
+                  <td>
+                    v2.12
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td>Allan Cannamore</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="extensions/e6/BoardZoomer.vmdx" class="internal" title="BoardZoomer.vmdx">BoardZoomer.vmdx</a></td>
+                  <td>
+                    Extension for zooming boards but leaving counters unchanged. Use instead of 'Use Deluxe-sized Hexes' option.
+                  </td>
+                  <td>
+                    v1.0
+                    <p style="color: red">April, 2024</p>
+                  </td>
+                  <td>John Young</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/Chit Generator.vmdx" class="internal" title="Chit Generator.vmdx"
+                      >Chit Generator.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces chit-generator-2.0.vmdx.</p>
+                    A-GG Button generates a letter that correspond to the hexrows of a board (For snowdrifts, drop points, etc.)
+                  </td>
+                  <td>
+                    v2.0
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td><br /></td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/Cloaking Display.vmdx" class="internal" title="Cloaking Display.vmdx"
+                      >Cloaking Display.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces cloaking-display.vmdx.</p>
+                    Button for an auxiliary 'cloaking tray' for storing counters
+                  </td>
+                  <td>
+                    v1.0
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td><br /></td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/Festung Budapest pnggif.vmdx" class="internal" title="Festung Budapest pnggif.vmdx"
+                      >Festung Budapest pnggif.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    Extension for Festung Budapest<br />This version will NOT be updated. For newer versions, see SVG Extensions
+                    section.
+                  </td>
+                  <td>
+                    v1.3
+                    <p style="color: red">Feb, 2024</p>
+                  </td>
+                  <td><br /></td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/OBA Flowchart.vmdx" class="internal" title="OBA Flowchart.vmdx">OBA Flowchart.vmdx</a>
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces oba-flowchart.vmdx.</p>
+                    Button for step by step OBA player flowchart/aid
+                  </td>
+                  <td>
+                    v1.1
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td><br /></td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/Neal's VASL Charts.vmdx" class="internal" title="Neal's VASL Charts.vmdx"
+                      >Neal's VASL Charts.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces neals-vasl-charts.vmdx</p>
+                    VASL Charts
+                  </td>
+                  <td>
+                    v1.71
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td>Neal Ulen</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/secret-dr-1.0.vmdx" class="internal" title="secret-dr-1.0.vmdx">secret-dr-1.0.vmdx</a>
+                  </td>
+                  <td>Private DRs can be made public for later verification.</td>
+                  <td><br /></td>
+                  <td><br /></td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/Terrain Chart.vmdx" class="internal" title="Terrain Chart.vmdx">Terrain Chart.vmdx</a>
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces terrain-chart-1.2.1.vmdx</p>
+                    Terrain Chart tab in charts tray
+                  </td>
+                  <td>
+                    v1.2.1
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td>Jeffrey Malter, updated by Zoltan Grose</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="./extensions/e6/tray.vmdx" class="internal" title="tray.vmdx">tray.vmdx</a></td>
+                  <td>Button for an auxiliary 'mapboard' for storing counters</td>
+                  <td><br /></td>
+                  <td><br /></td>
+                </tr>
+                <tr class="success">
+                  <td><a href="./extensions/e6/TotR.vmdx" class="internal" title="TotR.vmdx">TotR.vmdx</a></td>
+                  <td>
+                    Counters for Twilight of the Reich.<br />This extension will NOT be updated. TotR counters have been added to
+                    the core VASL module and no extension is required in VASL6.7.0 and higher.
+                  </td>
+                  <td>
+                    v1.0
+                    <p style="color: red">July, 2024</p>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr class="success">
+                  <td><a href="./extensions/e6/BFP.vmdx" class="internal" title="BFP.vmdx">BFP.vmdx</a></td>
+                  <td>
+                    <p style="color: red">
+                      Replaces all previous versions of BFP extensions, Adds Russian BA-27M to Mannerheim Cross.
+                    </p>
+                    Counters for Bounding Fire Productions' modules [<i
+                      >Operation Cobra, Blood and Jungle, Crucible of Steel, Poland in Flames, Objective:Schmidt, Corregidor: the
+                      Rock, Onslaught to Orsha, Operation Neptune, and Mannerheim Cross</i
+                    >]
+                  </td>
+                  <td>
+                    v6.5
+                    <p style="color: red">November, 2025</p>
+                  </td>
+                  <td>Rick Reinesch, Gordon Molek, Jeffrey Malter, Zoltan Grose, Ken Knott, Allan Cannamore, Brian Kemp</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/Hollow Legions.vmdx" class="internal" title="Hollow Legions.vmdx"
+                      >Hollow Legions.vmdx</a
+                    >
+                  </td>
+                  <td>Counters for Hollow Legions.</td>
+                  <td>
+                    v1.1
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr class="success">
+                  <td><a href="./extensions/e6/LCP WaR.vmdx" class="internal" title="LCP WaR.vmdx">LCP WaR.vmdx</a></td>
+                  <td>Counters for Lone Canuck Productions' Wacht am Rhein and Konisberg.</td>
+                  <td>
+                    v1.0
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td>Patrick Ireland</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/LCP Anzio 44.vmdx" class="internal" title="LCP Anzio 44.vmdx">LCP Anzio 44.vmdx</a>
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces LCP-Anzio44.vmdx</p>
+                    Counters for Lone Canuck Productions' Anzio 1944 pack.
+                  </td>
+                  <td>
+                    v1.0
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr class="success">
+                  <td><a href="extensions/e6/Inor.vmdx">Inor.vmdx</a></td>
+                  <td>Extension for LFT's Green Hell of Inor</td>
+                  <td>
+                    v1.1
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td>LFT</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="extensions/e6/PTOTerrain.vmdx">PTOTerrain.vmdx</a></td>
+                  <td>PTO Terrain Chart tab in charts tray</td>
+                  <td>v1.0</td>
+                  <td>Steve Petras</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="extensions/e6/Hideable Control Markers.vmdx">Hideable Control Markers.vmdx</a></td>
+                  <td>
+                    <p style="color: red">Replaces hideable-control-markers-1.9.vmdx</p>
+                    Hideable Control and Perimeter markers
+                  </td>
+                  <td>
+                    2.5
+                    <p style="color: red">April, 2024</p>
+                  </td>
+                  <td>John Young</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="extensions/e6/Scenario Aid Card.vmdx">Scenario Aid Card.vmdx</a></td>
+                  <td>
+                    <p style="color: red">Replaces scenario-aid-card_2.2.vmdx</p>
+                    Scenario Aid Card<br />
+                    Can select and cycle through the calendar to highlight the current month. Can select and cycle through the EC
+                    table to highlight the current ECs. Can now place your chosen phase wheel on the Scenario Aid Card. Adds missing
+                    "Orchards in season" note to May on the calendar. <br />No SVG update is planned. This extension can continue to
+                    be used.
+                  </td>
+                  <td>
+                    v2.3
+                    <p style="color: red">October, 2025</p>
+                  </td>
+                  <td>Gordon Molek</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="extensions/e6/SASL Campaign Roster pnggif.vmdx">SASL Campaign Roster pnggif.vmdx</a></td>
+                  <td>
+                    <p style="color: red">Replaces sasl-campaign-roster_2.1.vmdx</p>
+                    <br />This extension will NOT be updated. For newer versions, see SVG Extensions section.
+                  </td>
+                  <td>
+                    v2.1
+                    <p style="color: red">June, 2025</p>
+                  </td>
+                  <td>Gordon Molek</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="extensions/e6/SASLDice.vmdx">SASLDice.vmdx</a></td>
+                  <td>
+                    Adds SASL-specific Dice Buttons to Dice Buttons in Chat Window.
+                    <p style="color: red">DEPRECATED, functionality in VASL 3.7.1 beta 7 and beyond.</p>
+                  </td>
+                  <td>
+                    v1.1
+                    <p style="color: red">Oct, 2025</p>
+                  </td>
+                  <td>Doug Rimmer, Gordon Molek</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="extensions/e6/SKReferences.vmdx">SKReferences.vmdx</a></td>
+                  <td>Adds a tab under the QRDC button that has SK charts, and other quick reference play aides</td>
+                  <td>
+                    v1.5
+                    <p style="color: red">February, 2024</p>
+                  </td>
+                  <td>Andy Lewis</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="extensions/e6/Nationality Smoke pnggif.vmdx" class="internal" title="Nationality Smoke pnggif.vmdx"
+                      >Nationality Smoke pnggif.vmdx</a
+                    >
+                  </td>
+                  <td>This extension will NOT be updated. For newer versions, see SVG Extensions section.</td>
+                  <td>
+                    v3.0
+                    <p style="color: red"></p>
+                  </td>
+                  <td>Jeff Wright, Doug Rimmer, Allan Cannamore; Update Alan Bills; Update Gordon Molek</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/HoB Special Forces.vmdx" class="internal" title="HoB Special Forces.vmdx"
+                      >HoB Special Forces.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    <p style="color: red">Replaces SFv2_2.vmdx</p>
+                    HOB Special Forces I & II: includes both British and German counters for both products
+                  </td>
+                  <td>
+                    v2.2
+                    <p style="color: red">June, 2023</p>
+                  </td>
+                  <td>updated by Alan Bills</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/OBA and CVP Aids pnggif.vmdx" class="internal" title="OBA and CVP Aids pnggif.vmdx"
+                      >OBA and CVP Aids pnggif.vmdx</a
+                    >
+                  </td>
+                  <td>This extension will NOT be updated. For newer versions, see SVG Extensions section.</td>
+                  <td>
+                    v1.3
+                    <p style="color: red"></p>
+                  </td>
+                  <td>updated by Doug Rimmer; updated by Gordon Molek</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/DYO Campaign pnggif.vmdx" class="internal" title="DYO Campaign pnggif.vmdx"
+                      >DYO Campaign pnggif.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    <p style="color: red"></p>
+                    Contains various counters and overlays supporting DYO Campaign games as well as certain counters that may be
+                    useful in other scenarios.
+                  </td>
+                  <td>
+                    v5.4
+                    <p style="color: red">June, 2025</p>
+                  </td>
+                  <td>Alan Bills</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="./extensions/e6/CustomUnit.vmdx" class="internal" title="CustomUnit.vmdx">CustomUnit.vmdx</a></td>
+                  <td>
+                    <p style="color: red"></p>
+                    Contains MMC and SMC counters for each nationality under Custom tab that can be customised to create new unit
+                    counters in VASL. v2.0 updates look/feel for new VASL 6.7.1 styles/colors
+                  </td>
+                  <td>
+                    v2.0
+                    <p style="color: red">June, 2025</p>
+                  </td>
+                  <td>Alan Bills</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/Scenario Setup Files 669.vmdx" class="internal" title="Scenario Setup Files 669.vmdx"
+                      >Old Scenario Setup Files.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    <p style="color: red"></p>
+                    Contains 400 Scenario Setup Files (.vsav). The Select Scenario Setup option will replace the Start New Game
+                    function in both the Wizard and the File menu. To regain access to Start New Game, remove the Scenario Setup
+                    Files extension. Dragging the extension in and out of the extensions folder when required is an easy way to
+                    manage this.
+                  </td>
+                  <td>
+                    v1.0
+                    <p style="color: red">November, 2024</p>
+                  </td>
+                  <td>Doug Rimmer</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/Scenario Setup Files 670.vmdx" class="internal" title="Scenario Setup Files 670.vmdx"
+                      >New Scenario Setup Files.vmdx</a
+                    >
+                  </td>
+                  <td>
+                    <p style="color: red"></p>
+                    <b>For use with VASL 6.7.0 and above</b>.Contains 400 Scenario Setup Files (.vsav). This newer version can be
+                    kept in the extension folder as the Start New Game function will remain accessible.
+                  </td>
+                  <td>
+                    v1.0
+                    <p style="color: red">March, 2025</p>
+                  </td>
+                  <td>Doug Rimmer <br />Joseph Larochelle</td>
+                </tr>
+                <tr class="success">
+                  <td>
+                    <a href="./extensions/e6/SpilkyCharts.vmdx" class="internal" title="SpilkyCharts.vmdx">SpilkyCharts.vmdx</a>
+                  </td>
+                  <td>
+                    <p style="color: red"></p>
+                    Contains Rich Spilky's Charts categorized by "subject".
+                  </td>
+                  <td>
+                    v1.0
+                    <p style="color: red">December, 2024</p>
+                  </td>
+                  <td>Stephen Stewart</td>
+                </tr>
+                <tr class="success">
+                  <td><a href="./extensions/e6/VBM Marker.vmdx" class="internal" title="VBM Marker.vmdx">VBM Marker.vmdx</a></td>
+                  <td>
+                    <p style="color: red">Replaces 5VBM.mdx</p>
+                    Contains draggable normal, SaF and deluxe hex sized Vehicle Bypass masks for use in determining if there is
+                    enough space for VBM.
+                  </td>
+                  <td>
+                    v2.3
+                    <p style="color: red">January, 2025</p>
+                  </td>
+                  <td>updated by Alan Bills</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="userHeader">
+            <br />
+            <h1>VASL 5.x Extensions</h1>
+            <br />
+            <h3>All of the very old v5 extensions have been removed as they are mostly obsolete and often cause conflicts with current VASL functionality.</h3>
+            <h3>These extensions still exist and can be located on the VASL GitHub repository. See https://github.com/vasl-developers/vasl-website/tree/gh-pages/extensions.</h3>
+            <h3>It is strongly recommended that users do NOT use these extensions and remove any that they have added to their VASL setup.</h3>
+            <h3>Should anyone feel that a particular 5.X extension is still useful and required, we can add them back to this page.</h3>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <footer></footer>
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function() {
-    $("#navbar").load("./include/navbar.htm", function() {
-      $("ul.navbar-nav li.download").addClass("active");
-    });
-    $("div.sidebar").load("./include/sidebar.htm", function() {
-      $("a.extensions").addClass("active");
-    });
-    $("footer").load("./include/copyright.htm");
-  });
-  </script>
-</body>
-
+    <footer></footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#navbar').load('./include/navbar.htm', function () {
+          $('ul.navbar-nav li.download').addClass('active');
+        });
+        $('div.sidebar').load('./include/sidebar.htm', function () {
+          $('a.extensions').addClass('active');
+        });
+        $('footer').load('./include/copyright.htm');
+      });
+    </script>
+  </body>
 </html>
-
